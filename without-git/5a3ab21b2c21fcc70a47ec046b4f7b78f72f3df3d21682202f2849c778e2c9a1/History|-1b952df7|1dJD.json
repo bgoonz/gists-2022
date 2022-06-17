@@ -1,0 +1,9 @@
+{
+  "sitecore": {
+    "instancePath": "",
+    "apiKey": "{9F777224-3275-4D56-BD29-371FB3C00821}",
+    "deploySecret": "",
+    "deployUrl": "",
+    "layoutServiceHost": "https://scjsstest.duke-energy.com"
+  }
+}

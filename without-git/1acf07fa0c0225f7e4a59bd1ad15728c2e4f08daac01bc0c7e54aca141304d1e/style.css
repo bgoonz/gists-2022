@@ -1,0 +1,81 @@
+html {
+  background-color:#eec;
+  overflow:hidden;
+}
+
+.wrapper {
+  left:50%;
+  margin-left:-300px;
+  margin-top:-300px;
+  position:absolute;
+  top:50%;
+  transform:rotateX(75deg);
+}
+
+.vinyl {
+  animation:spin 3s linear infinite;
+  background-color:#111;
+  border-radius:50%;
+  height:600px;
+  width:600px;
+}
+
+.wrapper:before {
+  background-color:#333;
+  border-radius:50%;
+  bottom:20px;
+  box-shadow:0 50px 50px -25px #000;
+  content:"";
+  left:0;
+  position:absolute;
+  right:0;
+  top:20px;
+}
+
+.vinyl div {
+  border:solid 1px #222;
+  border-radius:50%;
+  box-sizing:border-box;
+  height:100%;
+  padding:10px;
+  width:100%;
+}
+
+.center {
+  background-color:#600;
+  box-shadow:0 0 25px 5px #900 inset;
+  color:#ccc;
+  font-size:24px;
+  line-height:3.3;
+  position:relative;
+  text-align:center;
+}
+
+.center:before {
+  background-color:#eec;
+  border-radius:50%;
+  box-shadow:0 0 5px 0px #000 inset;
+  content:"";
+  height:20px;
+  left:50%;
+  margin-left:-10px;
+  margin-top:-10px;
+  position:absolute;
+  top:50%;
+  width:20px;
+}
+
+@keyframes spin {
+  0% {
+    transform:rotateZ(0deg) rotateY(0deg);
+  }
+  25% {
+    transform:rotateZ(90deg) rotateY(20deg);
+  }
+  75% {
+    transform:rotateZ(270deg) rotateY(-20deg);
+  }
+  100% {
+    transform:rotateZ(360deg) rotateY(0deg);
+  }
+}

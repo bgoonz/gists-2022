@@ -1,0 +1,33 @@
+<form action="">
+  <p>
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="fname" autocomplete="given-name">
+  </p>
+  <p>
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lname" autocomplete="family-name">
+  </p>
+  <p>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" autocomplete="email">
+  </p>
+  <p>
+    <label for="phone">Phone</label><br>
+    <input type="tel" id="phone" name="phone" autocomplete="tel">
+  </p>
+  <p>
+    <label for="pizza">Favourite Pizza Topping</label><br>
+    <input type="text" id="pizza" name="pizza" autocomplete="pizza">
+  </p>
+  <p>
+    <button type="submit">Save</button>
+    <button type="reset">Clear</button>
+  </p>
+</form>
+
+<article>
+  <p>These form inputs all have <strong>name</strong> and <strong>autocomplete</strong> attributes.</p>
+  <p>If we use known autocomplete values like 'fname' and 'email' then the browser can auto-fill the values, potentially saving the user time.</p>
+  <p>If we use an unknown value, like 'pizza', then it ensures that the browser doesn't try to guess and map it against a known value.</p>
+  <p>Trying clicking into one of the first few inputs to see it in action.</p>
+</article>

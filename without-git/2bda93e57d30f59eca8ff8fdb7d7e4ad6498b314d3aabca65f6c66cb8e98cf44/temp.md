@@ -1,0 +1,37 @@
+
+
+sudo sed -i '/node_modules/d' ./links.md
+sudo sed -i '/\.json/d' ./links.md
+sudo sed -i '/\.gif/d' ./links.md
+sudo sed -i '/\.png/d' ./links.md   
+sudo sed -i '/\.css/d' ./links.md
+sudo sed -i '/\.js/d' ./links.md
+sudo sed -i '/\.php/d' ./links.md
+sudo sed -i '/\.md/d' ./links.md
+sudo sed -i '/\.svg/d' ./links.md
+sudo sed -i '/\.jpeg/d' ./links.md
+sudo sed -i '/\.jpg/d' ./links.md
+sudo sed -i '/\.scss/d' ./links.md
+sudo sed -i '/scss/d' ./links.md
+sudo sed -i '/\.txt/d' ./links.md
+sudo sed -i '/\.ttf/d' ./links.md
+sudo sed -i '/\.pdf/d' ./links.md
+sudo sed -i '/\.mp4/d' ./links.md
+sudo sed -i '/\.pug/d' ./links.md
+sudo sed -i '/\.DS_store/d' ./links.md
+sudo sed -i '/\.DS_Store/d' ./links.md
+sudo sed -i '/\.sql/d' ./links.md
+sudo sed -i '/\.py/d' ./links.md
+sudo sed -i '/\.xlsx/d' ./links.md
+sudo sed -i '/\.JPG/d' ./links.md
+sudo sed -i '/\.TTF/d' ./links.md
+sudo sed -i '/\.ttf/d' ./links.md
+sudo sed -i '/\.eot/d' ./links.md
+sudo sed -i '/\.ttc/d' ./links.md
+sudo sed -i '/\.PNG/d' ./links.md
+sudo sed -i '/\.java/d' ./links.md
+sudo sed -i '/\.png/d' ./links.md
+sudo sed -i '/\.jpeg/d' ./links.md
+sudo sed -i '/\.gif/d' ./links.md
+sudo sed -i '/\.go/d' ./links.md
+sudo sed -i '/\.vue/d' ./links.md

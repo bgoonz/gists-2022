@@ -1,0 +1,2105 @@
+[
+  "<!DOCTYPE html>",
+  "\n",
+  {
+    "tag": "html",
+    "content": [
+      "\n\n  ",
+      {
+        "tag": "head",
+        "content": [
+          "\n    ",
+          {
+            "tag": "meta",
+            "attrs": {
+              "name": "viewport",
+              "content": "width=device-width, initial-scale=1"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "meta",
+            "attrs": {
+              "http-equiv": "Content-Type",
+              "content": "text/html; charset = UTF-8"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "meta",
+            "attrs": {
+              "http-equiv": "Content-Type",
+              "content": "text/html"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "meta",
+            "attrs": {
+              "name": "Author",
+              "content": "Bryan Guner"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "meta",
+            "attrs": {
+              "name": "keywords",
+              "content": "HTML, Meta Tags, Metadata"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "meta",
+            "attrs": {
+              "name": "description",
+              "content": "Learning about Web Development."
+            }
+          },
+          "\n    ",
+          {
+            "tag": "meta",
+            "attrs": {
+              "name": "revised",
+              "content": "Bryan Guner 4/16/2021"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "meta",
+            "attrs": {
+              "http-equiv": "cookie",
+              "content": "userid = xyz; expires = Wednesday, 20-05-22 23:59:59 GMT;"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "title",
+            "content": [
+              " Lambda Student Resources"
+            ]
+          },
+          "\n    ",
+          {
+            "tag": "link",
+            "attrs": {
+              "type": "image/x-icon",
+              "href": "./favicon.ico",
+              "rel": "shortcut icon"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "link",
+            "attrs": {
+              "href": "https://instructure-uploads-pdx.s3.us-west-2.amazonaws.com/account_168550000000000001/attachments/537/logo-canvas.png",
+              "rel": "apple-touch-icon"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "link",
+            "attrs": {
+              "type": "text/css",
+              "href": "https://fonts.googleapis.com/css?family=Raleway:200,100,400",
+              "rel": "stylesheet"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "link",
+            "attrs": {
+              "href": "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
+              "rel": "stylesheet"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "link",
+            "attrs": {
+              "href": "./css/main-style.css",
+              "rel": "stylesheet"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "link",
+            "attrs": {
+              "href": "./css/stars.css",
+              "rel": "stylesheet"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "script",
+            "attrs": {
+              "src": "https://code.jquery.com/jquery-3.6.0.min.js",
+              "integrity": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",
+              "crossorigin": "anonymous"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "script",
+            "attrs": {
+              "src": "./js/stats.min.js",
+              "async": "",
+              "defer": ""
+            }
+          },
+          "\n    ",
+          {
+            "tag": "script",
+            "attrs": {
+              "src": "./js/index.js",
+              "async": ""
+            }
+          },
+          "\n    ",
+          "<!--do not use async defer on this script... it affects the animated title-->\n    ",
+          "<!----------------------jQuery------------------------------------------------------------------------------------------->\n    ",
+          "<!-- <script async defer src=\"./jQuery-min.js\"></script> -->\n    ",
+          {
+            "tag": "script",
+            "attrs": {
+              "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+              "async": "",
+              "defer": ""
+            }
+          },
+          "\n    ",
+          {
+            "tag": "script",
+            "attrs": {
+              "type": "text/javascript"
+            },
+            "content": [
+              "\n      function hideLoader() {\n        $( '#loading' ).hide();\n      }\n      $( window ).ready( hideLoader );\n      // Strongly recommended: Hide loader after 20 seconds, even if the page hasn't finished loading\n      setTimeout( hideLoader, 10 * 1000 );\n      $( window ).on( 'beforeunload', function () {\n        $( window ).scrollTop( 0 );\n      } );\n\n    "
+            ]
+          },
+          "\n\n    ",
+          {
+            "tag": "link",
+            "attrs": {
+              "rel": "stylesheet",
+              "href": "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "script",
+            "attrs": {
+              "type": "text/javascript",
+              "src": "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"
+            },
+            "content": [
+              "\n      "
+            ]
+          },
+          "\n    ",
+          {
+            "tag": "script",
+            "attrs": {
+              "type": "text/javascript"
+            },
+            "content": [
+              "\n      algoliasearchNetlify( {\n        appId: 'SLAX1OP2C4',\n        apiKey: '<YOUR_ALGOLIA_SEARCH_API_KEY>',\n        siteId: '0a9e6d86-b295-4037-b04d-88da85c1f6b5',\n        branch: 'master',\n        selector: 'div#search',\n      } );\n\n    "
+            ]
+          },
+          "\n    ",
+          "<!---------------------------------------------------Go Back Button------------------------------------------------------------------------------->\n    ",
+          {
+            "tag": "script",
+            "content": [
+              "\n      $(window).scroll(function(){\n  $(\"#back\").stop().animate({\"marginTop\": ($(window).scrollTop()) + \"px\", \"marginLeft\":($(window).scrollLeft()) + \"px\"}, \"slow\" );\n});\n    "
+            ]
+          },
+          "\n    ",
+          "<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->\n    ",
+          "<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->\n    ",
+          {
+            "tag": "style",
+            "content": [
+              "\n      @media screen and (min-width: 40em) {\n        article {\n          display: grid;\n          grid-template-columns: 3fr 1fr;\n          column-gap: 20px;\n        }\n\n        @media screen and (max-width: 1680px) {\n          html {\n            font-size: 12pt;\n          }\n        }\n\n        @media screen and (max-width: 1280px) {\n          html {\n            font-size: 11pt;\n          }\n        }\n\n        @media screen and (max-width: 360px) {\n          html {\n            font-size: 10pt;\n          }\n        }\n\n    "
+            ]
+          },
+          "\n    ",
+          {
+            "tag": "link",
+            "attrs": {
+              "href": "./css/toc.css",
+              "rel": "stylesheet"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "script",
+            "attrs": {
+              "src": "./js/toc.js",
+              "async": "",
+              "defer": ""
+            }
+          },
+          "\n  "
+        ]
+      },
+      "\n  ",
+      "<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->\n  ",
+      "<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->\n  ",
+      "<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->\n\n  ",
+      {
+        "tag": "body",
+        "content": [
+          "\n\n\n    ",
+          {
+            "tag": "iframe",
+            "attrs": {
+              "id": "top-nav",
+              "src": "https://top-navbar-42.netlify.app/",
+              "style": "width:100%",
+              "scrolling": "yes",
+              "frameborder": "no"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "br"
+          },
+          "\n    ",
+          {
+            "tag": "br"
+          },
+          "\n    ",
+          {
+            "tag": "br"
+          },
+          "\n    ",
+          {
+            "tag": "br"
+          },
+          "\n    ",
+          {
+            "tag": "br"
+          },
+          "\n",
+          {
+            "tag": "div",
+            "attrs": {
+              "style": "width:130px !important;background-color:rgb(255, 0, 0); color:red;font-weight:900;border-radius: 10px;box-shadow: 6px solid #fff;"
+            },
+            "content": [
+              "\n  ",
+              {
+                "tag": "form",
+                "attrs": {
+                  "id": "back",
+                  "style": "position:absolute;width:130px !important;background-color:rgb(255, 0, 0); color:red;font-weight:900;border-radius: 10px;box-shadow: 6px solid #fff;"
+                },
+                "content": [
+                  "\n ",
+                  {
+                    "tag": "input",
+                    "attrs": {
+                      "style": " color:red;font-weight: 900;background:url(https://media3.giphy.com/media/3o7qDNfxtNRtLVv8qs/source.gif)!important;",
+                      "type": "button",
+                      "value": "Go back!",
+                      "onclick": "history.back()"
+                    }
+                  },
+                  "\n"
+                ]
+              },
+              "\n  "
+            ]
+          },
+          "\n    ",
+          {
+            "tag": "br"
+          },
+          "\n    ",
+          {
+            "tag": "br"
+          },
+          "\n    ",
+          {
+            "tag": "br"
+          },
+          "\n    ",
+          {
+            "tag": "br"
+          },
+          "\n    ",
+          {
+            "tag": "br"
+          },
+          "\n    ",
+          {
+            "tag": "div",
+            "attrs": {
+              "id": "stars"
+            }
+          },
+          "\n    ",
+          {
+            "tag": "div",
+            "attrs": {
+              "class": "wrapper"
+            },
+            "content": [
+              "\n      ",
+              "<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->\n      ",
+              "<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->\n      ",
+              "<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------->\n      ",
+              {
+                "tag": "div",
+                "attrs": {
+                  "id": "out"
+                },
+                "content": [
+                  "\n        ",
+                  "<!--------------------------------------------------------------Github Corner SVG--------------------------------------------------------------------------------------------------------->\n        ",
+                  {
+                    "tag": "a",
+                    "attrs": {
+                      "class": "github-corner",
+                      "href": "https://github.com/bgoonz/Lambda",
+                      "aria-label": "View source on Github"
+                    },
+                    "content": [
+                      {
+                        "tag": "svg",
+                        "attrs": {
+                          "aria-hidden": "true",
+                          "width": "80",
+                          "height": "80",
+                          "viewBox": "0 0 250 250",
+                          "style": "z-index: 100000; fill:#194ccdaf; color:#fff; position: fixed; top: 20px; border: 0; left: 20px; transform: scale(-1.5, 1.5);"
+                        },
+                        "content": [
+                          "\n            ",
+                          {
+                            "tag": "path",
+                            "attrs": {
+                              "d": "M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"
+                            }
+                          },
+                          "\n            ",
+                          {
+                            "tag": "path",
+                            "attrs": {
+                              "class": "octo-arm",
+                              "d": "M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2",
+                              "fill": "currentColor",
+                              "style": "transform-origin: 130px 106px;"
+                            }
+                          },
+                          "\n            ",
+                          {
+                            "tag": "path",
+                            "attrs": {
+                              "class": "octo-body",
+                              "d": "M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z",
+                              "fill": "currentColor"
+                            }
+                          },
+                          "\n          "
+                        ]
+                      }
+                    ]
+                  },
+                  "\n        ",
+                  "<!------------------------------------------------Top Bar----------------------------------------------------------------------------------------------------->\n        ",
+                  "<!------------------------------------------------Top Bar----------------------------------------------------------------------------------------------------->\n        ",
+                  {
+                    "tag": "h5"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "my_class",
+                      "id": "ToC"
+                    },
+                    "content": [
+                      " "
+                    ]
+                  },
+                  "\n        ",
+                  "<!---------------------------------------------------------Animated Title---------------------------------------------------------------------------------------->\n      ",
+                  "<!---------------------------------------------------------Animated Title---------------------------------------------------------------------------------------->\n",
+                  {
+                    "tag": "h1",
+                    "attrs": {
+                      "style": "color:rgb(84, 172, 226); align-content:center;"
+                    },
+                    "content": [
+                      "This :\n          ",
+                      {
+                        "tag": "span",
+                        "attrs": {
+                          "class": "txt-rotate",
+                          "data-period": "2000",
+                          "data-rotate": "[ \"is Lambda Student Resources\", \"was created by Bryan Guner\" ]"
+                        },
+                        "content": [
+                          {
+                            "tag": "span",
+                            "attrs": {
+                              "class": "wrap"
+                            },
+                            "content": [
+                              "was created by "
+                            ]
+                          }
+                        ]
+                      },
+                      "\n        "
+                    ]
+                  },
+                  "\n        ",
+                  "<!-------------------------------------------------Background Image---------------------------------------------------------------------------------------------------------------------->\n      \n        ",
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "id": "loading",
+                      "style": "background: url('./media-gifs-images/giphy.gif') no-repeat center center;position: absolute;top: 0;left: 0;height: 100%;width: 100%;z-index: 9999999;"
+                    },
+                    "content": [
+                      "\n        "
+                    ]
+                  },
+                  "\n        ",
+                  "<!----------------------------------------------Mute------------------------------------------------------------------------------------------------------------------------>\n        ",
+                  {
+                    "tag": "button",
+                    "attrs": {
+                      "id": "myBtn",
+                      "style": "background-color:rgb(255, 0, 0); color:white;font-weight:900;border-radius: 10px;box-shadow: 6px solid #fff;",
+                      "onclick": "removeaudio()"
+                    },
+                    "content": [
+                      "Mute!"
+                    ]
+                  },
+                  "\n        ",
+                  "<!----------------------------------------------One Drive File Storage------------------------------------------------------------------------------------------------------------------------->\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "embed",
+                      "id": "search"
+                    }
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  "<!---------------------------------------------------------------- start of freefind search box html -->\n        ",
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "embed"
+                    },
+                    "content": [
+                      "\n          ",
+                      {
+                        "tag": "table",
+                        "attrs": {
+                          "style": "overflow:hidden; zoom:1.1;height:200px; ",
+                          "width": "450px",
+                          "cellpadding": "0",
+                          "cellspacing": "0",
+                          "border": "0"
+                        },
+                        "content": [
+                          "\n            ",
+                          {
+                            "tag": "tr",
+                            "content": [
+                              "\n              ",
+                              {
+                                "tag": "td",
+                                "attrs": {
+                                  "style": "font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;"
+                                },
+                                "content": [
+                                  "\n                ",
+                                  {
+                                    "tag": "center",
+                                    "content": [
+                                      "\n                  ",
+                                      {
+                                        "tag": "table",
+                                        "attrs": {
+                                          "width": "100%",
+                                          "cellpadding": "0",
+                                          "cellspacing": "0",
+                                          "border": "0",
+                                          "style": "font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;"
+                                        },
+                                        "content": [
+                                          "\n                    ",
+                                          {
+                                            "tag": "tr",
+                                            "content": [
+                                              "\n                      ",
+                                              {
+                                                "tag": "td",
+                                                "attrs": {
+                                                  "style": "font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;",
+                                                  "align": "left"
+                                                },
+                                                "content": [
+                                                  {
+                                                    "tag": "a",
+                                                    "attrs": {
+                                                      "href": "https://search.freefind.com/siteindex.html?si=84021407"
+                                                    },
+                                                    "content": [
+                                                      "index"
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              "\n                      ",
+                                              {
+                                                "tag": "td",
+                                                "attrs": {
+                                                  "style": "font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;",
+                                                  "align": "center"
+                                                },
+                                                "content": [
+                                                  "\n                        ",
+                                                  {
+                                                    "tag": "a",
+                                                    "attrs": {
+                                                      "href": "https://search.freefind.com/find.html?si=84021407&amp;m=0&amp;p=0"
+                                                    },
+                                                    "content": [
+                                                      "sitemap"
+                                                    ]
+                                                  },
+                                                  "\n                      "
+                                                ]
+                                              },
+                                              "\n                      ",
+                                              {
+                                                "tag": "td",
+                                                "attrs": {
+                                                  "style": "font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;",
+                                                  "align": "right"
+                                                },
+                                                "content": [
+                                                  "\n                        ",
+                                                  {
+                                                    "tag": "a",
+                                                    "attrs": {
+                                                      "href": "https://search.freefind.com/find.html?si=84021407&amp;pid=a"
+                                                    },
+                                                    "content": [
+                                                      "advanced"
+                                                    ]
+                                                  },
+                                                  "\n                      "
+                                                ]
+                                              },
+                                              "\n                    "
+                                            ]
+                                          },
+                                          "\n                  "
+                                        ]
+                                      },
+                                      "\n                "
+                                    ]
+                                  },
+                                  "\n                ",
+                                  {
+                                    "tag": "form",
+                                    "attrs": {
+                                      "style": "margin:0px; margin-top:4px;",
+                                      "action": "https://search.freefind.com/find.html",
+                                      "method": "get",
+                                      "accept-charset": "utf-8",
+                                      "target": "_self"
+                                    },
+                                    "content": [
+                                      "\n                  ",
+                                      {
+                                        "tag": "input",
+                                        "attrs": {
+                                          "name": "si",
+                                          "type": "hidden",
+                                          "value": "84021407"
+                                        }
+                                      },
+                                      "\n                  ",
+                                      {
+                                        "tag": "input",
+                                        "attrs": {
+                                          "name": "pid",
+                                          "type": "hidden",
+                                          "value": "r"
+                                        }
+                                      },
+                                      "\n                  ",
+                                      {
+                                        "tag": "input",
+                                        "attrs": {
+                                          "name": "n",
+                                          "type": "hidden",
+                                          "value": "0"
+                                        }
+                                      },
+                                      "\n                  ",
+                                      {
+                                        "tag": "input",
+                                        "attrs": {
+                                          "name": "_charset_",
+                                          "type": "hidden",
+                                          "value": ""
+                                        }
+                                      },
+                                      "\n                  ",
+                                      {
+                                        "tag": "input",
+                                        "attrs": {
+                                          "name": "bcd",
+                                          "type": "hidden",
+                                          "value": "&#247;"
+                                        }
+                                      },
+                                      "\n                  ",
+                                      {
+                                        "tag": "input",
+                                        "attrs": {
+                                          "name": "query",
+                                          "type": "text",
+                                          "size": "15"
+                                        }
+                                      },
+                                      "\n                  ",
+                                      {
+                                        "tag": "input",
+                                        "attrs": {
+                                          "type": "submit",
+                                          "value": "search"
+                                        }
+                                      },
+                                      "\n                "
+                                    ]
+                                  },
+                                  "\n              "
+                                ]
+                              },
+                              "\n            "
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "tr",
+                            "content": [
+                              "\n              ",
+                              {
+                                "tag": "td",
+                                "attrs": {
+                                  "style": "text-align:center; font-family: Arial, Helvetica, sans-serif;\tfont-size: 7.5pt; padding-top:1px;"
+                                },
+                                "content": [
+                                  "\n                ",
+                                  {
+                                    "tag": "a",
+                                    "attrs": {
+                                      "href": "https://www.freefind.com",
+                                      "style": "text-decoration:none; color:rgba(128, 128, 128, 0);",
+                                      "rel": "nofollow"
+                                    },
+                                    "content": [
+                                      "search\n                  engine"
+                                    ]
+                                  },
+                                  {
+                                    "tag": "a",
+                                    "attrs": {
+                                      "href": "https://www.freefind.com",
+                                      "style": "text-decoration:none; color:rgba(128, 128, 128, 0);",
+                                      "rel": "nofollow"
+                                    },
+                                    "content": [
+                                      " by\n                  ",
+                                      {
+                                        "tag": "span",
+                                        "attrs": {
+                                          "style": "color: #60606000;"
+                                        },
+                                        "content": [
+                                          "freefind"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "\n              "
+                                ]
+                              },
+                              "\n            "
+                            ]
+                          },
+                          "\n          "
+                        ]
+                      },
+                      "\n        "
+                    ]
+                  },
+                  "\n        ",
+                  "<!-- end of freefind search box html ---------------------------------------------------->\n        ",
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "loading-overlay"
+                    }
+                  },
+                  "\n        ",
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "loading-overlay-image-container"
+                    },
+                    "content": [
+                      "\n          ",
+                      {
+                        "tag": "img",
+                        "attrs": {
+                          "class": "loading-overlay-img",
+                          "src": "./media-gifs-images/giphy.gif"
+                        }
+                      },
+                      "\n        "
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  "<!-----------------------------------------------------------One Drive----------------------------------------------------------------------------------------------------------->\n        ",
+                  {
+                    "tag": "h2",
+                    "content": [
+                      "One-Drive-File-Storage!"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "style": "display:flex; flex-direction: row;"
+                    },
+                    "content": [
+                      "\n          ",
+                      {
+                        "tag": "br"
+                      },
+                      "\n          ",
+                      {
+                        "tag": "iframe",
+                        "attrs": {
+                          "class": "embed",
+                          "src": "https://onedrive.live.com/embed?cid=D21009FDD967A241&resid=D21009FDD967A241%21538729&authkey=AHSDSyoYqzg2K2E",
+                          "loading": "lazy",
+                          "width": "165",
+                          "height": "128",
+                          "frameborder": "0",
+                          "scrolling": "no"
+                        }
+                      },
+                      "\n        "
+                    ]
+                  },
+                  "\n        ",
+                  "<!------------------------------------------------------------Spotify Embed----------------------------------------------------------------------------------------------------------->\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "h2",
+                    "content": [
+                      "Listen to music while you study!"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "https://open.spotify.com/embed/playlist/2VojZ70yfWaSeVfY2gjwVC",
+                      "loading": "lazy",
+                      "width": "400",
+                      "height": "300",
+                      "frameborder": "0",
+                      "allowtransparency": "true",
+                      "allow": "encrypted-media"
+                    }
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  "<!-----------------------------------------------------Links------------------------------------------------------------------------------------------------------------------>\n        ",
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "embed"
+                    },
+                    "content": [
+                      "\n          ",
+                      {
+                        "tag": "br"
+                      },
+                      "\n          ",
+                      {
+                        "tag": "br"
+                      },
+                      "\n          ",
+                      {
+                        "tag": "ul",
+                        "attrs": {
+                          "style": "max-width:725px ;"
+                        },
+                        "content": [
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "./directory.html"
+                                },
+                                "content": [
+                                  "🧭NAVIGATION🧭&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "https://links4242.netlify.app/"
+                                },
+                                "content": [
+                                  "🧭External Links (most used websites)🧭&nbsp;"
+                                ]
+                              },
+                              "\n            "
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": ""
+                                },
+                                "content": [
+                                  "Books&nbsp;"
+                                ]
+                              },
+                              "\n            "
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "./7-assets/web-dev-utils/lambda-prep/directory.html"
+                                },
+                                "content": [
+                                  "🧰Tools🔨&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "https://lambda-prep.netlify.app/"
+                                },
+                                "content": [
+                                  "📖Lambda Prep-Resource Site📗&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "https://code-playground.netlify.app/"
+                                },
+                                "content": [
+                                  "🖥️Code Playground🖲️&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "./WEEKS/wk1/0-notes/d2/applied-js-1.html"
+                                },
+                                "content": [
+                                  "✨applied-js-1.html✨&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": ".5-websites\\lambda-prep\\one-of-every-tag.html"
+                                },
+                                "content": [
+                                  "🧱HTML_PATTERNS🕸️ &nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "./WEEKS/wk1/0-notes/d2/js-fundamentals.html"
+                                },
+                                "content": [
+                                  "✨js-fundamentals✨&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "./WEEKS/wk1/0-notes/d2/using-git.html"
+                                },
+                                "content": [
+                                  "😺using-git😺&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "https://trusting-dijkstra-4d3b17.netlify.app/"
+                                },
+                                "content": [
+                                  "🎄DATA STRUCTURES🌐&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "./WEEKS\\wk1\\2-resources\\agenda.html"
+                                },
+                                "content": [
+                                  "📗Agenda📗&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "./WEEKS\\wk1\\2-resources\\agenda.html"
+                                },
+                                "content": [
+                                  "📼Video Previewer📹&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "./about\\Using_Canvas.html"
+                                },
+                                "content": [
+                                  "📊Using Canvas📊&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "./6-about/BritHemmingCodePen.html"
+                                },
+                                "content": [
+                                  "🖋️Brit's Code Pens✏️&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "2-resources/__CHEAT-SHEETS/right.html"
+                                },
+                                "content": [
+                                  "Cheat Sheets&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "./networking.html"
+                                },
+                                "content": [
+                                  "Networking&nbsp;"
+                                ]
+                              }
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "li",
+                            "attrs": {
+                              "class": "btn"
+                            },
+                            "content": [
+                              {
+                                "tag": "a",
+                                "attrs": {
+                                  "href": "https://www.notion.so/0c25ca36d2184ea2b7f2aad2e44f7628?v=940dee8552a5455f8f6abf4c270aec57"
+                                },
+                                "content": [
+                                  "ToDo&nbsp;"
+                                ]
+                              },
+                              "\n            "
+                            ]
+                          },
+                          "\n          "
+                        ]
+                      },
+                      "\n        "
+                    ]
+                  },
+                  "\n        ",
+                  "<!----------------------------------------------------------------------------------Top Animations----------------------------------------------------------------->\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "center",
+                    "content": [
+                      "\n          ",
+                      {
+                        "tag": "div",
+                        "attrs": {
+                          "class": "embed",
+                          "style": "background:url(https://media3.giphy.com/media/3o7qDNfxtNRtLVv8qs/source.gif)!important; align-content: center;    justify-content: center; margin: auto;display:flex; flex-direction: row;"
+                        },
+                        "content": [
+                          "\n            ",
+                          {
+                            "tag": "iframe",
+                            "attrs": {
+                              "class": "animate embed",
+                              "id": "ann",
+                              "src": "https://embedable-content.netlify.app/standalone/test.html",
+                              "loading": "lazy",
+                              "height": "365",
+                              "style": "width: 8%;",
+                              "scrolling": "no",
+                              "frameborder": "yes",
+                              "border-radius:350": "",
+                              "align-content:center": "",
+                              "allowtransparency": "true",
+                              "allowfullscreen": "true",
+                              "opacity": "0.7",
+                              "box-shaddow": "16px white"
+                            }
+                          },
+                          "\n            ",
+                          {
+                            "tag": "button",
+                            "attrs": {
+                              "id": "myBtn",
+                              "style": "background-color:rgb(255, 0, 0); color:white;font-weight:900;",
+                              "onclick": "removeaudio()"
+                            },
+                            "content": [
+                              "Mute!"
+                            ]
+                          },
+                          "\n            ",
+                          {
+                            "tag": "iframe",
+                            "attrs": {
+                              "class": "animate embed",
+                              "id": "audio",
+                              "src": "https://project-showcase-bgoonz.netlify.app/future-tech-innov-creative/etc/musicviz/index_forexample.html",
+                              "loading": "lazy",
+                              "height": "365",
+                              "style": "width: 8%;",
+                              "scrolling": "no",
+                              "frameborder": "yes",
+                              "border-radius:350": "",
+                              "allow": "autoplay",
+                              "align-content:center": "",
+                              "allowtransparency": "true",
+                              "allowfullscreen": "true",
+                              "opacity": "0.7",
+                              "box-shaddow": "16px white"
+                            }
+                          },
+                          "\n          "
+                        ]
+                      },
+                      "\n        "
+                    ]
+                  },
+                  "\n        ",
+                  "<!---------------------------------------------------------Transition Gif------------------------------------------------------------------------------------------>\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "center",
+                    "content": [
+                      "\n          ",
+                      {
+                        "tag": "img",
+                        "attrs": {
+                          "class": "embed",
+                          "src": "./media-gifs-images/fireworks.gif",
+                          "loading": "lazy",
+                          "height": "365",
+                          "style": "width:1050px;",
+                          "scrolling": "no",
+                          "frameborder": "yes",
+                          "allowtransparency": "true",
+                          "allowfullscreen": "true",
+                          "opacity": "0.7",
+                          "box-shaddow": "16px white"
+                        }
+                      },
+                      "\n        "
+                    ]
+                  },
+                  "\n        ",
+                  "<!---------------------------------------------------------Announcments------------------------------------------------------------------------------------------>\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "h2",
+                    "attrs": {
+                      "style": "color:white; align-content:center;"
+                    },
+                    "content": [
+                      " Announcements "
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "./anouncments.html",
+                      "height": "800",
+                      "style": "width:90%",
+                      "scrolling": "yes",
+                      "frameborder": "no",
+                      "loading": "lazy",
+                      "allowtransparency": "true",
+                      "allowfullscreen": "true",
+                      "opacity": "0.7",
+                      "box-shaddow": "8px white"
+                    }
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n\n        ",
+                  "<!--------------------------------------------------------Dev-Tools------------------------------------------------------------------------------------------>\n        ",
+                  {
+                    "tag": "h2",
+                    "attrs": {
+                      "style": "color:white; align-content:center;"
+                    },
+                    "content": [
+                      " Dev-Tools"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "./12-Core-Site/iframe-templates/main.html",
+                      "loading": "lazy",
+                      "style": "width:90%!important; height:800px;background-color: whitesmoke;zoom:1.7;"
+                    }
+                  },
+                  "\n\n        ",
+                  "<!----------------------------------------------------------------How To Win Friends And Influence People---------------------------------------------------------------------------------->\n\n\n\n\n        ",
+                  "<!--------------------------------------------------------LINKS------------------------------------------------------------------------------------------>\n        ",
+                  {
+                    "tag": "h2",
+                    "attrs": {
+                      "style": "color:white; align-content:center;"
+                    },
+                    "content": [
+                      "LINKS"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "https://links4242.netlify.app/",
+                      "loading": "lazy",
+                      "style": "width:90%!important; height:800px;background-color: whitesmoke;zoom:1.7;"
+                    }
+                  },
+                  "\n\n        ",
+                  "<!----------------------------------------------------------------How To Win Friends And Influence People---------------------------------------------------------------------------------->\n\n\n\n\n\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "h2",
+                    "attrs": {
+                      "style": "color:white; align-content:center;"
+                    },
+                    "content": [
+                      " How To Win Friends And Influence People"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "./WEEKS/wk4/2-resources/1285134779158_htwfaip.pdf",
+                      "loading": "lazy",
+                      "style": "width:90%!important; height:800px;background-color: whitesmoke;zoom:1.7;"
+                    }
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  "<!-------------------------------------------------------------------------------------------------------------------------------------------------->\n        ",
+                  "<!---git pull -s recursive -X ours https://github.com/bgoonz/Lambda.git-->\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  "<!-------------------------------------------------------------------------------------------------------------------------------------------------->\n        ",
+                  "<!--------------------------------------------------------Snippets------------------------------------------------------------------------------------------>\n        ",
+                  {
+                    "tag": "h2",
+                    "attrs": {
+                      "style": "color:white; align-content:center;"
+                    },
+                    "content": [
+                      " Useful Snippets"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "./7-assets/_SNIPPETS/snippets.html",
+                      "loading": "lazy",
+                      "style": "width:90%!important; height:800px;background-color: whitesmoke;zoom:1.7;"
+                    }
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  "<!-------------------------------------------------------------------------------------------------------------------------------------------------->\n        ",
+                  "<!--------------------------------------------------------Web Dev-Quizes------------------------------------------------------------------------------------------>\n        ",
+                  {
+                    "tag": "h2",
+                    "attrs": {
+                      "style": "color:white; align-content:center;"
+                    },
+                    "content": [
+                      "Web Dev Quizes"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "https://web-dev-interview-prep-quiz-website.netlify.app/",
+                      "loading": "lazy",
+                      "style": "width:90%!important; height:800px;"
+                    }
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  "<!-------------------------------------------------------------------------------------------------------------------------------------------------->\n        ",
+                  "<!---------------------------------------------------------Mock Interview---------------------------------------------------------------------------------------------------------------------------------->\n        ",
+                  {
+                    "tag": "h2",
+                    "attrs": {
+                      "style": "color:white; align-content:center;"
+                    },
+                    "content": [
+                      " Interview"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "./7-assets/from-class/web-interview.pdf",
+                      "loading": "lazy",
+                      "style": "width:90%!important; height:800px;"
+                    }
+                  },
+                  "\n        ",
+                  "<!-----------------------------------------------------------Resources------------------------------------------------------------------------------>\n        ",
+                  "<!---------------------------------------------------------Many Quizes------------------------------------------------------------------------------------------>\n        ",
+                  {
+                    "tag": "h2",
+                    "attrs": {
+                      "style": "color:white; align-content:center;"
+                    },
+                    "content": [
+                      " All Topics Quiz"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "./2-resources/_GENERAL-RESOURCES/Skills-Quiz/_HTML/Merged.html",
+                      "loading": "lazy",
+                      "style": "width:90%!important; height:800px;"
+                    }
+                  },
+                  "\n        ",
+                  "<!-----------------------------------------------------------Resources------------------------------------------------------------------------------>\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "h2",
+                    "content": [
+                      " General Resources:"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "./RESOURCES.html",
+                      "height": "800",
+                      "style": "width:90%;!important",
+                      "scrolling": "yes",
+                      "frameborder": "no",
+                      "loading": "lazy"
+                    }
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  "<!-----------------------------------------------------Javascript------------------------------------------------------------------------------------>\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "h2",
+                    "content": [
+                      " Javascript Resources"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "./Javascript-resources.html",
+                      "loading": "lazy",
+                      "height": "800",
+                      "style": "width:90%;!important",
+                      "scrolling": "yes",
+                      "frameborder": "no"
+                    }
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  "<!--------------------------------------------------------------------------------------------------------------------------------------->\n     \n        ",
+                  "<!------------------------------------------------------Demos----------------------------------------------------------------------------------->\n        ",
+                  {
+                    "tag": "h2",
+                    "content": [
+                      "Demo's"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "id": "content",
+                      "src": "./lightshow-background.html",
+                      "loading": "lazy",
+                      "style": "width:90%!important; height:800px;overflow-y:hidden; zoom:0.5;  display:inline-flexbox;"
+                    }
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "https://embedable-content.netlify.app/main.html",
+                      "loading": "lazy",
+                      "style": "width:90%!important; height:800px;"
+                    }
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  "<!-----------------------------------------Comments------------------------------------------------->\n        ",
+                  {
+                    "tag": "h2",
+                    "content": [
+                      "Comments"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "embed",
+                      "src": "https://Comments.bgoonz.repl.co",
+                      "loading": "lazy",
+                      "style": "background-color: rgba(255, 255, 255, 0.214) ;border-radius:45px; color:white;!important",
+                      "height": "800px",
+                      "width": "90%",
+                      "scrolling": "yes",
+                      "frameborder": "yes",
+                      "allowtransparency": "false",
+                      "scroll": "true",
+                      "allowfullscreen": "true"
+                    }
+                  },
+                  "\n        ",
+                  "<!----------------------------------------------------------------------------------------------------------------------------------------->\n        ",
+                  {
+                    "tag": "button",
+                    "attrs": {
+                      "id": "scrollBtn",
+                      "title": "Go to top",
+                      "onclick": "topFunction()"
+                    },
+                    "content": [
+                      "Back To Top"
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "button",
+                    "attrs": {
+                      "id": "myBtn",
+                      "style": "background-color:rgb(255, 0, 0); color:white;font-weight:900;",
+                      "onclick": "removeaudio()"
+                    },
+                    "content": [
+                      "Mute!"
+                    ]
+                  },
+                  "\n        ",
+                  "<!---------------------------------------------Clock nd Time Zone Widget----------------------------------------->\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "class": "animate",
+                      "id": "hexload",
+                      "src": "https://codepen.io/bgoonz/embed/ExZxMPN?height=265&theme-id=dark&default-tab=result",
+                      "loading": "lazy",
+                      "height": "400px",
+                      "width": "90%",
+                      "\"": "",
+                      "scrolling": " no",
+                      "frameborder": "yes",
+                      "border-radius:85px;": "",
+                      "align-content:center": "",
+                      "allowtransparency": "true",
+                      "allowfullscreen": "true",
+                      "opacity": "0.7",
+                      "box-shaddow": "16px white"
+                    }
+                  },
+                  "\n        ",
+                  {
+                    "tag": "div",
+                    "attrs": {
+                      "class": "shadow"
+                    },
+                    "content": [
+                      "\n          ",
+                      {
+                        "tag": "br"
+                      },
+                      "\n          ",
+                      {
+                        "tag": "br"
+                      },
+                      "\n          ",
+                      "<!-----------------------------------------------------Time Zone --------------------------------------------------------------->\n        "
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "br"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "hr"
+                  },
+                  "\n        ",
+                  {
+                    "tag": "center",
+                    "content": [
+                      "\n          ",
+                      {
+                        "tag": "h2",
+                        "attrs": {
+                          "style": "align-self:center;"
+                        },
+                        "content": [
+                          "World Clock(Click To See Localized Time)"
+                        ]
+                      },
+                      "\n        "
+                    ]
+                  },
+                  "\n        ",
+                  {
+                    "tag": "iframe",
+                    "attrs": {
+                      "src": "https://observablehq.com/embed/1b6399182c98cd36@480?cells=chart%2Cviewof+date",
+                      "loading": "lazy",
+                      "width": "90%",
+                      "height": "629",
+                      "frameborder": "0"
+                    }
+                  },
+                  "\n        ",
+                  "<!-----------------------------------------------Bottom Nav-------------------------------------------------------->\n      "
+                ]
+              },
+              "\n      ",
+              {
+                "tag": "br"
+              },
+              "\n      ",
+              {
+                "tag": "br"
+              },
+              "\n      ",
+              {
+                "tag": "li",
+                "attrs": {
+                  "class": "btn"
+                },
+                "content": [
+                  {
+                    "tag": "a",
+                    "attrs": {
+                      "href": "./page2.html"
+                    },
+                    "content": [
+                      "📗Page2📗&nbsp;"
+                    ]
+                  }
+                ]
+              },
+              "\n      ",
+              {
+                "tag": "li",
+                "attrs": {
+                  "class": "btn"
+                },
+                "content": [
+                  {
+                    "tag": "a",
+                    "attrs": {
+                      "href": "./WEEKS/wk1/0-notes/d2/directory.html"
+                    },
+                    "content": [
+                      "🧭NAVIGATION🧭&nbsp;"
+                    ]
+                  }
+                ]
+              },
+              "\n      ",
+              {
+                "tag": "li",
+                "attrs": {
+                  "class": "btn"
+                },
+                "content": [
+                  {
+                    "tag": "a",
+                    "attrs": {
+                      "href": "https://elastic-franklin-ce3a55.netlify.app/",
+                      "target": "_blank"
+                    },
+                    "content": [
+                      "ABOUT&nbsp;"
+                    ]
+                  },
+                  "\n      "
+                ]
+              },
+              "\n      ",
+              {
+                "tag": "li",
+                "attrs": {
+                  "class": "btn"
+                },
+                "content": [
+                  " ",
+                  {
+                    "tag": "a",
+                    "attrs": {
+                      "href": "https://lambda-w-1-notes.netlify.app/",
+                      "target": "_blank"
+                    },
+                    "content": [
+                      "🏠HOME!&nbsp;"
+                    ]
+                  },
+                  "\n      "
+                ]
+              },
+              "\n      ",
+              {
+                "tag": "br"
+              },
+              "\n      ",
+              {
+                "tag": "br"
+              },
+              "\n      ",
+              "<!----------------------------------------------------Bookmark and Visit Counter--------------------------------------------------->\n      ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "class": "bookmarklet_button",
+                  "href": "javascript:(function(){\nf='https://www.addtoany.com/share#url='+encodeURIComponent(window.location.href)+'&amp;title='+encodeURIComponent(document.title);\na=function(){\nif(!window.open(f,'addtoany','width=800,height=600,toolbar=yes,location=yes,directories=yes,status=yes,menubar=yes,scrollbars=yes,resizable=yes')){\nlocation.href=f+'jump=yes';\n};\nif(/Firefox/.test(navigator.userAgent)){\nsetTimeout(a,0)\n}\nelse{\na()\n}\n})()",
+                  "title": "AddToAny",
+                  "onclick": "alert('Drag this link onto your toolbar to add the AddToAny Bookmarklet');\nreturn false"
+                },
+                "content": [
+                  "\n        Drag to Bookmarks to add to Bookmarks!\n      "
+                ]
+              },
+              "\n      ",
+              {
+                "tag": "br"
+              },
+              "\n      ",
+              {
+                "tag": "br"
+              },
+              "\n      ",
+              {
+                "tag": "script",
+                "attrs": {
+                  "src": "https://www.freevisitorcounters.com/auth.php?id=fdf7005310189aaad83125635a22c042daac8a70",
+                  "type": "text/javascript"
+                }
+              },
+              "\n      ",
+              {
+                "tag": "script",
+                "attrs": {
+                  "src": "https://www.freevisitorcounters.com/en/home/counter/814984/t/0",
+                  "type": "text/javascript",
+                  "async": ""
+                },
+                "content": [
+                  "\n      "
+                ]
+              },
+              "\n      ",
+              "<!----------------------------------------------------Remove audio I frame script--------------------------------------------------->\n      ",
+              {
+                "tag": "script",
+                "content": [
+                  "\n        function removeaudio() {\n          let elem = document.getElementById( 'audio' );\n          elem.parentNode.removeChild( elem );\n          return false;\n        };\n\n        function pageInit() {\n          // Hook up the \"remove audio\" button\n          let btn = document.getElementById( 'btnRemoveaudio' );\n          if ( btn.addEventListener ) {\n            // DOM2 standard\n            btn.addEventListener( 'click', removeaudio, false );\n          } else if ( btn.attachEvent ) {\n            // IE (IE9 finally supports the above, though)\n            btn.attachEvent( 'onclick', removeaudio );\n          } else {\n            // Really old or non-standard browser, try DOM0\n            btn.onclick = removeaudio;\n          }\n        };\n\n      "
+                ]
+              },
+              "\n      ",
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "https://free-hit-counters.net/",
+                  "style": "color:black;"
+                },
+                "content": [
+                  "Free Hit Counters"
+                ]
+              },
+              "\n      ",
+              {
+                "tag": "script",
+                "attrs": {
+                  "src": "https://www.freevisitorcounters.com/auth.php?id=f904dfc58ec6c182f5b6f3c4144fb84f03f356bc",
+                  "type": "text/javascript"
+                }
+              },
+              "\n      ",
+              {
+                "tag": "script",
+                "attrs": {
+                  "src": "https://www.freevisitorcounters.com/en/home/counter/815451/t/0",
+                  "type": "text/javascript"
+                }
+              },
+              "\n      ",
+              "<!------------------------------------------------------------------------------------------------------->\n      ",
+              "<!-------------------------------------------Back To Top Button---------------------------------------------------->\n      ",
+              {
+                "tag": "script",
+                "content": [
+                  "\n        //Get the button:\n        mybutton = document.getElementById( \"scrollBtn\" );\n        // When the user scrolls down 20px from the top of the document, show the button\n        window.onscroll = function () {\n          scrollFunction()\n        };\n\n        function scrollFunction() {\n          if ( document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ) {\n            mybutton.style.display = \"block\";\n          } else {\n            mybutton.style.display = \"none\";\n          }\n        };\n        // When the user clicks on the button, scroll to the top of the document\n        function topFunction() {\n          document.body.scrollTop = 0; // For Safari\n          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera\n        };\n\n      "
+                ]
+              },
+              "\n      ",
+              {
+                "tag": "script",
+                "content": [
+                  "\n        window.addEventListener( 'DOMContentLoaded', ( event ) => {\n          console.log( 'DOM fully loaded and parsed' );\n          const scrollToTop = () => {\n            const c = document.documentElement.scrollTop || document.body.scrollTop;\n            if ( c > 0 ) {\n              window.requestAnimationFrame( scrollToTop );\n              window.scrollTo( 0, c - c / 8 );\n            }\n          };\n          scrollToTop();\n        } );\n\n      "
+                ]
+              },
+              "\n      ",
+              {
+                "tag": "br"
+              },
+              "\n      ",
+              {
+                "tag": "br"
+              },
+              "\n      ",
+              "<!-------------------------------------Random Script Inclusions---------------------------------------------------------------->\n\n      ",
+              "<!---------------------------------------------------Footer------------------------------------------------------------------------------>\n      ",
+              "<!----------------------------------------------------------------------------------------------------->\n      ",
+              {
+                "tag": "iframe",
+                "attrs": {
+                  "id": "footer",
+                  "src": "https://nervous-spence-2c9965.netlify.app/",
+                  "loading": "lazy",
+                  "frameborder": "0",
+                  "scrolling": "no",
+                  "border:none;": "",
+                  "style": "zoom:0.8; heght:1100; width :100% !important;"
+                }
+              },
+              "\n    "
+            ]
+          },
+          "\n  "
+        ]
+      },
+      "\n\n"
+    ]
+  }
+]

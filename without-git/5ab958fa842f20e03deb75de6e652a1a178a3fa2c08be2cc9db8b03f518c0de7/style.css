@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Sawarabi+Mincho&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #000;
+  /*font-family: "Josefin Sans", sans-serif;*/
+  font-family: "Sawarabi Mincho", sans-serif;
+  font-size: 2vmax;
+}
+body {
+  display: inline-block;
+  transform: scale(1.4, 1);
+  -webkit-transform: scale(1.4, 1);
+  -moz-transform: scale(1.4, 1);
+  -ms-transform: scale(1.4, 1);
+  -o-transform: scale(1.4, 1);
+  overflow: hidden;
+}
