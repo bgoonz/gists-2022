@@ -1,0 +1,21 @@
+time_is_widget.init({
+    Union_City__New_Jersey_z161: {
+        template: "TIME<br>DATE<br>SUN",
+        time_format: "12hours:minutes:secondsAMPM",
+        date_format: "dayname, monthname dnum, year",
+        sun_format:
+            "Sunrise: srhour:srminute Sunset: sshour:ssminute<br>Day length: dlhoursh dlminutesm",
+        coords: "40.7795500,-74.0237500"
+    }
+});
+
+
+    time_is_widget.init({
+        San_Francisco_z14e: {
+            template: "TIME<br>DATE<br>SUN",
+            time_format: "12hours:minutes:secondsAMPM",
+            date_format: "dayname, monthname dnum, year",
+            sun_format: "Sunrise: srhour:srminute Sunset: sshour:ssminute",
+            coords: "37.7749300,-122.4194200"
+        }
+    });

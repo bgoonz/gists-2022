@@ -1,0 +1,77 @@
+body {
+    padding: 20px;
+}
+header {
+    text-align: center;
+    padding-bottom: 1em;
+}
+h2 {
+    font-weight: 300;
+}
+input {
+    max-width: 100%;
+}
+label {
+    white-space: nowrap;
+}
+label.checkbox { display: inline-block; }
+
+
+.color-scale {
+    
+    .well {
+        padding: 0 1em;
+        padding-top: 5px;
+        margin-bottom: .5em;
+    }
+
+    .steps {
+        text-align: right;
+    }
+    .colors {
+        width: 98%;
+    }
+
+    .gradient {
+        display: inline-block;
+        padding: 10px 10px 6px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        background: white;
+        text-align: center;
+        white-space: nowrap;
+
+        .color {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            color: rgba(0,0,0,0);
+        }
+        td.color {
+            padding: 0;
+        }
+    }
+
+    svg {
+        display: block;
+        margin: 10px 0;
+        background: #ffa;
+
+        path {
+            stroke: #000;
+            stroke-width: 2px;
+            fill: none;
+            shape-rendering: crispEdges;
+        }
+    }
+
+    pre {
+        border: 0;
+        padding: 0;
+        margin: 0;
+        margin-top: .25em;
+        color: #777;
+        white-space: nowrap;
+    }
+
+}

@@ -1,0 +1,257 @@
+Array.from = Array.from || function(list) { return Array.prototype.slice.call(list); };
+function $$(selector, context) {
+    context = context || document;
+    return context.querySelector(selector);
+}
+function $$$(selector, context) {
+    context = context || document;
+    return Array.from(context.querySelectorAll(selector));
+}
+
+function colorScale(ui, is2d) {
+    "use strict";
+
+    const _2d = is2d,
+          _colors = $$('.colors', ui),
+          _steps =  $$('.steps', ui),
+          _bez = $$('.bez', ui),
+          _coL = $$('.coL', ui),
+          _gradient =  $$('.gradient-wrapper', ui),
+          _lightness = $$('.lightness-wrapper', ui),
+          _exports =   $$('.exports-wrapper', ui);
+    
+    $$$('input', ui).forEach(input => {
+        input.onchange = update;
+    });
+    update();
+
+
+    function update() {
+        const colors = clean(_colors.value),
+              steps = _steps.value,
+              bez = _bez.checked,
+              coL = _coL.checked;
+
+        _gradient.innerHTML = '';
+        _lightness.innerHTML = '';
+        _exports.innerHTML = '';
+
+        if(_2d) {
+            const csTop    = createScale([colors[0], colors[1]], bez, coL),
+                  csLeft   = createScale([colors[0], colors[2]], bez, coL),
+                  csBottom = createScale([colors[2], colors[3]], bez, coL),
+                  csRight  = createScale([colors[1], colors[3]], bez, coL);
+            showTable(csTop, csLeft, csBottom, csRight, steps);
+        }
+        else {
+            // initialize chroma.scale
+            const cs = createScale(colors, bez, coL);
+            // visualize scale
+            showScale(cs, steps);
+        }
+    }
+
+    function clean(s) {
+        return s.match(/[#|\w]+/g);
+    }
+    function createScale(colors, bez, coL) {
+        // initialize chroma.scale
+        if(bez) colors = chroma.interpolate.bezier(colors);
+        const cs = chroma.scale(colors).mode('lab').correctLightness(coL);
+        
+        return cs;
+    }
+    function sampleScale(cs, steps) {
+        var cols = [];
+        loop(steps, function(i) {
+            var t = i/(steps-1);
+            cols.push(cs(t).hex());
+        });
+        return cols;
+    }
+
+    function showTable(csTop, csLeft, csBottom, csRight, steps) {
+        var table = createElement('table', _gradient, { class: 'gradient' });
+
+        //Saturation/lightness:
+        const color = sampleScale(csLeft, 2)[0],
+              rowCount = Number(steps); //+ 1;
+        csLeft  = createScale([color, color, 'black'],    true, false);
+        csRight = createScale(['white', 'white', '#bbb'], true, false);
+        
+        var columnFirst = sampleScale(csLeft, rowCount),
+            columnLast = sampleScale(csRight, rowCount);
+        
+        for(let row=0; row < rowCount; row++) {
+            const tr = createElement('tr', table),
+                  rowColors = sampleScale(createScale([columnFirst[row], columnLast[row],columnLast[row]], true, false), steps);
+
+            //for(let col=0; col < steps; col++) {
+            rowColors.forEach(color => {
+                const td = createElement('td', tr, createAttrs(color));
+                //createElement('div', td, { class: 'color', style: 'background:' + color });
+            });
+        }
+    }
+    function showScale(cs, steps) {
+        var c = createElement('div', _gradient, { class: 'gradient' });
+
+        var cols = sampleScale(cs, steps);
+        cols.forEach(color => createElement('div', c, createAttrs(color)));
+        //showLightnessCurve(cs, steps);
+
+        var list = '\'' + cols.join('\',\'') + '\'',
+            colors = cols.join(' '),
+            hexlist = cols.map(function (c) { return c.replace('#','0x'); }).join(',');
+
+        var link = location.href;
+
+        //var range = [];
+        //loop(steps, function(s) {
+        //    range.push('min+'+(s+1)+'*d');
+        //});
+        //var d3_syntax = 'd3.scale.threshold()\n    .range(['+list+']);',
+        //    d3_syntax_full = 'function palette(min, max) {\n    var d = (max-min)/'+steps+';\n' + '    return d3.scale.threshold()\n        .range(['+list+'])\n        .domain(['+range.join(',')+']);\n}';
+
+        export_palette(colors);
+        export_palette(list);
+        //export_palette(d3_syntax);
+        //export_palette(d3_syntax_full);
+        //export_palette(hexlist);
+    }
+    function createAttrs(color) {
+        return {
+            class: 'color',
+            'data-color': color,
+            title: color,
+            style: 'background:' + color,
+        }
+    }
+
+    function showLightnessCurve(cs, steps) {
+        const svg = document.createElementNS('http://www.w3.org/2000/svg','svg'),
+              path = document.createElementNS('http://www.w3.org/2000/svg','path'),
+              w = 200, margin = 5, dy = 100;
+
+        svg.setAttribute('width', w);
+        svg.setAttribute('height', dy + 2*margin);
+
+        const l_steps = [];
+        loop(steps, function(i) {
+            var t = i/(steps-1);
+            l_steps.push( cs(t).lab()[0] );
+        });
+        
+        const sx = linearScale({ domain: [0,steps], range: [5, w-5] }),
+              //sy = d3.scale.linear().domain(d3.extent(l_steps)).range([h-5, 5]);
+              //sy = (y) => y + margin;
+              sy = (y) => (dy - y) + margin;
+
+        let d = '';
+        l_steps.forEach(function(l, i) {
+            var x0 = sx(i),
+                x1 = sx(i+1),
+                y = sy(l);
+            if (d == '') d = 'M'+[x0,y];
+            d += ' V'+y;
+            d += ' H'+x1;
+        });
+
+        path.setAttribute('d', d);
+        svg.appendChild(path);
+        _lightness.appendChild(svg);
+    }
+
+    function export_palette(str) {
+        createElement('pre', _exports).textContent = str;
+    }
+
+
+    /* Utils */
+
+    //linearScale.js
+    //https://gist.github.com/vectorsize/7031902
+    function linearScale(opts) {
+        var istart = opts.domain[0], istop  = opts.domain[1], ostart = opts.range[0], ostop  = opts.range[1];
+        return function scale(value) { return ostart + (ostop - ostart) * ((value - istart) / (istop - istart)); }
+    }
+    function loop(iterations, callback) {
+        for(let i=0; i<iterations; i++) { callback(i); }
+    }
+    function createElement(tag, parent, attributes) {
+        const elm = document.createElement(tag);
+        if(attributes) {
+            for(var key in attributes) { elm.setAttribute(key, attributes[key]); }
+        }
+        if(parent) { parent.appendChild(elm); }
+        return elm;
+    }
+
+}
+
+
+(function() {
+    //
+    const main = $$('#main'),
+          templ = $$('.color-scale'); //$$('#ui-template');
+
+    function createScaler(colors, steps, adjustLightness, is2d) {
+        //IE support..
+        //  //Create color scalers from the template:
+        //  //var ui = document.importNode(templ.content, true);
+        var ui = templ.cloneNode(true);
+        ui.style.display = '';
+
+        //https://stackoverflow.com/questions/31855108/get-element-from-document-importnode
+        //  "You must query the contents of the document fragment *before* it's appended to the DOM"
+        $$('.colors', ui).value = colors;
+        $$('.steps', ui).value = steps;
+        $$('.coL', ui).checked = adjustLightness || false;
+        colorScale(ui, is2d);
+
+        main.appendChild(ui);
+        return ui;
+    }
+
+    //Persepted hues separation:
+    //createScaler('red, #fd0, yellow',   6/*8*/, true);
+    createScaler('red, #ff6500, #ffea00, yellow',   6/*8*/);
+    createScaler('yellow, #ef0, lime',  4);
+    //createScaler('lime, #0fc, cyan',    3, true);
+    createScaler('lime, cyan',          4);
+    createScaler('cyan, #0cf, blue',    6/*8*/);
+    //createScaler('blue, #c0f, #f0f',    6, true);
+    createScaler('blue, #5e00ff, #e500ff, #f0f',    5);
+    createScaler('#f0f, #ff00bb, red',  4/*3*/);
+    
+    /* Saturation/lightness
+    createScaler('black, white, white', 8);
+    createScaler('lime,white,white',    6);
+    createScaler('lime, black',         6);
+    createScaler('lime, #bbb, #bbb',    7);
+    //*/
+    
+    
+    //Saturation/lightness tables
+    //createScaler('yellow,white,black,#bbb', 6, false, true);
+    const allColors = $$$('.gradient .color:not(:last-child)').map(x => x.dataset.color);
+    //console.log('hues', allColors);
+    allColors.forEach(c => createScaler([c,c,c,c].join(','), 6, false, true));
+    
+    var huesList = $$$('table.gradient')
+        .map(t => $$$('tr:not(:last-child)', t)
+             .map(tr => $$$('td:not(:last-child)', tr).map(td => td.title))
+        );
+
+    const grays = createScaler('#bbb,white,black,#bbb', 5, false, true),
+          graysArr =  $$$('tr', grays)
+             .map(tr => $$$('td', tr).map(td => td.title));
+    huesList.push(graysArr);
+    
+    //console.log('hsv ', huesList);
+    const huesObj = {};
+    huesList.forEach(h => huesObj[h[0][0]] = h);
+    let output = JSON.stringify(huesObj, null, 4);
+    output = output.replace( /\[[^[{]*?]/g, (match => match.replace(/\s+/g, ' ')) );
+    console.log(`const _hsl = ${output};`);
+})();
