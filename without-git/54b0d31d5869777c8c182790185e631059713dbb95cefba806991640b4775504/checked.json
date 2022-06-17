@@ -1,0 +1,4334 @@
+{
+  "domains": {
+    "www.techopedia.com": true,
+    "blog.artillery.com": false,
+    "www.beloola.com": false,
+    "playcanv.as": true,
+    "hexgl.bkcore.com": true,
+    "beta.unity3d.com": true,
+    "unity3d.com": true,
+    "sandbox.photonstorm.com": false,
+    "www.zibbo.com": false,
+    "playbiolab.com": true,
+    "phoboslab.org": true,
+    "hypnoticowl.com": true,
+    "hextris.io": true,
+    "www.auraluxgame.com": false,
+    "browserquest.mozilla.org": false,
+    "oortonline.com": false,
+    "www.wizardslizard.com": false,
+    "qbqbqb.rezoner.net": false,
+    "elliotquest.com": true,
+    "greweb.me": true,
+    "codepen.io": true,
+    "alteredqualia.com": true,
+    "david.li": true,
+    "oos.moxiecode.com": false,
+    "inear.se": false,
+    "visualiser.fr": false,
+    "www.haxor.xyz": true,
+    "massiveassaultnetwork.com": false,
+    "pixelscommander.com": false,
+    "babylonjs.com": true,
+    "developer.playcanvas.com": true,
+    "enclavegames.com": true,
+    "asmjs.org": false,
+    "phaser.io": true,
+    "buildnewgames.com": false,
+    "creativejs.com": false,
+    "gameprogrammingpatterns.com": true,
+    "gamedevjsweekly.com": true,
+    "www.html5gamedevs.com": true,
+    "html5gameengine.com": true,
+    "www.jsbreakouts.org": true,
+    "gamedevelopment.tutsplus.com": true,
+    "html5devstarter.enclavegames.com": true,
+    "js13kgames.com": true,
+    "www.khronos.org": true,
+    "dev.end3r.com": true,
+    "html5games.com": true,
+    "www.marketjs.com": true,
+    "gamedistribution.com": true,
+    "code.tutsplus.com": true,
+    "steamcommunity.com": true,
+    "www.humblebundle.com": true,
+    "phonegap.com": true,
+    "cocoon.io": false,
+    "impactjs.com": true,
+    "nwjs.io": true,
+    "electron.atom.io": true,
+    "manifoldjs.com": false,
+    "www.softgames.de": true,
+    "market.envato.com": true,
+    "compohub.net": true,
+    "dopresskit.com": true,
+    "indiegames.com": true,
+    "www.pixelprospector.com": true,
+    "videogamejournaliser.com": false,
+    "videogamecaster.com": false,
+    "gamedevjs.com": true,
+    "www.sevenson.com.au": true,
+    "www.metanetsoftware.com": true,
+    "www.dyn4j.org": false,
+    "programmerart.weebly.com": true,
+    "www.gamasutra.com": true,
+    "aframe.io": true,
+    "cdn.babylonjs.com": true,
+    "doc.babylonjs.com": true,
+    "learningbabylonjs.com": false,
+    "code.playcanvas.com": true,
+    "www.ambiera.com": true,
+    "www.glge.org": false,
+    "threejs.org": true,
+    "shadertoy.com": true,
+    "webglfundamentals.org": true,
+    "www.babylonjs.com": true,
+    "webvr.info": true,
+    "smus.com": true,
+    "github.com": true,
+    "www.html5rocks.com": true,
+    "pupunzi.open-lab.com": true,
+    "remysharp.com": true,
+    "rogers2.enclavegames.com": true,
+    "arstechnica.com": true,
+    "leapmotion.com": true,
+    "js.leapmotion.com": true,
+    "makeymakey.com": true,
+    "teamgiraffe.co.uk": false,
+    "blogs.gnome.org": true,
+    "chrislord.net": true,
+    "www-cs-students.stanford.edu": false,
+    "examples.phaser.io": true,
+    "docs.phaser.io": false,
+    "breakout.enclavegames.com": true,
+    "playcanvas.com": true,
+    "touch.enclavegames.com": true,
+    "creativecommons.org": true,
+    "www.muazkhan.com": false,
+    "www.webrtc-experiment.com": true,
+    "socket.io": true,
+    "textures.com": true,
+    "www.textures4photoshop.com": false,
+    "bitbucket.org": true,
+    "webaim.org": true,
+    "bigocheatsheet.com": true,
+    "www.iana.org": true,
+    "www.nngroup.com": true,
+    "browserify.org": false,
+    "stackoverflow.com": true,
+    "www.acunetix.com": true,
+    "www.ecma-international.org": true,
+    "www.ecmascript.org": false,
+    "www.squarefree.com": true,
+    "git-scm.com": true,
+    "source.android.com": true,
+    "www.chromium.org": true,
+    "www.gnu.org": true,
+    "www.ietf.org": true,
+    "searchcio-midmarket.techtarget.com": true,
+    "www.gala-global.org": true,
+    "www.i18nguy.com": false,
+    "www.eecs.berkeley.edu": true,
+    "www.faqs.org": false,
+    "www.iso.org": true,
+    "nodeschool.io": true,
+    "ejohn.org": false,
+    "eloquentjavascript.net": true,
+    "windows.microsoft.com": true,
+    "support.microsoft.com": true,
+    "www.owasp.org": true,
+    "www.rfc-editor.org": true,
+    "regexone.com": true,
+    "regexper.com": true,
+    "www.restapitutorial.com": true,
+    "restcookbook.com": true,
+    "www.rssboard.org": true,
+    "www.microsoft.com": true,
+    "rubyonrails.org": true,
+    "www.isgmlug.org": true,
+    "speakingjs.com": false,
+    "angular.io": true,
+    "sqlzoo.net": true,
+    "www.tutorialspoint.com": true,
+    "postimg.org": false,
+    "2ality.com": true,
+    "exploringjs.com": true,
+    "www.unicode.org": true,
+    "get.webgl.org": true,
+    "w3.org": true,
+    "peoplesofttutorial.com": true,
+    "www.weba11y.com": true,
+    "fritz-weisshart.de": true,
+    "diveinto.html5doctor.com": true,
+    "www.creativebloq.com": true,
+    "www.powermapper.com": true,
+    "www.pythonforbeginners.com": true,
+    "bluefish.openoffice.nl": false,
+    "brackets.io": false,
+    "webchat.freenode.net": true,
+    "www.codelobster.com": false,
+    "www.codelobsteride.com": true,
+    "mail.gnu.org": true,
+    "www.macrabbit.com": true,
+    "wiki.macrabbit.com": false,
+    "mail.gnome.org": true,
+    "komodoide.com": true,
+    "forum.komodoide.com": false,
+    "docs.activestate.com": false,
+    "www.notepad-plus-plus.org": true,
+    "sourceforge.net": true,
+    "npp-wiki.tuxfamily.org": true,
+    "www.pspad.com": true,
+    "gogogadgetscott.info": false,
+    "forum.pspad.com": true,
+    "www.sublimetext.com": true,
+    "docs.sublimetext.info": false,
+    "macromates.com": true,
+    "lists.macromates.com": true,
+    "manual.macromates.com": true,
+    "wiki.macromates.com": true,
+    "www.barebones.com": true,
+    "ash.barebones.com": false,
+    "www.vim.org": true,
+    "vimdoc.sourceforge.net": false,
+    "www.aptana.com": false,
+    "www.visualstudio.com": true,
+    "pcsupport.about.com": true,
+    "osxdaily.com": true,
+    "askubuntu.com": true,
+    "doc.opensuse.org": true,
+    "www.webpagetest.org": true,
+    "www.invisionapp.com": true,
+    "abduzeedo.com": true,
+    "www.mica.edu": true,
+    "www.paciellogroup.com": true,
+    "optipng.sourceforge.net": false,
+    "pmt.sourceforge.net": false,
+    "smush.it": false,
+    "tools.dynamicdrive.com": true,
+    "gaesamplesite.appspot.com": true,
+    "eclipse.org": true,
+    "www.gimp.org": true,
+    "www.paintshoppro.com": true,
+    "www.wavosaur.com": true,
+    "www.sonycreativesoftware.com": true,
+    "www.adobe.com": true,
+    "www.pitivi.org": false,
+    "www.openshot.org": true,
+    "www.avid.com": true,
+    "winscp.net": true,
+    "wordpress.org": true,
+    "dotclear.org": true,
+    "www.spip.net": true,
+    "wordpress.com": true,
+    "flask.pocoo.org": false,
+    "php.net": true,
+    "www.404notfound.fr": false,
+    "notepad-plus-plus.org": true,
+    "mobaxterm.mobatek.net": true,
+    "dolphin.com": true,
+    "cyberduck.de": true,
+    "www.apple.com": true,
+    "www.opera.com": true,
+    "www.konqueror.org": true,
+    "www.ucweb.com": true,
+    "browsershots.org": false,
+    "www.browserstack.com": true,
+    "opendevicelab.com": true,
+    "getbem.com": false,
+    "smacss.com": false,
+    "www.cssarrowplease.com": true,
+    "sass-lang.com": true,
+    "getbootstrap.com": true,
+    "foundation.zurb.com": true,
+    "getskeleton.com": false,
+    "www.themaninblue.com": true,
+    "zomigi.com": true,
+    "unstoppablerobotninja.com": true,
+    "gs.statcounter.com": true,
+    "lea.verou.me": true,
+    "archivist.incutio.com": false,
+    "www.cssfontstack.com": true,
+    "www.sitepoint.com": true,
+    "www.dafont.com": true,
+    "www.fonts.com": true,
+    "www.myfonts.com": true,
+    "www.monotype.com": true,
+    "www.exljbris.com": true,
+    "people.apache.org": true,
+    "www.typography.com": true,
+    "www.456bereastreet.com": true,
+    "sprawsm.com": true,
+    "formalize.me": true,
+    "www.emblematiq.com": true,
+    "jqueryui.com": true,
+    "uxdesign.smashingmagazine.com": true,
+    "www.smashingmagazine.com": true,
+    "www.alistapart.com": true,
+    "www.uxmatters.com": true,
+    "uxdesign.com": false,
+    "www.nvda-project.org": false,
+    "www.freedomscientific.com": true,
+    "planet.webkit.org": true,
+    "www.uxforthemasses.com": true,
+    "modernizr.com": true,
+    "yepnopejs.com": true,
+    "ampps.com": true,
+    "jinja.pocoo.org": false,
+    "www.fontsquirrel.com": true,
+    "dev.w3.org": true,
+    "fetchsoftworks.com": true,
+    "gruntjs.com": true,
+    "gulpjs.com": true,
+    "news.codecademy.com": true,
+    "alignedleft.com": true,
+    "www.google.com": true,
+    "uxmovement.com": true,
+    "www.goethe-verlag.com": true,
+    "thenewcode.com": true,
+    "www.maschek.hu": false,
+    "blog.goolara.com": true,
+    "www.html-tidy.org": true,
+    "www.webperformancetoday.com": false,
+    "fishbowl.pastiche.org": true,
+    "annevankesteren.nl": true,
+    "tidy.sourceforge.net": false,
+    "www.websiteoptimization.com": false,
+    "developer.yahoo.com": true,
+    "www.color-blindness.com": true,
+    "ogp.me": true,
+    "tavmjong.free.fr": false,
+    "blog.cloudfour.com": true,
+    "www.mirovideoconverter.com": false,
+    "www.inwhatlanguage.com": true,
+    "www.who.int": true,
+    "nssdc.gsfc.nasa.gov": true,
+    "www.usatoday.com": true,
+    "mongoosejs.com": true,
+    "callbackhell.com": false,
+    "www.quirksmode.org": true,
+    "atomicrobotdesign.com": true,
+    "www.programmableweb.com": true,
+    "webglsamples.org": true,
+    "coffeescript.org": true,
+    "www.objectplayground.com": false,
+    "jsonlint.com": true,
+    "json.org": true,
+    "wellcaffeinated.net": true,
+    "brm.io": true,
+    "webpagetest.org": true,
+    "127.0.0.1:8000": false,
+    "docs.aws.amazon.com": true,
+    "heroku.com": true,
+    "wsgi.readthedocs.io": true,
+    "gunicorn.org": true,
+    "initd.org": false,
+    "whitenoise.evans.io": true,
+    "virtualenvwrapper.readthedocs.io": true,
+    "coverage.readthedocs.io": true,
+    "toastdriven.com": true,
+    "test-driven-django-development.readthedocs.io": true,
+    "127.0.0.1:3000": false,
+    "eslint.org": true,
+    "expressjs.com": true,
+    "localhost:3000": false,
+    "haml.info": true,
+    "fredkschott.com": true,
+    "sailsjs.com": true,
+    "lesscss.org": true,
+    "compass-style.org": false,
+    "stylus-lang.com": true,
+    "websniffer.cc": true,
+    "www.theage.com.au": true,
+    "blogtarkin.com": true,
+    "feathersjs.com": true,
+    "keystonejs.com": true,
+    "krakenjs.com": true,
+    "loopback.io": true,
+    "mean.io": true,
+    "sailsjs.org": true,
+    "www.asp.net": true,
+    "mojolicious.org": true,
+    "plackperl.org": true,
+    "spring.io": true,
+    "localhost:4200": false,
+    "ember-service-worker.com": true,
+    "corber.io": false,
+    "todomvc.com": true,
+    "projects.wojtekmaj.pl": true,
+    "www.nvaccess.org": true,
+    "www.chromevox.com": false,
+    "es6-features.org": false,
+    "wave.webaim.org": true,
+    "bitly.com": true,
+    "bit.ly": true,
+    "www.seleniumhq.org": true,
+    "www.gwmicro.com": false,
+    "jigsaw.w3.org": true,
+    "csslint.net": false,
+    "selectivizr.com": false,
+    "jquery.com": true,
+    "mootools.net": true,
+    "postcss.org": true,
+    "www.otsukare.info": true,
+    "gridbyexample.com": true,
+    "api.jquery.com": true,
+    "jshint.com": true,
+    "emberjs.com": true,
+    "www.openwebanalytics.com": false,
+    "www.andyroid.net": true,
+    "www.vmware.com": true,
+    "webdriver.io": true,
+    "nightwatchjs.org": true,
+    "chromedriver.storage.googleapis.com": true,
+    "ianlunn.co.uk": true,
+    "windowsitpro.com": false,
+    "chaijs.com": false,
+    "www.oracle.com": true,
+    "selenium-release.storage.googleapis.com": true,
+    "localhost:4444": false,
+    "denilson.sa.nom.br": true,
+    "hisham.hm": true,
+    "preset-env.cssdb.org": true,
+    "dabblet.com": true,
+    "wikipedia.org": true,
+    "mxr.mozilla.org": false,
+    "spec.commonmark.org": true,
+    "www.sensible.com": true,
+    "www.dictionary.com": true,
+    "dictionary.reference.com": true,
+    "www.amazon.com": true,
+    "www-personal.umich.edu": true,
+    "www.angryflower.com": true,
+    "english.stackexchange.com": true,
+    "localhost:5000": false,
+    "nodejs.org": true,
+    "bbc.com": true,
+    "tracker.com": false,
+    "cnn.com": true,
+    "www.softwareishard.com": false,
+    "diveintohtml5.info": false,
+    "i18njs.com": false,
+    "useragentstring.com": false,
+    "design.firefox.com": true,
+    "handlebarsjs.com": true,
+    "www.aha-soft.com": true,
+    "www.iconbeast.com": false,
+    "www.bebits.com": false,
+    "people.redhat.com": true,
+    "www.interopsystems.com": true,
+    "ftp.mozilla.org": true,
+    "hg.mozilla.org": true,
+    "bugzilla.mozilla.org": true,
+    "www.songbirdnest.com": false,
+    "cygwin.com": true,
+    "clang.llvm.org": true,
+    "llvm.org": true,
+    "apt.llvm.org": true,
+    "ehsanakhgari.org": true,
+    "www.cygwin.com": true,
+    "www.mingw.org": true,
+    "www.airs.com": true,
+    "www-archive.mozilla.org": true,
+    "www.seindal.dk": true,
+    "www.joshmatthews.net": true,
+    "wiki.caminobrowser.org": true,
+    "wiki.mozilla.org": true,
+    "groups.google.com": true,
+    "connect.microsoft.com": true,
+    "webtools.mozilla.org": false,
+    "developer.apple.com": true,
+    "lxr.mozilla.org": false,
+    "members.pcug.org.au": true,
+    "download.smedley.info": false,
+    "hobbes.nmsu.edu": true,
+    "www.os2site.com": true,
+    "unixos2.com": true,
+    "www.os2bbs.com": false,
+    "enigmail.mozdev.org": false,
+    "benjamin.smedbergs.us": true,
+    "www.blat.net": true,
+    "www.7zip.org": false,
+    "upx.sourceforge.net": false,
+    "nsis.sourceforge.net": false,
+    "www.scratchbox.org": false,
+    "www.crosstool.org": false,
+    "www.gijsk.com": true,
+    "www.mono-project.com": true,
+    "www.verisign.com": true,
+    "mercurial.selenic.com": false,
+    "buildbot.instantbird.org": false,
+    "www.macports.org": true,
+    "www.opensolaris.org": false,
+    "ftp.gnu.org": true,
+    "defect.opensolaris.org": false,
+    "bugs.opensolaris.org": false,
+    "tinderbox.mozilla.org": false,
+    "www.mozilla.com": true,
+    "www.microsoftstore.com": true,
+    "activestate.com": true,
+    "cygwin.paracoda.com": false,
+    "www.go-oo.org": false,
+    "go-oo.org": false,
+    "gemal.dk": true,
+    "nsis.sf.net": false,
+    "www.7-zip.org": true,
+    "www.go-mono.com": false,
+    "web.gccaz.edu": true,
+    "go.microsoft.com": true,
+    "www.tortall.net": true,
+    "www.sqlite.org": true,
+    "www.flycheck.org": true,
+    "landfill.mozilla.org": false,
+    "wiki.eclipse.org": true,
+    "help.eclipse.org": true,
+    "sourceware.org": true,
+    "www.intland.com": true,
+    "www.eclipse.org": true,
+    "download.eclipse.org": true,
+    "benoitgirard.wordpress.com": true,
+    "code.google.com": true,
+    "searchfox.org": true,
+    "www.codefirefox.com": false,
+    "firefox-dev.tools": true,
+    "www.whatcanidoformozilla.org": true,
+    "blogs.msdn.com": true,
+    "kb.mozillazine.org": false,
+    "www.nongnu.org": true,
+    "dxr.mozilla.org": true,
+    "netbeans.org": true,
+    "bits.netbeans.org": true,
+    "wiki.netbeans.org": true,
+    "www.joehewitt.com": false,
+    "lists.w3.org": true,
+    "forums.mozillazine.org": false,
+    "www.croczilla.com": false,
+    "hacks.mozilla.org": true,
+    "getfirebug.com": true,
+    "cdn.mathjax.org": true,
+    "www.opus-codec.org": true,
+    "wiki.ecmascript.org": false,
+    "www.philipp-wagner.com": true,
+    "en.wikipedia.org": true,
+    "addons.mozilla.org": true,
+    "www.robodesign.ro": true,
+    "ted.mielczarek.org": true,
+    "growl.info": false,
+    "weblogs.mozillazine.org": false,
+    "voikko.svn.sourceforge.net": true,
+    "voikko.sourceforge.net": false,
+    "www.color.org": true,
+    "bholley.wordpress.com": true,
+    "www.dria.org": false,
+    "website-archive.mozilla.org": true,
+    "www.firefox.com": true,
+    "www.getpersonas.com": true,
+    "www.oxymoronical.com": true,
+    "mpeg.chiariglione.org": true,
+    "bonsai.mozilla.org": false,
+    "mzl.la": true,
+    "www.bbc.co.uk": true,
+    "www.webmproject.org": true,
+    "www.gavinsharp.com": true,
+    "blog.mozilla.com": true,
+    "mike.kaply.com": true,
+    "whereswalden.com": true,
+    "www.widevine.com": true,
+    "www.ctan.org": true,
+    "pypi.python.org": true,
+    "packages.python.org": true,
+    "blog.ianbicking.org": false,
+    "www.dogtagpki.org": true,
+    "mdn.beonex.com": true,
+    "www.rsasecurity.com": false,
+    "pki.fedoraproject.org": true,
+    "intercept:1924": false,
+    "cve.mitre.org": true,
+    "www.kb.cert.org": true,
+    "java.sun.com": true,
+    "download.java.net": true,
+    "www6.software.ibm.com": true,
+    "toolbar.netcraft.com": true,
+    "csrc.nist.gov": false,
+    "www.isg.rhul.ac.uk": true,
+    "bugzil.la": true,
+    "www.cve.mitre.org": false,
+    "inria.fr": true,
+    "fedoraproject.org": true,
+    "build.sh": false,
+    "www.w3.org": true,
+    "www.dotnet247.com": true,
+    "meta.wikimedia.org": true,
+    "sourceware.cygnus.com": false,
+    "www.redhat.com": true,
+    "w3.access.gpo.gov": false,
+    "andrew2.andrew.cmu.edu": false,
+    "developer.netscape.com": false,
+    "autoconfig.example.com": false,
+    "support.mozillamessaging.com": true,
+    "example.com": true,
+    "virtualenv.org": false,
+    "ziade.org": true,
+    "docs.python.org": true,
+    "www.doughellmann.com": true,
+    "brasstacks.mozilla.com": false,
+    "help.adobe.com": true,
+    "cedato.com": true,
+    "videojs.com": true,
+    "freewheel.tv": true,
+    "ffmpeg.org": true,
+    "web.archive.org": true,
+    "www.sun.com": false,
+    "www.vision-and-eye-health.com": false,
+    "mkweb.bcgsc.ca": true,
+    "angularjs.org": true,
+    "www.typescriptlang.org": true,
+    "support.apple.com": true,
+    "bugs.firefox-dev.tools": true,
+    "www.bbc.com": true,
+    "curl.haxx.se": true,
+    "labs.jensimmons.com": true,
+    "cubic-bezier.com": true,
+    "csstriggers.com": true,
+    "blog.kylehuey.com": true,
+    "www.brendangregg.com": false,
+    "developer.android.com": true,
+    "codemirror.net": true,
+    "www.unrealengine.com": true,
+    "roots.io": false,
+    "checky.sourceforge.net": false,
+    "devedge-temp.mozilla.org": false,
+    "validator.w3.org": true,
+    "www.chami.com": true,
+    "html.validator.pro": false,
+    "www.delorie.com": false,
+    "hsivonen.iki.fi": true,
+    "blog.teamtreehouse.com": true,
+    "diagramcenter.org": false,
+    "svn.gnome.org": false,
+    "pauljadam.com": true,
+    "websiteaccessibility.donaldevans.com": false,
+    "samples.msdn.microsoft.com": false,
+    "codetalks.org": true,
+    "test.cita.uiuc.edu": false,
+    "archive.dojotoolkit.org": true,
+    "download.dojotoolkit.org": true,
+    "wiki.codetalks.org": false,
+    "mindtrove.info": true,
+    "www.thosedamntwins.com": true,
+    "news.yahoo.com": true,
+    "juicystudio.com": true,
+    "accessibleajax.clcworld.net": false,
+    "projectcerbera.com": true,
+    "www.webkit.org": true,
+    "dojotoolkit.org": true,
+    "dev.opera.com": true,
+    "html5doctor.com": true,
+    "www.maxability.co.in": true,
+    "dev.chromium.org": true,
+    "live.gnome.org": true,
+    "yaccessibilityblog.com": false,
+    "wiki.fluidproject.org": true,
+    "dev.aol.com": true,
+    "yuiblog.com": false,
+    "majx-js.digissime.net": false,
+    "www.einfach-fuer-alle.de": true,
+    "list.webaim.org": true,
+    "support.mozilla.com": true,
+    "accessfirefox.com": false,
+    "www.deafblind.com": false,
+    "wwws.sun.com": false,
+    "www.ibm.com": true,
+    "diveintoaccessibility.org": false,
+    "www.contentquality.com": true,
+    "valet.webthing.com": false,
+    "www.webaim.org": true,
+    "disabilities.temple.edu": true,
+    "users.skynet.be": false,
+    "www.useit.com": false,
+    "www.lighthouse.org": false,
+    "blog.paciellogroup.com": false,
+    "eilv.cie.co.at": false,
+    "brucelindbloom.com": false,
+    "adrianroselli.com": true,
+    "www.oxfordlearnersdictionaries.com": false,
+    "www.unece.org": true,
+    "0xfe.blogspot.com": true,
+    "www.smartjava.org": true,
+    "www.shinelife.co.uk": false,
+    "joshondesign.com": true,
+    "bucephalus.org": true,
+    "www.createjs.com": true,
+    "fabricjs.com": false,
+    "thejit.org": true,
+    "paperjs.org": false,
+    "scrawl.rikweb.org.uk": true,
+    "zimjs.com": true,
+    "www.html5canvastutorials.com": true,
+    "www.html5accessibility.com": true,
+    "dropshado.ws": true,
+    "cairographics.org": true,
+    "openid.net": true,
+    "www.nczonline.net": true,
+    "www.davidflanagan.com": true,
+    "davidwalsh.name": true,
+    "dom.spec.whatwg.org": true,
+    "glitch.com": true,
+    "www.example.com": true,
+    "www.example.com:8080": false,
+    "ww.html5rocks.com": false,
+    "lbsyun.baidu.com": true,
+    "lbs.qq.com": true,
+    "earth-info.nga.mil": true,
+    "blog.danielfriesen.name": true,
+    "www.useragentman.com": true,
+    "mathiasbynens.be": true,
+    "help.dottoro.com": false,
+    "pieisgood.org": true,
+    "people.mozilla.org": true,
+    "peter.sh": true,
+    "livehttpheaders.mozdev.org": false,
+    "dvcs.w3.org": true,
+    "blog.agektmr.com": true,
+    "www.dexie.org": false,
+    "jsstore.net": true,
+    "royalairways": false,
+    "atsc.org": true,
+    "www.cablelabs.com": true,
+    "www.ce.org": false,
+    "wayback.archive.org": true,
+    "brew.sh": true,
+    "simpl.info": true,
+    "engineering.silk.co": true,
+    "updates.html5rocks.com": false,
+    "www.youtube.com": true,
+    "developers.whatwg.org": true,
+    "perfectionkills.com": false,
+    "daniemon.com": false,
+    "www.upu.int": true,
+    "www.stevesouders.com": true,
+    "googledevelopers.blogspot.ca": true,
+    "intercoolerjs.org": true,
+    "dsheiko.com": true,
+    "rajudasa.blogspot.in": true,
+    "alistapart.com": true,
+    "offlinefirst.org": false,
+    "blog.88mph.io": false,
+    "luca.ntop.org": true,
+    "www.javascriptkit.com": false,
+    "www.codicode.com": true,
+    "soundbible.com": true,
+    "webkit.org": true,
+    "www.earlevel.com": true,
+    "ece.uccs.edu": false,
+    "www.dspguide.com": true,
+    "musicdsp.org": false,
+    "soledadpenades.com": true,
+    "webauthndemo.appspot.com": true,
+    "aurelio.audero.it": true,
+    "www.2ality.com": true,
+    "dev-test.nemikor.com": false,
+    "webglplayground.net": false,
+    "www.webglacademy.com": false,
+    "webglstats.com": false,
+    "www.pixijs.com": true,
+    "glmatrix.net": true,
+    "mathworld.wolfram.com": true,
+    "duriansoftware.com": true,
+    "webglreport.com": true,
+    "www.songho.ca": true,
+    "ogldev.atspace.co.uk": false,
+    "datatracker.ietf.org": true,
+    "socketcluster.io": true,
+    "www.totaljs.com": true,
+    "signalr.net": true,
+    "docs.oracle.com": true,
+    "www.samsung.com": true,
+    "store.steampowered.com": true,
+    "www.mergevr.com": true,
+    "webvr.directory": true,
+    "learnwebgl.brown37.net": true,
+    "www.thomasfrank.se": true,
+    "www.htmlhelp.com": true,
+    "kmeleon.sourceforge.net": false,
+    "www.evolt.org": true,
+    "jibbering.com": true,
+    "msdn2.microsoft.com": true,
+    "www.infimum.dk": false,
+    "accessify.com": true,
+    "www.gtalbot.org": true,
+    "www.cs.tut.fi": true,
+    "paulirish.com": true,
+    "www.testufo.com": true,
+    "ie.microsoft.com": false,
+    "www.whatwg.org": true,
+    "crbug.com": true,
+    "www.peej.co.uk": true,
+    "devedge.netscape.com": false,
+    "www-106.ibm.com": true,
+    "www.zvon.org": false,
+    "css-tricks.com": true,
+    "wiki.csswg.org": true,
+    "openfontlibrary.org": true,
+    "trac.webkit.org": true,
+    "www.gwhitworth.com": true,
+    "www.csszengarden.com": false,
+    "tink.uk": true,
+    "tomrothe.de": true,
+    "cssgridgarden.com": true,
+    "houdini.glitch.me": true,
+    "standardista.com": false,
+    "www.yappy.it": false,
+    "razvancaliman.com": false,
+    "bennettfeely.com": true,
+    "easings.net": true,
+    "usabilitypost.com": true,
+    "tylerfinck.com": true,
+    "fontsgeek.com": true,
+    "phrogz.net": false,
+    "www.stubbornella.org": false,
+    "a11y-style-guide.com": true,
+    "dbaron.org": true,
+    "mydevice.io": false,
+    "cssmenumaker.com": true,
+    "cdn.rawgit.com": true,
+    "www.blobsallad.se": true,
+    "blobsallad.se": true,
+    "mdn.github.io": true,
+    "processingjs.org": true,
+    "gyu.que.jp": false,
+    "zenphoton.com": true,
+    "maximumroulette.com": false,
+    "starkravingfinkle.org": true,
+    "svg-whiz.com": false,
+    "www.lutanho.net": false,
+    "www.double.co.nz": false,
+    "felixniklas.com": true,
+    "ondras.zarovi.cz": true,
+    "nipe-systems.de": false,
+    "carlosrafaelgn.com.br": true,
+    "nerget.com": true,
+    "www.exslt.org": false,
+    "skillsmatter.com": true,
+    "www.w3clubs.com": true,
+    "www.sintel.org": true,
+    "www.blender.org": true,
+    "plyr.io": true,
+    "www.delphiki.com": true,
+    "www.jwplayer.com": true,
+    "mediaelementjs.com": false,
+    "www.leanbackplayer.com": true,
+    "sublimevideo.net": true,
+    "www.videojs.com": true,
+    "praegnanz.de": true,
+    "jPlayer.org": true,
+    "jplayer.org": true,
+    "mango.blender.org": true,
+    "toddmotto.com": false,
+    "camendesign.com": false,
+    "speak-demo.herokuapp.com": true,
+    "audacity.sourceforge.net": false,
+    "www.getmiro.com": true,
+    "handbrake.fr": true,
+    "firefogg.org": false,
+    "m.vid.ly": true,
+    "www.schillmania.com": false,
+    "www.sublimevideo.net": true,
+    "wiki.webmproject.org": false,
+    "gstreamer.freedesktop.org": true,
+    "www.flumotion.net": false,
+    "www.icecast.org": true,
+    "www.xiph.org": true,
+    "dash-mse-test.appspot.com": true,
+    "dashif.org": true,
+    "www.streamingmediaglobal.com": true,
+    "www.svesoftware.com": false,
+    "nginx-rtmp.blogspot.it": true,
+    "msopentech.com": false,
+    "gpac.wp.mines-telecom.fr": true,
+    "www.streamingmedia.com": true,
+    "www-itec.uni-klu.ac.at": true,
+    "www.slideshare.net": true,
+    "mediapm.edgesuite.net": false,
+    "www.base64-image.de": true,
+    "nightly.mozilla.org": true,
+    "hyperaud.io": true,
+    "audiocogs.org": false,
+    "chromium.googlecode.com": true,
+    "www.kevinroth.com": true,
+    "www.ComputronicsUSA.com": false,
+    "tinyurl.com": true,
+    "www.webdevout.net": false,
+    "www.hixie.ch": true,
+    "www.xml.com": true,
+    "lachy.id.au": true,
+    "reference.sitepoint.com": true,
+    "htmldog.com": true,
+    "www.html.net": false,
+    "www.addyosmani.com": true,
+    "uk.video.yahoo.com": true,
+    "www.csstutorial.net": true,
+    "www.tizag.com": false,
+    "jqfundamentals.com": false,
+    "net.tutsplus.com": true,
+    "encoding.spec.whatwg.org": true,
+    "wurfl.sourceforge.net": false,
+    "imgble.com": false,
+    "www.sencha.com": true,
+    "www.modernizr.com": true,
+    "www.lukew.com": true,
+    "www.alaskaair.com": true,
+    "www.cnet.com": true,
+    "www.passani.it": false,
+    "tripleodeon.com": true,
+    "m.facebook.com": true,
+    "m.youtube.com": true,
+    "m.digg.com": false,
+    "m.flickr.com": true,
+    "html5demos.com": true,
+    "www.colorzilla.com": true,
+    "paletton.com": true,
+    "www.paletton.com": true,
+    "blog.chromium.org": true,
+    "www.montulli.org": false,
+    "info.cern.ch": false,
+    "timepicker.co": true,
+    "1997.webhistory.org": false,
+    "html.spec.whatwg.org": true,
+    "www.the-pope.com": false,
+    "schema.org": true,
+    "www.antipode.ca": false,
+    "bikeshed.com": false,
+    "my.opera.com": true,
+    "v2v.cc": true,
+    "betterexplained.com": true,
+    "httpd.apache.org": true,
+    "feature-policy-demos.appspot.com": true,
+    "tools.ietf.org": true,
+    "lawrencemandel.com": true,
+    "httpwg.org": true,
+    "couchdb.apache.org": true,
+    "www.gnome.org": true,
+    "ecma-international.org": true,
+    "fitzgeraldnick.com": true,
+    "promisesaplus.com": true,
+    "pouchdb.com": true,
+    "html5.org": true,
+    "dmitrysoshnikov.com": false,
+    "xregexp.com": true,
+    "wiki.c2.com": true,
+    "javascriptweblog.wordpress.com": true,
+    "web.mit.edu": true,
+    "www.wirfs-brock.com": false,
+    "pubs.opengroup.org": true,
+    "unicode.org": true,
+    "www.currency-iso.org": true,
+    "unicode-table.com": true,
+    "www.jsondiff.com": false,
+    "jsonbeautifier.org": true,
+    "jsonparser.org": true,
+    "floating-point-gui.de": true,
+    "tokenposts.blogspot.com.au": true,
+    "de.slideshare.net": true,
+    "www.mattgreer.org": true,
+    "innolitics.com": true,
+    "www.commonjs.org": false,
+    "stuff.mit.edu": true,
+    "qnimate.com": false,
+    "www.jsdb.org": false,
+    "javalikescript.free.fr": false,
+    "gluescript.sourceforge.net": false,
+    "babeljs.io": true,
+    "es6console.com": true,
+    "jsconsole.com": true,
+    "www.mathjax.org": true,
+    "disruptive-innovations.com": false,
+    "www.seamonkey-project.org": true,
+    "www1.chapman.edu": false,
+    "mathcs.chapman.edu": true,
+    "math.etsu.edu": true,
+    "mathscribe.com": true,
+    "golem.ph.utexas.edu": true,
+    "gva.noekeon.org": false,
+    "dlmf.nist.gov": true,
+    "instiki.org": false,
+    "ckeditor.com": true,
+    "abisource.org": false,
+    "www.bluegriffon.com": false,
+    "www.firemath.info": true,
+    "www.lyx.org": true,
+    "www.openoffice.org": true,
+    "libreoffice.org": true,
+    "www.inftyreader.org": true,
+    "eyeasme.com": false,
+    "www.ffmpeg.org": true,
+    "www.via-corp.com": true,
+    "www.voiceage.com": false,
+    "lame.sourceforge.net": false,
+    "mp4ra.org": true,
+    "en.flossmanuals.net": true,
+    "www.lcs.mit.edu": false,
+    "www.ercim.org": false,
+    "www.keio.ac.jp": true,
+    "ev.buaa.edu.cn": true,
+    "hevc.info": false,
+    "www.itu.int": true,
+    "software.hixie.ch": true,
+    "www.opensearch.org": true,
+    "www.7is7.com": false,
+    "ready.to": true,
+    "greensock.com": true,
+    "velocityjs.org": false,
+    "www.yoctopuce.com": true,
+    "www.alcatelonetouch.com": false,
+    "www.lg.com": true,
+    "shop.geeksphone.com": false,
+    "mozakai.blogspot.com": true,
+    "2017.js13kgames.com": true,
+    "www.peachpit.com": true,
+    "mobile.smashingmagazine.com": true,
+    "requirejs.org": true,
+    "www.paulirish.com": true,
+    "www.brettjankord.com": true,
+    "www.mobify.com": true,
+    "adaptive-images.com": false,
+    "www.jitbit.com": true,
+    "robert.ocallahan.org": true,
+    "www.codedread.com": true,
+    "wiki.svg.org": false,
+    "maps.google.com": true,
+    "docs.google.com": true,
+    "jwatt.org": true,
+    "plurib.us": true,
+    "svg-wow.org": false,
+    "schepers.cc": false,
+    "demo.huihoo.com": true,
+    "jvectormap.com": true,
+    "jointjs.com": true,
+    "svg.org": true,
+    "www.svgbasics.com": false,
+    "www.inkscape.org": true,
+    "xmlgraphics.apache.org": true,
+    "ImageMagick.org": true,
+    "library.gnome.org": true,
+    "raphaeljs.com": true,
+    "snapsvg.io": false,
+    "jsxgraph.uni-bayreuth.de": true,
+    "carto.net": true,
+    "wikiversity.org": true,
+    "en.wikiversity.org": true,
+    "www.codecademy.com": true,
+    "slimjs.com": true,
+    "nchc.dl.sourceforge.net": true,
+    "qutoric.com": false,
+    "www-xray.ast.cam.ac.uk": true,
+    "www.jenitennison.com": true,
+    "www.xmlpitstop.com": true,
+    "xml.coverpages.org": false,
+    "www.mulberrytech.com": true,
+    "mulberrytech.com": true,
+    "www.meyerweb.com": true,
+    "localhost:8000": false,
+    "localhost:8080": false
+  },
+  "urls": {
+    "http://www.techopedia.com/definition/92/vertical-sync-vsync": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Anatomy"
+    },
+    "http://blog.artillery.com/2012/10/browser-garbage-collection-and-framerate.html": null,
+    "http://www.beloola.com": null,
+    "http://playcanv.as/p/aP0oxhUr": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://hexgl.bkcore.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://beta.unity3d.com/jonas/DT2/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://unity3d.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://sandbox.photonstorm.com/html5/nutmeg/": null,
+    "http://www.zibbo.com/game/match-3-games-top/back-to-candyland-episode-1": null,
+    "http://playbiolab.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://phoboslab.org/xtype/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://hypnoticowl.com/games/the-wizard/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://hextris.io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://www.auraluxgame.com/game/": null,
+    "http://browserquest.mozilla.org/": null,
+    "http://oortonline.com/": null,
+    "http://www.wizardslizard.com/": null,
+    "http://qbqbqb.rezoner.net/": null,
+    "http://elliotquest.com/": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://greweb.me/wavegl/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://codepen.io/jackrugile/pen/CdKGx/": {
+      "status_code": 403,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://alteredqualia.com/xg/examples/animation_physics_terrain.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://david.li/flow/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://oos.moxiecode.com/js_webgl/autumn/": null,
+    "http://inear.se/fireshader/": null,
+    "http://visualiser.fr/babylon/crowd/": null,
+    "http://www.haxor.xyz/demos/1.0/dungeon/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Games/Examples"
+    },
+    "http://massiveassaultnetwork.com/html5/": null,
+    "http://pixelscommander.com/polygon/htmlgl/demo/filters.html": null,
+    "http://babylonjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Index"
+    },
+    "http://developer.playcanvas.com/en/user-manual/designer/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Index"
+    },
+    "http://enclavegames.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Index"
+    },
+    "http://asmjs.org/": null,
+    "http://phaser.io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Index"
+    },
+    "http://buildnewgames.com/": null,
+    "http://creativejs.com/": null,
+    "http://gameprogrammingpatterns.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games"
+    },
+    "http://gamedevjsweekly.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games"
+    },
+    "http://www.html5gamedevs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games"
+    },
+    "http://html5gameengine.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games"
+    },
+    "http://www.jsbreakouts.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games"
+    },
+    "http://gamedevelopment.tutsplus.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games"
+    },
+    "http://html5devstarter.enclavegames.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games"
+    },
+    "http://js13kgames.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games"
+    },
+    "http://www.khronos.org/opengles/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Introduction"
+    },
+    "http://dev.end3r.com/2014/02/host-your-html5-games-on-github-pages/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_distribution"
+    },
+    "http://html5games.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_distribution"
+    },
+    "http://www.marketjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_distribution"
+    },
+    "http://gamedistribution.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_distribution"
+    },
+    "http://code.tutsplus.com/tutorials/preparing-for-firefox-os--mobile-18515": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_distribution"
+    },
+    "http://steamcommunity.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_distribution"
+    },
+    "http://www.humblebundle.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_distribution"
+    },
+    "http://phonegap.com/": {
+      "status_code": 403,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_distribution"
+    },
+    "http://cocoon.io/": null,
+    "http://impactjs.com/ejecta": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_distribution"
+    },
+    "http://nwjs.io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_distribution"
+    },
+    "http://electron.atom.io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_distribution"
+    },
+    "http://manifoldjs.com/": null,
+    "http://www.softgames.de/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_monetization"
+    },
+    "http://market.envato.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_monetization"
+    },
+    "http://compohub.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_promotion"
+    },
+    "http://dopresskit.com/": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_promotion"
+    },
+    "http://indiegames.com/": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_promotion"
+    },
+    "http://www.pixelprospector.com/how-to-contact-press/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_promotion"
+    },
+    "http://videogamejournaliser.com/": null,
+    "http://videogamecaster.com/big-list-of-youtubers": null,
+    "http://gamedevjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Publishing_games/Game_promotion"
+    },
+    "http://www.sevenson.com.au/actionscript/sat/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/2D_collision_detection"
+    },
+    "http://www.metanetsoftware.com/technique/tutorialA.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/2D_collision_detection"
+    },
+    "http://www.dyn4j.org/2010/01/sat/": null,
+    "http://programmerart.weebly.com/separating-axis-theorem.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/2D_collision_detection"
+    },
+    "http://www.gamasutra.com/view/feature/3383/simple_intersection_tests_for_games.php": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/3D_collision_detection"
+    },
+    "http://aframe.io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_A-Frame"
+    },
+    "http://cdn.babylonjs.com/2-3/babylon.js": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Babylon.js"
+    },
+    "http://doc.babylonjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Babylon.js"
+    },
+    "http://learningbabylonjs.com/": null,
+    "http://code.playcanvas.com/playcanvas-latest.js": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_PlayCanvas/engine"
+    },
+    "http://www.ambiera.com/copperlicht/index.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Three.js"
+    },
+    "http://www.glge.org/": null,
+    "http://threejs.org/build/three.min.js": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Three.js"
+    },
+    "http://shadertoy.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders"
+    },
+    "http://webglfundamentals.org/webgl/lessons/webgl-shaders-and-glsl.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders"
+    },
+    "http://www.babylonjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/3D_on_the_web"
+    },
+    "http://webvr.info/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/3D_on_the_web/WebVR"
+    },
+    "http://smus.com/responsive-vr/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/3D_on_the_web/WebVR"
+    },
+    "http://github.com/borismus/webvr-boilerplate": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/3D_on_the_web/WebVR"
+    },
+    "http://www.html5rocks.com/en/tutorials/webaudio/games/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/Audio_for_Web_Games"
+    },
+    "http://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/": {
+      "status_code": 410,
+      "doc": "/en-US/docs/Games/Techniques/Audio_for_Web_Games"
+    },
+    "http://remysharp.com/2010/12/23/audio-sprites/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/Audio_for_Web_Games"
+    },
+    "http://rogers2.enclavegames.com/demo/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/Control_mechanisms/Desktop_with_gamepad"
+    },
+    "http://arstechnica.com/business/2014/04/building-a-gesture-controlled-web-game-with-leap-motion/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/Control_mechanisms/Other"
+    },
+    "http://leapmotion.com/setup": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/Control_mechanisms/Other"
+    },
+    "http://js.leapmotion.com/leap-0.6.4.min.js": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/Control_mechanisms/Other"
+    },
+    "http://makeymakey.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/Control_mechanisms/Other"
+    },
+    "http://teamgiraffe.co.uk/": null,
+    "http://blogs.gnome.org/clutter/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/Efficient_animation_for_web_games"
+    },
+    "http://chrislord.net/index.php/2013/11/29/efficient-animation-for-games-on-the-mobile-web/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Techniques/Efficient_animation_for_web_games"
+    },
+    "http://www-cs-students.stanford.edu/~amitp/game-programming/grids/": null,
+    "http://examples.phaser.io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Randomizing_gameplay"
+    },
+    "http://docs.phaser.io/": null,
+    "http://breakout.enclavegames.com/lesson10.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript"
+    },
+    "http://playcanvas.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation"
+    },
+    "http://touch.enclavegames.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Tutorials/Touch_Event_Horizon"
+    },
+    "http://creativecommons.org/licenses/by-nc-sa/3.0/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Visual-js_game_engine"
+    },
+    "http://www.muazkhan.com/": null,
+    "http://www.webrtc-experiment.com/licence": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Visual-js_game_engine"
+    },
+    "http://socket.io/download/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Games/Visual-js_game_engine"
+    },
+    "http://textures.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Visual-js_game_engine"
+    },
+    "http://www.textures4photoshop.com/": null,
+    "http://bitbucket.org/nikola_l/visual-js": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Games/Visual-js_game_engine"
+    },
+    "http://webaim.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Accessibility"
+    },
+    "http://bigocheatsheet.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Algorithm"
+    },
+    "http://www.iana.org/domains/arpa": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/ARPA"
+    },
+    "http://www.nngroup.com/articles/browser-and-gui-chrome/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Chrome"
+    },
+    "http://browserify.org/": null,
+    "http://stackoverflow.com/a/1672/133203": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Compile"
+    },
+    "http://www.acunetix.com/blog/web-security-zone/articles/dom-xss-explained/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Cross-site_scripting"
+    },
+    "http://www.ecma-international.org/publications/standards/Ecma-262.htm": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/ECMA"
+    },
+    "http://www.ecmascript.org/": null,
+    "http://www.squarefree.com/categories/fuzzing/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Fuzzing"
+    },
+    "http://git-scm.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Git"
+    },
+    "http://source.android.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Gonk"
+    },
+    "http://www.chromium.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Google_Chrome"
+    },
+    "http://www.gnu.org/licenses/gpl-faq.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/GPL"
+    },
+    "http://www.ietf.org/rfc/rfc2104.txt": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/HMAC"
+    },
+    "http://searchcio-midmarket.techtarget.com/definition/Unicode": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/I18N"
+    },
+    "http://www.gala-global.org/what-internationalization": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Glossary/I18N"
+    },
+    "http://www.i18nguy.com/": null,
+    "http://www.eecs.berkeley.edu/~messer/netappc/Supplements/10-idl.pdf": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/IDL"
+    },
+    "http://www.faqs.org/rfcs/rfc3501.html": null,
+    "http://www.iso.org/iso/home.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/ISO"
+    },
+    "http://nodeschool.io/#workshoppers": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/JavaScript"
+    },
+    "http://ejohn.org/apps/learn/": null,
+    "http://eloquentjavascript.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/JavaScript"
+    },
+    "http://windows.microsoft.com/en-us/internet-explorer/download-ie": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Microsoft_Internet_Explorer"
+    },
+    "http://support.microsoft.com/kb/969393": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Microsoft_Internet_Explorer"
+    },
+    "http://www.owasp.org": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/OWASP"
+    },
+    "http://www.rfc-editor.org/search/standards.php": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Protocol"
+    },
+    "http://regexone.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Regular_expression"
+    },
+    "http://regexper.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Regular_expression"
+    },
+    "http://www.restapitutorial.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/REST"
+    },
+    "http://restcookbook.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/REST"
+    },
+    "http://www.rssboard.org/rss-specification": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/RSS"
+    },
+    "http://www.microsoft.com/en-us/download/details.aspx?id=10725": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Glossary/RTF"
+    },
+    "http://rubyonrails.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Ruby"
+    },
+    "http://www.isgmlug.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/SGML"
+    },
+    "http://speakingjs.com/es5/ch07.html#strict_mode": null,
+    "http://angular.io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/SPA"
+    },
+    "http://sqlzoo.net/wiki/SQL_Tutorial": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/SQL"
+    },
+    "http://www.tutorialspoint.com/sql/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/SQL"
+    },
+    "http://postimg.org/image/mpq3nz82h/": null,
+    "http://2ality.com/2014/12/es6-symbols.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Symbol"
+    },
+    "http://exploringjs.com/es6/ch_modules.html#_benefit-dead-code-elimination-during-bundling": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Tree_shaking"
+    },
+    "http://www.unicode.org/standard/principles.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/Unicode"
+    },
+    "http://get.webgl.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/WebGL"
+    },
+    "http://w3.org": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/World_Wide_Web"
+    },
+    "http://peoplesofttutorial.com/difference-between-synchronous-and-asynchronous-messaging/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Glossary/XHR_(XMLHttpRequest)"
+    },
+    "http://www.weba11y.com/blog/2016/04/22/screen-reader-support-for-new-html5-section-elements/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Accessibility/HTML"
+    },
+    "http://fritz-weisshart.de/meg_men/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Accessibility/Mobile"
+    },
+    "http://diveinto.html5doctor.com/detect.html#input-types": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Accessibility/Mobile"
+    },
+    "http://www.creativebloq.com/javascript/make-your-site-work-touch-devices-51411644": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Accessibility/Mobile"
+    },
+    "http://www.powermapper.com/tests/screen-readers/aria/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Accessibility/WAI-ARIA_basics"
+    },
+    "http://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Accessibility/WAI-ARIA_basics"
+    },
+    "http://bluefish.openoffice.nl": null,
+    "http://brackets.io/": null,
+    "http://webchat.freenode.net/?channels=brackets": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://www.codelobster.com": null,
+    "http://www.codelobsteride.com/help/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://mail.gnu.org/mailman/listinfo/help-gnu-emacs": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://www.macrabbit.com/espresso/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://wiki.macrabbit.com/": null,
+    "http://mail.gnome.org/mailman/listinfo/gedit-list": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://komodoide.com/komodo-edit/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://forum.komodoide.com/": null,
+    "http://docs.activestate.com/komodo/8.5/": null,
+    "http://www.notepad-plus-plus.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://sourceforge.net/p/notepad-plus/discussion/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://npp-wiki.tuxfamily.org/index.php?title=Main_Page": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://www.pspad.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://gogogadgetscott.info/pspad/dotazy.htm": null,
+    "http://forum.pspad.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://www.sublimetext.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://docs.sublimetext.info/en/latest/index.html": null,
+    "http://macromates.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://lists.macromates.com/listinfo/textmate": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://manual.macromates.com/en/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://wiki.macromates.com/Main/HomePage": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://www.barebones.com/products/textwrangler/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://ash.barebones.com/TextWrangler_User_Manual.pdf": null,
+    "http://www.vim.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://vimdoc.sourceforge.net/htmldoc/uganda.html#license": null,
+    "http://www.aptana.com/": null,
+    "http://www.visualstudio.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://pcsupport.about.com/od/fixtheproblem/f/chdefprogram.htm": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://osxdaily.com/2013/08/08/change-default-application-open-files-mac-os-x/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://askubuntu.com/questions/289337/how-can-i-change-file-association-globally": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://doc.opensuse.org/documentation/html/openSUSE_113/opensuse-kdeuser/cha.kde.cust.html#pro.kde.cust.system.fileass": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Learn/Common_questions/Available_text_editors"
+    },
+    "http://www.webpagetest.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Checking_that_your_web_site_is_working_properly"
+    },
+    "http://www.invisionapp.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Common_web_layouts"
+    },
+    "http://abduzeedo.com/typography-mania-261": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Common_web_layouts"
+    },
+    "http://www.mica.edu/About_MICA.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/Common_web_layouts"
+    },
+    "http://www.paciellogroup.com/resources/contrastanalyser/": {
+      "status_code": 403,
+      "doc": "/en-US/docs/Learn/Common_questions/Design_for_all_types_of_users"
+    },
+    "http://optipng.sourceforge.net/": null,
+    "http://pmt.sourceforge.net/pngcrush/": null,
+    "http://smush.it/": null,
+    "http://tools.dynamicdrive.com/imageoptimizer/": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Learn/Common_questions/Design_for_all_types_of_users"
+    },
+    "http://gaesamplesite.appspot.com/downloads.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_do_you_host_your_website_on_Google_App_Engine"
+    },
+    "http://eclipse.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://www.gimp.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://www.paintshoppro.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://www.wavosaur.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://www.sonycreativesoftware.com/soundforge": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://www.adobe.com/products/audition.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://www.pitivi.org/": null,
+    "http://www.openshot.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://www.avid.com/US/products/family/Media-Composer": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://winscp.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://wordpress.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://dotclear.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://www.spip.net/en_rubrique25.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://wordpress.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/How_much_does_it_cost"
+    },
+    "http://flask.pocoo.org/": null,
+    "http://php.net/manual/en/features.commandline.webserver.php": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server"
+    },
+    "http://www.404notfound.fr/": null,
+    "http://notepad-plus-plus.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/What_software_do_I_need"
+    },
+    "http://mobaxterm.mobatek.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/What_software_do_I_need"
+    },
+    "http://dolphin.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/What_software_do_I_need"
+    },
+    "http://cyberduck.de/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/What_software_do_I_need"
+    },
+    "http://www.apple.com/safari/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/What_software_do_I_need"
+    },
+    "http://www.opera.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/What_software_do_I_need"
+    },
+    "http://www.konqueror.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/What_software_do_I_need"
+    },
+    "http://www.ucweb.com/ucbrowser/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/What_software_do_I_need"
+    },
+    "http://browsershots.org/": null,
+    "http://www.browserstack.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/What_software_do_I_need"
+    },
+    "http://opendevicelab.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Common_questions/What_software_do_I_need"
+    },
+    "http://getbem.com/naming/": null,
+    "http://smacss.com/": null,
+    "http://www.cssarrowplease.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements"
+    },
+    "http://sass-lang.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods"
+    },
+    "http://getbootstrap.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods"
+    },
+    "http://foundation.zurb.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods"
+    },
+    "http://getskeleton.com/": null,
+    "http://www.themaninblue.com/writing/perspective/2004/09/21/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"
+    },
+    "http://zomigi.com/blog/voices-that-matter-slides-available/": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"
+    },
+    "http://unstoppablerobotninja.com/entry/fluid-images": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"
+    },
+    "http://gs.statcounter.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/CSS_layout/Supporting_Older_Browsers"
+    },
+    "http://lea.verou.me/css3patterns/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/Howto/create_fancy_boxes"
+    },
+    "http://archivist.incutio.com/viewlist/css-discuss/2685": null,
+    "http://www.cssfontstack.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/Styling_text/Fundamentals"
+    },
+    "http://www.sitepoint.com/moonlighting-css-text-shadow/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/Styling_text/Fundamentals"
+    },
+    "http://www.dafont.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/Styling_text/Web_fonts"
+    },
+    "http://www.fonts.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/Styling_text/Web_fonts"
+    },
+    "http://www.myfonts.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/Styling_text/Web_fonts"
+    },
+    "http://www.monotype.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/Styling_text/Web_fonts"
+    },
+    "http://www.exljbris.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/Styling_text/Web_fonts"
+    },
+    "http://people.apache.org/~clay/batik/ttf2svg.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/Styling_text/Web_fonts"
+    },
+    "http://www.typography.com/cloud/welcome/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/Styling_text/Web_fonts"
+    },
+    "http://www.456bereastreet.com/archive/201012/font-face_tip_define_font-weight_and_font-style_to_keep_your_css_simple/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/CSS/Styling_text/Web_fonts"
+    },
+    "http://sprawsm.com/uni-form/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/Advanced_form_styling"
+    },
+    "http://formalize.me/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/Advanced_form_styling"
+    },
+    "http://www.emblematiq.com/lab/niceforms/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/Advanced_form_styling"
+    },
+    "http://jqueryui.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/Advanced_form_styling"
+    },
+    "http://uxdesign.smashingmagazine.com/2012/06/27/form-field-validation-errors-only-approach/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/Form_validation"
+    },
+    "http://www.smashingmagazine.com/2009/07/07/web-form-validation-best-practices-and-tutorials/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/Form_validation"
+    },
+    "http://www.alistapart.com/articles/inline-validation-in-web-forms/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/Form_validation"
+    },
+    "http://www.uxmatters.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/How_to_build_custom_form_controls"
+    },
+    "http://uxdesign.com/": null,
+    "http://www.nvda-project.org/": null,
+    "http://www.freedomscientific.com/products/software/jaws/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/How_to_structure_a_web_form"
+    },
+    "http://planet.webkit.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/HTML_forms_in_legacy_browsers"
+    },
+    "http://www.uxforthemasses.com/forms-usability/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/HTML_forms_in_legacy_browsers"
+    },
+    "http://modernizr.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/HTML_forms_in_legacy_browsers"
+    },
+    "http://yepnopejs.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/HTML_forms_in_legacy_browsers"
+    },
+    "http://ampps.com/download": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data"
+    },
+    "http://jinja.pocoo.org/docs/2.9/": null,
+    "http://www.fontsquirrel.com/fonts/Secret-Typewriter": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/Styling_web_forms"
+    },
+    "http://dev.w3.org/csswg/css3-ui/#pseudo-classes": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Forms/UI_pseudo-classes"
+    },
+    "http://fetchsoftworks.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software"
+    },
+    "http://gruntjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software"
+    },
+    "http://gulpjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software"
+    },
+    "http://news.codecademy.com/your-guide-to-semicolons-in-javascript/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"
+    },
+    "http://alignedleft.com/resources/cheap-web-hosting": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website"
+    },
+    "http://www.google.com/fonts": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like"
+    },
+    "http://uxmovement.com/mobile/finger-friendly-design-ideal-mobile-touch-target-sizes/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Howto/Add_a_hit_map_on_top_of_an_image"
+    },
+    "http://www.goethe-verlag.com/book2/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Howto/Add_a_hit_map_on_top_of_an_image"
+    },
+    "http://thenewcode.com/696/Using-SVG-as-an-Alternative-To-Imagemaps": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Howto/Add_a_hit_map_on_top_of_an_image"
+    },
+    "http://www.maschek.hu/imagemap/imgmap": null,
+    "http://blog.goolara.com/2014/06/05/image-maps-revisited/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Learn/HTML/Howto/Add_a_hit_map_on_top_of_an_image"
+    },
+    "http://www.html-tidy.org": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Howto/Author_fast-loading_HTML_pages"
+    },
+    "http://www.webperformancetoday.com/2012/04/02/latency-101-what-is-latency-and-why-is-it-such-a-big-deal/": null,
+    "http://fishbowl.pastiche.org/2002/10/21/http_conditional_get_for_rss_hackers": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Howto/Author_fast-loading_HTML_pages"
+    },
+    "http://annevankesteren.nl/archives/2005/05/http-304": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Howto/Author_fast-loading_HTML_pages"
+    },
+    "http://tidy.sourceforge.net/": null,
+    "http://www.websiteoptimization.com/": null,
+    "http://developer.yahoo.com/performance/rules.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Howto/Author_fast-loading_HTML_pages"
+    },
+    "http://www.color-blindness.com/2006/04/28/colorblind-population/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure"
+    },
+    "http://ogp.me/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML"
+    },
+    "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-Inkscape.html": null,
+    "http://blog.cloudfour.com/responsive-images-101-part-8-css-images/": {
+      "status_code": 403,
+      "doc": "/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"
+    },
+    "http://www.mirovideoconverter.com/": null,
+    "http://www.inwhatlanguage.com/blog/translate-video-audio/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content"
+    },
+    "http://www.who.int/mediacentre/factsheets/fs282/en/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Tables/Advanced"
+    },
+    "http://nssdc.gsfc.nasa.gov/planetary/factsheet/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Tables/Basics"
+    },
+    "http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/HTML/Tables/Basics"
+    },
+    "http://mongoosejs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Index"
+    },
+    "http://callbackhell.com/": null,
+    "http://www.quirksmode.org/js/events_order.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/JavaScript/Building_blocks/Events"
+    },
+    "http://atomicrobotdesign.com/blog/htmlcss/create-a-sprite-sheet-walk-cycle-using-using-css-animation/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Drawing_graphics"
+    },
+    "http://www.programmableweb.com/category/all/apis": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction"
+    },
+    "http://webglsamples.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript"
+    },
+    "http://coffeescript.org/#classes": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/JavaScript/Objects/Inheritance"
+    },
+    "http://www.objectplayground.com/": null,
+    "http://jsonlint.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/JavaScript/Objects/JSON"
+    },
+    "http://json.org": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/JavaScript/Objects/JSON"
+    },
+    "http://wellcaffeinated.net/PhysicsJS/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/JavaScript/Objects/Object_building_practice"
+    },
+    "http://brm.io/matter-js/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/JavaScript/Objects/Object_building_practice"
+    },
+    "http://webpagetest.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Performance/Web_Performance_Basics"
+    },
+    "http://127.0.0.1:8000/admin/": null,
+    "http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Django/Deployment"
+    },
+    "http://heroku.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Django/Deployment"
+    },
+    "http://wsgi.readthedocs.io/en/latest/what.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Django/Deployment"
+    },
+    "http://gunicorn.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Django/Deployment"
+    },
+    "http://initd.org/psycopg/": null,
+    "http://whitenoise.evans.io/en/stable/django.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Django/Deployment"
+    },
+    "http://virtualenvwrapper.readthedocs.io/en/latest/install.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Django/development_environment"
+    },
+    "http://coverage.readthedocs.io/en/latest/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Django/Testing"
+    },
+    "http://toastdriven.com/blog/2011/apr/10/guide-to-testing-in-django/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Django/Testing"
+    },
+    "http://test-driven-django-development.readthedocs.io/en/latest/index.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Django/Testing"
+    },
+    "http://127.0.0.1:3000": null,
+    "http://eslint.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment"
+    },
+    "http://expressjs.com/en/starter/installing.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment"
+    },
+    "http://localhost:3000/": null,
+    "http://haml.info/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/Template_primer"
+    },
+    "http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction"
+    },
+    "http://sailsjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose"
+    },
+    "http://lesscss.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website"
+    },
+    "http://compass-style.org/": null,
+    "http://stylus-lang.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website"
+    },
+    "http://websniffer.cc/": {
+      "status_code": 503,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview"
+    },
+    "http://www.theage.com.au/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Introduction"
+    },
+    "http://blogtarkin.com/drone-definitions-learning-the-drone-lingo/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Web_frameworks"
+    },
+    "http://feathersjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Web_frameworks"
+    },
+    "http://keystonejs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Web_frameworks"
+    },
+    "http://krakenjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Web_frameworks"
+    },
+    "http://loopback.io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Web_frameworks"
+    },
+    "http://mean.io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Web_frameworks"
+    },
+    "http://sailsjs.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Web_frameworks"
+    },
+    "http://www.asp.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Web_frameworks"
+    },
+    "http://mojolicious.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Web_frameworks"
+    },
+    "http://plackperl.org": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Web_frameworks"
+    },
+    "http://spring.io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Server-side/First_steps/Web_frameworks"
+    },
+    "http://localhost:4200/": null,
+    "http://ember-service-worker.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Ember_getting_started"
+    },
+    "http://corber.io/": null,
+    "http://todomvc.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Ember_getting_started"
+    },
+    "http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Main_features"
+    },
+    "http://www.nvaccess.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_stores"
+    },
+    "http://www.chromevox.com/": null,
+    "http://es6-features.org/": null,
+    "http://wave.webaim.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility"
+    },
+    "http://bitly.com/aXe-Chrome": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility"
+    },
+    "http://bit.ly/aXe-Firefox": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility"
+    },
+    "http://www.seleniumhq.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility"
+    },
+    "http://www.gwmicro.com/window-eyes/": null,
+    "http://jigsaw.w3.org/css-validator/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS"
+    },
+    "http://csslint.net/": null,
+    "http://selectivizr.com/": null,
+    "http://jquery.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS"
+    },
+    "http://mootools.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS"
+    },
+    "http://postcss.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS"
+    },
+    "http://www.otsukare.info/2016/10/05/debugging-css": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS"
+    },
+    "http://gridbyexample.com/browsers/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS"
+    },
+    "http://api.jquery.com/jquery.ajax/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/JavaScript"
+    },
+    "http://jshint.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/JavaScript"
+    },
+    "http://emberjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/JavaScript"
+    },
+    "http://www.openwebanalytics.com": null,
+    "http://www.andyroid.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Testing_strategies"
+    },
+    "http://www.vmware.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Testing_strategies"
+    },
+    "http://webdriver.io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Your_own_automation_environment"
+    },
+    "http://nightwatchjs.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Your_own_automation_environment"
+    },
+    "http://chromedriver.storage.googleapis.com/index.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Your_own_automation_environment"
+    },
+    "http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Your_own_automation_environment"
+    },
+    "http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path": null,
+    "http://chaijs.com/": null,
+    "http://www.oracle.com/technetwork/java/javase/downloads/index.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Your_own_automation_environment"
+    },
+    "http://selenium-release.storage.googleapis.com/index.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Your_own_automation_environment"
+    },
+    "http://localhost:4444/wd/hub": null,
+    "http://denilson.sa.nom.br/prettyping/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line"
+    },
+    "http://hisham.hm/htop/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line"
+    },
+    "http://preset-env.cssdb.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Introducing_complete_toolchain"
+    },
+    "http://dabblet.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/MDN/Contribute/Howto/Create_an_interactive_exercise_to_help_learning_the_web"
+    },
+    "http://wikipedia.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/MDN/Contribute/Howto/Write_a_new_entry_in_the_Glossary"
+    },
+    "http://mxr.mozilla.org/mozilla-central/source/dom/webidl/Performance.webidl#19": null,
+    "http://spec.commonmark.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/MDN/Contribute/Markdown_in_MDN"
+    },
+    "http://www.sensible.com/chapter.html": {
+      "status_code": 406,
+      "doc": "/en-US/docs/MDN/Guidelines/Video"
+    },
+    "http://www.dictionary.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/MDN/Guidelines/Writing_style_guide"
+    },
+    "http://dictionary.reference.com/browse/behavior": {
+      "status_code": 200,
+      "doc": "/en-US/docs/MDN/Guidelines/Writing_style_guide"
+    },
+    "http://www.amazon.com/Writing-Well-30th-Anniversary-Nonfiction/dp/0060891548": {
+      "status_code": 503,
+      "doc": "/en-US/docs/MDN/Guidelines/Writing_style_guide"
+    },
+    "http://www-personal.umich.edu/~jlawler/aue.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/MDN/Guidelines/Writing_style_guide"
+    },
+    "http://www.angryflower.com/bobsqu.gif": {
+      "status_code": 200,
+      "doc": "/en-US/docs/MDN/Guidelines/Writing_style_guide"
+    },
+    "http://english.stackexchange.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/MDN/Guidelines/Writing_style_guide"
+    },
+    "http://localhost:5000/en-US/docs/MDN/Structures/Live_samples/_samples_/Live_sample_demo": null,
+    "http://nodejs.org/api/url.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/MDN/Tools/KumaScript"
+    },
+    "http://bbc.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies"
+    },
+    "http://tracker.com": null,
+    "http://cnn.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies"
+    },
+    "http://www.softwareishard.com/blog/har-12-spec/#log": null,
+    "http://diveintohtml5.info/history.html": null,
+    "http://i18njs.com/": null,
+    "http://useragentstring.com/": null,
+    "http://design.firefox.com/photon/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/options_ui"
+    },
+    "http://handlebarsjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Add-ons/WebExtensions/Safely_inserting_external_content_into_a_page"
+    },
+    "http://www.aha-soft.com/free-icons/free-retina-icon-set/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension"
+    },
+    "http://www.iconbeast.com/free": null,
+    "http://www.bebits.com/app/2971": null,
+    "http://people.redhat.com/~drepper/selinux-mem.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Building_on_Fedora_Core_5"
+    },
+    "http://www.interopsystems.com/tools/default.aspx": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Building_on_Windows_with_SFU_(Interix)"
+    },
+    "http://ftp.mozilla.org/pub/mozilla.org/mozilla/libraries/win32/historic/src/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Building_on_Windows_with_SFU_(Interix)"
+    },
+    "http://hg.mozilla.org/mozilla-central/file/tip/config/static-checking.js": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Building_with_static_checking"
+    },
+    "http://bugzilla.mozilla.org/show_bug.cgi?id=380846": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Building_XXX_Standalone"
+    },
+    "http://www.songbirdnest.com/node/1771": null,
+    "http://cygwin.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Checkout_and-build_NSPR"
+    },
+    "http://clang.llvm.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Compiling_Firefox_With_Clang_On_Linux"
+    },
+    "http://llvm.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Compiling_Firefox_With_Clang_On_Linux"
+    },
+    "http://apt.llvm.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Compiling_Firefox_With_Clang_On_Linux"
+    },
+    "http://ehsanakhgari.org/blog/2011-10-18/why-you-should-switch-clang-today-and-how": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Compiling_Firefox_With_Clang_On_Linux"
+    },
+    "http://www.cygwin.com/setup.exe": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Compiling_Mozilla_With_Mingw"
+    },
+    "http://www.mingw.org/download.shtml": {
+      "status_code": 403,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Compiling_Mozilla_With_Mingw"
+    },
+    "http://www.airs.com/ian/configure/configure_5.html#SEC28": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Cross-compiling_Mozilla"
+    },
+    "http://www-archive.mozilla.org/build/binutils-cross-libpath.patch": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Cross-compiling_Mozilla"
+    },
+    "http://www.seindal.dk/rene/gnu/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/How_Mozilla_s_build_system_works"
+    },
+    "http://www.joshmatthews.net/blog/2011/05/build-smarter-not-harder/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Incremental_Build"
+    },
+    "http://wiki.caminobrowser.org/Development:Building": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions"
+    },
+    "http://wiki.mozilla.org/LDAP_C_SDK": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions"
+    },
+    "http://groups.google.com/group/mozilla.dev.builds": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions"
+    },
+    "http://connect.microsoft.com/VisualStudio/feedback/details/100051": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Intrin.h"
+    },
+    "http://webtools.mozilla.org/build/config.cgi": null,
+    "http://developer.apple.com/transition/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Mac_OS_X_Universal_Binaries"
+    },
+    "http://lxr.mozilla.org/seamonkey/": null,
+    "http://members.pcug.org.au/~andymac/packages/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/OS2_Build_Prerequisites/Building_on_OS2_using_Mercurial"
+    },
+    "http://download.smedley.info/gcc-4.4.0-os2-20090426.zip": null,
+    "http://hobbes.nmsu.edu/download/pub/os2/dev/emx/v0.9d/emxrt.zip": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/OS2_Build_Prerequisites"
+    },
+    "http://www.os2site.com/sw/internet/mozilla/build/autoconf-gcc.zip": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/OS2_Build_Prerequisites"
+    },
+    "http://unixos2.com/pub/binary/grep/grep-2_5_1-bin.zip": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/OS2_Build_Prerequisites"
+    },
+    "http://www.os2bbs.com/os2news/rcos2-5.00.007.zip": null,
+    "http://enigmail.mozdev.org/": null,
+    "http://benjamin.smedbergs.us/pymake/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/pymake"
+    },
+    "http://www.blat.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Reference_build_configurations"
+    },
+    "http://www.7zip.org/": null,
+    "http://upx.sourceforge.net/": null,
+    "http://nsis.sourceforge.net/": null,
+    "http://www.scratchbox.org/": null,
+    "http://www.crosstool.org/": null,
+    "http://www.gijsk.com/blog/2006/06/profiling-venkman-jsd-startup": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Setting_up_jprof"
+    },
+    "http://www.mono-project.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Signing_an_executable_with_Authenticode"
+    },
+    "http://www.verisign.com/support/code-signing-support/code-signing/identity-authentication.html": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Signing_an_executable_with_Authenticode"
+    },
+    "http://mercurial.selenic.com/wiki/ProgressExtension": null,
+    "http://buildbot.instantbird.org/grid": null,
+    "http://www.macports.org/install.php": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Simple_SeaMonkey_build"
+    },
+    "http://www.opensolaris.org/": null,
+    "http://ftp.gnu.org/gnu/autoconf/autoconf-2.13.tar.gz": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Solaris_Prerequisites"
+    },
+    "http://defect.opensolaris.org/bz/show_bug.cgi?id=12024": null,
+    "http://bugs.opensolaris.org/bugdatabase/view_bug.do?bug_id=6571762": null,
+    "http://tinderbox.mozilla.org/showbuilds.cgi?tree=SeaMonkey": null,
+    "http://www.mozilla.com/firefox/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Unix_Detailed_Build_Instructions"
+    },
+    "http://www.microsoftstore.com/store/msstore/html/pbPage.Help_Win7_usbdvd_dwnTool": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Windows_8"
+    },
+    "http://activestate.com/Products/ActivePerl/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Windows_Build_Prerequisites_(1.7_and_1.8_Branches)"
+    },
+    "http://cygwin.paracoda.com/release/make/make-3.80-1.tar.bz2": null,
+    "http://www.go-oo.org/": null,
+    "http://go-oo.org/ooo-build/patches/src680/": null,
+    "http://gemal.dk/mozilla/build.html": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Windows_Build_Prerequisites_(1.7_and_1.8_Branches)"
+    },
+    "http://nsis.sf.net": null,
+    "http://www.7-zip.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Windows_Build_Prerequisites_(1.7_and_1.8_Branches)"
+    },
+    "http://www.go-mono.com/archive/helper/make-3.80-1.tar.bz2": null,
+    "http://web.gccaz.edu/~medgar/puttycyg/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Windows_build_prerequisites_using_cygwin"
+    },
+    "http://go.microsoft.com/fwlink/?LinkID=191420": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Windows_SDK_versions"
+    },
+    "http://www.tortall.net/projects/yasm/wiki/Download": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Yasm"
+    },
+    "http://www.sqlite.org/lang.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Callgraph/Installing_Callgraph"
+    },
+    "http://www.flycheck.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Coding_Style/Formatting_JS_Code_With_Prettier_and_eslint"
+    },
+    "http://landfill.mozilla.org/mxr-test/mozilla1.8.x/source/content/events/public/nsIPrivateDOMEvent.h#71": null,
+    "http://wiki.eclipse.org/FAQ_How_do_I_increase_the_heap_size_available_to_Eclipse%3F": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Eclipse/Eclipse_CDT"
+    },
+    "http://help.eclipse.org/indigo/index.jsp?topic=/org.eclipse.platform.doc.user/gettingStarted/intro/overview.htm": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Eclipse/Eclipse_CDT"
+    },
+    "http://sourceware.org/gdb/wiki/BuildingOnDarwin": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Eclipse/Eclipse_CDT"
+    },
+    "http://www.intland.com/products/mercurialeclipse/download": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Eclipse/Eclipse_CDT"
+    },
+    "http://www.eclipse.org/downloads/index-developer.php": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Eclipse/Eclipse_CDT"
+    },
+    "http://download.eclipse.org/tools/cdt/builds/juno/nightly": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Eclipse/Eclipse_CDT"
+    },
+    "http://benoitgirard.wordpress.com/2014/03/10/cc-eclipse-project-generation/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Eclipse/Eclipse_CDT/Manual_Setup"
+    },
+    "http://code.google.com/p/objectiveclipse/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Eclipse/Eclipse_CDT/Manual_Setup"
+    },
+    "http://searchfox.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/How_to_find_relevant_code"
+    },
+    "http://www.codefirefox.com/videos/": null,
+    "http://firefox-dev.tools": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Introduction"
+    },
+    "http://www.whatcanidoformozilla.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Introduction"
+    },
+    "http://blogs.msdn.com/windowssdk/archive/2008/04/18/installing-win-sdk-for-svr-2008-after-vs-2008-breaks-vs-command-line-build-environment.aspx": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Introduction/Obsolete_Build_Caveats_and_Tips"
+    },
+    "http://kb.mozillazine.org/Profile_folder": null,
+    "http://www.nongnu.org/cvs/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Source_Code/CVS"
+    },
+    "http://dxr.mozilla.org/comm-central/source/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/The_comm-central_build_system"
+    },
+    "http://netbeans.org/downloads/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Using_NetBeans_with_Mozilla"
+    },
+    "http://bits.netbeans.org/dev/nightly/latest/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Using_NetBeans_with_Mozilla"
+    },
+    "http://wiki.netbeans.org/FaqSettingHeapSize": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Developer_guide/Using_NetBeans_with_Mozilla"
+    },
+    "http://www.joehewitt.com/software/firebug/": null,
+    "http://lists.w3.org/Archives/Public/www-xml-linking-comments/2001AprJun/att-0074/01-NOTE-FIXptr-20010425.htm": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/1.5"
+    },
+    "http://forums.mozillazine.org/viewtopic.php?t=263028": null,
+    "http://www.croczilla.com/xtf": null,
+    "http://hacks.mozilla.org/2012/01/firefox-goes-2-digit-time-to-check-your-ua-sniffing-scripts/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/10"
+    },
+    "http://getfirebug.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/12"
+    },
+    "http://cdn.mathjax.org/mathjax/latest/fonts/HTML-CSS/TeX/otf/": {
+      "status_code": 403,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/13"
+    },
+    "http://www.opus-codec.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/15"
+    },
+    "http://wiki.ecmascript.org/doku.php?id=harmony:spread": null,
+    "http://www.philipp-wagner.com/blog/2011/07/the-future-of-mozilla-xforms/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/19"
+    },
+    "http://en.wikipedia.org/wiki/Elliptic_curve_cryptography": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/2/Security_changes"
+    },
+    "http://addons.mozilla.org": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/2/Updating_extensions"
+    },
+    "http://www.robodesign.ro/mihai/blog/the-browser-console-is-replacing-the-error-console": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/24"
+    },
+    "http://ted.mielczarek.org/code/mozilla/fullpagezoom.xpi": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/3/Full_page_zoom"
+    },
+    "http://growl.info/": null,
+    "http://weblogs.mozillazine.org/roc/archives/2006/06/the_future_is_now.html": null,
+    "http://voikko.svn.sourceforge.net/viewvc/voikko/trunk/mozvoikko/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/3/Using_an_external_spell_checker"
+    },
+    "http://voikko.sourceforge.net/": null,
+    "http://www.color.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/3.5/ICC_color_correction_in_Firefox"
+    },
+    "http://bholley.wordpress.com/2008/09/12/so-many-colors/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/3.5/ICC_color_correction_in_Firefox"
+    },
+    "http://www.dria.org/wordpress/archives/2008/04/29/633/": null,
+    "http://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-US/firefox/3.5/releasenotes/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/3.5"
+    },
+    "http://www.firefox.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/3.6"
+    },
+    "http://www.getpersonas.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/3.6"
+    },
+    "http://www.oxymoronical.com/blog/2009/06/Farewell-contentsrdf": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/3.6/Updating_themes"
+    },
+    "http://mpeg.chiariglione.org/standards/mpeg-4/open-font-format/text-isoiec-cd-14496-22-3rd-edition": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/31"
+    },
+    "http://bonsai.mozilla.org/cvsview2.cgi?diff_mode=context&whitespace_mode=show&root=/cvsroot&subdir=mozilla/browser/base/content&command=DIFF_FRAMESET&file=browser.xul&rev2=1.10&rev1=1.9": null,
+    "http://mzl.la/1pGLFDs": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/33"
+    },
+    "http://www.bbc.co.uk/newsbeat/article/32220611/diverse-thumbs-up-emojis-with-different-skin-tones-finally-here": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/39"
+    },
+    "http://www.webmproject.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/4"
+    },
+    "http://www.gavinsharp.com/blog/2010/03/31/accessingmodifying-the-firefox-tab-context-menu-from-extensions/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/4"
+    },
+    "http://blog.mozilla.com/mwu/2010/09/10/extensions-now-installed-packed/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/4"
+    },
+    "http://mike.kaply.com/2011/01/25/the-firefox-4-add-on-bar-for-developers": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/4/The_add-on_bar"
+    },
+    "http://whereswalden.com/2015/06/20/new-changes-to-make-spidermonkeys-and-firefoxs-parsing-of-destructuring-patterns-more-spec-compliant/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/41"
+    },
+    "http://www.widevine.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/54"
+    },
+    "http://www.ctan.org/tex-archive/fonts/Asana-Math/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Firefox/Releases/7"
+    },
+    "http://pypi.python.org/pypi/virtualenv": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla"
+    },
+    "http://packages.python.org/distribute/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla"
+    },
+    "http://blog.ianbicking.org/site-packages-considered-harmful.html": null,
+    "http://www.dogtagpki.org/wiki/JSS_Provider": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/Index"
+    },
+    "http://mdn.beonex.com/en/NSS_3.12.6_release_notes.html#bugsfixed": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/Index"
+    },
+    "http://www.rsasecurity.com/rsalabs/node.asp?id=2125": null,
+    "http://pki.fedoraproject.org/wiki/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/Index"
+    },
+    "http://intercept:1924": null,
+    "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3555": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/JSS/4.3.1_Release_Notes"
+    },
+    "http://www.kb.cert.org/vuls/id/120541": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/JSS/4.3.1_Release_Notes"
+    },
+    "http://java.sun.com/javase/downloads/index.jsp": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/JSS"
+    },
+    "http://download.java.net/jdk7/docs/technotes/guides/security/p11guide.html": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/JSS"
+    },
+    "http://www6.software.ibm.com/dl/websphere/http-p": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/Notes_on_TLS_-_SSL_3.0_Intolerant_Servers"
+    },
+    "http://toolbar.netcraft.com/site_report?url=https://bugzilla.mozilla.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/Notes_on_TLS_-_SSL_3.0_Intolerant_Servers"
+    },
+    "http://csrc.nist.gov/groups/STM/cmvp/documents/140-1/140InProcess.pdf": null,
+    "http://www.isg.rhul.ac.uk/tls/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/NSS_3.14.3_release_notes"
+    },
+    "http://bugzil.la/298649": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/NSS_3.15_release_notes"
+    },
+    "http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4000": null,
+    "http://inria.fr/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/NSS_3.19.2.2_release_notes"
+    },
+    "http://fedoraproject.org/wiki/Changes/CryptoPolicy": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/NSS_3.26_release_notes"
+    },
+    "http://build.sh": null,
+    "http://www.w3.org/TR/xmlenc-core/#rsa-1_5": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/NSS_Tech_Notes/nss_tech_note7"
+    },
+    "http://www.dotnet247.com/247reference/a.aspx?u=http://pages.infinit.net/ctech/20031101-0151.html": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/NSS_Tech_Notes/nss_tech_note7"
+    },
+    "http://meta.wikimedia.org/wiki/Help:Template#Composite_pages": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/Reference/NSS_functions"
+    },
+    "http://sourceware.cygnus.com/cygwin/download.html": null,
+    "http://www.redhat.com/certificate_system/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Projects/NSS/SSL_functions/gtstd"
+    },
+    "http://w3.access.gpo.gov/bxa/ear/ear_data.html": null,
+    "http://andrew2.andrew.cmu.edu/rfc/rfc1113.html": null,
+    "http://developer.netscape.com/docs/manuals/security/jmpkcs/jimpkcs.htm": null,
+    "http://autoconfig.example.com/mail/config-v1.1.xml?emailaddress=hero@example.com": null,
+    "http://support.mozillamessaging.com/en-US/kb/Automatic-Account-Configuration": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Thunderbird/Autoconfiguration"
+    },
+    "http://example.com/.well-known/autoconfig/mail/config-v1.1.xml": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Mozilla/Thunderbird/Autoconfiguration"
+    },
+    "http://virtualenv.org": null,
+    "http://ziade.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Virtualenv"
+    },
+    "http://docs.python.org/install/index.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Virtualenv"
+    },
+    "http://www.doughellmann.com/projects/virtualenvwrapper": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Mozilla/Virtualenv"
+    },
+    "http://brasstacks.mozilla.com/toolbox/?usage=virtualenv": null,
+    "http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/desktop/Clipboard.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Plugins/Flash_to_HTML5/Clipboard"
+    },
+    "http://cedato.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Plugins/Flash_to_HTML5/Video/Advertising"
+    },
+    "http://videojs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Plugins/Flash_to_HTML5/Video/Advertising"
+    },
+    "http://freewheel.tv/": {
+      "status_code": 403,
+      "doc": "/en-US/docs/Plugins/Flash_to_HTML5/Video/Advertising"
+    },
+    "http://ffmpeg.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Plugins/Flash_to_HTML5/Video/File_format_conversion"
+    },
+    "http://web.archive.org/web/20160117160743/http://screenfont.ca/learn/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Plugins/Flash_to_HTML5/Video/Subtitles_captions"
+    },
+    "http://www.sun.com": null,
+    "http://www.vision-and-eye-health.com/contrast-sensitivity.html": null,
+    "http://mkweb.bcgsc.ca/colorblind/": {
+      "status_code": 500,
+      "doc": "/en-US/docs/Tools/Accessibility_inspector/Simulation"
+    },
+    "http://angularjs.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Debugger/How_to/Ignore_a_source"
+    },
+    "http://www.typescriptlang.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Debugger/How_to/Use_a_source_map"
+    },
+    "http://support.apple.com/kb/HT3399": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Debugger/Keyboard_shortcuts"
+    },
+    "http://bugs.firefox-dev.tools/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools"
+    },
+    "http://www.bbc.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Memory/Tree_map_view"
+    },
+    "http://curl.haxx.se/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Network_Monitor/request_list"
+    },
+    "http://labs.jensimmons.com/2016/examples/futurismo-1.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts"
+    },
+    "http://cubic-bezier.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Page_Inspector/How_to/Work_with_animations"
+    },
+    "http://csstriggers.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Performance/Scenarios/Animating_CSS_properties"
+    },
+    "http://blog.kylehuey.com/post/27564411715/cycle-collection": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Performance/Waterfall"
+    },
+    "http://www.brendangregg.com/flamegraphs.html": null,
+    "http://developer.android.com/tools/help/adb.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Remote_Debugging/Debugging_Firefox_for_Android_with_WebIDE"
+    },
+    "http://codemirror.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Settings"
+    },
+    "http://www.unrealengine.com/html5/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Shader_Editor"
+    },
+    "http://roots.io/using-less-source-maps/": null,
+    "http://checky.sourceforge.net/": null,
+    "http://devedge-temp.mozilla.org/toolbox/tools/2001/tune-up/": null,
+    "http://validator.w3.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Validators"
+    },
+    "http://www.chami.com/html-kit/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/Validators"
+    },
+    "http://html.validator.pro/": null,
+    "http://www.delorie.com/web/lynxview.html": null,
+    "http://hsivonen.iki.fi/view-source/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Tools/View_source"
+    },
+    "http://blog.teamtreehouse.com/introduction-source-maps": {
+      "status_code": 403,
+      "doc": "/en-US/docs/Tools/Web_Console/Console_messages"
+    },
+    "http://diagramcenter.org/": null,
+    "http://svn.gnome.org/viewcvs/lsr/trunk/src/Adapters/ATSPI/HypertextAdapter.py?view=markup": null,
+    "http://pauljadam.com/demos/aria-atomic-relevant.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions"
+    },
+    "http://websiteaccessibility.donaldevans.com/2011/07/12/aria-log/": null,
+    "http://samples.msdn.microsoft.com/ietestcenter/Aria/AriaTestPage.htm": null,
+    "http://codetalks.org/source/widgets/alert/alert.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/ARIA_Test_Cases"
+    },
+    "http://test.cita.uiuc.edu/aria/alertdialog/alertdialog1.php": null,
+    "http://archive.dojotoolkit.org/nightly/dojotoolkit/dijit/tests/form/test_Button.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/ARIA_Test_Cases"
+    },
+    "http://download.dojotoolkit.org/release-1.2.3/dojo-release-1.2.3/dijit/tests/test_Dialog.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/ARIA_Test_Cases"
+    },
+    "http://wiki.codetalks.org/wiki/index.php/Complex_Grid_Examples": null,
+    "http://mindtrove.info/html/rating-tutorial.html": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/ARIA_Test_Cases"
+    },
+    "http://www.thosedamntwins.com/aria/toolbar/": {
+      "status_code": 503,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/ARIA_Test_Cases"
+    },
+    "http://news.yahoo.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/ARIA_Test_Cases"
+    },
+    "http://juicystudio.com/article/examining-wai-aria-document-andmark-roles.php": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/ARIA_Test_Cases"
+    },
+    "http://accessibleajax.clcworld.net/": null,
+    "http://projectcerbera.com/blog/2008/03#day24": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/forms/Multipart_labels"
+    },
+    "http://www.webkit.org/quality/reporting.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/How_to_file_ARIA-related_bugs"
+    },
+    "http://dojotoolkit.org/blog/how-file-dojo-bug-report": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/How_to_file_ARIA-related_bugs"
+    },
+    "http://dev.opera.com/articles/view/introduction-to-wai-aria/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA"
+    },
+    "http://html5doctor.com/aside-revisited/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/Roles/Complementary_role"
+    },
+    "http://www.maxability.co.in/wai-aria-overview/grid-role/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/Roles/Gridcell_role"
+    },
+    "http://dev.chromium.org/developers/design-documents/accessibility#TOC-WAI-ARIA-Support": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/Web_applications_and_ARIA_FAQ"
+    },
+    "http://live.gnome.org/Orca": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/Web_applications_and_ARIA_FAQ"
+    },
+    "http://yaccessibilityblog.com/library/test-aria-focus-bookmarklets.html": null,
+    "http://wiki.fluidproject.org/display/fluid/Simple+Accessibility+Review+Protocol": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/Web_applications_and_ARIA_FAQ"
+    },
+    "http://dev.aol.com/dhtml_style_guide": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/widgets"
+    },
+    "http://yuiblog.com/blog/2007/12/21/menu-waiaria/": null,
+    "http://majx-js.digissime.net/js/popin/": null,
+    "http://www.einfach-fuer-alle.de/artikel/barrierefreie-formulare-mit-html-css-und-javascript/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/ARIA/widgets"
+    },
+    "http://list.webaim.org/mailman/listinfo/webaim-forum/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/Community"
+    },
+    "http://support.mozilla.com/en-US/kb/Assistive%20technology%20compatibility": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/FAQ"
+    },
+    "http://accessfirefox.com/": null,
+    "http://www.deafblind.com/display.html": null,
+    "http://wwws.sun.com/software/star/gnome/accessibility/architecture.html": null,
+    "http://www.ibm.com/able/guidelines/web/accessweb.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/Information_for_Web_authors"
+    },
+    "http://diveintoaccessibility.org/": null,
+    "http://www.contentquality.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/Information_for_Web_authors"
+    },
+    "http://valet.webthing.com/access/url.html": null,
+    "http://www.webaim.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/Information_for_Web_authors"
+    },
+    "http://disabilities.temple.edu/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/Information_for_Web_authors"
+    },
+    "http://users.skynet.be/mgueury/mozilla/index.html": null,
+    "http://www.useit.com/alertbox/designmistakes.html": null,
+    "http://www.lighthouse.org/accessibility/effective-color-contrast/": null,
+    "http://blog.paciellogroup.com/2013/01/using-the-html-title-attribute-updated/": null,
+    "http://eilv.cie.co.at": null,
+    "http://brucelindbloom.com": null,
+    "http://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard"
+    },
+    "http://www.oxfordlearnersdictionaries.com/us/about/pronunciation_english.html": null,
+    "http://www.unece.org/cefact/locode/subdivisions.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/AddressErrors/regionCode"
+    },
+    "http://0xfe.blogspot.com/2011/08/generating-tones-with-web-audio-api.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/AudioContext/createJavaScriptNode"
+    },
+    "http://www.smartjava.org/content/exploring-html5-web-audio-visualizing-sound": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/API/AudioContext/createJavaScriptNode"
+    },
+    "http://www.shinelife.co.uk/java-maze/": null,
+    "http://joshondesign.com/p/books/canvasdeepdive/title.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Canvas_API"
+    },
+    "http://bucephalus.org/text/CanvasHandbook/CanvasHandbook.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Canvas_API"
+    },
+    "http://www.createjs.com/easeljs": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Canvas_API"
+    },
+    "http://fabricjs.com": null,
+    "http://thejit.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Canvas_API"
+    },
+    "http://paperjs.org/": null,
+    "http://scrawl.rikweb.org.uk/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Canvas_API"
+    },
+    "http://zimjs.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Canvas_API"
+    },
+    "http://www.html5canvastutorials.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Canvas_API/Tutorial/Finale"
+    },
+    "http://www.html5accessibility.com/tests/canvas.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Canvas_API/Tutorial/Hit_regions_and_accessibility"
+    },
+    "http://dropshado.ws/post/77229081704/firefox-doesnt-support-canvas-composite-darker": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation"
+    },
+    "http://cairographics.org/manual/cairo-cairo-t.html#cairo-fill-rule-t": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/CanvasRenderingContext2D"
+    },
+    "http://openid.net/developers/specs/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Credential_Management_API"
+    },
+    "http://www.nczonline.net/blog/2009/05/12/cookies-and-security/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Document/cookie"
+    },
+    "http://www.davidflanagan.com/javascript5/display.php?n=21-10&f=21/10.js": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/API/Document/getElementsByTagNameNS"
+    },
+    "http://davidwalsh.name/event-delegate": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Element/click_event"
+    },
+    "http://dom.spec.whatwg.org/#dom-element-getattribute": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Element/getAttribute"
+    },
+    "http://glitch.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Element/requestFullScreen"
+    },
+    "http://www.example.com/app/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/API/File_and_Directory_Entries_API/Introduction"
+    },
+    "http://www.example.com:8080/dir/": null,
+    "http://ww.html5rocks.com": null,
+    "http://lbsyun.baidu.com/index.php?title=jspopular/guide/geolocation": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Geolocation_API"
+    },
+    "http://lbs.qq.com/tool/component-geolocation.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Geolocation_API"
+    },
+    "http://earth-info.nga.mil/GandG/publications/tr8350.2/wgs84fin.pdf": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/API/GeolocationCoordinates/altitude"
+    },
+    "http://blog.danielfriesen.name/2010/02/16/html5-browser-maze-oninput-support/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/API/GlobalEventHandlers/oninput"
+    },
+    "http://www.useragentman.com/blog/2011/05/12/fixing-oninput-in-ie9-using-html5widgets/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/GlobalEventHandlers/oninput"
+    },
+    "http://mathiasbynens.be/notes/oninput": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/GlobalEventHandlers/oninput"
+    },
+    "http://help.dottoro.com/ljhxklln.php": null,
+    "http://pieisgood.org/test/script-link-events/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/HTMLScriptElement"
+    },
+    "http://people.mozilla.org/~cpearce/paint-stats-demo.html": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/API/HTMLVideoElement"
+    },
+    "http://peter.sh/2012/05/tab-sizing-string-values-for-indexeddb-and-chrome-21/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/IDBTransaction"
+    },
+    "http://livehttpheaders.mozdev.org/": null,
+    "http://dvcs.w3.org/hg/IndexedDB/raw-file/tip/Overview.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/IndexedDB_API/Basic_Concepts_Behind_IndexedDB"
+    },
+    "http://blog.agektmr.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria"
+    },
+    "http://www.dexie.org/": null,
+    "http://jsstore.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB"
+    },
+    "http://royalairways/royalpkg.xpi": null,
+    "http://atsc.org/standard/a100-dtv-application-software-environment-level-1-dase-1/": {
+      "status_code": 403,
+      "doc": "/en-US/docs/Web/API/KeyboardEvent/key/Key_Values"
+    },
+    "http://www.cablelabs.com/specifications/OC-SP-OCAP1.1.3-100603.pdf": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/KeyboardEvent/key/Key_Values"
+    },
+    "http://www.ce.org/Standards/Standard-Listings/R7-Home-Network-Committee/CEA-2014-B-(ANSI%29.aspx": null,
+    "http://wayback.archive.org/web/20161102172252id_/http://video.blendertestbuilds.de/download.php?file=download.blender.org/peach/trailer_1080p.mov": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Media_Source_Extensions_API/Transcoding_assets_for_MSE"
+    },
+    "http://brew.sh/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Media_Source_Extensions_API/Transcoding_assets_for_MSE"
+    },
+    "http://simpl.info/mediarecorder/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/MediaRecorder/MediaRecorder"
+    },
+    "http://engineering.silk.co/post/31921750832/mutation-events-what-happens": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/MutationEvent"
+    },
+    "http://updates.html5rocks.com/2012/02/Detect-DOM-changes-with-Mutation-Observers": null,
+    "http://www.youtube.com/watch?v=eRZ4pO0gVWw": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/MutationObserver"
+    },
+    "http://developers.whatwg.org/urls.html#base-urls": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Node/baseURI"
+    },
+    "http://perfectionkills.com/the-poor-misunderstood-innerText/": null,
+    "http://daniemon.com/tech/webapps/page-visibility/": null,
+    "http://www.upu.int/en/activities/addressing/s42-standard.html": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/API/PaymentAddress"
+    },
+    "http://www.stevesouders.com/blog/2015/08/07/dominteractive-is-it-really/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/PerformanceTiming/domInteractive"
+    },
+    "http://googledevelopers.blogspot.ca/2013/12/measuring-network-performance-with.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Resource_Timing_API"
+    },
+    "http://intercoolerjs.org/docs.html#sse": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Server-sent_events"
+    },
+    "http://dsheiko.com/weblog/html5-and-server-sent-events": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Server-sent_events"
+    },
+    "http://rajudasa.blogspot.in/2012/05/html5-server-sent-events-using-aspnet.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Server-sent_events"
+    },
+    "http://alistapart.com/article/application-cache-is-a-douchebag": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Service_Worker_API"
+    },
+    "http://offlinefirst.org/": null,
+    "http://blog.88mph.io/2017/07/28/understanding-service-workers/": null,
+    "http://luca.ntop.org/Teaching/Appunti/asn1.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/SubtleCrypto/importKey"
+    },
+    "http://www.javascriptkit.com/javatutors/touchevents.shtml": null,
+    "http://www.codicode.com/art/easy_way_to_add_touch_support_to_your_website.aspx": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Touch_events/Using_Touch_Events"
+    },
+    "http://soundbible.com/1573-DTMF-Tones.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    "http://webkit.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Web_Audio_API/Migrating_from_webkitAudioContext"
+    },
+    "http://www.earlevel.com/main/2003/02/28/biquads/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Web_Audio_API/Using_IIR_filters"
+    },
+    "http://ece.uccs.edu/~mwickert/ece2610/lecture_notes/ece2610_chap8.pdf": null,
+    "http://www.dspguide.com/CH20.PDF": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Web_Audio_API/Using_IIR_filters"
+    },
+    "http://musicdsp.org/": null,
+    "http://soledadpenades.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API"
+    },
+    "http://webauthndemo.appspot.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Web_Authentication_API"
+    },
+    "http://aurelio.audero.it/demo/speech-synthesis-api-demo.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Web_Speech_API"
+    },
+    "http://www.2ality.com/2012/01/objects-as-maps.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API"
+    },
+    "http://dev-test.nemikor.com/web-storage/support-test/": null,
+    "http://webglplayground.net": null,
+    "http://www.webglacademy.com": null,
+    "http://webglstats.com/": null,
+    "http://www.pixijs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebGL_API"
+    },
+    "http://glmatrix.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web"
+    },
+    "http://mathworld.wolfram.com/RotationMatrix.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web"
+    },
+    "http://duriansoftware.com/joe/An-intro-to-modern-OpenGL.-Table-of-Contents.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL"
+    },
+    "http://webglreport.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebGL_API/Using_Extensions"
+    },
+    "http://www.songho.ca/opengl/gl_projectionmatrix.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebGL_API/WebGL_model_view_projection"
+    },
+    "http://ogldev.atspace.co.uk/www/tutorial12/tutorial12.html": null,
+    "http://datatracker.ietf.org/doc/draft-ietf-rtcweb-alpn/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebRTC_API"
+    },
+    "http://socketcluster.io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebSockets_API"
+    },
+    "http://www.totaljs.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebSockets_API"
+    },
+    "http://signalr.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebSockets_API"
+    },
+    "http://docs.oracle.com/javase/8/docs/api/java/net/ServerSocket.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebSockets_API/Writing_a_WebSocket_server_in_Java"
+    },
+    "http://www.samsung.com/global/galaxy/gear-vr/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebVR_API/Concepts"
+    },
+    "http://store.steampowered.com/universe/vr": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebVR_API/Concepts"
+    },
+    "http://www.mergevr.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebVR_API/Concepts"
+    },
+    "http://webvr.directory/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WebVR_API"
+    },
+    "http://learnwebgl.brown37.net/#": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Web/API/WebXR_Device_API/Movement_and_motion"
+    },
+    "http://www.thomasfrank.se/sessionvars.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Window/name"
+    },
+    "http://www.htmlhelp.com/faq/html/links.html#new-window": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Window/open"
+    },
+    "http://kmeleon.sourceforge.net/": null,
+    "http://www.evolt.org/article/Links_and_JavaScript_Living_Together_in_Harmony/17/20938/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/API/Window/open"
+    },
+    "http://jibbering.com/faq/#FAQ4_24": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Window/open"
+    },
+    "http://msdn2.microsoft.com/en-us/library/ms997645.aspx#xpsp_topic5": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Window/open"
+    },
+    "http://www.infimum.dk/HTML/JSwindows.html": null,
+    "http://accessify.com/features/tutorials/the-perfect-popup/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Window/open"
+    },
+    "http://www.gtalbot.org/FirefoxSection/Popup/PopupAndFirefox.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Window/open"
+    },
+    "http://www.cs.tut.fi/~jkorpela/www/links.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/Window/open"
+    },
+    "http://paulirish.com/2011/requestanimationframe-for-smart-animating/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/window/requestAnimationFrame"
+    },
+    "http://www.testufo.com/#test=animation-time-graph": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/window/requestAnimationFrame"
+    },
+    "http://ie.microsoft.com/testdrive/Performance/setImmediateSorting/Default.html": null,
+    "http://www.whatwg.org/specs/web-apps/current-work/multipage/timers.html#timers": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout"
+    },
+    "http://crbug.com/66078": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout"
+    },
+    "http://www.peej.co.uk/articles/rich-user-experience.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest"
+    },
+    "http://devedge.netscape.com/2002/de": null,
+    "http://www-106.ibm.com/developerworks/library/x-xslt/": {
+      "status_code": 400,
+      "doc": "/en-US/docs/Web/API/XSLTProcessor/Resources"
+    },
+    "http://www.zvon.org/xxl/XSLTutorial/Books/Book1/index.html": null,
+    "http://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/-webkit-overflow-scrolling"
+    },
+    "http://wiki.csswg.org/ideas/print-backgrounds": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/-webkit-print-color-adjust"
+    },
+    "http://openfontlibrary.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/@font-face"
+    },
+    "http://trac.webkit.org/wiki/Styling%20Form%20Controls#inputelement": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/::-webkit-inner-spin-button"
+    },
+    "http://www.gwhitworth.com/blog/2017/04/how-to-use-ms-high-contrast": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/::placeholder"
+    },
+    "http://www.csszengarden.com/": null,
+    "http://tink.uk/flexbox-the-keyboard-navigation-disconnect/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_Layout_and_Accessibility"
+    },
+    "http://tomrothe.de/posts/css_grid_and_ie11.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/CSS_Grid_Layout"
+    },
+    "http://cssgridgarden.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/CSS_Grid_Layout"
+    },
+    "http://houdini.glitch.me/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/CSS_Houdini"
+    },
+    "http://standardista.com/cssgradients": null,
+    "http://www.yappy.it": null,
+    "http://razvancaliman.com/writing/css-shapes-reference-boxes/": null,
+    "http://bennettfeely.com/clippy/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/CSS_Shapes/Basic_Shapes"
+    },
+    "http://easings.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions"
+    },
+    "http://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/font-smooth"
+    },
+    "http://tylerfinck.com/leaguemonovariable/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/font-stretch"
+    },
+    "http://fontsgeek.com/fonts/Leitura-Display-Swashes": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/font-variant-alternates"
+    },
+    "http://phrogz.net/tmp/canvas_image_zoom.html": null,
+    "http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/": null,
+    "http://a11y-style-guide.com/style-guide/section-navigation.html#kssref-navigation-pagination": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/Layout_cookbook/Pagination"
+    },
+    "http://dbaron.org/mozilla/visited-privacy": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector"
+    },
+    "http://mydevice.io": null,
+    "http://cssmenumaker.com/": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/CSS/Tools"
+    },
+    "http://cdn.rawgit.com/atanassov/css-zoom/master/Overview.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/CSS/zoom"
+    },
+    "http://www.blobsallad.se/": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Web/Demos_of_open_web_technologies"
+    },
+    "http://blobsallad.se/article/": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Web/Demos_of_open_web_technologies"
+    },
+    "http://mdn.github.io/canvas-raycaster/index.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Demos_of_open_web_technologies"
+    },
+    "http://processingjs.org/exhibition/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Demos_of_open_web_technologies"
+    },
+    "http://gyu.que.jp/jscloth/": null,
+    "http://zenphoton.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Demos_of_open_web_technologies"
+    },
+    "http://maximumroulette.com/pages/demos/multi-touch-canvas2d-src.html": null,
+    "http://starkravingfinkle.org/projects/demo/svg-bubblemenu-in-html.xml": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Web/Demos_of_open_web_technologies"
+    },
+    "http://svg-whiz.com/svg/linguistics/theCreepyMouth.svg": null,
+    "http://www.lutanho.net/svgvml3d/platonic.html": null,
+    "http://www.double.co.nz/video_test/video.svg": null,
+    "http://felixniklas.com/paperfold/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Demos_of_open_web_technologies"
+    },
+    "http://ondras.zarovi.cz/demos/rubik/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Demos_of_open_web_technologies"
+    },
+    "http://nipe-systems.de/webapps/html5-web-audio/": null,
+    "http://carlosrafaelgn.com.br/GraphicalFilterEditor/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Demos_of_open_web_technologies"
+    },
+    "http://nerget.com/rayjs-mt/rayjs.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Demos_of_open_web_technologies"
+    },
+    "http://www.exslt.org/exsl/functions/node-set/index.html": null,
+    "http://skillsmatter.com/go/ajax-ria": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/AJAX/Community"
+    },
+    "http://www.w3clubs.com/mozdev/test.xml": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/Guide/AJAX/Getting_Started"
+    },
+    "http://www.sintel.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video"
+    },
+    "http://www.blender.org/foundation/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video"
+    },
+    "http://plyr.io": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video"
+    },
+    "http://www.delphiki.com/html5/playr/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video"
+    },
+    "http://www.jwplayer.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video"
+    },
+    "http://mediaelementjs.com/": null,
+    "http://www.leanbackplayer.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video"
+    },
+    "http://sublimevideo.net": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video"
+    },
+    "http://www.videojs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video"
+    },
+    "http://praegnanz.de/html5video/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video"
+    },
+    "http://jPlayer.org": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Cross-browser_audio_basics"
+    },
+    "http://jplayer.org/HTML5.Media.Event.Inspector": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Cross-browser_audio_basics"
+    },
+    "http://mango.blender.org/about/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/cross_browser_video_player"
+    },
+    "http://toddmotto.com/stop-toggling-classes-with-js-use-behavior-driven-dom-manipulation-with-data-states/": null,
+    "http://camendesign.com/code/video_for_everybody": null,
+    "http://speak-demo.herokuapp.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery"
+    },
+    "http://audacity.sourceforge.net/": null,
+    "http://www.getmiro.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery"
+    },
+    "http://handbrake.fr/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery"
+    },
+    "http://firefogg.org/": null,
+    "http://m.vid.ly/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery"
+    },
+    "http://www.schillmania.com/projects/soundmanager2/": null,
+    "http://www.sublimevideo.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery"
+    },
+    "http://wiki.webmproject.org/adaptive-streaming/webm-dash-specification": null,
+    "http://gstreamer.freedesktop.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Live_streaming_web_audio_and_video"
+    },
+    "http://www.flumotion.net/features/": null,
+    "http://www.icecast.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Live_streaming_web_audio_and_video"
+    },
+    "http://www.xiph.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Live_streaming_web_audio_and_video"
+    },
+    "http://dash-mse-test.appspot.com/media.html": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Live_streaming_web_audio_and_video"
+    },
+    "http://dashif.org/reference/players/javascript/1.0.0/index.html": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Live_streaming_web_audio_and_video"
+    },
+    "http://www.streamingmediaglobal.com/Articles/Editorial/Featured-Articles/The-State-of-MPEG-DASH-Deployment-96144.aspx": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Live_streaming_web_audio_and_video"
+    },
+    "http://www.svesoftware.com/passkeeper/cms/article/streaming-media-using-gstreamer-web/": null,
+    "http://nginx-rtmp.blogspot.it/2013/07/gstreamer-and-raspberry-pi.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Live_streaming_web_audio_and_video"
+    },
+    "http://msopentech.com/blog/2014/01/09/acceptance-media-source-extensions-w3c-candidate-recommendation-will-accelerate-adoption-dash-js/": null,
+    "http://gpac.wp.mines-telecom.fr/mp4box/dash/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Setting_up_adaptive_streaming_media_sources"
+    },
+    "http://www.streamingmedia.com/Articles/Editorial/Featured-Articles/Adaptive-Streaming-in-the-Field-73017.aspx": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Setting_up_adaptive_streaming_media_sources"
+    },
+    "http://www-itec.uni-klu.ac.at/bib/files/p89-lederer.pdf": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Setting_up_adaptive_streaming_media_sources"
+    },
+    "http://www.slideshare.net/christian.timmerer/dynamic-adaptive-streaming-over-http-from-content-creation-to-consumption": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Setting_up_adaptive_streaming_media_sources"
+    },
+    "http://mediapm.edgesuite.net/dash/public/support-player/current/index.html": null,
+    "http://www.base64-image.de/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Video_player_styling_basics"
+    },
+    "http://nightly.mozilla.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/Web_Audio_API_cross_browser"
+    },
+    "http://hyperaud.io/lab/pbr-test/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_delivery/WebAudio_playbackRate_explained"
+    },
+    "http://audiocogs.org/codecs/": null,
+    "http://chromium.googlecode.com/svn/trunk/samples/audio/convolution-effects.html": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/Guide/Audio_and_video_manipulation"
+    },
+    "http://www.kevinroth.com/rte/demo.htm": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/HTML/Editable_content/Rich-Text_Editing_in_Mozilla"
+    },
+    "http://www.ComputronicsUSA.com": null,
+    "http://tinyurl.com/html-parser-bugs": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/HTML/HTML5/HTML5_Parser"
+    },
+    "http://www.webdevout.net/articles/beware-of-xhtml": null,
+    "http://www.hixie.ch/advocacy/xhtml": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/HTML/XHTML"
+    },
+    "http://www.xml.com/pub/a/2003/03/19/dive-into-xml.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/HTML/XHTML"
+    },
+    "http://lachy.id.au/log/2005/12/xhtml-beginners": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/HTML/XHTML"
+    },
+    "http://reference.sitepoint.com/html/page-structure": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Introduction_to_Web_development"
+    },
+    "http://htmldog.com/guides/htmlbeginner/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Introduction_to_Web_development"
+    },
+    "http://www.html.net/tutorials/css/": null,
+    "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Introduction_to_Web_development"
+    },
+    "http://uk.video.yahoo.com/watch/111585/1027823": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/Guide/Introduction_to_Web_development"
+    },
+    "http://www.csstutorial.net/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Introduction_to_Web_development"
+    },
+    "http://www.tizag.com/cssT/": null,
+    "http://jqfundamentals.com/": null,
+    "http://net.tutsplus.com/tutorials/javascript-ajax/javascript-from-null-video-series/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Introduction_to_Web_development"
+    },
+    "http://encoding.spec.whatwg.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Localizations_and_character_encodings"
+    },
+    "http://wurfl.sourceforge.net/utilities/imageserver.php": null,
+    "http://imgble.com/": null,
+    "http://www.sencha.com/products/io/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Mobile/A_hybrid_approach"
+    },
+    "http://www.modernizr.com/docs/#s2": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Mobile/A_hybrid_approach"
+    },
+    "http://www.lukew.com/ff/entry.asp?1085": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Mobile/Mobile-friendliness"
+    },
+    "http://www.alaskaair.com/": {
+      "status_code": 403,
+      "doc": "/en-US/docs/Web/Guide/Mobile/Mobile-friendliness"
+    },
+    "http://www.cnet.com/8301-17918_1-10461614-85.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Mobile/Separate_sites"
+    },
+    "http://www.passani.it/gap/#adaptation": null,
+    "http://tripleodeon.com/2010/10/not-a-mobile-web-merely-a-320px-wide-one": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Mobile/Separate_sites"
+    },
+    "http://m.facebook.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Mobile/Separate_sites"
+    },
+    "http://m.youtube.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Mobile/Separate_sites"
+    },
+    "http://m.digg.com/": null,
+    "http://m.flickr.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/Mobile/Separate_sites"
+    },
+    "http://html5demos.com/contenteditable": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Guide/User_input_methods"
+    },
+    "http://www.colorzilla.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/HTML/Applying_color"
+    },
+    "http://paletton.com": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Web/HTML/Applying_color"
+    },
+    "http://www.paletton.com/": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Web/HTML/Applying_color"
+    },
+    "http://blog.chromium.org/2011/07/using-cross-domain-images-in-webgl-and.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/HTML/CORS_enabled_image"
+    },
+    "http://www.montulli.org/theoriginofthe%3Cblink%3Etag": null,
+    "http://info.cern.ch/": null,
+    "http://timepicker.co/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/HTML/Element/input/datetime-local"
+    },
+    "http://1997.webhistory.org/www.lists/www-talk.1992/0080.html": null,
+    "http://html.spec.whatwg.org/multipage/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/HTML/Element/isindex"
+    },
+    "http://www.the-pope.com/nextid.html": null,
+    "http://schema.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/HTML/Global_attributes/itemscope"
+    },
+    "http://www.antipode.ca/2010/choosing-a-viewport-for-ipad-sites/": null,
+    "http://bikeshed.com/": null,
+    "http://my.opera.com/community/openweb/idopera/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/HTTP/Browser_detection_using_the_user_agent"
+    },
+    "http://v2v.cc/~j/ffmpeg2theora/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/HTTP/Configuring_servers_for_Ogg_media"
+    },
+    "http://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/HTTP/Configuring_servers_for_Ogg_media"
+    },
+    "http://httpd.apache.org/docs/current/en/content-negotiation.html#algorithm": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/HTTP/Content_negotiation"
+    },
+    "http://feature-policy-demos.appspot.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/HTTP/Feature_Policy"
+    },
+    "http://tools.ietf.org/html/rfc1950": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/HTTP/Headers/Content-Encoding"
+    },
+    "http://lawrencemandel.com/2012/07/27/decision-made-firefox-os-user-agent-string/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/HTTP/Headers/User-Agent/Firefox"
+    },
+    "http://httpwg.org/http-extensions/client-hints.html": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/HTTP/Resources_and_specifications"
+    },
+    "http://couchdb.apache.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript"
+    },
+    "http://www.gnome.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript"
+    },
+    "http://ecma-international.org/ecma-262/5.1/#sec-11.9.3": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness"
+    },
+    "http://fitzgeraldnick.com/weblog/53/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Guide/Keyed_collections"
+    },
+    "http://promisesaplus.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Guide/Using_promises"
+    },
+    "http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Guide/Using_promises"
+    },
+    "http://html5.org/specs/dom-range.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/JavaScript_technologies_overview"
+    },
+    "http://dmitrysoshnikov.com/": null,
+    "http://xregexp.com/flags/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_regexp_flag"
+    },
+    "http://wiki.c2.com/?GoodVariableNames": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name"
+    },
+    "http://javascriptweblog.wordpress.com/2011/01/18/javascripts-arguments-object-and-beyond/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters"
+    },
+    "http://web.mit.edu/jwalden/www/isArray.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray"
+    },
+    "http://www.wirfs-brock.com/allen/posts/166": null,
+    "http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap04.html#tag_04_16": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date"
+    },
+    "http://unicode.org/iso15924/iso15924-codes.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/of"
+    },
+    "http://www.currency-iso.org/en/home/tables/table-a1.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat"
+    },
+    "http://unicode-table.com/en/0009/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON"
+    },
+    "http://www.jsondiff.com/": null,
+    "http://jsonbeautifier.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON"
+    },
+    "http://jsonparser.org/": {
+      "status_code": 406,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON"
+    },
+    "http://floating-point-gui.de/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isSafeInteger"
+    },
+    "http://tokenposts.blogspot.com.au/2012/04/javascript-objectkeys-browser.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys"
+    },
+    "http://de.slideshare.net/domenicdenicola/callbacks-promises-and-coroutines-oh-my-the-evolution-of-asynchronicity-in-javascript": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+    },
+    "http://www.mattgreer.org/articles/promises-in-wicked-detail/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+    },
+    "http://innolitics.com/10x/javascript-decorators-for-promise-returning-functions/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+    },
+    "http://www.commonjs.org/": null,
+    "http://stuff.mit.edu/iap/2008/facebook/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Reference/Strict_mode"
+    },
+    "http://qnimate.com/javascript-strict-mode-in-nutshell/": null,
+    "http://www.jsdb.org/": null,
+    "http://javalikescript.free.fr/": null,
+    "http://gluescript.sourceforge.net/": null,
+    "http://babeljs.io/repl": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Shells"
+    },
+    "http://es6console.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Shells"
+    },
+    "http://jsconsole.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/JavaScript/Shells"
+    },
+    "http://www.mathjax.org": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://disruptive-innovations.com/zoo/MathBird/": null,
+    "http://www.seamonkey-project.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://www1.chapman.edu/~jipsen/mathml/asciimath.html": null,
+    "http://mathcs.chapman.edu/~jipsen/mathml/ASCIIMathML.js": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://math.etsu.edu/LaTeXMathML/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://mathscribe.com/author/jqmath.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://golem.ph.utexas.edu/~distler/blog/itex2MML.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://gva.noekeon.org/blahtexml/": null,
+    "http://dlmf.nist.gov/LaTeXML/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://instiki.org/show/HomePage": null,
+    "http://ckeditor.com/addon/texzilla": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://abisource.org/": null,
+    "http://www.bluegriffon.com/": null,
+    "http://www.firemath.info/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://www.lyx.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://www.openoffice.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://libreoffice.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://www.inftyreader.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/MathML/Authoring"
+    },
+    "http://eyeasme.com/Joe/MathML/MathML_browser_test.html": null,
+    "http://www.ffmpeg.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Media/DASH_Adaptive_Streaming_for_HTML_5_Video"
+    },
+    "http://www.via-corp.com/us/en/licensing.html": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/Media/Formats/Audio_codecs"
+    },
+    "http://www.voiceage.com/AMR-NB.AMR.html": null,
+    "http://lame.sourceforge.net/": null,
+    "http://mp4ra.org/#/object_types": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Media/Formats/codecs_parameter"
+    },
+    "http://en.flossmanuals.net/ogg-theora/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Media/Formats/Containers"
+    },
+    "http://www.lcs.mit.edu/": null,
+    "http://www.ercim.org/": null,
+    "http://www.keio.ac.jp/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Media/Formats/Image_types"
+    },
+    "http://ev.buaa.edu.cn/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Media/Formats/Image_types"
+    },
+    "http://hevc.info/": null,
+    "http://www.itu.int/rec/T-REC-H.265": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Media/Formats/Video_codecs"
+    },
+    "http://software.hixie.ch/utilities/cgi/data/data": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/OpenSearch"
+    },
+    "http://www.opensearch.org/Specifications/OpenSearch/1.1/Draft_3#OpenSearch_1.1_parameters": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/OpenSearch"
+    },
+    "http://www.7is7.com/software/firefox/opensearch.html": null,
+    "http://ready.to/search/en": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/OpenSearch"
+    },
+    "http://greensock.com/gsap": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Performance/CSS_JavaScript_animation_performance"
+    },
+    "http://velocityjs.org/": null,
+    "http://www.yoctopuce.com/EN/products/usb-sensors/yocto-amp": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Performance/Fundamentals/Power"
+    },
+    "http://www.alcatelonetouch.com/global-en/products/smartphones/one_touch_fire.html": null,
+    "http://www.lg.com/uk/mobile-phones/lg-E960-nexus-4-by-lg": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Performance/Fundamentals/Power"
+    },
+    "http://shop.geeksphone.com/en/phones/1-keon.html": null,
+    "http://mozakai.blogspot.com/2012/07/bananabread-or-any-compiled-codebase.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Performance/Optimizing_startup_performance"
+    },
+    "http://2017.js13kgames.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Progressive_web_apps/Introduction"
+    },
+    "http://www.peachpit.com/articles/article.aspx?p=1960918": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Progressive_web_apps/Responsive/Graphics_for_responsive_sites"
+    },
+    "http://mobile.smashingmagazine.com/2013/07/08/choosing-a-responsive-image-solution/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Progressive_web_apps/Responsive/Graphics_for_responsive_sites"
+    },
+    "http://requirejs.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Progressive_web_apps/Responsive/Mobile_first"
+    },
+    "http://www.paulirish.com/2012/box-sizing-border-box-ftw/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Progressive_web_apps/Responsive/responsive_design_building_blocks"
+    },
+    "http://www.brettjankord.com/2012/11/28/cross-browser-retina-high-resolution-media-queries/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Progressive_web_apps/Responsive/responsive_design_building_blocks"
+    },
+    "http://www.mobify.com/mobifyjs/v2/docs/capturing/": {
+      "status_code": 403,
+      "doc": "/en-US/docs/Web/Progressive_web_apps/Responsive/responsive_design_building_blocks"
+    },
+    "http://adaptive-images.com/": null,
+    "http://www.jitbit.com/sslcheck/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Security/Mixed_content/How_to_fix_website_with_mixed_content"
+    },
+    "http://robert.ocallahan.org/2008/06/applying-svg-effects-to-html-content_04.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG/Applying_SVG_effects_to_HTML_content"
+    },
+    "http://www.codedread.com/svg-support.php": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG/Compatibility_sources"
+    },
+    "http://wiki.svg.org/Server_Configuration": null,
+    "http://maps.google.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG"
+    },
+    "http://docs.google.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG"
+    },
+    "http://jwatt.org/svg/authoring/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG"
+    },
+    "http://plurib.us/1shot/2007/svg_gallery/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG"
+    },
+    "http://svg-wow.org/": null,
+    "http://schepers.cc/grafox/": null,
+    "http://demo.huihoo.com/amplesdk/examples/applications/svgalbum/index.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG"
+    },
+    "http://jvectormap.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG"
+    },
+    "http://jointjs.com": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG"
+    },
+    "http://svg.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG/Other_Resources"
+    },
+    "http://www.svgbasics.com/": null,
+    "http://www.inkscape.org/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG/Tutorial/Introduction"
+    },
+    "http://xmlgraphics.apache.org/batik/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG"
+    },
+    "http://ImageMagick.org": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG"
+    },
+    "http://library.gnome.org/devel/rsvg/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG"
+    },
+    "http://raphaeljs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG"
+    },
+    "http://snapsvg.io/": null,
+    "http://jsxgraph.uni-bayreuth.de/wp/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG"
+    },
+    "http://carto.net": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG"
+    },
+    "http://wikiversity.org/wiki/Web_Design/HTML_Challenges": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Tutorials"
+    },
+    "http://en.wikiversity.org/wiki/Web_Design/CSS_challenges": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Tutorials"
+    },
+    "http://www.codecademy.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Tutorials"
+    },
+    "http://slimjs.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/Web_Components/Using_custom_elements"
+    },
+    "http://nchc.dl.sourceforge.net/project/js-xpath/js-xpath/1.0.0/xpath.js": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/XPath"
+    },
+    "http://qutoric.com/xmlquire/": null,
+    "http://www-xray.ast.cam.ac.uk/~jgraham/mozilla/xpath-tutorial.html": {
+      "status_code": 404,
+      "doc": "/en-US/docs/Web/XPath/Introduction_to_using_XPath_in_JavaScript"
+    },
+    "http://www.jenitennison.com/xslt/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/XSLT/Transforming_XML_with_XSLT/For_Further_Reading"
+    },
+    "http://www.xmlpitstop.com/default_datatype_SSC.html": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/XSLT/Transforming_XML_with_XSLT/For_Further_Reading"
+    },
+    "http://xml.coverpages.org/xsl.html": null,
+    "http://www.mulberrytech.com/xsl/xsl-list/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/XSLT/Transforming_XML_with_XSLT/For_Further_Reading"
+    },
+    "http://mulberrytech.com/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/XSLT/Transforming_XML_with_XSLT/For_Further_Reading"
+    },
+    "http://www.meyerweb.com/eric/css/": {
+      "status_code": 200,
+      "doc": "/en-US/docs/Web/XSLT/Transforming_XML_with_XSLT"
+    },
+    "http://localhost:8000": null,
+    "http://localhost:8080": null
+  }
+}

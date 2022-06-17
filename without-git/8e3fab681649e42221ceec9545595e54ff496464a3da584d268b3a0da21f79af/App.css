@@ -1,0 +1,10 @@
+body,
+html,
+#root,
+.app,
+.container {
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: #283c34;
+}

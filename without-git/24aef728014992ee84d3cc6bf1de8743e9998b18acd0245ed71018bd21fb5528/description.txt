@@ -1,0 +1,1 @@
+How does Access-Control-Allow-Origin header work.md

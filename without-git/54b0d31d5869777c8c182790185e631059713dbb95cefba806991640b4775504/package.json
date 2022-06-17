@@ -1,0 +1,11 @@
+{
+  "name": "@your-org/graphql-schema",
+  "version": "0.0.1",
+  "description": "GraphQL Schemas for generating types",
+  "main": "schema.graphql",
+  "types": "types.d.ts",
+  "files": [
+    "schema.graphql",
+    "types.d.ts"
+  ]
+}

@@ -1,0 +1,8 @@
+Folders,Description
+/demos,This is a demo folder containing the quick-start demo files. You can open them through a web server instead of the folder from the file system else it would break the Ajax data requests.
+/source,This folder contains the minified files of JavaScript used for the projects.
+/source/modules/,This folder contains the Javascript modules used for creating components.
+/source/styles,This folder contains the minified CSS files and themes used for styling your project.
+/scripts,This contains the javascript files used in the demos.
+/images,This contains image files used in the demos.
+readme.htm,This provides the Smart HTML Elements release notes
