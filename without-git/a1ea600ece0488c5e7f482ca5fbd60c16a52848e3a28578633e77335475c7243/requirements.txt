@@ -1,1 +1,5 @@
-flaskgunicorn# only exists in my private package repositorysimple_package==0.0.2
+flask
+gunicorn
+
+# only exists in my private package repository
+simple_package==0.0.2

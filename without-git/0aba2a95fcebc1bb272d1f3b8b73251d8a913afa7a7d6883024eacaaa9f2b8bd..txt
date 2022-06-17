@@ -1,0 +1,15 @@
+Autocomplete
+
+
+while read -r old new ; do
+  # rename the directory too
+  mv -v "$old" "$new"
+
+  # and rename the files
+  if [ -d "$new" ] ; then
+    for f in "$new/"* ; do
+      mv -v "$f" "$(printf "%s" "$f" | sed -e "s/$old/$new/g")"
+    done
+  fi
+  echo
+done < files.txt

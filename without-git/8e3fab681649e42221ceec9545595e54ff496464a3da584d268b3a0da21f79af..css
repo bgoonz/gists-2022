@@ -1,0 +1,13 @@
+h2, .close-modal{ display: none; }
+
+.main-nav-tab li { list-style-type: none; }
+.main-nav-tab li strong a{ color: black; font-size: 30px; display: block; text-decoration: none;}
+
+.sec-nav-tab{ display: inline-block; }
+.sec-nav-tab li { border-bottom: 1px solid; width: 90%; list-style-type: none; padding: 10px; display: inline-block;}
+.sec-nav-tab li img{ float: left; padding: 0 15px 15px 0; }
+.sec-nav-tab li a:first-of-type{ display: none; }
+
+.disclaimer-tip-container{ display: none; }
+.disclaimer-content{ display: block; color: green; }
+.disclaimer-id{ display: none; }

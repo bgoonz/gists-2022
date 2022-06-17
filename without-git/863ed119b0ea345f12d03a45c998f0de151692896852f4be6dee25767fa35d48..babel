@@ -1,0 +1,18 @@
+// Abstract this wherever in your build process
+// There could be logic here.
+var divStyle = {
+  background: "#eee",
+  padding: "20px",
+  margin: "20px"
+};
+
+// Inline styles applied in the HTML you build here
+var Module = React.createClass({
+  render: function() {
+    return <div style={divStyle}>Hello {this.props.name}</div>;
+  }
+});
+
+// You could pass dynamic stuff here as needed.
+React.render(<Module name="World" />, document.getElementById("area-1"));
+React.render(<Module name="Universe" />, document.getElementById("area-2"));

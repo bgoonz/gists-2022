@@ -1,0 +1,28 @@
+  <script>
+
+  
+    function addJS() {
+      let scriptToAdd
+        = document.createElement('script');
+      scriptToAdd.type
+        = 'text/javascript';
+  
+      // Create contents of the script
+      let inlineScript = `https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js`
+  
+      scriptToAdd.src(inlineScript);
+  
+    
+      document.head.appendChild(scriptToAdd);
+  
+      // Update textarea
+      updateHeadOutput();
+    }
+  
+    function updateHeadOutput() {
+      document.querySelector(".head-element")
+        .textContent = document.head.innerHTML;
+    }
+  
+    updateHeadOutput();
+  </script>

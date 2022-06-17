@@ -1,7 +1,5 @@
 [](https://github.com/automata/awesome-jamstack#contents)Contents
 -----------------------------------------------------------------
-for /f "tokens=1,2 delims=," %g in (description.txt) do ren %g %h
-
 
 -   [General](https://github.com/automata/awesome-jamstack#general)
 -   [Chats](https://github.com/automata/awesome-jamstack#chats)

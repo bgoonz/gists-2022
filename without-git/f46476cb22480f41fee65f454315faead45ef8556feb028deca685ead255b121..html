@@ -1,0 +1,56 @@
+<script>
+    //window.onerror = function(msg, url, line) { alert('Error: '+msg+'\nURL: '+url+'\nLine: '+line); };
+</script>
+<script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.7.4/chroma.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css">
+
+
+<div id="main" class="container">
+    <header>
+        <h2>Chroma.js Color Scale Helper</h2>
+        <p>This <a href="https://github.com/gka/chroma.js" target="_blank">chroma.js</a>-powered tool is here to help us  <a target="_blank" href="http://vis4.net/blog/posts/mastering-multi-hued-color-scales/">mastering multi-hued, multi-stops color scales</a>.</p>
+        <p><a href="https://www.handprint.com/HP/WCL/color2.html#uniquehues" target="_blank">More color theory</a></p>
+    </header>
+
+    <!-- template id="ui-template"-->
+        <div class="color-scale span10" style="display:none;">
+            <div class="form well span10">
+
+                <div class="row">
+                    <div class="span3">
+                        <label>Color names or hex codes:</label>
+                        <input class="colors" checked="checked" type="text" value='black, orange, "#f0f", "darkred", yellow' />
+                    </div>
+                    <div class="span3">
+                        <label>Step count</label>
+                        <input class="steps" type="number" value="9" />
+                    </div>
+
+                    <div class="gradient-wrapper span4"></div>
+                </div>
+
+                <div class="row">
+                    <div class="span6">
+                        <label class="checkbox">
+                            <input class="bez" type="checkbox" checked /> Bezier interpolation
+                        </label>
+                        <br />
+                        <label class="checkbox">
+                            <input class="coL" type="checkbox" checked /> Correct lightness gradient
+                        </label>
+                    </div>
+
+                    <div class="exports-wrapper span4"></div>
+                </div>
+
+                <div class="row">
+                    <div class="lightness-wrapper span4"></div>
+                </div>
+
+            </div>
+        </div>
+    <!-- /template -->
+
+</div>

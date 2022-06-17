@@ -1,0 +1,53 @@
+  <div class="container orange lighten-5 z-depth-3">
+    <div class="row">
+      <div class="col s10 offset-s1">
+        <h1 class="center-align brown-text text-darken-2">Wikipedia Viewer</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <form class="col s10 offset-s1">
+
+          <div class="input-field col s12">
+            <i class="material-icons prefix search">search</i>
+            <input id="search" type="text">
+            <label for="search">Search an article</label>
+          </div>
+
+      </form>
+    </div>
+
+    <div class="row">
+      <div class="col s10 offset-s1 center center-align">
+        <a class="waves-effect waves-light btn orange" href="https://en.wikipedia.org/wiki/Special:Random" >
+          <i class="material-icons left">cloud</i>Or click here for random article
+        </a>
+      </div>
+    </div>
+    
+
+    <div class="row">
+      <div class="container" id="results">
+      </div>
+    </div>
+
+  </div>
+
+  <h6 class="grey-text center-align"><strong>Made by Diego Fernando Domínguez</strong></h6>
+
+  <script type="text/template" id="card-templ" >
+    <div class="card horizontal">
+      <div class="card-image">
+        <img id="{{pageid}}" src="">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <span class="card-title">{{title}}</span>
+          <p>{{description}}</p>
+        </div>
+        <div class="card-action">
+          <a href="{{fullurl}}">Read it in wikipedia</a>
+        </div>
+      </div>
+    </div>
+  </script>

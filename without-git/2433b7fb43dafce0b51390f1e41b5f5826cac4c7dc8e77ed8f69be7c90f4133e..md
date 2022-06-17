@@ -1,0 +1,1 @@
+![how to truncate bash](https://i.imgur.com/cMF4a0W.png)

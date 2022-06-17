@@ -1,0 +1,1 @@
+Headers and caching section removed from the Remix Tutorial because it was too long.
