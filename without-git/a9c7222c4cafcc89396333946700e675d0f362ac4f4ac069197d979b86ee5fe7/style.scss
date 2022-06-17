@@ -1,0 +1,148 @@
+body {
+  background-image:linear-gradient(skyblue, white);
+  background-repeat:no-repeat;
+  box-sizing:border-box;
+  font-family:sans-serif;
+  margin:2em;
+  min-height:100vh;
+}
+
+p {
+  max-width:44em;
+}
+
+.examples {
+  display:flex;
+  flex-wrap:wrap;
+  margin:-.5em;
+}
+
+.container {
+  background-color:white;
+  border:solid .5em black;
+  border-radius:.5em;
+  box-sizing:border-box;
+  flex:0 0 30%;
+  height:240px;
+  margin:.5em;
+  overflow:auto;
+}
+
+.explanation {
+  flex: 1 0 60%;
+  margin-left:1em;
+}
+
+.list {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.item {
+  background-color:lightgray;
+  margin:.25em;
+  padding:.5em;
+}
+
+// examples
+
+#example2 {
+  .list {
+    height:100%;
+  }
+  .item {
+    height:20%;
+  }
+}
+
+#example3 {
+  overflow:hidden;
+  position:relative;
+  .scrollbox {
+    height:100%;
+    overflow:auto;
+  }
+  .shadow {
+    bottom:0;      
+    left:0;
+    pointer-events:none;
+    position:absolute;
+    right:0;
+    top:0;
+    transition:all .2s ease-out;
+  }
+  &.off-top {
+    .shadow-top {
+      box-shadow:0 1em 1em -1em black inset;
+    }
+  }
+  &.off-bottom {    
+    .shadow-bottom {
+      box-shadow:0 -1em 1em -1em black inset;
+    }
+  }
+}
+
+#example4 {
+  overflow:hidden;
+  position:relative;
+  .scrollbox {
+    height:100%;
+    overflow:auto;
+  }
+  .shadows {
+    bottom:0;      
+    left:0;
+    pointer-events:none;
+    position:absolute;
+    right:0;
+    top:0;
+    transition:all .2s ease-out;
+  }
+  &.off-bottom {    
+    .shadows {
+      box-shadow:0 -3em 3em -1em white inset;
+    }
+  }
+}
+
+#example5 {
+  overflow:hidden;
+  position:relative;
+  .scrollbox {
+    height:100%;
+    overflow:auto;
+  }
+  .icon {
+    border:solid 2em transparent;
+    border-top-color:white;
+    bottom:-1.5em;
+    color:white;
+    height:0;
+    left:50%;
+    opacity:0;
+    pointer-events:none;
+    position:absolute;
+    right:0;
+    text-align:center;
+    transform:translate(-50%, 0);
+    transition:all .2s ease-out;
+    width:0;
+  }
+  &.show-icon {
+    .icon {
+      animation:flash 1.5s infinite linear;
+      // opacity:1;
+    }
+  }
+}
+
+@keyframes flash {
+  0%, 100% {
+    opacity:1;
+  }
+  50% {
+    opacity:.2;
+  }
+}

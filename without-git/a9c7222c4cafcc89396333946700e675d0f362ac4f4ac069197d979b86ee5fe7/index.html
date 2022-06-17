@@ -1,0 +1,111 @@
+<h2>Indicating Scrollable Content</h2>
+<p>In a scrollbox or any area where the content is larger than its container, how do we indicate that there is more content to scroll down to, given that we can't always rely on the scrollbar being visible, especially on mobile?</p>
+
+<div class="examples">
+  
+  <div id="example1" class="container">
+    <ul class="list">
+      <li class="item">One</li>
+      <li class="item">Two</li>
+      <li class="item">Three</li>
+      <li class="item">Four</li>
+      <li class="item">Five</li>
+      <li class="item">Six</li>
+      <li class="item">Seven</li>
+      <li class="item">Eight</li>
+      <li class="item">Nine</li>
+      <li class="item">Ten</li>
+    </ul>
+  </div>
+  <div class="explanation">
+    <h3>Example 1</h3>
+    <p>This is the original problem with no solution added.</p>
+  </div>
+  
+  <div id="example2" class="container">
+    <ul class="list">
+      <li class="item">One</li>
+      <li class="item">Two</li>
+      <li class="item">Three</li>
+      <li class="item">Four</li>
+      <li class="item">Five</li>
+      <li class="item">Six</li>
+      <li class="item">Seven</li>
+      <li class="item">Eight</li>
+      <li class="item">Nine</li>
+      <li class="item">Ten</li>
+    </ul>
+  </div>
+  <div class="explanation">
+    <h3>Example 2</h3>
+    <p>This sets the height of each item so that the final item is partially shown. This technique relies on the items being of fixed height. This is more common used horizontally for large cards.</p>
+  </div>
+  
+  <div id="example3" class="container off-bottom">
+    <div class="scrollbox">
+      <ul class="list">
+        <li class="item">One</li>
+        <li class="item">Two</li>
+        <li class="item">Three</li>
+        <li class="item">Four</li>
+        <li class="item">Five</li>
+        <li class="item">Six</li>
+        <li class="item">Seven</li>
+        <li class="item">Eight</li>
+        <li class="item">Nine</li>
+        <li class="item">Ten</li>
+      </ul>
+    </div>
+    <div class="shadow shadow-top" aria-hidden="true"></div>
+    <div class="shadow shadow-bottom" aria-hidden="true"></div>
+  </div>
+  <div class="explanation">
+    <h3>Example 3</h3>
+    <p>This uses shadows inside a scrollbox, which are dynamically added and removed as the ends of the scrollable range are reached.</p>
+  </div>
+  
+  <div id="example4" class="container off-bottom">
+    <div class="scrollbox">
+      <ul class="list">
+        <li class="item">One</li>
+        <li class="item">Two</li>
+        <li class="item">Three</li>
+        <li class="item">Four</li>
+        <li class="item">Five</li>
+        <li class="item">Six</li>
+        <li class="item">Seven</li>
+        <li class="item">Eight</li>
+        <li class="item">Nine</li>
+        <li class="item">Ten</li>
+      </ul>
+    </div>
+    <div class="shadows" aria-hidden="true"></div>
+  </div>
+  <div class="explanation">
+    <h3>Example 4</h3>
+    <p>Similar to the previous example, this adds a fade to the bottom of the scrollbox to hint at more content by showing the last few items gradually fading away. It dynamically disappears when you reach the bottom of the list.</p>
+  </div>
+  
+  <div id="example5" class="container show-icon">
+    <div class="scrollbox">
+      <ul class="list">
+        <li class="item">One</li>
+        <li class="item">Two</li>
+        <li class="item">Three</li>
+        <li class="item">Four</li>
+        <li class="item">Five</li>
+        <li class="item">Six</li>
+        <li class="item">Seven</li>
+        <li class="item">Eight</li>
+        <li class="item">Nine</li>
+        <li class="item">Ten</li>
+      </ul>
+    </div>
+    <div class="icon" aria-hidden="true"></div>
+  </div>
+  <div class="explanation">
+    <h3>Example 5</h3>
+    <p>This uses a CSS arrow icon to hint at more content. Not quite as subtle, the idea for this one is taken from gaming. It's dynamically removed when it reaches the bottom.</p>
+  </div>
+  
+</div>
