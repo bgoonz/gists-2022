@@ -1,1 +1,0 @@
-Embedding map() in JSX

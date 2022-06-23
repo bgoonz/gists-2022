@@ -1,1 +1,0 @@
-examples-of-js-builtin-methods.md

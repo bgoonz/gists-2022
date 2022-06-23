@@ -1,1 +1,0 @@
-Windows PowerShellCopyright (C) Microsoft Corporation. All rights reserved.Try the new cross-platform PowerShell https://aka.ms/pscore6PS C:\WINDOWS\system32> wmicwmic:root\cli>/output:C:\list.txt product get name, versionwmic:root\cli>

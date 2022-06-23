@@ -1,7 +1,0 @@
-Mini Carousels – CPC Challenge GSAP
------------------------------------
-
-
-A [Pen](https://codepen.io/bgoonz/pen/WNdpOay) by [Bryan C Guner](https://codepen.io/bgoonz) on [CodePen](https://codepen.io).
-
-[License](https://codepen.io/license/pen/WNdpOay).
