@@ -1,0 +1,23 @@
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0"
+ srcLang="en-US" trgLang="fr">
+ <file id="f1">
+  <unit id="1">
+   <segment>
+    <source>Hello my friend</source>
+    <target>Bonjour, mon ami</target>
+   </segment>
+  </unit>
+  <unit id="2">
+   <segment>
+    <source>How are you?</source>
+    <target>Comment allez-vous?</target>
+   </segment>
+  </unit>
+  <unit id="3">
+   <segment>
+    <source>My name is Adam Crik</source>
+    <target>Je m'appelle Adam Crik</target>
+   </segment>
+  </unit>
+ </file>
+</xliff>

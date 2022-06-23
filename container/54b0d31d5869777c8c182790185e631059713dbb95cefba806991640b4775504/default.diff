@@ -1,0 +1,53 @@
+diff --git a/build/index.js b/build/index.js
+index 9f6d02f74..706f3a18e 100644
+--- a/build/index.js
++++ b/build/index.js
+@@ -1,5 +1,5 @@
+ const childProcess = require("child_process");
+-
++const { performance } = require("perf_hooks");
+ const chalk = require("chalk");
+ const packageJSON = require("../package.json");
+ 
+@@ -104,7 +104,9 @@ async function buildDocument(document) {
+ 
+   doc.flaws = {};
+ 
++  var t0 = performance.now();
+   const [renderedHtml, flaws] = await kumascript.render(document.url);
++  var t1 = performance.now();
+ 
+   let liveSamples = [];
+   const sampleIds = kumascript.getLiveSampleIDs(
+@@ -127,6 +129,7 @@ async function buildDocument(document) {
+       html: liveSamplePage.html,
+     });
+   }
++  var t2 = performance.now();
+ 
+   if (flaws.length) {
+     if (options.flawLevels.get("macros") === FLAW_LEVELS.ERROR) {
+@@ -146,6 +149,7 @@ async function buildDocument(document) {
+       doc.flaws.macros = flaws;
+     }
+   }
++  var t3 = performance.now();
+ 
+   // TODO: The slug should always match the folder name.
+   // If you edit the slug bug don't correctly edit the folder it's in
+@@ -223,6 +227,15 @@ async function buildDocument(document) {
+   // a breadcrumb in the React component.
+   addBreadcrumbData(document.url, doc);
+ 
++  var t4 = performance.now();
++  const TIMES = {};
++  TIMES.kumascript_render = t1 - t0;
++  TIMES.live_samples = t2 - t1;
++  TIMES.flaws = t3 - t2;
++  TIMES.cheerio_stuff = t4 - t3;
++
++  console.log("TIMES", document.url, JSON.stringify(TIMES));
++
+   return [doc, liveSamples];
+ }
+ 

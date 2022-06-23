@@ -1,0 +1,12 @@
+
+
+@media print {
+   h1{ page-break-before: always !important; }
+   #likes-and-labels-container{ display: none; }
+}
+
+#likes-and-labels-container{ display: none; }
+
+h3{
+  color: red;
+}

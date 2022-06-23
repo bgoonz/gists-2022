@@ -1,0 +1,6 @@
+const mapStateToProps = function (state) {
+return {
+// current state
+	}
+}
+export default connect(mapStateToProps)(Component);

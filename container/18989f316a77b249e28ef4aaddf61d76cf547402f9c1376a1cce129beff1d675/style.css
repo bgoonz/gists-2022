@@ -1,0 +1,28 @@
+html {
+  background-color:#222;
+  height:100%;
+}
+
+.tile {
+  border-radius:2px;
+  float:left;
+  height:10vmin;
+  transition:all 3s linear;
+  width:10vmin;
+}
+
+.red {
+  background-color:#c00;
+}
+
+.rust {
+  background-color:#c60;
+}
+
+.orange {
+  background-color:#f90;
+}
+
+.yellow {
+  background-color:#fc0;
+}

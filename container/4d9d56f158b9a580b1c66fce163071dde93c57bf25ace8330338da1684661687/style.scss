@@ -1,0 +1,116 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,600,800);
+
+$green: #1abc9c;
+
+html, body { background: #f5f5f8;font-family: Lato, sans-serif; height:100%; padding: 1em; }
+*, *:before, *:after { @include box-sizing(border-box); }
+
+.hide { display: none }
+.show { display: block }
+
+.blog {
+   width: 30%;
+   max-width: 24em;
+   background: white;
+   overflow-y: scroll;
+   margin-right: 1em;
+   float: left;
+   @include box-shadow(0px 0 2px 0 rgba(black, 0.1));
+   @include transition(all 0.5s ease);
+}
+
+.blog-type {
+   
+  div {
+    color: white; background: black;
+    display: inline-block;
+    cursor: pointer;
+    padding: 1em 0;
+    width: calc(50% - 0.05px);
+    text-align: center;
+    
+    &:hover { background: $green; color: white; }
+    &:last-child { margin-left: -3px; }
+  }
+  
+  .active {
+     background: white;
+     color: black;
+  }
+}
+
+.recent-posts, .popular-posts {
+   overflow-y: auto; 
+}
+
+.post {
+  padding: 1em;
+  overflow: hidden;
+  border-bottom: 1px dashed #ccc;
+  cursor: pointer;
+  
+  &:hover { background: #f9f9f9; }
+  &:hover h1 { color: $green; }
+  
+   .post-meta {
+      font-size: 0.7em; 
+      line-height: 2;
+     
+     div { display: inline-block  }
+     .category { font-style: italic; font-weight: lighter; }
+     
+     .tag { color: $green; font-weight: bolder; }
+   }
+  
+   img {
+     float: left; 
+     margin-right: 0.75em;
+   }
+  
+   h1 {
+    font-weight: bolder;
+     font-size: 0.9em;
+     line-height: 1.5;
+     
+   }
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+.content {
+   max-width: 900px;
+   margin: 0 auto;
+   overflow: hidden;
+   padding: 2em;
+   background: white;
+   @include box-shadow(0 0 2px 0 rgba(0,0,0,0.1));
+   @include transition(all 400ms ease);
+  
+   h1 {
+      font-weight: 800;
+      margin-top: 1em;
+      line-height: 2;
+   }
+  
+   p {
+      line-height: 1.8;
+      margin: 1em 0;
+      font-size: 0.9em;
+      font-weight: 400;
+   }
+}
+
+@media screen and (max-width: 900px){
+  .blog { img { display: none } } 
+}
+
+
+@media screen and (max-width: 800px){
+  .blog { display: none }
+}
+

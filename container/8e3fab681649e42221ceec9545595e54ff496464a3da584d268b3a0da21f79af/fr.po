@@ -1,0 +1,12 @@
+#: ../public/index.php:1
+msgid "Hello my friend"
+msgstr "Bonjour, mon ami"
+
+
+#: ../public/index.php:2
+msgid "How are you?"
+msgstr "Comment allez-vous?"
+
+#: ../public/index.php:3
+msgid "My name is Adam Crik"
+msgstr "Je m'appelle Adam Crik"

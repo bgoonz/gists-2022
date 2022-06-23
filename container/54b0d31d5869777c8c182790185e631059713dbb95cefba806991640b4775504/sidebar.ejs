@@ -1,0 +1,18 @@
+%>
+<section class="Quick_links" id="Quick_Links">
+ <ol>
+  <li><a href="/<%=locale%>/docs/Web/JavaScript"><strong><em>JavaScript</em></strong></a></li>
+  <li><a href="/<%=locale%>/docs/Web/JavaScript/Tutorials"><strong><%=text['Tutorials']%></strong></a></li>
+  <li class="toggle">
+    <details <%=state('Complete_beginners')%>>
+      <summary><%=text['Complete_beginners']%></summary>
+      <ol>
+        <li><a href="/<%=locale%>/docs/Learn/Getting_started_with_the_web/JavaScript_basics"><%=text['Basics']%></a></li>
+        <li><a href="/<%=locale%>/docs/Learn/JavaScript/First_steps"><%=text['First_steps']%></a></li>
+        <li><a href="/<%=locale%>/docs/Learn/JavaScript/Building_blocks"><%=text['Building_blocks']%></a></li>
+        <li><a href="/<%=locale%>/docs/Learn/JavaScript/Objects"><%=text['Introducing_objects']%></a></li>
+      </ol>
+    </details>
+  </li>
+  ...
+<%

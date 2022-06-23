@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<!-- saved from url=(0108)chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#pageinfo -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>SEOquake analytics</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        @media print {
+            .page-break {
+                page-break-before: always;
+            }
+
+            #pageinfo_block table[data-role="2-word-table"] {
+                page-break-after: always;
+            }
+
+            .float-element-shadow {
+                display: none !important;
+            }
+
+            footer,
+            .main-menu,
+            .black-menu,
+            section header .semrush,
+            .criterion > div.tips,
+            [data-role="more-checks-text"],
+            section > .block:last-of-type,
+            [data-role="rule-viewport"] + .criterion {
+                display: none !important;
+            }
+
+
+            .slidePanel.hideContent [data-role="headings"] {
+                height: auto !important;
+                overflow: visible !important;
+            }
+
+            .slidePanel.hideContent .show {
+                display: none !important;
+            }
+
+            header .green-bg .container img.top-logo {
+                top: 10px !important;
+            }
+
+            .criterion > div.content .hint {
+                color: #000 !important;
+                margin-top: 1em !important;
+                font-size: 110% !important;
+            }
+        }
+    </style>
+    <link type="text/css" rel="stylesheet" href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.css">
+</head>
+<body class="">
+<header>
+    <div class="black-menu">
+    <nav class="container">
+        <a href="https://www.seoquake.com/guide/index.html" target="_blank" data-role="howto-link">How to use</a>
+        <a href="https://www.seoquake.com/review/suggest.php" target="_blank" data-role="suggest-link">Have a suggestion?</a>
+    </nav>
+</div>
+
+    <div class="green-bg">
+        <div class="container">
+            <h1 id="page_url" style="visibility: hidden; position: fixed; overflow-x: visible; width: auto;">https://bgoonz-blog.netlify.app/admin/#/collections/blog</h1><h1 id="page_url">https://bgoonz-blog.netlify.app/admin/#/collections/blog</h1>
+            <img src="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/static/common/top-logo.png" alt="SEOquake" class="top-logo">
+        </div>
+    </div>
+    <div class="main-menu" style="">
+        <nav class="container">
+            <a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#pageinfo" class="active" rel="pageinfo" data-role="menu-pageinfo">Page info</a>
+            <a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#diagnosis" rel="diagnosis" data-role="menu-diagnosis" class="">Diagnosis</a>
+            <a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#internal" rel="internal" data-role="menu-internal" class="">Internal</a>
+            <a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#external" rel="external" data-role="menu-external" class="">External</a>
+            <a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#density" data-rel="word-1;word-2;word-3;word-4" rel="density" data-role="menu-density">Density</a>
+            <button data-role="compare"><img src="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/static/common/icon-compare.png" alt=""> Compare URLs/domains</button>
+        <div class="menu-highlight" style="left: 15px; width: 61px;"></div></nav>
+    </div>
+</header>
+<main style="min-height: 1005px;">
+    <section id="pageinfo_block" style="display: block;" class="panel-visible">
+        <header class="container">
+    <h2 data-role="title">Page info</h2>
+</header>
+
+<div class="container" id="pageinfo_container">
+    <div class="block">
+        <div class="block-header" data-role="title-basic">Basic info:</div>
+        <div class="block-body">
+            <table class="pageinfo-table">
+                <tbody><tr>
+                    <td class="pinfoblock">
+                        <p>
+                            <label data-role="title-title">Title:</label>
+                            <span data-role="page-title">Content Manager</span>
+                        </p>
+
+                        <p>
+                            <label data-role="title-keywords">Meta keywords:</label>
+                            <span data-role="page-meta-keywords"></span>
+                        </p>
+
+                        <p>
+                            <label data-role="title-description">Meta description:</label>
+                            <span data-role="page-meta-description"></span>
+                        </p>
+
+                        <p>
+                            <label data-role="title-internal">Internal links:</label>
+                            <span data-role="page-links-internal">33 (0 nofollow)</span>
+                        </p>
+
+                        <p>
+                            <label data-role="title-external">External links:</label>
+                            <span data-role="page-links-external">16 (3 nofollow)</span>
+                        </p>
+
+                        <p>
+                            <label data-role="title-server">Server:</label>
+                            <span data-role="page-server">Netlify
+</span>
+                        </p>
+                    </td>
+                    <td>
+                        <a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" data-role="link-print" class="sqbtn"><i class="fa fa-print"></i> Print</a>
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="block-header" data-role="title-parameters">Parameters:</div>
+        <p data-role="title-page-parameters">Page:</p>
+        <div data-role="page-parameters" class="page-parameters"><div class="sq-pageinfo-cell seoquake-params-cell" title="Google cachedate"><span class="icn circle"><span class="sqicn sqicn-google"></span></span><span class="description">Cached:</span><a class="seoquake-params-link" href="https://webcache.googleusercontent.com/search?hl=en&amp;gl=en&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=cache:https%3A%2F%2Fbgoonz-blog.netlify.app%2Fadmin%2F%23%2Fcollections%2Fblog" rel="966f9024 b80e911e_3" target="_blank" datavalue="n/a">n/a</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="Facebook likes"><span class="icn circle"><span class="sqicn sqicn-facebook"></span></span><span class="description">l:</span><a class="seoquake-params-link" href="https://www.facebook.com/v2.5/plugins/like.php?layout=button_count&amp;href=https%3A%2F%2Fbgoonz-blog.netlify.app%2Fadmin%2F%23%2Fcollections%2Fblog" rel="966f9024 b5128c39_35" target="_blank" datavalue="n/a">n/a</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="Pinterest Pin count"><span class="icn circle"><span class="sqicn sqicn-pinterest"></span></span><span class="description">PIN:</span><a class="seoquake-params-link" href="https://api.pinterest.com/v1/urls/count.json?callback=r&amp;url=https%3A%2F%2Fbgoonz-blog.netlify.app%2Fadmin%2F%23%2Fcollections%2Fblog" rel="966f9024 556dd927_60" target="_blank" datavalue="0">0</a></div></div>
+        <p data-role="title-domain-parameters">Domain:</p>
+        <div data-role="domain-parameters" class="page-parameters"><div class="sq-pageinfo-cell seoquake-params-cell" title="Google index"><span class="icn circle"><span class="sqicn sqicn-google"></span></span><span class="description">I:</span><a class="seoquake-params-link" href="https://www.google.com/search?hl=en&amp;safe=off&amp;q=site%3Abgoonz-blog.netlify.app&amp;btnG=Search&amp;gws_rd=cr" rel="966f9024 4eedad12_1" target="_blank" datavalue="50">50</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="Yahoo index"><span class="icn circle"><span class="sqicn sqicn-yahoo"></span></span><span class="description">I:</span><a class="seoquake-params-link" href="https://search.yahoo.com/search?p=.&amp;vs=bgoonz-blog.netlify.app" rel="966f9024 c177a468_10" target="_blank" datavalue="n/a">n/a</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="Bing index"><span class="icn circle"><span class="sqicn sqicn-bing"></span></span><span class="description">I:</span><a class="seoquake-params-link" href="https://www.bing.com/search?q=site%3Abgoonz-blog.netlify.app&amp;FORM=QBRE" rel="966f9024 85e29bc6_20" target="_blank" datavalue="49 ">49</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="Alexa rank"><span class="icn circle"><span class="sqicn sqicn-alexa"></span></span><span class="description">Rank:</span><a class="seoquake-params-link" href="https://www.alexa.com/siteinfo/bgoonz-blog.netlify.app" rel="966f9024 fff45b61_31" target="_blank" datavalue="2167408">2.17M</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="SEMrush Rank"><span class="icn circle"><span class="sqicn sqicn-semrush"></span></span><span class="description">Rank:</span><a class="seoquake-params-link" href="https://www.semrush.com/info/bgoonz-blog.netlify.app?ref=174537735&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=params" rel="966f9024 448cf53a_41" target="_blank" datavalue="10324565">10.3M</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="SEMrush SE Traffic"><span class="icn circle"><span class="sqicn sqicn-semrush"></span></span><span class="description">Traffic:</span><a class="seoquake-params-link" href="https://www.semrush.com/info/bgoonz-blog.netlify.app?ref=174537735&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=params" rel="966f9024 448cf53a_42" target="_blank" datavalue="3">3</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="SEMrush SE Traffic price"><span class="icn circle"><span class="sqicn sqicn-semrush"></span></span><span class="description">Costs:</span><a class="seoquake-params-link" href="https://www.semrush.com/info/bgoonz-blog.netlify.app?ref=174537735&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=params" rel="966f9024 448cf53a_43" target="_blank" datavalue="n/a">n/a</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="SEMrush advertiser display ads"><span class="icn circle"><span class="sqicn sqicn-semrush"></span></span><span class="description">Adv Disp Ads:</span><a class="seoquake-params-link" href="https://www.semrush.com/analytics/da/creatives/netlify.app?platformName=asAdvertiser&amp;ref=174537735&amp;utm_source=seoquake&amp;utm_medium=serpoverlay&amp;utm_campaign=display_advertising" rel="966f9024 718296f6_45" target="_blank" datavalue="1">1</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="SEMrush publisher display ads"><span class="icn circle"><span class="sqicn sqicn-semrush"></span></span><span class="description">Pub Disp Ads:</span><a class="seoquake-params-link" href="https://www.semrush.com/analytics/da/creatives/netlify.app?platformName=asPublisher&amp;ref=174537735&amp;utm_source=seoquake&amp;utm_medium=serpoverlay&amp;utm_campaign=display_advertising" rel="966f9024 94d93c0a_46" target="_blank" datavalue="1">1</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="Yandex IKS"><span class="icn circle"><span class="sqicn sqicn-yandex"></span></span><span class="description">IKS:</span><a class="seoquake-params-link" href="https://webmaster.yandex.ru/sqi/?host=bgoonz-blog.netlify.app" rel="966f9024 d92ca218_50" target="_blank" datavalue="2 470">2.47K</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="Yandex index"><span class="icn circle"><span class="sqicn sqicn-yandex"></span></span><span class="description">I:</span><a class="seoquake-params-link" href="https://www.yandex.ru/search/?text=host%3Abgoonz-blog.netlify.app" rel="966f9024 30f2f741_51" target="_blank" datavalue="70">70</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="Baidu index"><span class="icn circle"><span class="sqicn sqicn-baidu"></span></span><span class="description">I:</span><a class="seoquake-params-link" href="https://www.baidu.com/s?wd=site%3Abgoonz-blog.netlify.app&amp;cl=3" rel="966f9024 7971c344_70" target="_blank" datavalue="n/a">n/a</a></div></div>
+        <p data-role="title-backlinks-parameters">Backlinks:</p>
+        <div data-role="backlinks-parameters" class="page-parameters"><div class="sq-pageinfo-cell seoquake-params-cell" title="SEMrush backlinks"><span class="icn circle"><span class="sqicn sqicn-semrush"></span></span><span class="description">L:</span><a class="seoquake-params-link" href="https://www.semrush.com/analytics/backlinks/backlinks/?q=https%3A%2F%2Fbgoonz-blog.netlify.app%2Fadmin%2F%23%2Fcollections%2Fblog&amp;searchType=url?utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=params&amp;ref=174537735" rel="966f9024 289d93d6_15" target="_blank" datavalue="0">0</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="SEMrush subdomain backlinks"><span class="icn circle"><span class="sqicn sqicn-semrush"></span></span><span class="description">LD:</span><a class="seoquake-params-link" href="https://www.semrush.com/analytics/backlinks/backlinks/bgoonz-blog.netlify.app:domain?utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=params&amp;ref=174537735" rel="966f9024 c7323b27_16" target="_blank" datavalue="9713">9.7K</a></div><div class="sq-pageinfo-cell seoquake-params-cell" title="SEMrush root domain backlinks"><span class="icn circle"><span class="sqicn sqicn-semrush"></span></span><span class="description">LRD:</span><a class="seoquake-params-link" href="https://www.semrush.com/analytics/backlinks/backlinks/bgoonz-blog.netlify.app:root_domain?utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=params&amp;ref=174537735" rel="966f9024 c7323b27_17" target="_blank" datavalue="9713">9.7K</a></div></div>
+        <p data-role="title-other-parameters" style="display: none;">Others:</p>
+        <div data-role="other-parameters" class="page-parameters" style="display: none;"></div>
+    </div>
+
+    <div class="block page-break">
+        <div class="block-header"><h3 data-role="title-keywords-density">Keywords density</h3></div>
+        <p data-role="total-words">Total number of words: <span data-role="1-word-count">299</span>.
+            <a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#word-1" rel="1-word-count" data-role="see-all-keywords">See all</a></p>
+        <table data-role="1-word-table" class="density-keywords-table">
+            <thead>
+            <tr>
+                <th data-role="keywords-keyword">Keyword</th>
+                <th data-role="keywords-foundin">Found in</th>
+                <th data-role="keywords-repeats">Repeats</th>
+                <th data-role="keywords-density">Density</th>
+            </tr>
+            </thead>
+            <tbody><tr rel="bryan" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=bryan&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">bryan</a></td><td></td><td class="right">14</td><td class="right">4.68%</td></tr><tr rel="published" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=published&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">published</a></td><td></td><td class="right">14</td><td class="right">4.68%</td></tr><tr rel="16z" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=16z&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">16z</a></td><td></td><td class="right">12</td><td class="right">4.01%</td></tr><tr rel="2022-06-21t01" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=2022-06-21t01&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">2022-06-21t01</a></td><td></td><td class="right">12</td><td class="right">4.01%</td></tr><tr rel="follow" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=follow&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">follow</a></td><td></td><td class="right">10</td><td class="right">3.34%</td></tr><tr rel="semrush" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=semrush&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">semrush</a></td><td></td><td class="right">5</td><td class="right">1.67%</td></tr><tr rel="facebook" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=facebook&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">facebook</a></td><td></td><td class="right">4</td><td class="right">1.34%</td></tr><tr rel="ads" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=ads&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">ads</a></td><td></td><td class="right">4</td><td class="right">1.34%</td></tr><tr rel="rank" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=rank&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">rank</a></td><td></td><td class="right">4</td><td class="right">1.34%</td></tr><tr rel="blogger" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=blogger&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">blogger</a></td><td></td><td class="right">3</td><td class="right">1.00%</td></tr></tbody>
+        </table>
+
+        <p data-role="total-2words">Total 2 word phrases: <span data-role="2-word-count">21</span>.
+            <a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#word-2" rel="1-word-count" data-role="see-all-keywords">See all</a></p>
+        <table data-role="2-word-table" class="density-keywords-table">
+            <thead>
+            <tr>
+                <th data-role="keywords-keyword">Keyword</th>
+                <th data-role="keywords-foundin">Found in</th>
+                <th data-role="keywords-repeats">Repeats</th>
+                <th data-role="keywords-density">Density</th>
+            </tr>
+            </thead>
+            <tbody><tr rel="by bryan" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=by%20bryan&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">by bryan</a></td><td></td><td class="right">14</td><td class="right">9.36%</td></tr><tr rel="published by" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=published%20by&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">published by</a></td><td></td><td class="right">14</td><td class="right">9.36%</td></tr><tr rel="22 16z" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=22%2016z&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">22 16z</a></td><td></td><td class="right">12</td><td class="right">8.03%</td></tr><tr rel="2022-06-21t01 22" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=2022-06-21t01%2022&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">2022-06-21t01 22</a></td><td></td><td class="right">12</td><td class="right">8.03%</td></tr><tr rel="bryan 2022-06-21t01" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=bryan%202022-06-21t01&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">bryan 2022-06-21t01</a></td><td></td><td class="right">12</td><td class="right">8.03%</td></tr><tr rel="follow on" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=follow%20on&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">follow on</a></td><td></td><td class="right">9</td><td class="right">6.02%</td></tr><tr rel="blogger follow" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=blogger%20follow&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">blogger follow</a></td><td></td><td class="right">2</td><td class="right">1.34%</td></tr><tr rel="disp ads" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=disp%20ads&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">disp ads</a></td><td></td><td class="right">2</td><td class="right">1.34%</td></tr><tr rel="display ads" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=display%20ads&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">display ads</a></td><td></td><td class="right">2</td><td class="right">1.34%</td></tr><tr rel="rank rank" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=rank%20rank&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">rank rank</a></td><td></td><td class="right">2</td><td class="right">1.34%</td></tr></tbody>
+        </table>
+
+        <p data-role="total-3words">Total 3 word phrases: <span data-role="3-word-count">15</span>.
+            <a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#word-3" rel="1-word-count" data-role="see-all-keywords">See all</a></p>
+        <table data-role="3-word-table" class="density-keywords-table">
+            <thead>
+            <tr>
+                <th data-role="keywords-keyword">Keyword</th>
+                <th data-role="keywords-foundin">Found in</th>
+                <th data-role="keywords-repeats">Repeats</th>
+                <th data-role="keywords-density">Density</th>
+            </tr>
+            </thead>
+            <tbody><tr rel="published by bryan" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=published%20by%20bryan&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">published by bryan</a></td><td></td><td class="right">14</td><td class="right">14.05%</td></tr><tr rel="2022-06-21t01 22 16z" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=2022-06-21t01%2022%2016z&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">2022-06-21t01 22 16z</a></td><td></td><td class="right">12</td><td class="right">12.04%</td></tr><tr rel="bryan 2022-06-21t01 22" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=bryan%202022-06-21t01%2022&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">bryan 2022-06-21t01 22</a></td><td></td><td class="right">12</td><td class="right">12.04%</td></tr><tr rel="by bryan 2022-06-21t01" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=by%20bryan%202022-06-21t01&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">by bryan 2022-06-21t01</a></td><td></td><td class="right">12</td><td class="right">12.04%</td></tr><tr rel="you need to" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=you%20need%20to&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">you need to</a></td><td></td><td class="right">2</td><td class="right">2.01%</td></tr><tr rel="everything you need" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=everything%20you%20need&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">everything you need</a></td><td></td><td class="right">2</td><td class="right">2.01%</td></tr><tr rel="16z everything you" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=16z%20everything%20you&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">16z everything you</a></td><td></td><td class="right">2</td><td class="right">2.01%</td></tr><tr rel="22 16z everything" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=22%2016z%20everything&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">22 16z everything</a></td><td></td><td class="right">2</td><td class="right">2.01%</td></tr><tr rel="html published by" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=html%20published%20by&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">html published by</a></td><td></td><td class="right">2</td><td class="right">2.01%</td></tr><tr rel="resources published by" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=resources%20published%20by&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">resources published by</a></td><td></td><td class="right">2</td><td class="right">2.01%</td></tr></tbody>
+        </table>
+
+        <p data-role="total-3words">Total 4 word phrases:&nbsp;<span data-role="4-word-count">14</span>.
+            <a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#word-4" data-role="see-all-keywords">See all</a></p>
+        <table data-role="4-word-table" class="density-keywords-table">
+            <thead>
+            <tr>
+                <th data-role="keywords-keyword">Keyword</th>
+                <th data-role="keywords-foundin">Found in</th>
+                <th data-role="keywords-repeats">Repeats</th>
+                <th data-role="keywords-density">Density</th>
+            </tr>
+            </thead>
+            <tbody><tr rel="bryan 2022-06-21t01 22 16z" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=bryan%202022-06-21t01%2022%2016z&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">bryan 2022-06-21t01 22 16z</a></td><td></td><td class="right">12</td><td class="right">16.05%</td></tr><tr rel="by bryan 2022-06-21t01 22" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=by%20bryan%202022-06-21t01%2022&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">by bryan 2022-06-21t01 22</a></td><td></td><td class="right">12</td><td class="right">16.05%</td></tr><tr rel="published by bryan 2022-06-21t01" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=published%20by%20bryan%202022-06-21t01&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">published by bryan 2022-06-21t01</a></td><td></td><td class="right">12</td><td class="right">16.05%</td></tr><tr rel="everything you need to" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=everything%20you%20need%20to&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">everything you need to</a></td><td></td><td class="right">2</td><td class="right">2.68%</td></tr><tr rel="16z everything you need" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=16z%20everything%20you%20need&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">16z everything you need</a></td><td></td><td class="right">2</td><td class="right">2.68%</td></tr><tr rel="22 16z everything you" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=22%2016z%20everything%20you&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">22 16z everything you</a></td><td></td><td class="right">2</td><td class="right">2.68%</td></tr><tr rel="2022-06-21t01 22 16z everything" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=2022-06-21t01%2022%2016z%20everything&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">2022-06-21t01 22 16z everything</a></td><td></td><td class="right">2</td><td class="right">2.68%</td></tr><tr rel="html published by bryan" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=html%20published%20by%20bryan&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">html published by bryan</a></td><td></td><td class="right">2</td><td class="right">2.68%</td></tr><tr rel="resources published by bryan" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=resources%20published%20by%20bryan&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">resources published by bryan</a></td><td></td><td class="right">2</td><td class="right">2.68%</td></tr><tr rel="guner 2022-06-21t02 37 56z" class="density-keywords-row"><td class="border-right"><a href="https://www.semrush.com/search.php?q=guner%202022-06-21t02%2037%2056z&amp;utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">guner 2022-06-21t02 37 56z</a></td><td></td><td class="right">2</td><td class="right">2.68%</td></tr></tbody>
+        </table>
+    </div>
+</div>
+
+        <div class="block container" style="margin-top: 30px;">
+    <div class="block-body block-body-gray">
+       <p><span data-role="feedback-1">Need more features?</span>
+            <a href="https://www.seoquake.com/review/suggest.php" target="_blank" data-role="feedback-link">Drop us a line</a>
+            <span data-role="feedback-2">or just mail us:</span>
+           <a href="mailto:mail@seoquaketeam.com" data-role="feedback-email">mail@seoquaketeam.com</a></p>
+    </div>
+</div>
+
+    </section>
+    <section id="diagnosis_block" style="display: none;" class="">
+        <header class="container">
+    <h2 data-role="title">Page SEO audit</h2>
+    <div class="summary">
+        <div class="success">
+            <span class="icon circle"></span><span class="description" data-role="passed">Passed:</span><span data-role="success-counter">8</span>
+        </div>
+        <div class="error">
+            <span class="icon circle"></span><span class="description" data-role="error">Error:</span><span data-role="error-counter">8</span>
+        </div>
+        <div class="warning">
+            <span class="icon circle"></span><span class="description" data-role="warning">Warning:</span><span data-role="warning-counter">6</span>
+        </div>
+    </div>
+    <div class="semrush">
+        <a href="https://www.semrush.com/lp/site-audit-2/en/?utm_source=seoquake&amp;utm_medium=diagnosis&amp;utm_campaign=get_free_audit&amp;ref=174537735" target="_blank" data-role="audit-banner">Get 100-pages audit for FREE in 5 minutes</a>
+        <span data-role="semrush-provided">provided by<a href="https://www.semrush.com/?utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=audit&amp;ref=174537735" data-role="semrush-link" target="_blank" style="margin-left: 0.5em;">semrush.com</a></span>
+    </div>
+</header>
+
+<div class="block container">
+    <div class="block-header" data-role="title-page-rules">Page analysis</div>
+    <div class="block-body">
+        <div data-role="rule-url" class="criterion good">
+            <div class="title" data-role="rule-url-title">URL</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>48 characters — optimal.</p></p>
+                <p data-role="value" class="hint">bgoonz-blog.netlify.app/admin/#/collections/blog</p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-url-tip"><p>Search engines and visitors can interact with your website more effectively when you use URLs that describe the pages content (for example: http://www.company.com/companyinformation).</p><p>URLs are extremely vital to your SEO campaign. Be sure to use URLs that make it <a href="http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=147959" target="_blank">easy for Google™ to index your site</a>.</p><p>Here's a suggestion: You can search for great domain names <a href="http://instantdomainsearch.com/" target="_blank">here</a>. If your desired name is not available, consider using <a href="http://sedo.com/" target="_blank">Sedo</a> to find an alternative.</p><p>When you trademark your domain name, it keeps other from stealing your brand.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-canonical" class="criterion average">
+            <div class="title" data-role="rule-canonical-title">Canonical</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>No canonical tag is set for this page.</p></p>
+                <p data-role="value" class="hint"></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-canonical-tip"><p>A canonical link tag is an HTML element that helps webmasters prevent duplicate content issues by specifying the ''canonical'' or ''preferred'' version of a webpage as part of search engine optimization.For more information, please see <a href="https://support.google.com/webmasters/answer/139066" target="_blank">this Google article</a>.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-title" class="criterion good">
+            <div class="title" data-role="rule-title-title">Title</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>15 characters — optimal.</p></p>
+                <p data-role="value" class="hint">Content Manager</p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-title-tip"><p>The most effective page titles are about 10-70 characters long, including spaces.</p><p>Keep your titles concise and make sure they contain your <a href="https://www.semrush.com/blog/seoquake-5-keys-to-optimizing-your-title-tags/?utm_source=seoquake&amp;utm_medium=toolbar&amp;utm_campaign=regular&amp;ref=174537735" target="_blank">best keywords</a>.</p><p>Each page should have its own exclusive title.</p><p>Featured tool: Here's a <a href="http://www.seomofo.com/snippet-optimizer.html" target="_blank">snippet-optimizer</a> that allows you to see how your titles look on Google™ and other search results.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-description" class="criterion bad">
+            <div class="title" data-role="rule-meta-title">Meta description</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>0 characters — try to enlarge description to 160 characters.</p></p>
+                <p data-role="value" class="hint"></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-meta-tip"><p><a href="http://en.wikipedia.org/wiki/Meta_element#The_description_attribute" target="_blank">Meta descriptions</a> are useful because they often dictate how your pages are shown in search results.</p><p>For optimum effectiveness, <a href="http://en.wikipedia.org/wiki/Meta_element#The_description_attribute" target="_blank">meta descriptions</a> should be 160-300 characters long.</p><p>Your meta descriptions should be concise and contain your <a href="http://googlewebmastercentral.blogspot.com/2007/09/improve-snippets-with-meta-description.html" target="_blank">best keywords</a></p><p>Make sure each page of your website has its own meta description.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-keywords" class="criterion deprecated">
+            <div class="title" data-role="rule-keywords-title">Meta keywords</div>
+            <div class="icon" title="Rule is deprected and will be removed soon. Please, do not rely on it."></div>
+            <div class="content">
+                <p data-role="message">0 characters, 0 words.</p>
+                <p data-role="value" class="hint"></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-keywords-tip"><p><a href="http://en.wikipedia.org/wiki/Meta_element#The_keywords_attribute" target="_blank">Meta keywords</a> are words or phrases that pertain to your site's content. In the past, people have tried to take advantage of this tag so now it doesn't affect your search rankings the way that it used to.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-headings" class="criterion bad">
+            <div class="title" data-role="rule-headings-title">Headings</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message">We suggest implementing HTML headings.</p>
+                <p data-role="value" class="hint">H1 (1), H2 (15), H3 (0), H4 (0), H5 (0), H6 (0)</p>
+                <div data-role="hide-overflow" class="slidePanel hideContent">
+                    <ul data-role="headings" class="hint"><li>&lt;H1&gt;: Blog</li><li>&lt;H2&gt;: Collections</li><li>&lt;H2&gt;: 10 Essential React Interview Questions published by Bryan C Guner (2022-06-21T02:37:56Z)</li><li>&lt;H2&gt;: Accessibility published by bryan (2022-06-21T01:22:16Z)</li><li>&lt;H2&gt;: Adding CSS to your Html published by bryan (2022-06-21T01:22:16Z)</li><li>&lt;H2&gt;: Awesome Resources published by bryan (2022-06-21T01:22:16Z)</li><li>&lt;H2&gt;: Beginners Guide To Python published by bryan (2022-06-21T01:22:16Z)</li><li>&lt;H2&gt;: Code Playgrounds of 2021 published by Bryan C Guner (2022-06-21T02:37:56Z)</li><li>&lt;H2&gt;: Data Structures   Algorithms Resources published by bryan (2022-06-21T01:22:16Z)</li><li>&lt;H2&gt;: Data Types published by bryan (2022-06-21T01:22:16Z)</li><li>&lt;H2&gt;: Deploy React App To Heroku published by bryan (2022-06-21T01:22:16Z)</li><li>&lt;H2&gt;: Embedding Media In Html published by bryan (2022-06-21T01:22:16Z)</li><li>&lt;H2&gt;: ESLint Rules published by bryan (2022-06-21T01:22:16Z)</li><li>&lt;H2&gt;: Event Handeling published by bryan (2022-06-21T01:22:16Z)</li><li>&lt;H2&gt;: Everything You Need To Become A Machine Learner published by bryan (2022-06-21T01:22:16Z)</li><li>&lt;H2&gt;: Everything You Need to Get Started With VSCode published by bryan (2022-06-21T01:22:16Z)</li></ul>
+                    <button data-role="show" class="show">View others</button>
+                    <button data-role="close" class="close">Tips</button>
+                </div>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-headings-tip"><p>You can include keywords in your headings.</p><p>The initial heading (&lt;H1&gt;) should include your best keywords.</p><p>Using only one &lt;H1&gt; heading per page will strengthen your SEO.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-images" class="criterion bad">
+            <div class="title" data-role="rule-images-title">Images</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>3 images without ALT.</p></p>
+                <p data-role="value" class="hint"></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-images-tip"><p>We suggest adding ALT text to your images so that it's easier for search engines to index them.</p><p>Search engines don't physically see images the way people do. ALT text is an option that allows you to specifically describe the image.</p><p>ALT text attaches a description to your pictures so that they show up in <a href="http://images.google.com/" target="_blank">Google™</a> and other search engine's image results.</p><p>Make sure your website images have their own <a href="http://www.webcredible.co.uk/user-friendly-resources/web-accessibility/image-alt-text.shtml" target="_blank">specific ALT text</a>.</p><p>To find out how to assign ALT text to your images, <a href="http://www.seosmarty.com/image-seo/" target="_blank">click here</a>.</p><p>Keep in mind that your pages load time will vary based on the number and size of your images. Try your best to keep it low.</p><p>Here’s a tip: You can see the past designs of any website by using <a href="http://archive.org/web/" target="_blank">The Wayback Machine</a>.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-ratio" class="criterion bad">
+            <div class="title" data-role="rule-text2html-title">Text/HTML ratio</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>4.07%  — ouch! Your websites ratio of text to HTML code is below 15%. We suggest adding a lot more text to your website.</p></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-text2html-tip"><p>The text to HTML ratio is not a direct ranking factor for search engines but there are many factors related to the ratio that indicate best SEO practices and thus may indirectly result in higher search rankings. Please follow this <a href="https://www.woorank.com/en/blog/are-text-to-html-ratios-important" target="_blank">article</a> to get more information.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-frames" class="criterion average">
+            <div class="title" data-role="rule-frames-title">Frames</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>We see that your website has IFRAMEs. Usually this is not a problem for SEO if they are used properly.</p></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-frames-tip"><p>It's hard for search engines to index pages with frames since it does not follow <a href="http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=34445" target="_blank">the standard layout for a website</a>.</p><p>You should avoid the use of frames when optimizing your website.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-flash" class="criterion good">
+            <div class="title" data-role="rule-flash-title">Flash</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>Not detected</p></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-flash-tip"><p>Flash is only good in certain situations like enhancing the look of your page.</p><p>For better SEO, do not use flash at all.</p><p>It's possible that this could change in the near future but as of right now, Flash <a href="http://www.beussery.com/blog/index.php/2008/10/google-flash-seo/" target="_blank">cannot be indexed</a> by search engines.</p><p><a href="http://en.wikipedia.org/wiki/Ajax_%28programming%29" target="_blank">AJAX</a> is also in the <a href="http://googlewebmastercentral.blogspot.com/2009/10/proposal-for-making-ajax-crawlable.html" target="_blank">same category</a> as Flash.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-microformats" class="criterion average">
+            <div class="title" data-role="rule-microformats-title">Microformats</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>This page does not utilize Microformat markup.</p><p>You can validate your markup with the <a href="https://search.google.com/structured-data/testing-tool/#url=https%3A%2F%2Fbgoonz-blog.netlify.app%2Fadmin%2F%23%2Fcollections%2Fblog" target="_blank">Google Structured Data Testing Tool</a>.</p></p>
+                <p data-role="value" class="hint"></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-microformats-tip"><p><a href="http://en.wikipedia.org/wiki/Microformat" target="_blank">Microformat</a> is a markup that is used to structure the data that is being sent to search engines more effectively.</p><p>The presentation of Google's search results is always <a href="http://googlewebmastercentral.blogspot.com/2009/05/introducing-rich-snippets.html" target="_blank">improving</a> due to Microformats.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-schemaorg" class="criterion bad">
+            <div class="title" data-role="rule-schemaorg-title">Schema.org</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>Your page does not utilize <a href="http://schema.org/" target="_blank">Schema.org</a> markup.</p><p>You can validate your markup with the <a href="https://search.google.com/structured-data/testing-tool/#url=https%3A%2F%2Fbgoonz-blog.netlify.app%2Fadmin%2F%23%2Fcollections%2Fblog" target="_blank">Google Structured Data Testing Tool</a>.</p></p>
+                <p data-role="value" class="hint"></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-schemaorg-tip"><p>Using markup data on your webpages is a powerful way to increase your visibility to search engines and gain higher click-through rates, which may in turn lead to better rankings.</p><p>For more information, see <a href="https://developers.google.com/search/docs/guides/intro-structured-data" target="_blank">Introduction to Structured Data</a>.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-opengraph" class="criterion average">
+            <div class="title" data-role="rule-opengraph-title">The Open Graph</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>Your page does not have any Open Graph objects.</p><p>You can validate your markup with the <a href="https://developers.facebook.com/tools/debug/?q=https%3A%2F%2Fbgoonz-blog.netlify.app%2Fadmin%2F%23%2Fcollections%2Fblog" target="_blank">Facebook Object Debugger tool</a>.</p></p>
+                <p data-role="value" class="hint"></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-opengraph-tip"><p>The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.</p><p>For more information, see <a href="http://ogp.me/" target="_blank">The Open Graph protocol</a>.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-twittercard" class="criterion average">
+            <div class="title" data-role="rule-twittercard-title">Twitter Card</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>Your page does not have any <a href="https://dev.twitter.com/cards/overview" target="_blank">Twitter Cards</a>. You can validate your cards with the <a href="https://cards-dev.twitter.com/validator" target="_blank">Twitter Card validator tool</a>.</p></p>
+                <p data-role="value" class="hint"></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-twittercard-tip"><p>With Twitter Cards, you can attach rich photos, videos and media experience to Tweets that drive traffic to your website.</p><p>For more information, see <a href="https://dev.twitter.com/cards/overview" target="_blank">Twitter documentation</a>.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block container">
+    <div class="block-header" data-role="title-mobile-rules">Mobile compliance</div>
+    <div class="block-body">
+        <div data-role="rule-ampversion" class="criterion average">
+            <div class="title" data-role="rule-amp-title">AMP</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>It seems that this page does not have an AMP version. If you are a publisher, you should think about creating Accelerated Mobile Pages, which is an easy way to make your pages load instantly on any mobile device.</p></p>
+                <p data-role="value" class="hint"></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-amp-tip"><p>AMP is a way to build web pages for static content that render fast.</p><p>AMP HTML is HTML with some restrictions for reliable performance and some extensions for building rich content beyond basic HTML.</p><p>You can check this <a href="https://support.google.com/webmasters/answer/6340290" target="_blank">Google support page</a> or <a href="https://www.ampproject.org/docs/get_started/about-amp.html" target="_blank">AMP project guide</a>.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-viewport" class="criterion good">
+            <div class="title" data-role="rule-viewport-title">Meta viewport</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>Good! This page has a typical viewport meta tag value compatible with most of mobile browsers.</p></p>
+                <p data-role="value" class="hint">width=device-width, initial-scale=1.0</p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-viewport-tip"><p>A viewport controls how a webpage is displayed on a mobile device. Without a viewport, mobile devices will render the page at a typical desktop screen width, scaled to fit the screen. Setting a viewport gives control over the page's width and scaling on different devices.</p><p>Please follow <a href="https://developers.google.com/speed/docs/insights/ConfigureViewport" target="_blank">this article</a> to get more information about viewport.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="criterion">
+            <p class="info" data-role="more-checks-text">Need more checks? <a href="https://www.seoquake.com/review/suggest.php" target="_blank" data-role="more-checks-link">Drop us a line</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="block container">
+    <div class="block-header" data-role="title-site-rules">Site compliance</div>
+    <div class="block-body">
+        <div data-role="rule-robotstxt" class="criterion good">
+            <div class="title" data-role="rule-robots-title">Robots.txt</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>Good, it looks like your website has a robots.txt file.</p></p>
+                <p data-role="value" class="hint">https://bgoonz-blog.netlify.app/robots.txt</p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-robots-tip"><p>This file restricts the activity of search engine crawlers and stops them from accessing certain pages and directories.</p><p>A <a href="http://www.robotstxt.org/orig.html" target="_blank">robots.txt file</a> also locates the XML sitemap.</p><p>To check your robots.txt file for syntax errors, <a href="https://www.google.com/webmasters/tools/robots-testing-tool" target="_blank">Click Here</a>.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-sitemapxml" class="criterion bad">
+            <div class="title" data-role="rule-sitemap-title">XML Sitemaps</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>Your website does not contain an XML sitemap and that can weaken your SEO.</p></p>
+                <p data-role="value" class="hint"></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-sitemap-tip"><p>An <a href="http://en.wikipedia.org/wiki/Sitemaps" target="_blank">XML sitemap</a> lists URLs that can be crawled and may offer other information such as how often you update, when your last update occurred and importance.</p><p>With an XML sitemap, search engines can index your website more accurately.</p><p>Although it's been <a href="http://www.seomoz.org/blog/expert-advice-on-google-sitemaps-verify-but-dont-submit" target="_blank">debated</a>, we suggest that you submit an XML sitemap to <a href="http://www.google.com/webmasters/tools/" target="_blank">Google™ Webmasters Tools</a>.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-language" class="criterion good">
+            <div class="title" data-role="rule-language-title">Language</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>Great! You have specified your websites language.</p></p>
+                <p data-role="value" class="hint">en</p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-language-tip"><p>Here are some suggestions for multilingual sites:</p><p>⋅ You should declare the contents language in the HTML code of each page.<br>⋅ You should also declare the language code in the URL (for example: company.com/es/contact.html).<br>⋅ If you plan on building a multilingual site, refer to the tips found <a href="http://www.toprankblog.com/2009/10/top-10-pitfalls-of-international-seo/" target="_blank">here</a></p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-doctype" class="criterion good">
+            <div class="title" data-role="rule-doctype-title">Doctype</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>Great! You have specified the doctype.</p></p>
+                <p data-role="value" class="hint">HTML5</p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-doctype-tip"><p>Specifying a <a href="http://www.w3schools.com/tags/tag_DOCTYPE.asp" target="_blank">doctype</a> assists your web browser in correctly rendering your content.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-encoding" class="criterion good">
+            <div class="title" data-role="rule-encoding-title">Encoding</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>Declaring a character/language encoding will significantly strengthen your SEO. It also prevents complication when rendering page.</p></p>
+                <p data-role="value" class="hint">utf-8</p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-encoding-tip"><p>Please follow this <a href="https://www.w3.org/International/tutorials/tutorial-char-enc/" target="_blank">article</a> to find how to add proper character encoding to your site.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-googleanalytics" class="criterion bad">
+            <div class="title" data-role="rule-analytics-title">Google™ Analytics</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>Google™ Analytics is not monitoring your website. We suggest taking advantage of this great tool.</p></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-analytics-tip"><p>Please follow this <a href="https://moz.com/blog/absolute-beginners-guide-to-google-analytics" target="_blank">article</a> to get more information about Google Analytics</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="rule-favicon" class="criterion bad">
+            <div class="title" data-role="rule-favicon-title">Favicon</div>
+            <div class="icon"></div>
+            <div class="content">
+                <p data-role="message"><p>Not good. You should have a favicon.</p></p>
+                <p data-role="value" class="hint"></p>
+            </div>
+            <div class="tips" data-role="tips">
+                <button data-role="open" class="open">Tips</button>
+                <div class="tips-block" data-role="dropdown">
+                    <button data-role="close" class="close">Tips</button>
+                    <div class="content" data-role="rule-favicon-tip"><p>Ensure that your favicon <a href="http://www.howtojoomla.net/2007050865/how-tos/miscellaneous/how-to-change-your-favicon" target="_blank">reflects your brand</a>.</p><p>Featured tip: If you want a better experience for your visitors, have a look at <a href="http://www.youtube.com/watch?v=0KDjjePkd2U" target="_blank">this</a> great favicon.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="block container" style="margin-top: 30px;">
+    <div class="block-body block-body-gray">
+       <p><span data-role="feedback-1">Need more features?</span>
+            <a href="https://www.seoquake.com/review/suggest.php" target="_blank" data-role="feedback-link">Drop us a line</a>
+            <span data-role="feedback-2">or just mail us:</span>
+           <a href="mailto:mail@seoquaketeam.com" data-role="feedback-email">mail@seoquaketeam.com</a></p>
+    </div>
+</div>
+
+    </section>
+    <section id="internal_block" style="display: none; min-height: 1005px;" class="overlay-container">
+    <div class="overlay hidden"><div class="overlay-progress" style="width: 0%;"></div></div>
+    <header>
+    <h2 data-role="title">Internal links</h2>
+    <div class="summary">
+        <div class="total orange emphasis">
+            <button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-orange sqbtn-small sqbtn-pressed bold" data-role="filter" data-filter="total"><!--
+            --><span data-role="totalLinks">Total links:</span><span data-role="total-counter">33</span><!--
+            --></button>
+        </div>
+        <div class="links"><!--
+         --><button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-gray sqbtn-small" data-role="filter" data-filter="follow"><!--
+            --><span data-role="followLinks">Follow:</span><span data-role="follow-counter">33</span><!--
+            --></button><!--
+         --><button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-gray sqbtn-small" data-role="filter" data-filter="nofollow"><!--
+            --><span data-role="noFollowLinks">No follow:</span><span data-role="nofollow-counter">0</span><!--
+            --></button><!--
+         --><div class="separator"></div><!--
+         --><button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-gray sqbtn-small" data-role="filter" data-filter="image"><!--
+            --><span data-role="imagesLinks">Images:</span><span data-role="images-counter">0</span><!--
+            --></button><!--
+         --><button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-gray sqbtn-small" data-role="filter" data-filter="text"><!--
+            --><span data-role="textLinks">Text:</span><span data-role="text-counter">33</span><!--
+            --></button><!--
+         --><button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-gray sqbtn-small" data-role="filter" data-filter="form"><!--
+            --><span data-role="formLinks">Forms:</span><span data-role="form-counter">0</span><!--
+            --></button><!--
+         --><button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-gray sqbtn-small" data-role="filter" data-filter="frame"><!--
+            --><span data-role="frameLinks">Frames:</span><span data-role="frame-counter">0</span><!--
+            --></button><!--
+            --><div class="separator"></div><!--
+        --></div>
+    </div>
+</header>
+<div class="sqtoolbar">
+    <button data-role="button-request" class="sqbtn sqbtn-small sqbtn-gray sqbtn-transparent">Request all parameters</button><!--
+     --><button data-role="button-save" class="sqbtn sqbtn-small sqbtn-gray sqbtn-transparent">Save as CSV</button><!--
+     --><button data-role="button-configure" class="sqbtn sqbtn-small sqbtn-gray sqbtn-transparent">Add/hide parameters</button>
+</div>
+
+
+<table data-role="linkinfo-table" class="linkinfo-table">
+    <colgroup>
+        <col width="50">
+        <col width="500">
+    </colgroup>
+    <thead><tr><th class="seoquake-params-header" rowspan="2">#</th><th class="seoquake-params-header sortable" rowspan="2" rel="url">URL</th><th title="Parameters related to full link" colspan="3">Link params</th><th title="Parameters related to backlinks to current link" colspan="1">Backlink params</th></tr><tr><th title="No-follow" class="seoquake-params-header sortable" rel="nofollow">No-follow</th><th class="seoquake-params-header getAll" rel="3" title="Cached">Google cachedate</th><th class="seoquake-params-header getAll" rel="35" title="l">Facebook likes</th><th class="seoquake-params-header getAll" rel="15" title="L">SEMrush backlinks</th></tr></thead>
+    <tbody><tr rel="238efed2" class="even"><td rowspan="1">1</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://bgoonz-blog.netlify.app/admin/" rel="238efed2 x_url" target="_blank">https://bgoonz-blog.netlify.app/admin/</a><span class="linkType">text</span><span class="linkAnchor">Anchor Contents</span><span class="linkCount">+ 31 more links</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google cachedate" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="238efed2 967a1280_3" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="Facebook likes" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="238efed2 f391cf7b_35" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="238efed2 16ed7881_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Workflow</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Docs</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Blog</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor BlogAuthors</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor BlogCategories</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor BlogTags</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor New Blog</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor 10 Essential React Interview Questions published by Bryan C Guner (2022-06-21...</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Accessibility published by bryan (2022-06-21T01:22:16Z)</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Adding CSS to your Html published by bryan (2022-06-21T01:22:16Z)</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Awesome Resources published by bryan (2022-06-21T01:22:16Z)</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Beginners Guide To Python published by bryan (2022-06-21T01:22:16Z)</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Code Playgrounds of 2021 published by Bryan C Guner (2022-06-21T02:37:56Z)</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Data Structures &amp; Algorithms Resources published by bryan (2022-06-21T01:22:16Z)</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Data Types published by bryan (2022-06-21T01:22:16Z)</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Deploy React App To Heroku published by bryan (2022-06-21T01:22:16Z)</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Embedding Media In Html published by bryan (2022-06-21T01:22:16Z)</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor ESLint Rules published by bryan (2022-06-21T01:22:16Z)</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Event Handeling published by bryan (2022-06-21T01:22:16Z)</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Everything You Need To Become A Machine&nbsp;Learner published by bryan (2022-06-2...</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Everything You Need to Get Started With VSCode published by bryan (2022-06-21...</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor See how to help</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Facebook</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Twitter</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Email</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Pinterest</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Copy Link</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor LinkedIn</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Google Bookmark</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor">Anchor Blogger</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr class="even row-hidden" datarole="otherLink"><td class="border-right link-cell"><span class="linkType">text</span><span class="linkAnchor linkAnchor-empty">Empty anchor</span></td><td rel="238efed2 x_nofollow"><i class="icon seoquake-params-link" rel="238efed2 x_nofollow" datavalue="No"></i></td></tr><tr rel="a2f1abe4" class="odd"><td rowspan="1">2</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://bgoonz-blog.netlify.app/" rel="a2f1abe4 x_url" target="_blank">https://bgoonz-blog.netlify.app/</a><span class="linkType">text</span><span class="linkAnchor">Anchor bgoonz-blog.netlify.app/</span></td><td rel="a2f1abe4 x_nofollow"><i class="icon seoquake-params-link" rel="a2f1abe4 x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google cachedate" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="a2f1abe4 1c7df815_3" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="Facebook likes" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="a2f1abe4 74e71197_35" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="a2f1abe4 c7323b27_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr></tbody>
+</table>
+
+
+    <div class="block container" style="margin-top: 30px;">
+    <div class="block-body block-body-gray">
+       <p><span data-role="feedback-1">Need more features?</span>
+            <a href="https://www.seoquake.com/review/suggest.php" target="_blank" data-role="feedback-link">Drop us a line</a>
+            <span data-role="feedback-2">or just mail us:</span>
+           <a href="mailto:mail@seoquaketeam.com" data-role="feedback-email">mail@seoquaketeam.com</a></p>
+    </div>
+</div>
+
+</section>
+    <section id="external_block" class="overlay-container" style="display: none; min-height: 1005px;">
+    
+    <header>
+    <h2 data-role="title">External links</h2>
+    <div class="summary">
+        <div class="total orange emphasis">
+            <button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-orange sqbtn-small sqbtn-pressed bold" data-role="filter" data-filter="total"><!--
+            --><span data-role="totalLinks">Total links:</span><span data-role="total-counter">16</span><!--
+            --></button>
+        </div>
+        <div class="links"><!--
+         --><button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-gray sqbtn-small" data-role="filter" data-filter="follow"><!--
+            --><span data-role="followLinks">Follow:</span><span data-role="follow-counter">13</span><!--
+            --></button><!--
+         --><button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-gray sqbtn-small" data-role="filter" data-filter="nofollow"><!--
+            --><span data-role="noFollowLinks">No follow:</span><span data-role="nofollow-counter">3</span><!--
+            --></button><!--
+         --><div class="separator"></div><!--
+         --><button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-gray sqbtn-small" data-role="filter" data-filter="image"><!--
+            --><span data-role="imagesLinks">Images:</span><span data-role="images-counter">1</span><!--
+            --></button><!--
+         --><button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-gray sqbtn-small" data-role="filter" data-filter="text"><!--
+            --><span data-role="textLinks">Text:</span><span data-role="text-counter">14</span><!--
+            --></button><!--
+         --><button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-gray sqbtn-small" data-role="filter" data-filter="form"><!--
+            --><span data-role="formLinks">Forms:</span><span data-role="form-counter">0</span><!--
+            --></button><!--
+         --><button class="sqbtn sqbtn-transparent sqbtn-switch sqbtn-gray sqbtn-small" data-role="filter" data-filter="frame"><!--
+            --><span data-role="frameLinks">Frames:</span><span data-role="frame-counter">1</span><!--
+            --></button><!--
+            --><div class="separator"></div><!--
+        --></div>
+    </div>
+</header>
+<div class="sqtoolbar">
+    <button data-role="button-request" class="sqbtn sqbtn-small sqbtn-gray sqbtn-transparent">Request all parameters</button><!--
+     --><button data-role="button-save" class="sqbtn sqbtn-small sqbtn-gray sqbtn-transparent">Save as CSV</button><!--
+     --><button data-role="button-configure" class="sqbtn sqbtn-small sqbtn-gray sqbtn-transparent">Add/hide parameters</button>
+</div>
+
+
+<table data-role="linkinfo-table" class="linkinfo-table">
+    <colgroup>
+        <col width="50">
+        <col width="500">
+    </colgroup>
+    <thead><tr><th class="seoquake-params-header" rowspan="2">#</th><th class="seoquake-params-header sortable" rowspan="2" rel="url">URL</th><th title="Parameters related to full link" colspan="1">Link params</th><th title="Parameters related to link domain" colspan="5">Domain params</th><th title="Parameters related to backlinks to current link" colspan="2">Backlink params</th></tr><tr><th title="No-follow" class="seoquake-params-header sortable" rel="nofollow">No-follow</th><th class="seoquake-params-header getAll" rel="1" title="I">Google index</th><th class="seoquake-params-header getAll" rel="20" title="I">Bing index</th><th class="seoquake-params-header getAll" rel="31" title="Rank">Alexa rank</th><th class="seoquake-params-header" rel="37" title="whois">Whois</th><th class="seoquake-params-header getAll" rel="41" title="Rank">SEMrush Rank</th><th class="seoquake-params-header getAll" rel="15" title="L">SEMrush backlinks</th><th class="seoquake-params-header getAll" rel="16" title="LD">SEMrush subdomain backlinks</th></tr></thead>
+    <tbody><tr rel="2dc089a7" class="even"><td rowspan="1">1</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html" rel="2dc089a7 x_url" target="_blank">https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html</a><span class="linkType">frame</span></td><td rel="2dc089a7 x_nofollow"><i class="icon seoquake-params-link" rel="2dc089a7 x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="2dc089a7 8ed5c0a7_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="2dc089a7 66e6c0ea_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="2dc089a7 198eb355_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/s7.addthis.com?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="2dc089a7 388a1567_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="2dc089a7 f302015f_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="2dc089a7 b466e26b_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="2dc089a7 c9a60f6d_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="f57770df" class="odd"><td rowspan="1">2</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://bgoonzblog20master.gatsbyjs.io/" rel="f57770df x_url" target="_blank">https://bgoonzblog20master.gatsbyjs.io/</a><span class="linkType">image</span></td><td rel="f57770df x_nofollow"><i class="icon seoquake-params-link" rel="f57770df x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f57770df 58bad5ad_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f57770df d3203ec8_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f57770df b15e71bb_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/bgoonzblog20master.gatsbyjs.io?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="f57770df 89fc52ad_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f57770df 314fbfd9_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f57770df 8ef9eafe_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f57770df 8ef9eafe_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="f56b0642" class="even"><td rowspan="1">3</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://pdfcrowd.com/url_to_pdf/?" rel="f56b0642 x_url" target="_blank">https://pdfcrowd.com/url_to_pdf/?</a><span class="linkType">text</span><span class="linkAnchor">Anchor Save to PDF</span></td><td rel="f56b0642 x_nofollow"><i class="icon seoquake-params-link" rel="f56b0642 x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f56b0642 57360070_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f56b0642 bc7e3316_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f56b0642 db4067bf_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/pdfcrowd.com?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="f56b0642 bc8b50de_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f56b0642 7de73cad_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f56b0642 38863bb3_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f56b0642 363fc229_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="3ed7191e" class="odd seoquake-nofollow-link"><td rowspan="1">4</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://uahelp.monobank.ua/" rel="3ed7191e x_url" target="_blank">https://uahelp.monobank.ua/</a><span class="linkType">text</span><span class="linkAnchor">Anchor Donate 💸</span></td><td rel="3ed7191e x_nofollow"><i class="icon seoquake-params-link" rel="3ed7191e x_nofollow" datavalue="Yes"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="3ed7191e 99863319_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="3ed7191e 851d6fb4_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="3ed7191e 72aebe90_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/uahelp.monobank.ua?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="3ed7191e dd77610f_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="3ed7191e 94b5143e_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="3ed7191e cce31c36_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="3ed7191e cce31c36_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="f8aa72f3" class="even seoquake-nofollow-link"><td rowspan="1">5</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://war.ukraine.ua/" rel="f8aa72f3 x_url" target="_blank">https://war.ukraine.ua/</a><span class="linkType">text</span><span class="linkAnchor">Anchor Support Ukraine ❤</span></td><td rel="f8aa72f3 x_nofollow"><i class="icon seoquake-params-link" rel="f8aa72f3 x_nofollow" datavalue="Yes"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f8aa72f3 40f7b45c_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f8aa72f3 9b9265c7_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f8aa72f3 65099b0e_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/war.ukraine.ua?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="f8aa72f3 68ac52c9_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f8aa72f3 34505475_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f8aa72f3 45923adf_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="f8aa72f3 45923adf_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="e6ee140d" class="odd seoquake-nofollow-link"><td rowspan="1">6</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://helpukrainewinwidget.org/" rel="e6ee140d x_url" target="_blank">https://helpukrainewinwidget.org/</a><span class="linkType">text</span><span class="linkAnchor">Anchor Share this widget 📌</span></td><td rel="e6ee140d x_nofollow"><i class="icon seoquake-params-link" rel="e6ee140d x_nofollow" datavalue="Yes"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="e6ee140d bcaf2403_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="e6ee140d d2b5b3c1_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="e6ee140d 8ca3e86b_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/helpukrainewinwidget.org?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="e6ee140d 7e5d93a2_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="e6ee140d 89164b15_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="e6ee140d 45b9ecab_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="e6ee140d 45b9ecab_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="2c79d6ff" class="even"><td rowspan="1">7</td><td class="border-right link-cell"><a class="seoquake-params-link" href="http://www.facebook.com/bryan.guner/" rel="2c79d6ff x_url" target="_blank">http://www.facebook.com/bryan.guner/</a><span class="linkType">text</span><span class="linkAnchor">Anchor Follow on Facebook Facebook</span></td><td rel="2c79d6ff x_nofollow"><i class="icon seoquake-params-link" rel="2c79d6ff x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="2c79d6ff 19a8e28b_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="2c79d6ff 0abb74a0_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="2c79d6ff 92aa6987_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/www.facebook.com?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="2c79d6ff b86ac373_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="2c79d6ff 8d544597_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="2c79d6ff ec8ad1d4_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="2c79d6ff 4d736299_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="5d564d46" class="odd"><td rowspan="1">8</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://twitter.com/bgooonz" rel="5d564d46 x_url" target="_blank">https://twitter.com/bgooonz</a><span class="linkType">text</span><span class="linkAnchor">Anchor Follow on Twitter Twitter</span></td><td rel="5d564d46 x_nofollow"><i class="icon seoquake-params-link" rel="5d564d46 x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="5d564d46 712c52ed_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="5d564d46 bb204592_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="5d564d46 3a43c7ce_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/twitter.com?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="5d564d46 b13b951a_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="5d564d46 3ec9cb94_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="5d564d46 ee737936_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="5d564d46 3c177396_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="179e7653" class="even"><td rowspan="1">9</td><td class="border-right link-cell"><a class="seoquake-params-link" href="http://www.linkedin.com/in/bryan-guner-046199128/" rel="179e7653 x_url" target="_blank">http://www.linkedin.com/in/bryan-guner-046199128/</a><span class="linkType">text</span><span class="linkAnchor">Anchor Follow on LinkedIn LinkedIn</span></td><td rel="179e7653 x_nofollow"><i class="icon seoquake-params-link" rel="179e7653 x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="179e7653 0cd79d1a_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="179e7653 30cc69ef_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="179e7653 0e288b8e_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/www.linkedin.com?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="179e7653 a3b90f8c_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="179e7653 f9263566_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="179e7653 0e2b74a0_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="179e7653 811e37b1_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="6ee74d52" class="odd"><td rowspan="1">10</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://github.com/bgoonz" rel="6ee74d52 x_url" target="_blank">https://github.com/bgoonz</a><span class="linkType">text</span><span class="linkAnchor">Anchor Follow on GitHub GitHub</span></td><td rel="6ee74d52 x_nofollow"><i class="icon seoquake-params-link" rel="6ee74d52 x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="6ee74d52 3c1b5205_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="6ee74d52 2c7831fd_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="6ee74d52 638a7fff_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/github.com?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="6ee74d52 db819bbd_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="6ee74d52 d851ff60_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="6ee74d52 f2c70915_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="6ee74d52 0bd98377_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="db44e831" class="even"><td rowspan="1">11</td><td class="border-right link-cell"><a class="seoquake-params-link" href="http://bgoonz.blogspot.com/" rel="db44e831 x_url" target="_blank">http://bgoonz.blogspot.com/</a><span class="linkType">text</span><span class="linkAnchor">Anchor Follow on Blogger Blogger</span></td><td rel="db44e831 x_nofollow"><i class="icon seoquake-params-link" rel="db44e831 x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="db44e831 84770112_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="db44e831 d356b1f9_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="db44e831 2451626d_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/bgoonz.blogspot.com?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="db44e831 d4611855_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="db44e831 f84b43cc_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="db44e831 e5c5c579_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="db44e831 e5c5c579_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="41a92c23" class="odd"><td rowspan="1">12</td><td class="border-right link-cell"><a class="seoquake-params-link" href="http://open.spotify.com/bgoonz" rel="41a92c23 x_url" target="_blank">http://open.spotify.com/bgoonz</a><span class="linkType">text</span><span class="linkAnchor">Anchor Follow on Spotify Spotify</span></td><td rel="41a92c23 x_nofollow"><i class="icon seoquake-params-link" rel="41a92c23 x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="41a92c23 e7346c9e_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="41a92c23 23589180_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="41a92c23 5590602f_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/open.spotify.com?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="41a92c23 d2cda3eb_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="41a92c23 deda5de2_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="41a92c23 9fffd5c9_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="41a92c23 1fb70e0f_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="5462599d" class="even"><td rowspan="1">13</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://jsfiddle.net/user/bgoonz" rel="5462599d x_url" target="_blank">https://jsfiddle.net/user/bgoonz</a><span class="linkType">text</span><span class="linkAnchor">Anchor Follow on JSFiddle JSFiddle</span></td><td rel="5462599d x_nofollow"><i class="icon seoquake-params-link" rel="5462599d x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="5462599d 11bb0c3a_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="5462599d 312bccf8_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="5462599d 5e437247_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/jsfiddle.net?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="5462599d 5c157f15_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="5462599d 47c93c19_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="5462599d 23ba7cfd_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="5462599d 0efd3d3b_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="64454662" class="odd"><td rowspan="1">14</td><td class="border-right link-cell"><a class="seoquake-params-link" href="http://www.youtube.com/channel/UC9-rYyUMsnEBK8G8fCyrXXA?sub_confirmation=1" rel="64454662 x_url" target="_blank">http://www.youtube.com/channel/UC9-rYyUMsnEBK8G8fCyrXXA?sub_confirmation=1</a><span class="linkType">text</span><span class="linkAnchor">Anchor Follow on YouTube YouTube</span></td><td rel="64454662 x_nofollow"><i class="icon seoquake-params-link" rel="64454662 x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="64454662 9377adbe_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="64454662 7574e95f_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="64454662 1cd09141_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/www.youtube.com?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="64454662 2ef72dcc_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="64454662 a48c48a7_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="64454662 3328355e_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="64454662 b623c195_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="dadaa6bf" class="even"><td rowspan="1">15</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://medium.com/bgoonz" rel="dadaa6bf x_url" target="_blank">https://medium.com/bgoonz</a><span class="linkType">text</span><span class="linkAnchor">Anchor Follow on Medium Medium</span></td><td rel="dadaa6bf x_nofollow"><i class="icon seoquake-params-link" rel="dadaa6bf x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="dadaa6bf e48813bc_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="dadaa6bf 18bcc032_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="dadaa6bf 9658525c_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/medium.com?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="dadaa6bf 3d697ee0_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="dadaa6bf f53eab11_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="dadaa6bf 4895aa86_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="dadaa6bf 14357226_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr><tr rel="d43d9483" class="odd"><td rowspan="1">16</td><td class="border-right link-cell"><a class="seoquake-params-link" href="https://www.addthis.com/website-tools/overview?utm_source=AddThis%20Tools&amp;utm_medium=image" rel="d43d9483 x_url" target="_blank">https://www.addthis.com/website-tools/overview?utm_source=AddThis%20Tools&amp;utm...</a><span class="linkType">text</span><span class="linkAnchor">Anchor AddThis</span></td><td rel="d43d9483 x_nofollow"><i class="icon seoquake-params-link" rel="d43d9483 x_nofollow" datavalue="No"></i></td><td class="seoquake-params-cell" title="Google index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="d43d9483 aa69d96d_1" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Bing index" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="d43d9483 f3f4e1ca_20" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Alexa rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="d43d9483 6817c6df_31" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="Whois" rowspan="1"><a href="https://whois.domaintools.com/www.addthis.com?utm_source=seoquake&amp;utm_medium=seoquake&amp;utm_campaign=seoquake&amp;ref=174537735" rel="d43d9483 c34550b0_37" target="_blank">whois</a></td><td class="seoquake-params-cell border-right" title="SEMrush Rank" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="d43d9483 511ac6b0_41" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell" title="SEMrush backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="d43d9483 60e257ac_15" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td><td class="seoquake-params-cell border-right" title="SEMrush subdomain backlinks" rowspan="1"><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#" rel="d43d9483 77d7bb62_16" target="_blank" class="seoquake-params-link" datavalue="?"><i class="icon load"></i></a></td></tr></tbody>
+</table>
+
+
+    <div class="block container" style="margin-top: 30px;">
+    <div class="block-body block-body-gray">
+       <p><span data-role="feedback-1">Need more features?</span>
+            <a href="https://www.seoquake.com/review/suggest.php" target="_blank" data-role="feedback-link">Drop us a line</a>
+            <span data-role="feedback-2">or just mail us:</span>
+           <a href="mailto:mail@seoquaketeam.com" data-role="feedback-email">mail@seoquaketeam.com</a></p>
+    </div>
+</div>
+
+<div class="overlay hidden"><div class="overlay-progress" style="width: 66.48%;"></div></div></section>
+    <section id="density_block" style="display: none;">
+        <header>
+    <h2 data-role="title">Keyword density</h2>
+    <div class="summary">
+        <div class="total orange emphasis">
+            <span data-role="totalLinks" class="description">Total words:</span><span data-role="1-word-count">0</span>
+        </div>
+        <div class="links"><!--
+         --><span data-role="2-word-phrases" class="description">2-word phrases:</span><span data-role="2-word-count">0</span><!--
+         --><span data-role="3-word-phrases" class="description">3-word phrases:</span><span data-role="3-word-count">0</span><!--
+         --><span data-role="4-word-phrases" class="description">4-word phrases:</span><span data-role="4-word-count">0</span><!--
+        --></div>
+    </div>
+</header>
+
+<div class="sqtoolbar"><!--
+    --><button data-role="button-save" class="sqbtn sqbtn-small sqbtn-gray sqbtn-transparent" title="Save data to csv file">Save as CSV</button><!--
+    --><button data-role="button-configure" class="sqbtn sqbtn-small sqbtn-gray sqbtn-transparent" title="Edit stop-word list">Configure stop-word list</button><!--
+--></div>
+
+<div class="density-container">
+    <div class="tow">
+        <a name="word-1"></a>
+        <div class="block">
+            <div class="block-header" data-role="all-words-title">All words</div>
+            <table data-role="1-word-table" class="density-keywords-table">
+                <thead>
+                    <tr>
+                        <th class="border-right" data-role="keywords-keyword">Keyword</th>
+                        <th data-role="keywords-foundin">Found in</th>
+                        <th data-role="keywords-repeats">Repeats</th>
+                        <th data-role="keywords-density">Density</th>
+                        <th data-role="keywords-prominence">Prominence</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <a name="word-2"></a>
+        <div class="block">
+            <div class="block-header" data-role="2-words-title">2-word phrases</div>
+            <table data-role="2-word-table" class="density-keywords-table">
+                <thead>
+                    <tr>
+                        <th class="border-right" data-role="keywords-keyword">Keyword</th>
+                        <th data-role="keywords-foundin">Found in</th>
+                        <th data-role="keywords-repeats">Repeats</th>
+                        <th data-role="keywords-density">Density</th>
+                        <th data-role="keywords-prominence">Prominence</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <a name="word-3"></a>
+        <div class="block">
+            <div class="block-header" data-role="3-words-title">3-word phrases</div>
+            <table data-role="3-word-table" class="density-keywords-table">
+                <thead>
+                    <tr>
+                        <th class="border-right" data-role="keywords-keyword">Keyword</th>
+                        <th data-role="keywords-foundin">Found in</th>
+                        <th data-role="keywords-repeats">Repeats</th>
+                        <th data-role="keywords-density">Density</th>
+                        <th data-role="keywords-prominence">Prominence</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <a name="word-4"></a>
+        <div class="block">
+            <div class="block-header" data-role="4-words-title">4-word phrases</div>
+            <table data-role="4-word-table" class="density-keywords-table">
+                <thead>
+                    <tr>
+                        <th class="border-right" data-role="keywords-keyword">Keyword</th>
+                        <th data-role="keywords-foundin">Found in</th>
+                        <th data-role="keywords-repeats">Repeats</th>
+                        <th data-role="keywords-density">Density</th>
+                        <th data-role="keywords-prominence">Prominence</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <a name="text"></a>
+        <div class="block">
+            <div class="block-header" data-role="original-text">Original text:</div>
+            <div data-role="info-content" class="block-body"></div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="block" data-role="bookmarks_panel">
+            <div class="block-header" data-role="bookmarks-title">Bookmarks</div>
+            <div class="block-body">
+                <ul class="density-bookmarks">
+                    <li><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#word-1" data-role="1word-link">1-word keywords table</a></li>
+                    <li><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#word-2" data-role="2word-link">2-word keywords table</a></li>
+                    <li><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#word-3" data-role="3word-link">3-word keywords table</a></li>
+                    <li><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#word-4" data-role="4word-link">4-word keywords table</a></li>
+                    <li><a href="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.html?id=c2ca7376c0a4749323ea4d219ac34aa0#text" data-role="original-link">Original text</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="block">
+            <div class="block-header" data-role="pageinfo-title">Page info</div>
+            <div class="block-body scrollme">
+                <table>
+                    <tbody><tr>
+                        <th data-role="pageinfo-title-title">Title:</th>
+                        <td data-role="info-title">n/a</td>
+                    </tr>
+                    <tr>
+                        <th data-role="pageinfo-keywords-title">Meta keywords:</th>
+                        <td data-role="info-meta-keywords">n/a</td>
+                    </tr>
+                    <tr>
+                        <th data-role="pageinfo-description-title">Meta description:</th>
+                        <td data-role="info-meta-description">n/a</td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+        <div class="block" data-role="filter_panel">
+            <div class="block-header" data-role="filter-title">Filter</div>
+            <div class="block-body">
+                <form name="filter" data-role="form-filter">
+                    <table>
+                        <tbody><tr>
+                            <td colspan="3">
+                                <input type="text" data-role="filter-value">
+                                <button data-role="button-filter-apply" class="sqbtn sqbtn-small sqbtn-transparent sqbtn-gray">Apply</button>
+                                <button data-role="button-filter-reset" class="sqbtn sqbtn-small sqbtn-transparent sqbtn-gray">Reset</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="filter-type" value="0" id="den-filter-start" checked="">
+                                <label for="den-filter-start" data-role="starts-with">Starts with</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="filter-type" value="1" id="den-filter-contains">
+                                <label for="den-filter-contains" data-role="contains">Contains</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="filter-type" value="2" id="den-filter-regexp">
+                                <label for="den-filter-regexp" data-role="regexp">Regexp</label>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </form>
+            </div>
+        </div>
+        <div class="block">
+            <div class="block-header" data-role="keywords-title">Keywords cloud</div>
+            <div data-role="density-cloud" class="block-body"></div>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+</div>
+
+        <div class="block container" style="margin-top: 30px;">
+    <div class="block-body block-body-gray">
+       <p><span data-role="feedback-1">Need more features?</span>
+            <a href="https://www.seoquake.com/review/suggest.php" target="_blank" data-role="feedback-link">Drop us a line</a>
+            <span data-role="feedback-2">or just mail us:</span>
+           <a href="mailto:mail@seoquaketeam.com" data-role="feedback-email">mail@seoquaketeam.com</a></p>
+    </div>
+</div>
+
+    </section>
+</main>
+
+<footer class="green-bg">
+    <div class="container">
+        Copyright 2006 ‐ <script type="text/javascript" src="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/year.js"></script>2022 Semrush Inc
+    </div>
+</footer>
+
+<template id="linkinfo-template"></template>
+
+<script type="text/javascript" src="chrome-extension://akdgnmcogleenhbclghghlkkdndkjdjc/common.js"></script>
+
+
+<div class="overlay"><div class="overlay-progress"></div></div></body></html>

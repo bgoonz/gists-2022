@@ -1,0 +1,9 @@
+ganttChart.addEventListener('collapse', function (event) {
+  document.getElementById('log').innerHTML += '
+' + event.type + 'Task # ' + ganttChart.getTaskIndex(event.detail.item);
+});
+ 
+ganttChart.addEventListener('expand', function (event) {
+  document.getElementById('log').innerHTML += '
+' + event.type + 'Task # ' + ganttChart.getTaskIndex(event.detail.item);
+});

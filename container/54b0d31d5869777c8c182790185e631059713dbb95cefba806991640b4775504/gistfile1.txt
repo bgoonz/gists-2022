@@ -1,0 +1,21 @@
+mysql> select locale, count(locale) as c, 100 * count(locale) / 9017 as p from wiki_document where is_redirect=false and slug like 'Web/%' group by locale order by c desc limit 15;
++--------+------+----------+
+| locale | c    | p        |
++--------+------+----------+
+| en-US  | 9017 | 100.0000 |
+| ja     | 5095 |  56.5044 |
+| zh-CN  | 4613 |  51.1589 |
+| fr     | 4083 |  45.2811 |
+| ru     | 2420 |  26.8382 |
+| es     | 2256 |  25.0194 |
+| ko     | 2025 |  22.4576 |
+| pt-BR  | 1761 |  19.5298 |
+| de     | 1626 |  18.0326 |
+| pl     | 1168 |  12.9533 |
+| zh-TW  |  841 |   9.3268 |
+| it     |  672 |   7.4526 |
+| uk     |  670 |   7.4304 |
+| ca     |  636 |   7.0533 |
+| pt-PT  |  409 |   4.5359 |
++--------+------+----------+
+15 rows in set (0.41 sec)

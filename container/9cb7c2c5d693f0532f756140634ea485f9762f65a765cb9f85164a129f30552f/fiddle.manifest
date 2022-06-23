@@ -1,0 +1,8 @@
+name: Request.HTML - jsFiddle/Gist integration demo
+description: jsFiddle demo hosted on Gist using HTML Request to get Ajax data
+authors:
+  - Piotr Zalewa
+resources:
+  - /js/empty.js
+  - /css/normalize.css
+normalize_css: no

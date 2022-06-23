@@ -1,0 +1,9 @@
+ext {
+        googlePlayServicesVersion = "+" // default: "+"
+        firebaseMessagingVersion = "+" // default: "+"
+ 
+        buildToolsVersion = "29.0.2"
+        minSdkVersion = 16
+        compileSdkVersion = 29
+        targetSdkVersion = 29
+    }

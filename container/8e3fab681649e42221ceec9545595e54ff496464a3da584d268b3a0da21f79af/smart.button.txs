@@ -1,0 +1,19 @@
+class SmartButton extends React.Component<IButton, {}> {  
+       private buttonRef: any;  
+      constructor(props: IButton) {  
+           super(props);  
+        this.buttonRef = React.createRef();            
+      }       
+      render() {            
+           return (       
+                <smart-button   
+                     name={this.props.name}  
+                     value={this.props.value}   
+                     click-mode={this.props.clickMode}   
+                     type={this.props.type}  
+                     ref={this.buttonRef}>{this.props.children}  
+                </smart-button>  
+           );  
+   }  
+ }  
+ export default SmartButton;  

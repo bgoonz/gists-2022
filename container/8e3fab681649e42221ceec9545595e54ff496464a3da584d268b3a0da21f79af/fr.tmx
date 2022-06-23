@@ -1,0 +1,24 @@
+<tmx version="1.4">
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Hello my friend</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour, mon ami</seg>
+      </tuv>
+	<tuv xml:lang="en">
+        <seg>How are you?</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Comment allez-vous?</seg>
+      </tuv>
+	<tuv xml:lang="en">
+        <seg>My name is John Doe</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Je m'appelle John Doe</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

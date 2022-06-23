@@ -1,0 +1,23 @@
+#app-root {
+  height: 10em;
+  width: 10em;
+  background: whitesmoke;
+
+}
+
+#modal-root {
+  position: relative;
+  z-index: 999;
+}
+
+.modal {
+  background-color: rgba(0,0,0,0.2);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 10;
+  left: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
