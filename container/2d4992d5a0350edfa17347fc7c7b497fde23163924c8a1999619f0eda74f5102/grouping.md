@@ -67,9 +67,9 @@ Overriding multiplication and division first, then addition and subtraction to e
 
 ## See also
 
--   [Operator precedence](operator_precedence)
--   [`delete`](delete)
--   [`typeof`](typeof)
+- [Operator precedence](operator_precedence)
+- [`delete`](delete)
+- [`typeof`](typeof)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

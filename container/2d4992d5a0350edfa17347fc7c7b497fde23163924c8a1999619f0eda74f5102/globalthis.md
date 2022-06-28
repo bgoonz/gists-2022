@@ -91,6 +91,6 @@ No
 
 ## See also
 
--   [`this`](../operators/this)
+- [`this`](../operators/this)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis</a>

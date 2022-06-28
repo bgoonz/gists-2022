@@ -3,10 +3,10 @@ title: Git Reference
 weight: 0
 excerpt: Git Reference
 seo:
-    title: ''
-    description: ''
-    robots: []
-    extra: []
+  title: ""
+  description: ""
+  robots: []
+  extra: []
 template: docs
 ---
 
@@ -34,24 +34,24 @@ Version control is a system that records changes to a file(s), over time.
 
 ### Centralized Versioning vs. Distributed Versioning
 
--   Centralized version control focuses on synchronizing, tracking, and backing
--   up files.
--   Distributed version control focuses on sharing changes. Every change has a
-    unique id.
--   Distributed systems have no defined structure. You could easily have a SVN
-    style, centralized system, with git.
+- Centralized version control focuses on synchronizing, tracking, and backing
+- up files.
+- Distributed version control focuses on sharing changes. Every change has a
+  unique id.
+- Distributed systems have no defined structure. You could easily have a SVN
+  style, centralized system, with git.
 
 [Additional Information](http://git-scm.com/book/en/Getting-Started-About-Version-Control)
 
 ### Why Use Git?
 
--   Can work offline.
--   Collaborating with others is easy!
--   Branching is easy!
--   Branching is fast!
--   Merging is easy!
--   Git is fast.
--   Git is flexible.
+- Can work offline.
+- Collaborating with others is easy!
+- Branching is easy!
+- Branching is fast!
+- Merging is easy!
+- Git is fast.
+- Git is flexible.
 
 ## Git Architecture
 
@@ -106,15 +106,15 @@ of heads.
 
 ### Stages of Git
 
--   Modified - Changes have been made to a file but file has not been committed
--   to Git Database yet
--   Staged - Marks a modified file to go into your next commit snapshot
--   Committed - Files have been committed to the Git Database
+- Modified - Changes have been made to a file but file has not been committed
+- to Git Database yet
+- Staged - Marks a modified file to go into your next commit snapshot
+- Committed - Files have been committed to the Git Database
 
 ### Conceptual Resources
 
--   [Git For Computer Scientists](http://eagain.net/articles/git-for-computer-scientists/)
--   [Git For Designers](http://hoth.entp.com/output/git_for_designers.html)
+- [Git For Computer Scientists](http://eagain.net/articles/git-for-computer-scientists/)
+- [Git For Designers](http://hoth.entp.com/output/git_for_designers.html)
 
 ## Commands
 
@@ -619,10 +619,10 @@ $ git rm /pather/to/the/file/HelloWorld.c
 
 ```
 
--   `git checkout`
--   `git reset`
--   `git restore`
--   `git switch`
+- `git checkout`
+- `git reset`
+- `git restore`
+- `git switch`
 
 I'll throw in one more, the misnamed `git revert`, as well.
 
@@ -644,20 +644,20 @@ The `git switch` command is also new, introduced along with `git restore` in Git
 
 This is the most complicated part, and to really understand it, we need to know the following items:
 
--   Git is really all about _commits_. Commits get stored _in_ the Git repository. The `git push` and `git fetch` commands transfer _commits_---whole commits, as an all-or-nothing deal^1^---to the other Git. You either have all of a commit, or you don't have it. Other commands, such as `git merge` or `git rebase`, all work with _local_ commits. The `pull` command runs `fetch` (to get commits) followed by a second command to work with the commits once they're local.
+- Git is really all about _commits_. Commits get stored _in_ the Git repository. The `git push` and `git fetch` commands transfer _commits_---whole commits, as an all-or-nothing deal^1^---to the other Git. You either have all of a commit, or you don't have it. Other commands, such as `git merge` or `git rebase`, all work with _local_ commits. The `pull` command runs `fetch` (to get commits) followed by a second command to work with the commits once they're local.
 -
--   New commits _add to the repository_. You almost never _remove_ a commit _from_ the repository. Only one of the five commands listed here---checkout, reset, restore, revert, and switch---is capable of removing commits.^2^
+- New commits _add to the repository_. You almost never _remove_ a commit _from_ the repository. Only one of the five commands listed here---checkout, reset, restore, revert, and switch---is capable of removing commits.^2^
 -
--   Each commit is numbered by its _hash ID_, which is unique to that one particular commit. It's actually computed from what's _in_ the commit, which is how Git makes these numbers work across all Gits eveywhere. This means that what is in the commit is frozen for all time: if you change anything, what you get is a new commit with a new number, and the old commit is still there, with its same old number.
+- Each commit is numbered by its _hash ID_, which is unique to that one particular commit. It's actually computed from what's _in_ the commit, which is how Git makes these numbers work across all Gits eveywhere. This means that what is in the commit is frozen for all time: if you change anything, what you get is a new commit with a new number, and the old commit is still there, with its same old number.
 
--   Each commit stores two things: a snapshot, and metadata. The metadata include the hash ID(s) of some previous commit(s). This makes commits form backwards-looking chains.
+- Each commit stores two things: a snapshot, and metadata. The metadata include the hash ID(s) of some previous commit(s). This makes commits form backwards-looking chains.
 
--   A _branch name_ holds the hash ID of one commit. This makes the branch name _find_ that commit, which in turn means two things:
+- A _branch name_ holds the hash ID of one commit. This makes the branch name _find_ that commit, which in turn means two things:
 
-    -   that particular commit is the _tip commit_ of that branch; and
-    -   all commits leading up to and including that tip commit are _on_ that branch.
+  - that particular commit is the _tip commit_ of that branch; and
+  - all commits leading up to and including that tip commit are _on_ that branch.
 
--   We're also going to talk about Git's _index_ in a moment, and your _working tree_. They're separate from these but worth mentioning early, especially since the index has three names: Git sometimes calls it the _index_, sometimes calls it the _staging area_, and sometimes---rarely these days---calls it the _cache_. All three names refer to the same thing.
+- We're also going to talk about Git's _index_ in a moment, and your _working tree_. They're separate from these but worth mentioning early, especially since the index has three names: Git sometimes calls it the _index_, sometimes calls it the _staging area_, and sometimes---rarely these days---calls it the _cache_. All three names refer to the same thing.
 
 Everything up through the _branch name_ is, I think, best understood via pictures (at least for most people). If we draw a series of commits, with newer commits towards the right, using `o` for each commit and omitting some commits for space or whatever, we get something like this:
 
@@ -706,41 +706,41 @@ Git automatically updates the _branch name_ to point to the _new commit_, which 
 
 Let's look at each of the various commands now:
 
--   `git checkout`: this is a large and complicated command.
+- `git checkout`: this is a large and complicated command.
 
-    We already saw this one, or at least, _half_ of this one. We used it to pick out a branch name, and therefore a particular commit. This kind of checkout first looks at our current commit, index, and working tree. It makes sure that we have committed all our modified files, or---this part gets a bit complicated---that if we _haven't_ committed all our modified files, switching to that other branch is "safe". If it's _not_ safe, `git checkout` tells you that you can't switch due to having modified files. If it _is_ safe, `git checkout` will switch; if you didn't mean to switch, you can just switch back. (See also [Checkout another branch when there are uncommitted changes on the current branch](https://stackoverflow.com/q/22053757/1256452))
+  We already saw this one, or at least, _half_ of this one. We used it to pick out a branch name, and therefore a particular commit. This kind of checkout first looks at our current commit, index, and working tree. It makes sure that we have committed all our modified files, or---this part gets a bit complicated---that if we _haven't_ committed all our modified files, switching to that other branch is "safe". If it's _not_ safe, `git checkout` tells you that you can't switch due to having modified files. If it _is_ safe, `git checkout` will switch; if you didn't mean to switch, you can just switch back. (See also [Checkout another branch when there are uncommitted changes on the current branch](https://stackoverflow.com/q/22053757/1256452))
 
-    But `git checkout` has an _unsafe_ half. Suppose you have modified some file in your working tree, such as `README.md` or `aux.h` or whatever. You now look back at what you changed and think: _No, that's a bad idea. I should get rid of this change. I'd like the file back exactly as it was before._
+  But `git checkout` has an _unsafe_ half. Suppose you have modified some file in your working tree, such as `README.md` or `aux.h` or whatever. You now look back at what you changed and think: _No, that's a bad idea. I should get rid of this change. I'd like the file back exactly as it was before._
 
-    To get this---to _wipe out_ your changes to, say, `README.md`---you can run:
+  To get this---to _wipe out_ your changes to, say, `README.md`---you can run:
 
- ```
-    git checkout -- README.md
+```
+   git checkout -- README.md
 
- ```
+```
 
     The `--` part here is optional. It's a good idea to use it, because it tells Git that the part that comes after `--` is a _file name_, not a _branch name_.
 
     Suppose you have a _branch_ named `hello` _and_ a _file_ named `hello`. What does:
 
- ```
-    git checkout hello
+```
+   git checkout hello
 
- ```
+```
 
     mean? Are we asking Git to clobber the _file_ `hello` to remove the changes we made, or are we asking Git to check out the _branch_ `hello`? To make this unambiguous, you have to write either:
 
- ```
-    git checkout -- hello        (clobber the file)
+```
+   git checkout -- hello        (clobber the file)
 
- ```
+```
 
     or:
 
- ```
-    git checkout hello --      (get the branch)
+```
+   git checkout hello --      (get the branch)
 
- ```
+```
 
     This case, where there are branches and files or directories with the same name, is a particularly insidious one. It has bitten real users. It's _why_ `git switch` exists now. The `git switch` command _never means clobber my files_. It only means _do the safe kind of `git checkout`._
 
@@ -750,29 +750,29 @@ Let's look at each of the various commands now:
 
     If you ran `git add` on some file and thus copied it into Git's index, you need `git checkout HEAD -- *file*` to get it back from the current commit. The copy that's in Git's _index_ is the one you `git add`-ed. So these two forms of `git checkout`, with a commit hash ID (or the name `HEAD`), the optional `--`, and the file name, are the unsafe _clobber my files_ forms.
 
--   `git reset`: this is also a large and complicated command.
+- `git reset`: this is also a large and complicated command.
 
-    There are, depending on how you count, up to about five or six different forms of `git reset`. We'll concentrate on a smaller subset here.
+  There are, depending on how you count, up to about five or six different forms of `git reset`. We'll concentrate on a smaller subset here.
 
-    -   `git reset [ --hard | --mixed | --soft ] [ *commit* ]`
+  - `git reset [ --hard | --mixed | --soft ] [ *commit* ]`
 
-        Here, we're asking Git to do several things. First, if we give a _`commit`_ argument, such as `HEAD` or `HEAD~3` or some such, we've picked a particular _commit_ that Git should _reset to_. This is the kind of command that will _remove commits_ by ejecting them off the end of the branch. Of all the commands listed here, this is the only one that removes any commits. One other command---`git commit --amend`---has the effect of ejecting the _last_ commit while putting on a new replacement, but that one is limited to ejecting _one_ commit.
+    Here, we're asking Git to do several things. First, if we give a _`commit`_ argument, such as `HEAD` or `HEAD~3` or some such, we've picked a particular _commit_ that Git should _reset to_. This is the kind of command that will _remove commits_ by ejecting them off the end of the branch. Of all the commands listed here, this is the only one that removes any commits. One other command---`git commit --amend`---has the effect of ejecting the _last_ commit while putting on a new replacement, but that one is limited to ejecting _one_ commit.
 
-        Let's show this as a drawing. Suppose we have:
+    Let's show this as a drawing. Suppose we have:
 
- ```
-        ...--E--F--G--H   <-- branch
+```
+       ...--E--F--G--H   <-- branch
 
- ```
+```
 
         That is, this branch, named `branch`, ends with four commits whose hash IDs we'll call `E`, `F`, `G`, and `H` in that order. The name `branch` currently stores the hash ID of the last of these commits, `H`. If we use `git reset --hard HEAD~3`, we're telling Git to eject the _last three commits_. The result is:
 
- ```
-               F--G--H   ???
-              /
-        ...--E   <-- branch
+```
+              F--G--H   ???
+             /
+       ...--E   <-- branch
 
- ```
+```
 
         The name `branch` now selects commit `E`, not commit `H`. If we did not write down (on paper, on a whiteboard, in a file) the hash IDs of the last three commits, they've just become somewhat hard to find. Git does gives a way to find them again, for a while, but mostly they just seem to be _gone_.
 
@@ -796,76 +796,76 @@ Let's look at each of the various commands now:
 
         There are several other forms of `git reset`. To see what they all mean, consult [the documentation](https://git-scm.com/docs/git-reset).
 
--   `git restore`: this got split off from `git checkout`.
+- `git restore`: this got split off from `git checkout`.
 
-    Basically, this does the same thing as the various forms of `git checkout` and `git reset` that clobber files (in your working tree and/or in Git's index). It's _smarter_ than the old `git checkout`-and-clobber-my-work variant, in that you get to choose where the files come from _and_ where they go, all in the one command line.
+  Basically, this does the same thing as the various forms of `git checkout` and `git reset` that clobber files (in your working tree and/or in Git's index). It's _smarter_ than the old `git checkout`-and-clobber-my-work variant, in that you get to choose where the files come from _and_ where they go, all in the one command line.
 
-    To do what you used to do with `git checkout -- *file*`, you just run `git restore --staged --worktree -- *file*`. (You can leave out the `--` part, as with `git checkout`, in most cases, but it's just generally wise to get in the habit of using it. Like `git add`, this command is designed such that only files named `-whatever` are actually problematic.)
+  To do what you used to do with `git checkout -- *file*`, you just run `git restore --staged --worktree -- *file*`. (You can leave out the `--` part, as with `git checkout`, in most cases, but it's just generally wise to get in the habit of using it. Like `git add`, this command is designed such that only files named `-whatever` are actually problematic.)
 
-    To do what you used to do with `git reset -- *file*`, you just run `git restore --staged -- *file*`. That is, you tell `git restore` to copy from `HEAD` to staging area / index, which is how `git reset` operates.
+  To do what you used to do with `git reset -- *file*`, you just run `git restore --staged -- *file*`. That is, you tell `git restore` to copy from `HEAD` to staging area / index, which is how `git reset` operates.
 
-    Note that you can copy a file from some existing commit, to Git's index, without touching your working tree copy of that file: `git restore --source *commit* --staged -- *file*` does that. You can't do that at all with the old `git checkout` but you _can_ do that with the old `git reset`, as `git reset *commit* -- *file*`. And, you can copy a file from some existing commit, to your working tree, without touching the staged copy: `git restore --source *commit* --worktree -- *file*` does that. The overlapping part (restore and reset) exists _because_ `git restore` is new, and this kind of restore makes sense; probably, ideally, we should always use `git restore` here, instead of using the old `git reset` way of doing things, but Git tries to maintain backwards compatibility.
+  Note that you can copy a file from some existing commit, to Git's index, without touching your working tree copy of that file: `git restore --source *commit* --staged -- *file*` does that. You can't do that at all with the old `git checkout` but you _can_ do that with the old `git reset`, as `git reset *commit* -- *file*`. And, you can copy a file from some existing commit, to your working tree, without touching the staged copy: `git restore --source *commit* --worktree -- *file*` does that. The overlapping part (restore and reset) exists _because_ `git restore` is new, and this kind of restore makes sense; probably, ideally, we should always use `git restore` here, instead of using the old `git reset` way of doing things, but Git tries to maintain backwards compatibility.
 
-    The new ability---to copy from any arbitrary source, to your working tree, without touching Git's index / staging-area copy---is just that: new. You couldn't do it before. (You could run `git show *commit*:*path* > *path*`, before, but that falls outside our five commands to examine.)
+  The new ability---to copy from any arbitrary source, to your working tree, without touching Git's index / staging-area copy---is just that: new. You couldn't do it before. (You could run `git show *commit*:*path* > *path*`, before, but that falls outside our five commands to examine.)
 
--   `git switch`: this just does the "safe half" of `git checkout`. That's really all you need to know. Using `git switch`, without `--force`, Git won't overwrite your unsaved work, even if you make a typo or whatever. The old `git checkout` command could overwrite unsaved work: if your typo turns a branch name into a file name, for instance, well, oops.
+- `git switch`: this just does the "safe half" of `git checkout`. That's really all you need to know. Using `git switch`, without `--force`, Git won't overwrite your unsaved work, even if you make a typo or whatever. The old `git checkout` command could overwrite unsaved work: if your typo turns a branch name into a file name, for instance, well, oops.
 -
--   `git revert` (I added this for completeness): this makes a _new commit_. The point of the new commit is to _back out_ what someone did in some existing commit. You therefore need to name the existing commit that revert should back out. This command probably should have been named `git backout`.
+- `git revert` (I added this for completeness): this makes a _new commit_. The point of the new commit is to _back out_ what someone did in some existing commit. You therefore need to name the existing commit that revert should back out. This command probably should have been named `git backout`.
 
-    If you back out the most recent commit, this does revert to the second-most-recent snapshot:
+  If you back out the most recent commit, this does revert to the second-most-recent snapshot:
 
- ```
-      ...--G--H   <-- branch
+```
+     ...--G--H   <-- branch
 
- ```
+```
 
     becomes:
 
- ```
-      ...--G--H--Ħ   <-- branch
+```
+     ...--G--H--Ħ   <-- branch
 
- ```
+```
 
     where commit `Ħ` (H-bar) "undoes" commit `H` and therefore leaves us with the same _files_ as commit `G`. But we don't have to undo the _most recent_ commit. We could take:
 
- ```
-      ...--E--F--G--H   <-- branch
+```
+     ...--E--F--G--H   <-- branch
 
- ```
+```
 
     and add a commit `Ǝ` that undoes `E` to get:
 
- ```
-      ...--E--F--G--H--Ǝ   <-- branch
+```
+     ...--E--F--G--H--Ǝ   <-- branch
 
- ```
+```
 
     which may not match the source snapshot of any previous commit!
 
 ## Further Information
 
--   [tryGit - A fun interactive way to learn Git.](http://try.github.io/levels/1/challenges/1)
+- [tryGit - A fun interactive way to learn Git.](http://try.github.io/levels/1/challenges/1)
 -
--   [Learn Git Branching - the most visual and interactive way to learn Git on the web](http://learngitbranch
+- [Learn Git Branching - the most visual and interactive way to learn Git on the web](http://learngitbranch
 -
--   [Udemy Git Tutorial: A Comprehensive Guide](https://blog
+- [Udemy Git Tutorial: A Comprehensive Guide](https://blog
 -
--   [Git Immersion - A Guided tour that walks through the fundamentals of git
+- [Git Immersion - A Guided tour that walks through the fundamentals of git
 -
--   [git-scm - Video Tutorials](http://g
+- [git-scm - Video Tutorials](http://g
 -
--   [git-scm - Documentation](http://git-scm.com/d
+- [git-scm - Documentation](http://git-scm.com/d
 -
--   [Atlassian Git - Tutorials & Workflows](https://www.atlassian.com/git/)
+- [Atlassian Git - Tutorials & Workflows](https://www.atlassian.com/git/)
 
--   [SalesForce Cheat Sheet](http://res.cloudinary.com/hy4kyit2a/image/upload/SF_git_cheatsheet.pdf)
+- [SalesForce Cheat Sheet](http://res.cloudinary.com/hy4kyit2a/image/upload/SF_git_cheatsheet.pdf)
 
--   [GitGuys](http://www.gitguys.com/)
+- [GitGuys](http://www.gitguys.com/)
 
--   [Git - the simple guide](http://rogerdudler.github.io/git-guide/index.html)
+- [Git - the simple guide](http://rogerdudler.github.io/git-guide/index.html)
 
--   [Pro Git](http://www.git-scm.com/book/en/v2)
+- [Pro Git](http://www.git-scm.com/book/en/v2)
 
--   [An introduction to Git and GitHub for Beginners (Tutorial)](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+- [An introduction to Git and GitHub for Beginners (Tutorial)](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 
--   [The New Boston tutorial to Git covering basic commands and workflow](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx)
+- [The New Boston tutorial to Git covering basic commands and workflow](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx)

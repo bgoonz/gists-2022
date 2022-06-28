@@ -58,9 +58,9 @@ In [strict mode](../strict_mode), the [`Function.caller`](../global_objects/func
 
 ## See also
 
--   [Deprecated and obsolete features](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features)
--   [Strict mode](../strict_mode)
--   [`Function.arguments`](../global_objects/function/arguments)
--   [`Function.caller`](../global_objects/function/caller) and `arguments.callee.caller`
+- [Deprecated and obsolete features](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features)
+- [Strict mode](../strict_mode)
+- [`Function.arguments`](../global_objects/function/arguments)
+- [`Function.caller`](../global_objects/function/caller) and `arguments.callee.caller`
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_caller_or_arguments_usage" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_caller_or_arguments_usage</a>

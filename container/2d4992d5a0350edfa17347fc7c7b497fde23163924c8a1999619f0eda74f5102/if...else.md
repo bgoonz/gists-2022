@@ -129,9 +129,9 @@ If you need to use an assignment in a conditional expression, a common practice 
 
 ## See also
 
--   [`block`](block)
--   [`switch`](switch)
--   [Conditional operator](../operators/conditional_operator)
+- [`block`](block)
+- [`switch`](switch)
+- [Conditional operator](../operators/conditional_operator)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

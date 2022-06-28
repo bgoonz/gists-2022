@@ -1,6 +1,5 @@
 There are 311 links throughout the github/github codebase
 
-
 ## Links that have a hardcoded /en/ in them
 
 - `config/site/features.yml` <https://docs.github.com/en/github/developing-online-with-codespaces>
@@ -110,7 +109,6 @@ There are 311 links throughout the github/github codebase
 - `app/models/discussion.rb` <https://docs.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository#configuring-the-template-chooser>
 - `app/view_models/integrations/permissions_view.rb` <https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads##>
 
-
 ## Links that have a trailing /
 
 - `app/mailers/signups_reminder_mailer.rb` <https://docs.github.com/articles/github-terms-of-service/>
@@ -159,8 +157,8 @@ There are 311 links throughout the github/github codebase
 - `app/api/repository_pages.rb` <https://docs.github.com/v3/repos/pages/>
 - `app/models/oauth_application.rb` <https://docs.github.com/v3/oauth_authorizations/>
 
-
 ## Links that are redirects
+
 - `app/view_models/stafftools/bulk_ticketers_view.rb`: /en/articles/dmca-takedown-policy redirects to /en/github/site-policy/dmca-takedown-policy
 - `app/components/pages/visibility_component.html.erb`: /en/articles/roles-for-an-enterprise-account redirects to /en/enterprise-cloud@latest/admin/user-management/managing-users-in-your-enterprise/roles-in-an-enterprise
 - `app/view_models/stafftools/bulk_ticketers_view.rb`: /en/articles/remove-sensitive-data redirects to /en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
@@ -403,7 +401,6 @@ There are 311 links throughout the github/github codebase
 - `app/models/content_authorization_error/issue_locked.rb`: /en/articles/locking-conversations redirects to /en/communities/moderating-comments-and-conversations/locking-conversations
 - `app/components/pages/visibility_component.html.erb`: /en/articles/roles-for-an-enterprise-account redirects to /en/enterprise-cloud@latest/admin/user-management/managing-users-in-your-enterprise/roles-in-an-enterprise
 
-
 ## Links that have an anchor (that is not present)
 
 - `app/controllers/profiles_controller.rb` <https://docs.github.com/v3/activity/events/#list-public-events-performed-by-a-user>
@@ -415,7 +412,6 @@ There are 311 links throughout the github/github codebase
 - `app/view_models/integrations/permissions_view.rb` <https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads##> (unnecessary empty trailing #)
 - `app/components/actions/policy/internal_repository_share_component.html.erb` <https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#allowing-access-to-components-in-an-internal-repository>
 - `config/site/features.yml` <https://docs.github.com/en/github/managing-security-vulnerabilities/about-alerts-for-vulnerable-dependencies#github-dependabot-alerts-for-vulnerable-dependencies>
-
 
 ## URLs that failed
 

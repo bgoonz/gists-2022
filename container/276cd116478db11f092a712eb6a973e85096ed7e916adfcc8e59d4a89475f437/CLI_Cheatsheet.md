@@ -103,7 +103,7 @@ For performance logging, you can try `process.htime()` instead of `console.time(
 - <https://ajv.js.org/> <https://twitter.com/ArrowoodTech/status/1324424901458120704>
 - <https://www.npmjs.com/package/jest-validate> from Jest but not Jest specific
 
-**Loading config from json, rc file, etc***
+**Loading config from json, rc file, etc\***
 
 - <https://github.com/DavidWells/configorama>
 - <https://github.com/davidtheclark/cosmiconfig> Find and load configuration from a package.json property, rc file, or CommonJS module. [Check `searchPaths` to implement XDG spec compliance.](https://github.com/davidtheclark/cosmiconfig/issues/152)

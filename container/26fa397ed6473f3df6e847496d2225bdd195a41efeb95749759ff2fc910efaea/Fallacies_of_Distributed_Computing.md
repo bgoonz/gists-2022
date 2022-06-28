@@ -8,7 +8,7 @@ updated: 2021-12-20 09:54
 The [fallacies](https://en.wikipedia.org/wiki/Fallacy "Fallacy") are:
 
 1. The [network](https://en.wikipedia.org/wiki/Computer_network "Computer network") is reliable;
-2. [Latency](https://en.wikipedia.org/wiki/Latency_(engineering) "Latency (engineering)") is zero;
+2. [Latency](<https://en.wikipedia.org/wiki/Latency_(engineering)> "Latency (engineering)") is zero;
 3. [Bandwidth](https://en.wikipedia.org/wiki/Throughput "Throughput") is infinite;
 4. The network is [secure](https://en.wikipedia.org/wiki/Computer_security "Computer security");
 5. [Topology](https://en.wikipedia.org/wiki/Network_topology "Network topology") doesn't change;
@@ -31,9 +31,7 @@ The [fallacies](https://en.wikipedia.org/wiki/Fallacy "Fallacy") are:
          1. application developers
          2. unreasonable expectations
          3. not considering data size vs transport speed
-3. bandwidth is infinite
-   3. yes bandwidth is increasing, but constrained by bandwidth of the weaker side
-   4. parallelize resources in webpages
+3. bandwidth is infinite 3. yes bandwidth is increasing, but constrained by bandwidth of the weaker side 4. parallelize resources in webpages
 4. network is secure
    1. "security can be lost at any level"
    2. security of infra

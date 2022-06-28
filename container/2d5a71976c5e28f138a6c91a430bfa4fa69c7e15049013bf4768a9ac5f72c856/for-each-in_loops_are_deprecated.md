@@ -144,8 +144,8 @@ Or, using [`for...of`](../statements/for...of) (ES2015) and [`Object.entries`](.
 
 ## See also
 
--   [`for...of`](../statements/for...of)
--   [`Object.values`](../global_objects/object/values)
--   [`Object.entries`](../global_objects/object/entries)
+- [`for...of`](../statements/for...of)
+- [`Object.values`](../global_objects/object/values)
+- [`Object.entries`](../global_objects/object/entries)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/For-each-in_loops_are_deprecated" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/For-each-in_loops_are_deprecated</a>

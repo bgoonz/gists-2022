@@ -6,7 +6,7 @@ Fonts - Google Fonts
 
 window.onload = function () {
   Particles.init({
-    selector: ".background"
+    selector: ".background",
   });
 };
 var particles = Particles.init({
@@ -19,10 +19,10 @@ var particles = Particles.init({
       options: {
         color: ["#faebd7", "#03dac6", "#ff0266"],
         maxParticles: 43,
-        connectParticles: false
-      }
-    }
-  ]
+        connectParticles: false,
+      },
+    },
+  ],
 });
 
 class NavigationPage {

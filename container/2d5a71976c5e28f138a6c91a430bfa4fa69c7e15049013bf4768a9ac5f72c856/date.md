@@ -1650,6 +1650,6 @@ No
 
 ## See also
 
--   [`Date()`](date/date) constructor
+- [`Date()`](date/date) constructor
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date</a>

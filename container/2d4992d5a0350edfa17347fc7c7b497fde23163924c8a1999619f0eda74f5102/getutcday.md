@@ -54,8 +54,8 @@ The following example assigns the weekday portion of the current date to the var
 
 ## See also
 
--   [`Date.prototype.getUTCDate()`](getutcdate)
--   [`Date.prototype.getDay()`](getday)
--   [`Date.prototype.setUTCDate()`](setutcdate)
+- [`Date.prototype.getUTCDate()`](getutcdate)
+- [`Date.prototype.getDay()`](getday)
+- [`Date.prototype.setUTCDate()`](setutcdate)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCDay" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCDay</a>

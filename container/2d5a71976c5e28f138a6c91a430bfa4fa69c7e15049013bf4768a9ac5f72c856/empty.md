@@ -85,7 +85,7 @@ If `three` is `true`, nothing will happen, `four` does not matter, and also the 
 
 ## See also
 
--   [`Block statement`](block)
+- [`Block statement`](block)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

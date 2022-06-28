@@ -1,14 +1,15 @@
-
 # Introduction to HTML - Tutorial
 
 > ## Excerpt
+>
 > HTML (Hypertext Markup Language) is a standard to describe the
-content of webpages. HTML pages are
-text files which typically end
-with the ".html" extension.
-HTML is a markup language.
+> content of webpages. HTML pages are
+> text files which typically end
+> with the ".html" extension.
+> HTML is a markup language.
 
 ---
+
 > HTML5. This article gives an overview of HTML5 (Hypertext Markup Language Version 5).
 
 ## [](https://www.vogella.com/tutorials/HTML/article.html#html_overview)[1\. HTML5](https://www.vogella.com/tutorials/HTML/article.html#html_overview)
@@ -167,7 +168,7 @@ Images should have the "alt" tag defined and can optionally definde a width and 
 
 Use the following special signs to display them in your webpage.
 
-Table 1. Special signs  
+Table 1. Special signs
 
 Sign
 
@@ -328,30 +329,20 @@ HTML5 supports a geolocation API. For example you can read your currently geoloc
 
 HTML5 supports local storage of data to work offline. Currently you find:
 
--   Web storage/ Local storage: key / Value storage, supported by most recent browsers, no transactions
-    
--   WEb SQL Database: Full database in the browser
-    
--   IndexedDB: Similar to Web storage but you can index on certain fields
-    
--   File API: Allows to store files on the local file system
-    
+- Web storage/ Local storage: key / Value storage, supported by most recent browsers, no transactions
+- WEb SQL Database: Full database in the browser
+- IndexedDB: Similar to Web storage but you can index on certain fields
+- File API: Allows to store files on the local file system
 
 ## [](https://www.vogella.com/tutorials/HTML/article.html#xhtml)[9\. XHTML](https://www.vogella.com/tutorials/HTML/article.html#xhtml)
 
 XHTML is similar to HTML but much stricter. XHTML defines the following strict requirements:
 
--   Write all code in lowercase letters
-    
--   Encase all attribute values in double quotes
-    
--   Each tag must have an end specified. This is normally done with an ending tag, but a special case allows for non-content tags.
-    
--   Each HTML files must define its doctype
-    
--   All attribute values must be in double quotes
-    
--   Each tag must have an end specified.
-    
+- Write all code in lowercase letters
+- Encase all attribute values in double quotes
+- Each tag must have an end specified. This is normally done with an ending tag, but a special case allows for non-content tags.
+- Each HTML files must define its doctype
+- All attribute values must be in double quotes
+- Each tag must have an end specified.
 
 In HTML5 the MIME-type determines if the HTLM is strict XML or standard HTML. A document served as "text/html" must be a HTML document, and a document served with an XML MIME type such as "application/xhtml+xml" must conform to the requirements of HML.

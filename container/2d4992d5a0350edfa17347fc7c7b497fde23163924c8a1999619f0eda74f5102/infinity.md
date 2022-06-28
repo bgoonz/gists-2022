@@ -72,8 +72,8 @@ As defined by the ECMAScript 5 specification, `Infinity` is read-only (implement
 
 ## See also
 
--   [`Number.NEGATIVE_INFINITY`](number/negative_infinity)
--   [`Number.POSITIVE_INFINITY`](number/positive_infinity)
--   [`Number.isFinite`](number/isfinite)
+- [`Number.NEGATIVE_INFINITY`](number/negative_infinity)
+- [`Number.POSITIVE_INFINITY`](number/positive_infinity)
+- [`Number.isFinite`](number/isfinite)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity</a>

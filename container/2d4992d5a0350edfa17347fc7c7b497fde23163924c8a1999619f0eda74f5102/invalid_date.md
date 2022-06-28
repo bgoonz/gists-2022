@@ -40,8 +40,8 @@ For more details, see the [`Date.parse()`](../global_objects/date/parse) documen
 
 ## See also
 
--   [`Date`](../global_objects/date)
--   [`Date.prototype.parse()`](../global_objects/date/parse)
--   [`Date.prototype.toISOString()`](../global_objects/date/toisostring)
+- [`Date`](../global_objects/date)
+- [`Date.prototype.parse()`](../global_objects/date/parse)
+- [`Date.prototype.toISOString()`](../global_objects/date/toisostring)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_date" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_date</a>

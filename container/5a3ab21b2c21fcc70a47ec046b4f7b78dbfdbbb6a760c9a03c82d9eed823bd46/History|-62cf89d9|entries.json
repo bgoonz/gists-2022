@@ -1,1 +1,13 @@
-{"version":1,"resource":"file:///Users/BGuner/Desktop/dxt-jss-public/src/components/Calculator/inputComponents/Input.tsx","entries":[{"id":"pxhO.tsx","timestamp":1648667658369},{"id":"GptT.tsx","source":"undoRedo.source","timestamp":1648667660142},{"id":"8Nto.tsx","timestamp":1648667688393}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/Desktop/dxt-jss-public/src/components/Calculator/inputComponents/Input.tsx",
+  "entries": [
+    { "id": "pxhO.tsx", "timestamp": 1648667658369 },
+    {
+      "id": "GptT.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1648667660142
+    },
+    { "id": "8Nto.tsx", "timestamp": 1648667688393 }
+  ]
+}

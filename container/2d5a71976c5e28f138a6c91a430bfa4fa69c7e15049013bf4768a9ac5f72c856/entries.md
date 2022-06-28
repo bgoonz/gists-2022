@@ -25,9 +25,9 @@ An array of the given object's own enumerable string-keyed property `[key, value
 
 To add compatible `Object.entries()` support in older environments that do not natively support it, you can use any of the following:
 
--   a demonstration implementation of `Object.entries` in the [tc39/proposal-object-values-entries](https://github.com/tc39/proposal-object-values-entries) (if you don't need any support for IE);
--   a polyfill in the [es-shims/Object.entries](https://github.com/es-shims/Object.entries) repositories;
--   or, you can use the simple, ready-to-deploy polyfill listed below:
+- a demonstration implementation of `Object.entries` in the [tc39/proposal-object-values-entries](https://github.com/tc39/proposal-object-values-entries) (if you don't need any support for IE);
+- a polyfill in the [es-shims/Object.entries](https://github.com/es-shims/Object.entries) repositories;
+- or, you can use the simple, ready-to-deploy polyfill listed below:
 
 <!-- -->
 
@@ -130,16 +130,16 @@ No
 
 ## See also
 
--   [Enumerability and ownership of properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
--   [`Object.keys()`](keys)
--   [`Object.values()`](values)
--   [`Object.prototype.propertyIsEnumerable()`](propertyisenumerable)
--   [`Object.create()`](create)
--   [`Object.fromEntries()`](fromentries)
--   [`Object.getOwnPropertyNames()`](getownpropertynames)
--   [`Map.prototype.entries()`](../map/entries)
--   [`Map.prototype.keys()`](../map/keys)
--   [`Map.prototype.values()`](../map/values)
+- [Enumerability and ownership of properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
+- [`Object.keys()`](keys)
+- [`Object.values()`](values)
+- [`Object.prototype.propertyIsEnumerable()`](propertyisenumerable)
+- [`Object.create()`](create)
+- [`Object.fromEntries()`](fromentries)
+- [`Object.getOwnPropertyNames()`](getownpropertynames)
+- [`Map.prototype.entries()`](../map/entries)
+- [`Map.prototype.keys()`](../map/keys)
+- [`Map.prototype.values()`](../map/values)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

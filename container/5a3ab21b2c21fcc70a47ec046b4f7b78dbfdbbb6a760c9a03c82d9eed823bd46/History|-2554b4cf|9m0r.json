@@ -281,19 +281,16 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.formatOnSave": true,
-"settingsSync.ignoredSettings": [
-    "editor.formatOnSave",
-    "-git.path"
-],
-"editor.accessibilitySupport": "off",
-"git.allowNoVerifyCommit": true,
-"git.autoStash": true,
-"git.followTagsWhenSync": true,
-"git.fetchOnPull": true,
-"git.ignoreLimitWarning": true,
-"git.openAfterClone": "always",
-"git.pruneOnFetch": true,
-"git.supportCancellation": true,
-"git.timeline.showUncommitted": true,
-"git.useCommitInputAsStashMessage": true
+  "settingsSync.ignoredSettings": ["editor.formatOnSave", "-git.path"],
+  "editor.accessibilitySupport": "off",
+  "git.allowNoVerifyCommit": true,
+  "git.autoStash": true,
+  "git.followTagsWhenSync": true,
+  "git.fetchOnPull": true,
+  "git.ignoreLimitWarning": true,
+  "git.openAfterClone": "always",
+  "git.pruneOnFetch": true,
+  "git.supportCancellation": true,
+  "git.timeline.showUncommitted": true,
+  "git.useCommitInputAsStashMessage": true
 }

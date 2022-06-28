@@ -107,10 +107,10 @@ No
 
 ## See also
 
--   [`TypedArray.prototype.includes()`](../typedarray/includes)
--   [`String.prototype.includes()`](../string/includes)
--   [`Array.prototype.indexOf()`](indexof)
--   [`Array.prototype.find()`](find)
--   [`Array.prototype.findIndex()`](findindex)
+- [`TypedArray.prototype.includes()`](../typedarray/includes)
+- [`String.prototype.includes()`](../string/includes)
+- [`Array.prototype.indexOf()`](indexof)
+- [`Array.prototype.find()`](find)
+- [`Array.prototype.findIndex()`](findindex)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes</a>

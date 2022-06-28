@@ -38,8 +38,8 @@ A new [`Array`](../array) instance.
 
 `Array.from()` lets you create `Array`s from:
 
--   array-like objects (objects with a `length` property and indexed elements); or
--   [iterable objects](../../iteration_protocols) (objects such as [`Map`](../map) and [`Set`](../set)).
+- array-like objects (objects with a `length` property and indexed elements); or
+- [iterable objects](../../iteration_protocols) (objects such as [`Map`](../map) and [`Set`](../set)).
 
 `Array.from()` has an optional parameter `mapFn`, which allows you to execute a [`map()`](map) function on each element of the array being created.
 
@@ -307,8 +307,8 @@ In addition, since true iterables cannot be polyfilled, this implementation does
 
 ## See also
 
--   [`Array`](../array)
--   [`Array.prototype.map()`](map)
--   [`TypedArray.from()`](../typedarray/from)
+- [`Array`](../array)
+- [`Array.prototype.map()`](map)
+- [`TypedArray.from()`](../typedarray/from)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from</a>

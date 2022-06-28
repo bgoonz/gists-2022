@@ -54,7 +54,7 @@ The following example assigns the hours portion of the current time to the varia
 
 ## See also
 
--   [`Date.prototype.getHours()`](gethours)
--   [`Date.prototype.setUTCHours()`](setutchours)
+- [`Date.prototype.getHours()`](gethours)
+- [`Date.prototype.setUTCHours()`](setutchours)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCHours" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCHours</a>

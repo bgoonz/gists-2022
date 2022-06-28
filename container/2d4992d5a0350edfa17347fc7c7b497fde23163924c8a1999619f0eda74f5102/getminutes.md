@@ -56,7 +56,7 @@ The second statement below assigns the value 15 to the variable `minutes`, based
 
 ## See also
 
--   [`Date.prototype.getUTCMinutes()`](getutcminutes)
--   [`Date.prototype.setMinutes()`](setminutes)
+- [`Date.prototype.getUTCMinutes()`](getutcminutes)
+- [`Date.prototype.setMinutes()`](setminutes)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes</a>

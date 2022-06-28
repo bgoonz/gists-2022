@@ -870,31 +870,10 @@
     }
   },
   "runtimes": {
-    "osx-x64": [
-      "osx",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "osx": [
-      "unix",
-      "any",
-      "base"
-    ],
-    "osx-arm64": [
-      "osx",
-      "unix-arm64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "osx.10.10": [
-      "osx",
-      "unix",
-      "any",
-      "base"
-    ],
+    "osx-x64": ["osx", "unix-x64", "unix", "any", "base"],
+    "osx": ["unix", "any", "base"],
+    "osx-arm64": ["osx", "unix-arm64", "unix", "any", "base"],
+    "osx.10.10": ["osx", "unix", "any", "base"],
     "osx.10.10-arm64": [
       "osx.10.10",
       "osx-arm64",
@@ -913,13 +892,7 @@
       "any",
       "base"
     ],
-    "osx.10.11": [
-      "osx.10.10",
-      "osx",
-      "unix",
-      "any",
-      "base"
-    ],
+    "osx.10.11": ["osx.10.10", "osx", "unix", "any", "base"],
     "osx.10.11-arm64": [
       "osx.10.11",
       "osx.10.10-arm64",
@@ -942,14 +915,7 @@
       "any",
       "base"
     ],
-    "osx.10.12": [
-      "osx.10.11",
-      "osx.10.10",
-      "osx",
-      "unix",
-      "any",
-      "base"
-    ],
+    "osx.10.12": ["osx.10.11", "osx.10.10", "osx", "unix", "any", "base"],
     "osx.10.12-arm64": [
       "osx.10.12",
       "osx.10.11-arm64",

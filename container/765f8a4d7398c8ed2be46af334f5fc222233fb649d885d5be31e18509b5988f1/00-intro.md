@@ -15,8 +15,8 @@ var foo;
 var bar = 42;
 var foo, bar, baz;
 var foo = 42,
-    bar = 'baz',
-    z;
+  bar = "baz",
+  z;
 ```
 
 Variables that don't explicitly get assigned an initial value have the value
@@ -79,7 +79,7 @@ create an _implicit global variable_ and should thus be avoided:
 
 ```javascript
 function foo() {
-    bar = 42;
+  bar = 42;
 }
 foo();
 console.log(bar); // no error
@@ -103,7 +103,7 @@ considered bad or confusing.
 Strict mode can be enabled for a JavaScript or a function by putting
 
 ```js
-'use strict';
+"use strict";
 ```
 
 at the beginning of it.

@@ -177,9 +177,9 @@ This will always be `false`. (`!mycar` will be evaluated before `instanceof`, so
 
 ## See also
 
--   `typeof`
--   [`Symbol.hasInstance`](../global_objects/symbol/hasinstance)
--   [`Object.prototype.isPrototypeOf`](../global_objects/object/isprototypeof)
+- `typeof`
+- [`Symbol.hasInstance`](../global_objects/symbol/hasinstance)
+- [`Object.prototype.isPrototypeOf`](../global_objects/object/isprototypeof)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

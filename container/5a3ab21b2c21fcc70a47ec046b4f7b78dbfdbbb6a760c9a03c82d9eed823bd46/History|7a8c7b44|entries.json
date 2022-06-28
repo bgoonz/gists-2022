@@ -1,1 +1,12 @@
-{"version":1,"resource":"file:///Users/BGuner/BGOONZ_BLOG_2.0/src/pages/docs/projects/archive/index.md","entries":[{"id":"8Z2N.md","source":"searchReplace.source","timestamp":1649260771402},{"id":"yRu3.md","timestamp":1651953973098}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/BGOONZ_BLOG_2.0/src/pages/docs/projects/archive/index.md",
+  "entries": [
+    {
+      "id": "8Z2N.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260771402
+    },
+    { "id": "yRu3.md", "timestamp": 1651953973098 }
+  ]
+}

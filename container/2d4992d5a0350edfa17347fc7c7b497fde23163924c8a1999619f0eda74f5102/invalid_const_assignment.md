@@ -74,8 +74,8 @@ But you can mutate the properties in a variable:
 
 ## See also
 
--   `const`
--   `let`
--   `var`
+- `const`
+- `let`
+- `var`
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment</a>

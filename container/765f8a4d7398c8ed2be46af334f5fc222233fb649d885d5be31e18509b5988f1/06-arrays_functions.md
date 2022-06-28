@@ -1,5 +1,5 @@
 ---
-title: 'Built-in objects: Arrays and functions'
+title: "Built-in objects: Arrays and functions"
 ---
 
 ## Arrays
@@ -46,7 +46,7 @@ also has a special syntax for defining them:
 
 ```javascript
 function foo() {
-    console.log("I'm a function");
+  console.log("I'm a function");
 }
 ```
 

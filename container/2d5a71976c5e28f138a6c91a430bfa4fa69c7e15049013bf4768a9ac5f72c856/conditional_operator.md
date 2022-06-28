@@ -96,11 +96,11 @@ The ternary operator is right-associative, which means it can be "chained" in th
 
 ## See also
 
--   [if statement](../statements/if...else)
--   [Nullish coalescing operator](nullish_coalescing_operator)
--   [Optional chaining](optional_chaining)
--   [Making decisions in your code — conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
--   [Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+- [if statement](../statements/if...else)
+- [Nullish coalescing operator](nullish_coalescing_operator)
+- [Optional chaining](optional_chaining)
+- [Making decisions in your code — conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
+- [Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

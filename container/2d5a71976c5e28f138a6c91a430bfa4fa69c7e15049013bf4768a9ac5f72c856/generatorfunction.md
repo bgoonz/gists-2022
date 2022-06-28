@@ -78,11 +78,11 @@ No
 
 ## See also
 
--   [function\* function](../statements/function*)
--   [function\* expression](../operators/function*)
--   [`Function`](function)
--   [function statement](../statements/function)
--   [function expression](../operators/function)
--   [Functions and function scope](../functions)
+- [function\* function](../statements/function*)
+- [function\* expression](../operators/function*)
+- [`Function`](function)
+- [function statement](../statements/function)
+- [function expression](../operators/function)
+- [Functions and function scope](../functions)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction</a>

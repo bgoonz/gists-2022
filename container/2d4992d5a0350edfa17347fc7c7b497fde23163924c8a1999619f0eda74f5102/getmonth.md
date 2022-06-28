@@ -64,7 +64,7 @@ The second statement below assigns the value 11 to the variable `month`, based o
 
 ## See also
 
--   [`Date.prototype.getUTCMonth()`](getutcmonth)
--   [`Date.prototype.setMonth()`](setmonth)
+- [`Date.prototype.getUTCMonth()`](getutcmonth)
+- [`Date.prototype.setMonth()`](setmonth)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth</a>

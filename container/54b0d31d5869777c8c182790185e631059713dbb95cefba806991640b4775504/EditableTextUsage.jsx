@@ -26,29 +26,29 @@ export function EditableTextUsage({ selected, setSelected }) {
     setIsTransforming(!isTransforming);
     setSelected(!isTransforming);
   }
-  
+
   function onTextResize(newWidth, newHeight) {
     setWidth(newWidth);
     setHeight(newHeight);
   }
-  
+
   function onTextChange(value) {
-    setText(value)
+    setText(value);
   }
 
-return (
-  <EditableText
-    x={0}
-    y={0}
-    text={text}
-    width={width}
-    height={height}
-    onResize={onTextResize}
-    isEditing={isEditing}
-    isTransforming={isTransforming}
-    onToggleEdit={toggleEdit}
-    onToggleTransform={toggleTransforming}
-    onChange={onTextChange}
-  />
-);
+  return (
+    <EditableText
+      x={0}
+      y={0}
+      text={text}
+      width={width}
+      height={height}
+      onResize={onTextResize}
+      isEditing={isEditing}
+      isTransforming={isTransforming}
+      onToggleEdit={toggleEdit}
+      onToggleTransform={toggleTransforming}
+      onChange={onTextChange}
+    />
+  );
 }

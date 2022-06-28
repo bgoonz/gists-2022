@@ -5,7 +5,7 @@
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.definitionLinkOpensInPeek": true,
   "editor.fastScrollSensitivity": 9,
-"editor.suggest.shareSuggestSelections": true,
+  "editor.suggest.shareSuggestSelections": true,
   "editor.fontSize": 12,
   "editor.fontFamily": "Consolas, 'Courier New', monospace",
   "editor.fontWeight": "350",
@@ -117,7 +117,7 @@
   //--------------beginning of file settings------------\\
   "files.exclude": {
     "**/.git": false
-},
+  },
 
   "breadcrumbs.filePath": "on",
   "files.autoSave": "afterDelay",
@@ -126,7 +126,7 @@
   "diffEditor.codeLens": true,
   "explorer.confirmDelete": false,
   "python.analysis.cacheFolderPath": "C:\\Users\\15512\\OneDrive\\Documents\\App_Academy_Personal\\misc\\python-analysis-cache",
-"python.pythonPath": "C:\\Users\\15512\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  "python.pythonPath": "C:\\Users\\15512\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
   "liveServer.settings.donotShowInfoMsg": true,
 
   "[markdown]": {
@@ -150,42 +150,39 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
-        "source": "PowerShell",
-        "icon": "terminal-powershell"
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
     },
     "Command Prompt": {
-        "path": [
-            "${env:windir}\\Sysnative\\cmd.exe",
-            "${env:windir}\\System32\\cmd.exe"
-        ],
-        "args": [],
-        "icon": "terminal-cmd"
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
     },
     "Git Bash": {
-        "source": "Git Bash"
+      "source": "Git Bash"
     },
     "C:\\WINDOWS\\System32\\wsl.exe (migrated)": {
-        "path": "C:\\WINDOWS\\System32\\wsl.exe",
-        "args": []
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": []
     },
     "JavaScript Debug Terminal": {
-        "extensionIdentifier": "ms-vscode.js-debug",
-        "icon": "debug",
-        "id": "extension.js-debug.debugTerminal",
-        "title": "JavaScript Debug Terminal"
+      "extensionIdentifier": "ms-vscode.js-debug",
+      "icon": "debug",
+      "id": "extension.js-debug.debugTerminal",
+      "title": "JavaScript Debug Terminal"
     },
     "C:\\Program Files\\PowerShell\\7\\pwsh.exe (migrated)": {
-        "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
-        "args": []
+      "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+      "args": []
     },
     "Ubuntu (WSL)": {
-        "path": "C:\\WINDOWS\\System32\\wsl.exe",
-        "args": [
-            "-d",
-            "Ubuntu"
-        ]
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
     }
-},
+  },
   "files.autoSaveDelay": 100,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -198,35 +195,22 @@
   "references.preferredLocation": "view",
 
   "workbench.iconTheme": "material-icon-theme",
-"git.enableSmartCommit": true,
+  "git.enableSmartCommit": true,
   "[less]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  // Controls the font size in pixels of the terminal, this defaults to editor.fontSize's value.
+  "terminal.integrated.fontSize": 10,
 
-
-
-
-
-// Controls the font size in pixels of the terminal, this defaults to editor.fontSize's value.
-"terminal.integrated.fontSize": 10,
-
-// Controls the line height of the terminal, this number is multipled by the terminal font size to get the actual line-height in pixels.
-"terminal.integrated.lineHeight": 1.2,
-
-
-
-
-
-
-
-
+  // Controls the line height of the terminal, this number is multipled by the terminal font size to get the actual line-height in pixels.
+  "terminal.integrated.lineHeight": 1.2,
 
   "jupyter.allowUnauthorizedRemoteConnection": true,
   "jupyter.changeDirOnImportExport": true,
   "jupyter.generateSVGPlots": true,
   "jupyter.interactiveWindowMode": "single",
-    "jupyter.jupyterLab.allowUnauthorizedRemoteConnection": true,
+  "jupyter.jupyterLab.allowUnauthorizedRemoteConnection": true,
   "telemetry.telemetryLevel": "off",
   "git.autofetch": true,
   "[scss]": {
@@ -239,73 +223,73 @@
     "markdown": true
   },
   "workbench.editor.untitled.hint": "hidden",
-"workbench.tree.indent": 10,
+  "workbench.tree.indent": 10,
   "tabnine.experimentalAutoImports": true,
-"files.maxMemoryForLargeFilesMB": 8000,
-"diffEditor.ignoreTrimWhitespace": false,
-"editor.dragAndDrop": false,
-"editor.minimap.showSlider": "always",
-"[yaml]": {
+  "files.maxMemoryForLargeFilesMB": 8000,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.dragAndDrop": false,
+  "editor.minimap.showSlider": "always",
+  "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"terminal.external.windowsExec": "C:\\Users\\bryan\\AppData\\Local\\Microsoft\\WindowsApps\\ubuntu.exe",
-"terminal.integrated.profiles.linux": {
+  },
+  "terminal.external.windowsExec": "C:\\Users\\bryan\\AppData\\Local\\Microsoft\\WindowsApps\\ubuntu.exe",
+  "terminal.integrated.profiles.linux": {
     "bash": {
-        "path": "bash",
-        "icon": "terminal-bash"
+      "path": "bash",
+      "icon": "terminal-bash"
     },
     "zsh": {
-        "path": "zsh"
+      "path": "zsh"
     },
     "fish": {
-        "path": "fish"
+      "path": "fish"
     },
     "tmux": {
-        "path": "tmux",
-        "icon": "terminal-tmux"
+      "path": "tmux",
+      "icon": "terminal-tmux"
     },
     "pwsh": {
-        "path": "pwsh",
-        "icon": "terminal-powershell"
+      "path": "pwsh",
+      "icon": "terminal-powershell"
     },
     "bash (2)": {
-        "path": "/usr/bin/bash"
+      "path": "/usr/bin/bash"
     }
-},
-"terminal.integrated.defaultProfile.linux": "bash (2)",
-"path-intellisense.showHiddenFiles": true,
-"workbench.colorCustomizations": {},
-"redhat.telemetry.enabled": false,
-"workbench.colorTheme": "Monokai",
-"[javascript]": {
+  },
+  "terminal.integrated.defaultProfile.linux": "bash (2)",
+  "path-intellisense.showHiddenFiles": true,
+  "workbench.colorCustomizations": {},
+  "redhat.telemetry.enabled": false,
+  "workbench.colorTheme": "Monokai",
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"google.drive.alertMissingCredentials": false,
-"bracketPairColorizer.depreciation-notice": false,
-"window.zoomLevel": -1,
-"bracket-pair-colorizer-2.depreciation-notice": false,
-"yaml.schemas": {
+  },
+  "google.drive.alertMissingCredentials": false,
+  "bracketPairColorizer.depreciation-notice": false,
+  "window.zoomLevel": -1,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "yaml.schemas": {
     "file:///c%3A/Users/bryan/.vscode/extensions/atlassian.atlascode-2.10.11/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-},
-"atlascode.jira.enabled": true,
-"atlascode.bitbucket.enabled": true,
-"atlascode.enableHttpsTunnel": true,
-"atlascode.offlineMode": true,
-"atlascode.outputLevel": "errors",
-"atlascode.enableCurlLogging": true,
-"atlascode.jira.showCreateIssueProblems": true,
-"atlascode.enableCharles": true,
-"atlascode.jira.jqlList": [
+  },
+  "atlascode.jira.enabled": true,
+  "atlascode.bitbucket.enabled": true,
+  "atlascode.enableHttpsTunnel": true,
+  "atlascode.offlineMode": true,
+  "atlascode.outputLevel": "errors",
+  "atlascode.enableCurlLogging": true,
+  "atlascode.jira.showCreateIssueProblems": true,
+  "atlascode.enableCharles": true,
+  "atlascode.jira.jqlList": [
     {
-        "id": "ec1a4fce-a2f7-43ca-b46e-8cce0961e865",
-        "enabled": true,
-        "name": "My sysopt Issues",
-        "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
-        "siteId": "6bbe75c1-3dd4-4738-99b8-a53b8b24a582",
-        "monitor": true
+      "id": "ec1a4fce-a2f7-43ca-b46e-8cce0961e865",
+      "enabled": true,
+      "name": "My sysopt Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "6bbe75c1-3dd4-4738-99b8-a53b8b24a582",
+      "monitor": true
     }
-],
-"markdown-preview-enhanced.previewTheme": "medium.css",
-"workbench.editor.sharedViewState": true,
-"zenMode.fullScreen": false
+  ],
+  "markdown-preview-enhanced.previewTheme": "medium.css",
+  "workbench.editor.sharedViewState": true,
+  "zenMode.fullScreen": false
 }

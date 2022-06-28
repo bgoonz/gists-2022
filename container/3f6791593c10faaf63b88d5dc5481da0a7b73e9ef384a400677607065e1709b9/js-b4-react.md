@@ -1,5 +1,4 @@
-[Template Literals](https://kentcdodds.com/blog/javascript-to-know-for-react#template-literals)
------------------------------------------------------------------------------------------------
+## [Template Literals](https://kentcdodds.com/blog/javascript-to-know-for-react#template-literals)
 
 Template literals are like regular strings with super-powers:
 
@@ -20,8 +19,7 @@ function Box({className, ...props}) {
 
 [MDN: Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
-[Shorthand property names](https://kentcdodds.com/blog/javascript-to-know-for-react#shorthand-property-names)
--------------------------------------------------------------------------------------------------------------
+## [Shorthand property names](https://kentcdodds.com/blog/javascript-to-know-for-react#shorthand-property-names)
 
 This is so common and useful that I do this without thinking now.
 
@@ -44,8 +42,7 @@ function Counter({initialCount, step}) {
 
 [MDN: Object initializer *New notations in ECMAScript 2015*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#New_notations_in_ECMAScript_2015)
 
-[Arrow functions](https://kentcdodds.com/blog/javascript-to-know-for-react#arrow-functions)
--------------------------------------------------------------------------------------------
+## [Arrow functions](https://kentcdodds.com/blog/javascript-to-know-for-react#arrow-functions)
 
 Arrow functions are another way to write functions in JavaScript, but they do have a few semantic differences. Luckily for us in React land, we don't have to worry about `this` as much if we're using hooks in our project (rather than classes), but the arrow function allows for terser anonymous functions and implicit returns, so you'll see and want to use arrow functions plenty.
 
@@ -84,8 +81,7 @@ One thing to note about the example above is the opening and closing parentheses
 
 [MDN: Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-[Destructuring](https://kentcdodds.com/blog/javascript-to-know-for-react#destructuring)
----------------------------------------------------------------------------------------
+## [Destructuring](https://kentcdodds.com/blog/javascript-to-know-for-react#destructuring)
 
 Destructuring is probably my favorite JavaScript feature. I destructure objects and arrays all the time (and if you're using `useState` you probably are too, [like so](https://kentcdodds.com/blog/react-hooks-array-destructuring-fundamentals)). I love how declarative it is.
 
@@ -148,8 +144,7 @@ function nestedArrayAndObject() {
 
 ```
 
-[Parameter defaults](https://kentcdodds.com/blog/javascript-to-know-for-react#parameter-defaults)
--------------------------------------------------------------------------------------------------
+## [Parameter defaults](https://kentcdodds.com/blog/javascript-to-know-for-react#parameter-defaults)
 
 This is another feature I use all the time. It's a really powerful way to declaratively express default values for your functions.
 
@@ -192,8 +187,7 @@ function useLocalStorageState({
 
 [MDN: Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 
-[Rest/Spread](https://kentcdodds.com/blog/javascript-to-know-for-react#restspread)
-----------------------------------------------------------------------------------
+## [Rest/Spread](https://kentcdodds.com/blog/javascript-to-know-for-react#restspread)
 
 The `...` syntax can be thought of as kind of a "collection" syntax where it operates on a collection of values. I use it all the time and strongly recommend you learn how and where it can be used as well. It actually takes different meanings in different contexts, so learning the nuances there will help you.
 
@@ -249,8 +243,7 @@ function Box({className, ...restOfTheProps}) {
 
 [MDN: Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 
-[ESModules](https://kentcdodds.com/blog/javascript-to-know-for-react#esmodules)
--------------------------------------------------------------------------------
+## [ESModules](https://kentcdodds.com/blog/javascript-to-know-for-react#esmodules)
 
 If you're building an app with modern tools, chances are it supports modules, it's a good idea to learn how the syntax works because any application of even trivial size will likely need to make use of modules for code reuse and organization.
 
@@ -312,8 +305,7 @@ const BigComponent = React.lazy(() => import('./big-component'))
 
 As another resource, I gave a whole talk about this syntax and you can [watch that talk here](https://www.youtube.com/watch?v=kTlcu16rSLc&list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf)
 
-[Ternaries](https://kentcdodds.com/blog/javascript-to-know-for-react#ternaries)
--------------------------------------------------------------------------------
+## [Ternaries](https://kentcdodds.com/blog/javascript-to-know-for-react#ternaries)
 
 I love ternaries. They're beautifully declarative. Especially in JSX.
 
@@ -355,18 +347,17 @@ I realize that ternaries can get a knee-jerk reaction of disgust from some peopl
 
 [MDN: Conditional (ternary) operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
-[Array Methods](https://kentcdodds.com/blog/javascript-to-know-for-react#array-methods)
----------------------------------------------------------------------------------------
+## [Array Methods](https://kentcdodds.com/blog/javascript-to-know-for-react#array-methods)
 
 Arrays are fantastic and I use array methods all the time! I probably use the following methods the most frequently:
 
--   find
--   some
--   every
--   includes
--   map
--   filter
--   reduce
+- find
+- some
+- every
+- includes
+- map
+- filter
+- reduce
 
 Here are some examples:
 
@@ -447,8 +438,7 @@ function RepositoryList({repositories, owner}) {
 
 [MDN: Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-[Nullish coalescing operator](https://kentcdodds.com/blog/javascript-to-know-for-react#nullish-coalescing-operator)
--------------------------------------------------------------------------------------------------------------------
+## [Nullish coalescing operator](https://kentcdodds.com/blog/javascript-to-know-for-react#nullish-coalescing-operator)
 
 If a value is `null` or `undefined`, then you may want to fallback to some default value:
 
@@ -484,8 +474,7 @@ function DisplayContactName({contact}) {
 
 [MDN: Nullish coalescing operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator)
 
-[Optional chaining](https://kentcdodds.com/blog/javascript-to-know-for-react#optional-chaining)
------------------------------------------------------------------------------------------------
+## [Optional chaining](https://kentcdodds.com/blog/javascript-to-know-for-react#optional-chaining)
 
 Also known as the "Elvis Operator," this allows you to safely access properties and call functions that may or may not exist. Before optional chaining, we used a hacky-workaround that relied on falsy/truthy-ness.
 
@@ -529,8 +518,7 @@ A word of caution around this is that if you find yourself doing `?.` a lot in
 
 [MDN: Optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 
-[Promises and async/await](https://kentcdodds.com/blog/javascript-to-know-for-react#promises-and-asyncawait)
-------------------------------------------------------------------------------------------------------------
+## [Promises and async/await](https://kentcdodds.com/blog/javascript-to-know-for-react#promises-and-asyncawait)
 
 This one's a big subject and it can take a bit of practice and time working with them to get good at them. Promises are everywhere in the JavaScript ecosystem and thanks to how entrenched React is in that ecosystem, they're everywhere there as well (in fact, React itself uses promises internally).
 

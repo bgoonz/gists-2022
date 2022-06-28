@@ -46,48 +46,47 @@ asked May 17 '12 at 13:23
 
 51.8k6767 gold badges249249 silver badges512512 bronze badges
 
--   6
+- 6
 
-    I'm not sure, but I believe that setting the header this way allows code on site B to fetch `http://siteA/MyCode.js`. 
+  I'm not sure, but I believe that setting the header this way allows code on site B to fetch `http://siteA/MyCode.js`.
 
-    -- [pimvdb](https://stackoverflow.com/users/514749/pimvdb "144,488 reputation")
+  -- [pimvdb](https://stackoverflow.com/users/514749/pimvdb "144,488 reputation")
 
-     [May 17 '12 at 13:26](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment13788316_10636611) 
+  [May 17 '12 at 13:26](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment13788316_10636611)
 
--   9
+- 9
 
-    But how??? In order to get the header value one has to fetch the resource first, but the resource is cross-origin and so shouldn't the browser block the request in the first place? 
+  But how??? In order to get the header value one has to fetch the resource first, but the resource is cross-origin and so shouldn't the browser block the request in the first place?
 
-    -- [mark](https://stackoverflow.com/users/80002/mark "51,834 reputation")
+  -- [mark](https://stackoverflow.com/users/80002/mark "51,834 reputation")
 
-     [May 17 '12 at 13:33](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment13788480_10636611)
+  [May 17 '12 at 13:33](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment13788480_10636611)
 
--   1
+- 1
 
-    What you described actually resembles another practice, [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) 
+  What you described actually resembles another practice, [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy)
 
-    -- [Alex](https://stackoverflow.com/users/902859/alex "337 reputation")
+  -- [Alex](https://stackoverflow.com/users/902859/alex "337 reputation")
 
-     [Jun 9 '16 at 17:03](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment62935360_10636611)
+  [Jun 9 '16 at 17:03](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment62935360_10636611)
 
--   5
+- 5
 
-    @mark You don't have to fetch the resource in order to get the headers. The HTTP HEADER method will return headers-only. And in the case of CORS, a preflight check is done using the HTTP OPTIONS method which doesn't return the body either. apsillers answer describes this nicely [stackoverflow.com/posts/10636765/revisions](https://stackoverflow.com/posts/10636765/revisions). 
+  @mark You don't have to fetch the resource in order to get the headers. The HTTP HEADER method will return headers-only. And in the case of CORS, a preflight check is done using the HTTP OPTIONS method which doesn't return the body either. apsillers answer describes this nicely [stackoverflow.com/posts/10636765/revisions](https://stackoverflow.com/posts/10636765/revisions).
 
-    -- [Matthew](https://stackoverflow.com/users/46249/matthew "927 reputation")
+  -- [Matthew](https://stackoverflow.com/users/46249/matthew "927 reputation")
 
-     [Sep 9 '16 at 23:50](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment66167159_10636611)
+  [Sep 9 '16 at 23:50](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment66167159_10636611)
 
--   @DrMcCleod The wiki page linked is pretty clear, the Mozilla page however... 
+- @DrMcCleod The wiki page linked is pretty clear, the Mozilla page however...
 
-    -- [Déjà vu](https://stackoverflow.com/users/338904/d%c3%a9j%c3%a0-vu "26,676 reputation")
+  -- [Déjà vu](https://stackoverflow.com/users/338904/d%c3%a9j%c3%a0-vu "26,676 reputation")
 
-     [May 4 at 7:48](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment119098031_10636611)
+  [May 4 at 7:48](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment119098031_10636611)
 
 [Add a comment](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work# "Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.")
 
-18 Answers
-----------
+## 18 Answers
 
 [Active](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work?answertab=active#tab-top "Answers with the latest activity first")[Oldest](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work?answertab=oldest#tab-top "Answers in the order they were provided")[Votes](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work?answertab=votes#tab-top "Answers with the highest score first")
 
@@ -108,17 +107,16 @@ Access-Control-Allow-Origin: http://siteA.com
 
 Modern browsers will not block cross-domain requests outright. If Site A requests a page from Site B, the browser will actually fetch the requested page *on the network level* and check if the response headers list Site A as a permitted requester domain. If Site B has not indicated that Site A is allowed to access this page, the browser will trigger the `XMLHttpRequest`'s `error` event and deny the response data to the requesting JavaScript code.
 
-Non-simple requests
-===================
+# Non-simple requests
 
 What happens on the network level can be *slightly* more complex than explained above. If the request is a ["non-simple" request](http://www.html5rocks.com/en/tutorials/cors/#toc-handling-a-not-so-simple-request), the browser first sends a data-less "preflight" OPTIONS request, to verify that the server will accept the request. A request is non-simple when either (or both):
 
--   using an HTTP verb other than GET or POST (e.g. PUT, DELETE)
--   using non-simple request headers; the only simple requests headers are:
-    -   `Accept`
-    -   `Accept-Language`
-    -   `Content-Language`
-    -   `Content-Type` (this is only simple when its value is `application/x-www-form-urlencoded`, `multipart/form-data`, or `text/plain`)
+- using an HTTP verb other than GET or POST (e.g. PUT, DELETE)
+- using non-simple request headers; the only simple requests headers are:
+  - `Accept`
+  - `Accept-Language`
+  - `Content-Language`
+  - `Content-Type` (this is only simple when its value is `application/x-www-form-urlencoded`, `multipart/form-data`, or `text/plain`)
 
 If the server responds to the OPTIONS preflight with appropriate response headers (`Access-Control-Allow-Headers` for non-simple headers, `Access-Control-Allow-Methods` for non-simple verbs) that match the non-simple verb and/or non-simple headers, then the browser sends the actual request.
 
@@ -193,45 +191,45 @@ answered May 17 '12 at 13:33
 
 106k1616 gold badges211211 silver badges232232 bronze badges
 
--   4
+- 4
 
-    But MyCode.js cannot reach for site B in the first place! How will this header arrive at the client? BTW, kudos for the light life glider in the avatar. 
+  But MyCode.js cannot reach for site B in the first place! How will this header arrive at the client? BTW, kudos for the light life glider in the avatar.
 
-    -- [mark](https://stackoverflow.com/users/80002/mark "51,834 reputation")
+  -- [mark](https://stackoverflow.com/users/80002/mark "51,834 reputation")
 
-     [May 17 '12 at 13:36](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment13788543_10636765) 
+  [May 17 '12 at 13:36](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment13788543_10636765)
 
--   11
+- 11
 
-    I edited with clarification: the browser actually does perform a network fetch on site B to check the `Access-Control-Allow-Origin` header, but it might not provide the response to the JS code on site A if the header doesn't allow site A to have it. (P.S. Thanks :) ) 
+  I edited with clarification: the browser actually does perform a network fetch on site B to check the `Access-Control-Allow-Origin` header, but it might not provide the response to the JS code on site A if the header doesn't allow site A to have it. (P.S. Thanks :) )
 
-    -- [apsillers](https://stackoverflow.com/users/710446/apsillers "105,773 reputation")
+  -- [apsillers](https://stackoverflow.com/users/710446/apsillers "105,773 reputation")
 
-     [May 17 '12 at 13:41](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment13788658_10636765) 
+  [May 17 '12 at 13:41](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment13788658_10636765)
 
--   2
+- 2
 
-    Indeed, I do not see any record of the download in Fiddler, unless the cross-origin request is approved. Interesting... 
+  Indeed, I do not see any record of the download in Fiddler, unless the cross-origin request is approved. Interesting...
 
-    -- [mark](https://stackoverflow.com/users/80002/mark "51,834 reputation")
+  -- [mark](https://stackoverflow.com/users/80002/mark "51,834 reputation")
 
-     [May 17 '12 at 14:18](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment13789705_10636765)
+  [May 17 '12 at 14:18](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment13789705_10636765)
 
--   31
+- 31
 
-    @Jwan622 A fundamental "*why?*" question like that is probably out of scope for this particular answer, which is just about rules & mechanics. Basically, the browser allows *you*, the human sitting at the computer, see any resource from any origin. It disallows scripts (which could be written by anyone) from reading resources from origins that are different from the origin of the page running the script. Some related questions are [programmers.stackexchange.com/q/216605](http://programmers.stackexchange.com/q/216605/) and [What is the threat model for the same origin policy?](http://stackoverflow.com/q/6744283/) 
+  @Jwan622 A fundamental "_why?_" question like that is probably out of scope for this particular answer, which is just about rules & mechanics. Basically, the browser allows *you*, the human sitting at the computer, see any resource from any origin. It disallows scripts (which could be written by anyone) from reading resources from origins that are different from the origin of the page running the script. Some related questions are [programmers.stackexchange.com/q/216605](http://programmers.stackexchange.com/q/216605/) and [What is the threat model for the same origin policy?](http://stackoverflow.com/q/6744283/)
 
-    -- [apsillers](https://stackoverflow.com/users/710446/apsillers "105,773 reputation")
+  -- [apsillers](https://stackoverflow.com/users/710446/apsillers "105,773 reputation")
 
-     [Jul 12 '15 at 17:55](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment50720789_10636765)
+  [Jul 12 '15 at 17:55](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment50720789_10636765)
 
--   3
+- 3
 
-    In case of using an authentication, `Access-Control-Allow-Origin` does not accept the `*` in some browsers (FF and Chrome AFAIK). So in this case you have to specify the value from the `Origin` header. Hope that this will help someone. 
+  In case of using an authentication, `Access-Control-Allow-Origin` does not accept the `*` in some browsers (FF and Chrome AFAIK). So in this case you have to specify the value from the `Origin` header. Hope that this will help someone.
 
-    -- [Zsolti](https://stackoverflow.com/users/340992/zsolti "1,453 reputation")
+  -- [Zsolti](https://stackoverflow.com/users/340992/zsolti "1,453 reputation")
 
-     [Sep 9 '16 at 19:59](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment66162852_10636765)
+  [Sep 9 '16 at 19:59](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment66162852_10636765)
 
 [Show **15** more comments](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work# "Expand to show all comments on this post")
 
@@ -280,7 +278,7 @@ Connection Keep-Alive
 
 ```
 
-The blue parts I marked above were the kernal facts, "Origin" request header "indicates where the cross-origin request or preflight request originates from", the "Access-Control-Allow-Origin" response header indicates this page allows remote request from DomainA (if the value is * indicate allows remote requests from any domain).
+The blue parts I marked above were the kernal facts, "Origin" request header "indicates where the cross-origin request or preflight request originates from", the "Access-Control-Allow-Origin" response header indicates this page allows remote request from DomainA (if the value is \* indicate allows remote requests from any domain).
 
 As I mentioned above, W3 recommended browser to implement a "**preflight request**" before submiting the actually Cross-Origin HTTP request, in a nutshell it is an HTTP `OPTIONS` request:
 
@@ -303,7 +301,7 @@ Content-Type: application/json
 
 ```
 
-Only if the response contains "Access-Control-Allow-Origin" AND its value is "*" or contain the domain who submitted the CORS request, by satisfying this mandtory condition browser will submit the actual Cross-Domain request, and cache the result in "**Preflight-Result-Cache**".
+Only if the response contains "Access-Control-Allow-Origin" AND its value is "\*" or contain the domain who submitted the CORS request, by satisfying this mandtory condition browser will submit the actual Cross-Domain request, and cache the result in "**Preflight-Result-Cache**".
 
 I blogged about CORS three years ago: [AJAX Cross-Origin HTTP request](http://wayneye.com/Blog/Ajax-Cross-Origin-HTTP-request)
 
@@ -337,17 +335,17 @@ answered Jan 23 '14 at 13:54
 
 2,32422 gold badges2222 silver badges2828 bronze badges
 
--   This answer made me realize why i was suddenly getting an issue without using this header for POST and GET requests. I had accidently opened the index.html file directly from disk, so the URL the client was accessing on node.js was thought to be cross-domain, while it was simply running on localhost. Accessing via the URL (as one would usually do) "solved" my issue... 
+- This answer made me realize why i was suddenly getting an issue without using this header for POST and GET requests. I had accidently opened the index.html file directly from disk, so the URL the client was accessing on node.js was thought to be cross-domain, while it was simply running on localhost. Accessing via the URL (as one would usually do) "solved" my issue...
 
-    -- [LuqJensen](https://stackoverflow.com/users/5552144/luqjensen "300 reputation")
+  -- [LuqJensen](https://stackoverflow.com/users/5552144/luqjensen "300 reputation")
 
-     [Jan 8 '17 at 21:06](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment70280990_21310171)
+  [Jan 8 '17 at 21:06](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment70280990_21310171)
 
--   Would a domain in an external network able to communite with a domain on an internal network? 
+- Would a domain in an external network able to communite with a domain on an internal network?
 
-    -- [Si8](https://stackoverflow.com/users/837722/si8 "8,772 reputation")
+  -- [Si8](https://stackoverflow.com/users/837722/si8 "8,772 reputation")
 
-     [Mar 31 '17 at 1:47](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment73340381_21310171)
+  [Mar 31 '17 at 1:47](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment73340381_21310171)
 
 [Add a comment](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work# "Use comments to ask for more information or suggest improvements. Avoid comments like "+1" or "thanks".")
 
@@ -366,23 +364,20 @@ According to [this](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_co
 An **HTML page** served from `http://domain-a.com` makes an `<img>` src request for `http://domain-b.com/image.jpg`.\
 Many pages on the web today load resources like **CSS stylesheets**, **images** and **scripts** from separate domains (thus it should be cool).
 
-Same-Origin Policy
-==================
+# Same-Origin Policy
 
 For security reasons, browsers restrict **cross-origin HTTP** requests **initiated from within scripts**.\
 For example, `XMLHttpRequest` and `Fetch` follow the **same-origin policy**.\
 So, a web application using `XMLHttpRequest` or `Fetch` could only make **HTTP requests** to **its own domain**.
 
-Cross-Origin Resource Sharing (CORS)
-====================================
+# Cross-Origin Resource Sharing (CORS)
 
 To improve web applications, developers asked browser vendors to allow cross-domain requests.
 
 The **Cross-Origin Resource Sharing (CORS)** mechanism gives web servers **cross-domain access controls**, which enable secure cross-domain data transfers.\
 Modern browsers use **CORS** in an **API container** - such as `XMLHttpRequest` or `Fetch` - to mitigate risks of cross-origin HTTP requests.
 
-How CORS works (`Access-Control-Allow-Origin` header)
------------------------------------------------------
+## How CORS works (`Access-Control-Allow-Origin` header)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing):
 
@@ -390,8 +385,7 @@ How CORS works (`Access-Control-Allow-Origin` header)
 >
 > Although some validation and authorization can be performed by the server, **it is generally the browser's responsibility** to support these headers and honor the restrictions they impose.
 
-Example
-=======
+# Example
 
 1.  The browser sends the `OPTIONS` request with an `Origin HTTP` header.
 
@@ -401,16 +395,16 @@ Example
 
 2.  The server at `service.example.com` may respond with:
 
-    -   An `Access-Control-Allow-Origin` (ACAO) header in its response indicating which origin sites are allowed.\
-        For example:
+    - An `Access-Control-Allow-Origin` (ACAO) header in its response indicating which origin sites are allowed.\
+      For example:
 
-        `Access-Control-Allow-Origin: http://www.example.com`
+      `Access-Control-Allow-Origin: http://www.example.com`
 
-    -   An error page if the server does not allow the cross-origin request
+    - An error page if the server does not allow the cross-origin request
 
-    -   An `Access-Control-Allow-Origin` (ACAO) header with a wildcard that allows all domains:
+    - An `Access-Control-Allow-Origin` (ACAO) header with a wildcard that allows all domains:
 
-        `Access-Control-Allow-Origin: *`
+      `Access-Control-Allow-Origin: *`
 
 [Share](https://stackoverflow.com/a/42605316 "Short permalink to this answer")
 
@@ -430,41 +424,41 @@ answered Mar 5 '17 at 6:39
 
 15.5k2323 gold badges8383 silver badges9595 bronze badges
 
--   2
+- 2
 
-    How to set none are allowed to acees some thing like `Access-Control-Allow-Origin:null` 
+  How to set none are allowed to acees some thing like `Access-Control-Allow-Origin:null`
 
-    -- [Subin Chalil](https://stackoverflow.com/users/2756662/subin-chalil "3,219 reputation")
+  -- [Subin Chalil](https://stackoverflow.com/users/2756662/subin-chalil "3,219 reputation")
 
-     [Aug 25 '17 at 6:18](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment78709160_42605316) 
+  [Aug 25 '17 at 6:18](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment78709160_42605316)
 
--   3
+- 3
 
-    When I don't want to allow anyone to access my resources through CORS, what value should I set for `Access-Control-Allow-Origin` ? I mean the negation of `Access-Control-Allow-Origin: *` 
+  When I don't want to allow anyone to access my resources through CORS, what value should I set for `Access-Control-Allow-Origin` ? I mean the negation of `Access-Control-Allow-Origin: *`
 
-    -- [Subin Chalil](https://stackoverflow.com/users/2756662/subin-chalil "3,219 reputation")
+  -- [Subin Chalil](https://stackoverflow.com/users/2756662/subin-chalil "3,219 reputation")
 
-     [Aug 31 '17 at 13:54](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment78925983_42605316)
+  [Aug 31 '17 at 13:54](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment78925983_42605316)
 
--   6
+- 6
 
-    Just dont set anything, for that purpose 
+  Just dont set anything, for that purpose
 
-    -- [Pmpr](https://stackoverflow.com/users/5104596/pmpr "15,549 reputation")
+  -- [Pmpr](https://stackoverflow.com/users/5104596/pmpr "15,549 reputation")
 
-     [Aug 31 '17 at 13:56](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment78926089_42605316)
+  [Aug 31 '17 at 13:56](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment78926089_42605316)
 
--   where I put access-control 
+- where I put access-control
 
-    -- [Ganesan J](https://stackoverflow.com/users/11828164/ganesan-j "165 reputation")
+  -- [Ganesan J](https://stackoverflow.com/users/11828164/ganesan-j "165 reputation")
 
-     [Feb 16 at 11:36](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment117080490_42605316)
+  [Feb 16 at 11:36](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment117080490_42605316)
 
--   I your web server is Apache, then you may put in your `http-config` or `htaccess` files 
+- I your web server is Apache, then you may put in your `http-config` or `htaccess` files
 
-    -- [Pmpr](https://stackoverflow.com/users/5104596/pmpr "15,549 reputation")
+  -- [Pmpr](https://stackoverflow.com/users/5104596/pmpr "15,549 reputation")
 
-     [Feb 16 at 11:42](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment117080634_42605316)
+  [Feb 16 at 11:42](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment117080634_42605316)
 
 [Add a comment](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work# "Use comments to ask for more information or suggest improvements. Avoid comments like "+1" or "thanks".")
 
@@ -514,21 +508,21 @@ answered Jan 28 '18 at 18:47
 
 2,59422 gold badges2424 silver badges3232 bronze badges
 
--   2
+- 2
 
-    Given paragraph 2, do you have siteA, siteB backwards in paragraph 3? I could be misunderstanding, but the earlier paragraph seems to imply its siteA that is running the JS in question? 
+  Given paragraph 2, do you have siteA, siteB backwards in paragraph 3? I could be misunderstanding, but the earlier paragraph seems to imply its siteA that is running the JS in question?
 
-    -- [cellepo](https://stackoverflow.com/users/1357094/cellepo "3,182 reputation")
+  -- [cellepo](https://stackoverflow.com/users/1357094/cellepo "3,182 reputation")
 
-     [Apr 23 '20 at 3:50](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment108581701_48490061)
+  [Apr 23 '20 at 3:50](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment108581701_48490061)
 
--   1
+- 1
 
-    From OP - "I think the reason for my bad intuition is the point of view I have when developing a site. It's my site, with all my JavaScript, therefore it isn't doing anything malicious and it should be up to me to specify which other sites my JavaScript can interact with. " - for those who first thought like this (as I did), there is another rule, one that is not CORS, for this: CSP (consent security policy) - using CSP you can specify which site/url your site is able to visit/reach. 
+  From OP - "I think the reason for my bad intuition is the point of view I have when developing a site. It's my site, with all my JavaScript, therefore it isn't doing anything malicious and it should be up to me to specify which other sites my JavaScript can interact with. " - for those who first thought like this (as I did), there is another rule, one that is not CORS, for this: CSP (consent security policy) - using CSP you can specify which site/url your site is able to visit/reach.
 
-    -- [Pedro Gabriel Lima](https://stackoverflow.com/users/5666052/pedro-gabriel-lima "1,012 reputation")
+  -- [Pedro Gabriel Lima](https://stackoverflow.com/users/5666052/pedro-gabriel-lima "1,012 reputation")
 
-     [Aug 10 '20 at 17:36](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment112011222_48490061) 
+  [Aug 10 '20 at 17:36](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment112011222_48490061)
 
 [Add a comment](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work# "Use comments to ask for more information or suggest improvements. Avoid comments like "+1" or "thanks".")
 
@@ -549,10 +543,9 @@ axios.get(`https://cors-anywhere.herokuapp.com/[YOUR_API_URL]`,{headers: {'Acces
 
 ```
 
-* * * * *
+---
 
-WARNING: Not to be used in Production
-=====================================
+# WARNING: Not to be used in Production
 
 > This is just a quick fix, if you're struggling with why you're not able to get a response, you CAN use this. But again it's **not the best answer for production.**
 >
@@ -578,21 +571,21 @@ answered Oct 16 '17 at 15:53
 
 6,56544 gold badges2323 silver badges6060 bronze badges
 
--   29
+- 29
 
-    Please don't do this. Using a proxy link is like handing over user cookies to a middle-man. Should be illegal IMHO 
+  Please don't do this. Using a proxy link is like handing over user cookies to a middle-man. Should be illegal IMHO
 
-    -- [anthonymonori](https://stackoverflow.com/users/2759296/anthonymonori "1,663 reputation")
+  -- [anthonymonori](https://stackoverflow.com/users/2759296/anthonymonori "1,663 reputation")
 
-     [Dec 9 '17 at 10:12](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment82415455_46774307)
+  [Dec 9 '17 at 10:12](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment82415455_46774307)
 
--   1
+- 1
 
-    this was useful for me! Except rather than using the * (which has security issues), I limited Access Control to the exact address i'm using to learn with... in my case '[reqres.in/api/register](http://reqres.in/api/register)' 
+  this was useful for me! Except rather than using the \* (which has security issues), I limited Access Control to the exact address i'm using to learn with... in my case '[reqres.in/api/register](http://reqres.in/api/register)'
 
-    -- [C-Note187](https://stackoverflow.com/users/10120439/c-note187 "496 reputation")
+  -- [C-Note187](https://stackoverflow.com/users/10120439/c-note187 "496 reputation")
 
-     [Jan 23 '20 at 12:03](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment105885731_46774307)
+  [Jan 23 '20 at 12:03](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment105885731_46774307)
 
 [Add a comment](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work# "Use comments to ask for more information or suggest improvements. Avoid comments like "+1" or "thanks".")
 
@@ -604,7 +597,7 @@ From my own experience, it's hard to find a simple explanation why CORS is even 
 
 Once you understand why it's there, the headers and discussion becomes a lot clearer. I'll give it a shot in a few lines.
 
-* * * * *
+---
 
 It's all about cookies. Cookies are stored on a client by their domain.
 
@@ -624,12 +617,12 @@ Since the cookies are validated as expected, the server will authorize the respo
 
 Yikes.
 
-* * * * *
+---
 
 So now, a few questions and answers become apparent:
 
--   "Why don't we just block the browser from doing that?" Yep. CORS.
--   "How do we get around it?" Have the server tell the request that CORS is OK.
+- "Why don't we just block the browser from doing that?" Yep. CORS.
+- "How do we get around it?" Have the server tell the request that CORS is OK.
 
 [Share](https://stackoverflow.com/a/58921781 "Short permalink to this answer")
 
@@ -651,19 +644,19 @@ answered Nov 18 '19 at 19:40
 
 49.6k4646 gold badges164164 silver badges211211 bronze badges
 
--   I like this answer and I feel like this is right, but I don't understand why it seems like it's only the front-end that throws an error, and the backend might still process the request. I wrote a question about it [stackoverflow.com/questions/69559952/...](https://stackoverflow.com/questions/69559952/if-i-get-a-cross-origin-request-blocked-error-on-my-front-end-why-does-the-requ "if i get a cross origin request blocked error on my front end why does the requ") 
+- I like this answer and I feel like this is right, but I don't understand why it seems like it's only the front-end that throws an error, and the backend might still process the request. I wrote a question about it [stackoverflow.com/questions/69559952/...](https://stackoverflow.com/questions/69559952/if-i-get-a-cross-origin-request-blocked-error-on-my-front-end-why-does-the-requ "if i get a cross origin request blocked error on my front end why does the requ")
 
-    -- [Cameron](https://stackoverflow.com/users/5645583/cameron "2,238 reputation")
+  -- [Cameron](https://stackoverflow.com/users/5645583/cameron "2,238 reputation")
 
-     [Oct 13 at 17:41](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment122950116_58921781)
+  [Oct 13 at 17:41](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment122950116_58921781)
 
--   1
+- 1
 
-    The backend only sees one request, from one URL. The backend for `yourbank.com` doesn't (definitively) know that it's `malicious.com` making the request. The browser is the only place that keeps track of all of the different domains you've visited 
+  The backend only sees one request, from one URL. The backend for `yourbank.com` doesn't (definitively) know that it's `malicious.com` making the request. The browser is the only place that keeps track of all of the different domains you've visited
 
-    -- [Ben](https://stackoverflow.com/users/385273/ben "49,597 reputation")
+  -- [Ben](https://stackoverflow.com/users/385273/ben "49,597 reputation")
 
-     [Oct 13 at 21:33](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment122954644_58921781)
+  [Oct 13 at 21:33](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment122954644_58921781)
 
 [Add a comment](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work# "Use comments to ask for more information or suggest improvements. Avoid comments like "+1" or "thanks".")
 
@@ -671,13 +664,13 @@ answered Nov 18 '19 at 19:40
 
 [](https://stackoverflow.com/posts/35664676/timeline)
 
-*1\. A client downloads javascript code MyCode.js from [http://siteA](http://sitea/) - the origin.*
+_1\. A client downloads javascript code MyCode.js from [http://siteA](http://sitea/) - the origin._
 
 The code that does the downloading - your html script tag or xhr from javascript or whatever - came from, let's say, [http://siteZ](http://sitez/). And, when the browser requests MyCode.js, it sends an Origin: header saying "Origin: [http://siteZ](http://sitez/)", because it can see that you're requesting to siteA and siteZ != siteA. (You cannot stop or interfere with this.)
 
-*2\. The response header of MyCode.js contains Access-Control-Allow-Origin: [http://siteB](http://siteb/), which I thought meant that MyCode.js was allowed to make cross-origin references to the site B.*
+_2\. The response header of MyCode.js contains Access-Control-Allow-Origin: [http://siteB](http://siteb/), which I thought meant that MyCode.js was allowed to make cross-origin references to the site B._
 
-no. It means, Only siteB is allowed to do this request. So your request for MyCode.js from siteZ gets an error instead, and the browser typically gives you nothing. But if you make your server return A-C-A-O: siteZ instead, you'll get MyCode.js . Or if it sends '*', that'll work, that'll let everybody in. Or if the server always sends the string from the Origin: header... but... for security, if you're afraid of hackers, your server should only allow origins on a shortlist, that are allowed to make those requests.
+no. It means, Only siteB is allowed to do this request. So your request for MyCode.js from siteZ gets an error instead, and the browser typically gives you nothing. But if you make your server return A-C-A-O: siteZ instead, you'll get MyCode.js . Or if it sends '\*', that'll work, that'll let everybody in. Or if the server always sends the string from the Origin: header... but... for security, if you're afraid of hackers, your server should only allow origins on a shortlist, that are allowed to make those requests.
 
 Then, MyCode.js comes from siteA. When it makes requests to siteB, they are all cross-origin, the browser sends Origin: siteA, and siteB has to take the siteA, recognize it's on the short list of allowed requesters, and send back A-C-A-O: siteA. Only then will the browser let your script get the result of those requests.
 
@@ -857,13 +850,13 @@ answered Feb 6 '17 at 8:19
 
 2,09311 gold badge1414 silver badges1414 bronze badges
 
--   2
+- 2
 
-    `res.header('Access-Control-Allow-Origin', req.headers.origin);` is the same as `res.header('Access-Control-Allow-Origin', '*');` 
+  `res.header('Access-Control-Allow-Origin', req.headers.origin);` is the same as `res.header('Access-Control-Allow-Origin', '*');`
 
-    -- [The Aelfinn](https://stackoverflow.com/users/3923962/the-aelfinn "10,852 reputation")
+  -- [The Aelfinn](https://stackoverflow.com/users/3923962/the-aelfinn "10,852 reputation")
 
-     [Sep 17 '19 at 14:41](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment102363048_42063152)
+  [Sep 17 '19 at 14:41](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment102363048_42063152)
 
 [Add a comment](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work# "Use comments to ask for more information or suggest improvements. Avoid comments like "+1" or "thanks".")
 
@@ -998,11 +991,11 @@ answered Jan 20 '19 at 4:35
 
 86811 gold badge88 silver badges1313 bronze badges
 
--   This helped me. I was enabling cors in WebApiConfig.cs.but I used the above code and put it on the web. config and remove the WebApiConfig.cs code. It worked like charm. Thanks 
+- This helped me. I was enabling cors in WebApiConfig.cs.but I used the above code and put it on the web. config and remove the WebApiConfig.cs code. It worked like charm. Thanks
 
-    -- [Mukesh Salaria](https://stackoverflow.com/users/2745868/mukesh-salaria "1,689 reputation")
+  -- [Mukesh Salaria](https://stackoverflow.com/users/2745868/mukesh-salaria "1,689 reputation")
 
-     [Jul 30 at 11:47](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment121217825_54273606) 
+  [Jul 30 at 11:47](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work#comment121217825_54273606)
 
 [Add a comment](https://stackoverflow.com/questions/10636611/how-does-access-control-allow-origin-header-work# "Use comments to ask for more information or suggest improvements. Avoid comments like "+1" or "thanks".")
 
@@ -1010,8 +1003,7 @@ answered Jan 20 '19 at 4:35
 
 [](https://stackoverflow.com/posts/61816107/timeline)
 
-Nginx and Appache
-=================
+# Nginx and Appache
 
 As addition to [apsillers answer](https://stackoverflow.com/a/10636765/860099) I would like to add [wiki graph](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing#How_CORS_works) which shows when request is simple or not (and OPTIONS pre-flight request is send or not)
 
@@ -1021,10 +1013,10 @@ For simple request (e.g. [hotlinking images](https://en.wikipedia.org/wiki/Inli
 
 And here are configurations for two popular servers
 
--   turn on **CORS on Nginx** (`nginx.conf` file)
+- turn on **CORS on Nginx** (`nginx.conf` file)
 
-    Show code snippet
+  Show code snippet
 
--   turn on **CORS on Appache** (`.htaccess` file)
+- turn on **CORS on Appache** (`.htaccess` file)
 
-    Show code snippet
+  Show code snippet

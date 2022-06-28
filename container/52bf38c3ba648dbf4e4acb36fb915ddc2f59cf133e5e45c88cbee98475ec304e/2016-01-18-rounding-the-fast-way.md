@@ -4,7 +4,7 @@ tip-username: pklinger
 tip-username-profile: https://github.com/pklinger
 tip-tldr: .`~~X` is usually a faster `Math.trunc(X)`, but can also make your code do nasty things.
 
--   /en/rounding-the-fast-way/
+- /en/rounding-the-fast-way/
 
 This tip is about performance...with a hidden price tag.
 
@@ -73,7 +73,7 @@ However, when dealing with timestamps after 19 Jan 2038 03:14:07 UTC (sometimes 
 
 ```js
 // epoch timestamp for 1 Jan 2040 00:00:00.123 UTC
-epoch = +new Date('2040-01-01') / 1000 + 0.123; // ->  2208988800.123
+epoch = +new Date("2040-01-01") / 1000 + 0.123; // ->  2208988800.123
 
 // back to the future!
 epoch_int = ~~epoch; // -> -2085978496
@@ -112,6 +112,6 @@ Avoid where possible. Use sparingly otherwise.
 2. Sanitize values before applying.
 3. Carefully document relevant assumptions about the values being transformed.
 4. Review code to deal with, at minimum:
-    - logic bugs where invalid inputs are instead passed to other code modules as valid `0` values
-    - range errors on transformed inputs
-    - fencepost errors due to incorrect rounding direction
+   - logic bugs where invalid inputs are instead passed to other code modules as valid `0` values
+   - range errors on transformed inputs
+   - fencepost errors due to incorrect rounding direction

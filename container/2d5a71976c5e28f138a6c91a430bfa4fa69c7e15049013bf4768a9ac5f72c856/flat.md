@@ -152,10 +152,10 @@ No
 
 ## See also
 
--   [`Array.prototype.flatMap()`](flatmap)
--   [`Array.prototype.map()`](map)
--   [`Array.prototype.reduce()`](reduce)
--   [`Array.prototype.concat()`](concat)
--   [A polyfill](https://github.com/behnammodi/polyfill/blob/master/array.polyfill.js)
+- [`Array.prototype.flatMap()`](flatmap)
+- [`Array.prototype.map()`](map)
+- [`Array.prototype.reduce()`](reduce)
+- [`Array.prototype.concat()`](concat)
+- [A polyfill](https://github.com/behnammodi/polyfill/blob/master/array.polyfill.js)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat</a>

@@ -1,7 +1,7 @@
-	---
-	name: Introduction
-	route: /
-	---
+    ---
+    name: Introduction
+    route: /
+    ---
 
 # Introduction: What is Concurrent React?
 
@@ -64,7 +64,7 @@ _API: `ReactDOM.unstable_createRoot`_
 If you use this instead of `ReactDOM.render`, `ReactDOM.createRoot` creates Concurrent root for your whole app (yes, you can have multiple roots). For more info, see the separate Roots doc.
 
 ```js
-const container = document.getElementById('root');
+const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
 root.render(<App />);
 ```

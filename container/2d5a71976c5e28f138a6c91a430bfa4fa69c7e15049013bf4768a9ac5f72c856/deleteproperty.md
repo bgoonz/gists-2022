@@ -31,14 +31,14 @@ The `handler.deleteProperty()` method is a trap for the [`delete`](../../../oper
 
 This trap can intercept these operations:
 
--   Property deletion: `delete proxy[foo]` and `delete proxy.foo`
--   [`Reflect.deleteProperty()`](../../reflect/deleteproperty)
+- Property deletion: `delete proxy[foo]` and `delete proxy.foo`
+- [`Reflect.deleteProperty()`](../../reflect/deleteproperty)
 
 ### Invariants
 
 If the following invariants are violated, the proxy will throw a [`TypeError`](../../typeerror):
 
--   A property cannot be deleted, if it exists as a non-configurable own property of the target object.
+- A property cannot be deleted, if it exists as a non-configurable own property of the target object.
 
 ## Examples
 
@@ -107,10 +107,10 @@ No
 
 ## See also
 
--   [`Proxy`](../../proxy)
--   [`handler`](../proxy)
--   [`delete`](../../../operators/delete) operator
--   [`Reflect.deleteProperty()`](../../reflect/deleteproperty)
+- [`Proxy`](../../proxy)
+- [`handler`](../proxy)
+- [`delete`](../../../operators/delete) operator
+- [`Reflect.deleteProperty()`](../../reflect/deleteproperty)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

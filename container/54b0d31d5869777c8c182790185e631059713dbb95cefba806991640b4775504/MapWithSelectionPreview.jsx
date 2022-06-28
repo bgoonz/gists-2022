@@ -14,7 +14,7 @@ export function Map() {
       const { x: pointerX, y: pointerY } = stage.getPointerPosition();
       const pos = {
         x: pointerX - stage.x(),
-        y: pointerY - stage.y()
+        y: pointerY - stage.y(),
       };
       setSelection({
         startX: pos.x,
@@ -24,7 +24,7 @@ export function Map() {
         x: pos.x,
         y: pos.y,
         width: 0,
-        height: 0
+        height: 0,
       });
     }
   }
@@ -35,7 +35,7 @@ export function Map() {
       const { x: pointerX, y: pointerY } = stage.getPointerPosition();
       const pos = {
         x: pointerX - stage.x(),
-        y: pointerY - stage.y()
+        y: pointerY - stage.y(),
       };
       setSelection({
         ...selection,
@@ -44,7 +44,7 @@ export function Map() {
         x: Math.min(selection.startX, pos.x),
         y: Math.min(selection.startY, pos.y),
         width: Math.abs(selection.startX - pos.x),
-        height: Math.abs(selection.startY - pos.y)
+        height: Math.abs(selection.startY - pos.y),
       });
     }
   }
@@ -84,9 +84,7 @@ export function Map() {
           <AppProvider value={appState}>
             <MapContent />
           </AppProvider>
-          <Layer>
-            {selectionPreview}
-          </Layer>
+          <Layer>{selectionPreview}</Layer>
         </Stage>
       )}
     </AppConsumer>

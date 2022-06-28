@@ -1,1 +1,77 @@
-{"version":1,"resource":"file:///Users/BGuner/BGOONZ_BLOG_2.0/docs/content/MDN/glossary/hoistingindex.md","entries":[{"id":"rfZn.md","source":"searchReplace.source","timestamp":1649259608878},{"id":"sQL3.md","source":"searchReplace.source","timestamp":1649259652259},{"id":"jDjf.md","source":"searchReplace.source","timestamp":1649259686443},{"id":"Qn1E.md","source":"searchReplace.source","timestamp":1649259876429},{"id":"zBW9.md","source":"searchReplace.source","timestamp":1649259939137},{"id":"jEdq.md","source":"searchReplace.source","timestamp":1649259954255},{"id":"rIcP.md","source":"searchReplace.source","timestamp":1649260020519},{"id":"18AY.md","source":"searchReplace.source","timestamp":1649260065754},{"id":"jCg7.md","source":"searchReplace.source","timestamp":1649260089114},{"id":"6BAT.md","source":"searchReplace.source","timestamp":1649260160913},{"id":"wm74.md","source":"searchReplace.source","timestamp":1649260208843},{"id":"jspR.md","source":"searchReplace.source","timestamp":1649260348256},{"id":"zRP1.md","source":"searchReplace.source","timestamp":1649260699264},{"id":"nmyD.md","timestamp":1649260794856},{"id":"FxqB.md","source":"searchReplace.source","timestamp":1649262172126}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/BGOONZ_BLOG_2.0/docs/content/MDN/glossary/hoistingindex.md",
+  "entries": [
+    {
+      "id": "rfZn.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259608878
+    },
+    {
+      "id": "sQL3.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259652259
+    },
+    {
+      "id": "jDjf.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259686443
+    },
+    {
+      "id": "Qn1E.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259876429
+    },
+    {
+      "id": "zBW9.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259939137
+    },
+    {
+      "id": "jEdq.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259954255
+    },
+    {
+      "id": "rIcP.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260020519
+    },
+    {
+      "id": "18AY.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260065754
+    },
+    {
+      "id": "jCg7.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260089114
+    },
+    {
+      "id": "6BAT.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260160913
+    },
+    {
+      "id": "wm74.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260208843
+    },
+    {
+      "id": "jspR.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260348256
+    },
+    {
+      "id": "zRP1.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260699264
+    },
+    { "id": "nmyD.md", "timestamp": 1649260794856 },
+    {
+      "id": "FxqB.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649262172126
+    }
+  ]
+}

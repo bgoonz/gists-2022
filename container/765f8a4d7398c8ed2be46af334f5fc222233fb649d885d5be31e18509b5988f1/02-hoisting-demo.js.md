@@ -1,8 +1,9 @@
 ---
 title: Demo
 layout_data:
-    description: Which value does this code log and why? Think about the answer *before* you
-        run the code.
+  description:
+    Which value does this code log and why? Think about the answer *before* you
+    run the code.
 ---
 
 var bar = 42;

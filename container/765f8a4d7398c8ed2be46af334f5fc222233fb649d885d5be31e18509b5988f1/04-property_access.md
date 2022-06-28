@@ -4,8 +4,8 @@ title: Property access
 
 Properties of objects can be accessed in two ways:
 
--   **Dot notation** (`obj.prop`)
--   **Bracket notation** (`obj["prop"]`)
+- **Dot notation** (`obj.prop`)
+- **Bracket notation** (`obj["prop"]`)
 
 You should always prefer dot notation, unless you _have_ to use bracket notation.
 This could be if the property name is not a valid identifier or if it comes from
@@ -14,10 +14,10 @@ a variable. You can use any _expression_ inside the brackets.
 Examples:
 
 ```javascript
-obj['test-field']; // test-field is not a valid identifier
-var field = 'test';
+obj["test-field"]; // test-field is not a valid identifier
+var field = "test";
 obj[field];
-obj['example' + i];
+obj["example" + i];
 ```
 
 Because you can only use dot notation if the property name is a valid identifier

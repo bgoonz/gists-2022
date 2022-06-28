@@ -19,25 +19,25 @@ console.log(newArray);
 // Output: [ 1, 2, 3, 4, 5 ]
 
 // Copying array elements
-let arr = ['a', 'b', 'c'];
+let arr = ["a", "b", "c"];
 let newArray = [...arr];
 console.log(newArray);
 // Output: ["a", "b", "c"]
 
 // Expanding arrays
-let arr = ['a', 'b'];
-let newArray = [...arr, 'c', 'd'];
+let arr = ["a", "b"];
+let newArray = [...arr, "c", "d"];
 console.log(newArray);
 // Output: ["a", "b", "c", "d"]
 
 // Merging objects
 const userBasic = {
-    name: 'Jen',
-    age: 22
+  name: "Jen",
+  age: 22,
 };
 const userMoreInfo = {
-    country: 'Argentina',
-    city: 'Córdoba'
+  country: "Argentina",
+  city: "Córdoba",
 };
 const user = { ...userBasic, ...userMoreInfo };
 // Output: {  name: "Jen",  age: 22, country: "Argentina", city: "Córdoba" }

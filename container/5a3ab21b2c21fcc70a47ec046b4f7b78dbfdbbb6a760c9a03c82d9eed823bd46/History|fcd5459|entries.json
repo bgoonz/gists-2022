@@ -1,1 +1,74 @@
-{"version":1,"resource":"file:///Users/BGuner/Desktop/Public-Repo/src/components/SegmentedControl/types.ts","entries":[{"id":"adJ6.ts","timestamp":1650482282580},{"id":"IkSU.ts","timestamp":1650561386502},{"id":"vfP2.ts","source":"Workspace Edit","timestamp":1650561387255},{"id":"K0DW.ts","timestamp":1650561393655},{"id":"yjyw.ts","timestamp":1650561442363},{"id":"HdZ2.ts","timestamp":1650562195588},{"id":"iaOt.ts","source":"undoRedo.source","timestamp":1650562210393},{"id":"et84.ts","timestamp":1650566425714},{"id":"Z2Tf.ts","timestamp":1650566459076},{"id":"QE7o.ts","source":"undoRedo.source","timestamp":1650566470033},{"id":"STsd.ts","timestamp":1650566475295},{"id":"7G9z.ts","timestamp":1650566502789},{"id":"8R6R.ts","timestamp":1650566551532},{"id":"RH3n.ts","timestamp":1650566810707},{"id":"HYFS.ts","timestamp":1650566842394},{"id":"Lzbf.ts","timestamp":1650567331719},{"id":"TBai.ts","source":"Workspace Edit","timestamp":1650567332338},{"id":"fGJX.ts","timestamp":1650567346996},{"id":"j6M2.ts","timestamp":1650567377630},{"id":"JwoA.ts","timestamp":1650567427309},{"id":"15ef.ts","timestamp":1650569731317},{"id":"oLM5.ts","timestamp":1650569753442},{"id":"hvhW.ts","timestamp":1650569792664},{"id":"VSG9.ts","timestamp":1650570586037},{"id":"upEH.ts","timestamp":1650572506956},{"id":"uX4H.ts","timestamp":1650572564155},{"id":"VRzS.ts","timestamp":1650572583090},{"id":"Ls0k.ts","source":"Workspace Edit","timestamp":1650572584429},{"id":"Annv.ts","timestamp":1650572612874},{"id":"eUkE.ts","timestamp":1650573635845},{"id":"QwSR.ts","timestamp":1651598199147},{"id":"V0u3.ts","timestamp":1651598518513},{"id":"zsYe.ts","source":"undoRedo.source","timestamp":1651598520495},{"id":"IiEd.ts","timestamp":1651598523724},{"id":"8dFf.ts","timestamp":1651598546474},{"id":"wOkX.ts","timestamp":1651598566526},{"id":"bQtW.ts","timestamp":1652724317629},{"id":"j0hW.ts","timestamp":1652724396861},{"id":"CsTL.ts","source":"Workspace Edit","timestamp":1652724624191},{"id":"hPAg.ts","source":"undoRedo.source","timestamp":1652724652729},{"id":"jc0j.ts","timestamp":1652724660417},{"id":"PRYa.ts","timestamp":1652724677818},{"id":"BZ9G.ts","timestamp":1652724698565},{"id":"0LrB.ts","timestamp":1652724724448},{"id":"tsL9.ts","source":"undoRedo.source","timestamp":1652724734035},{"id":"B4JF.ts","timestamp":1652725080962},{"id":"RI8c.ts","timestamp":1652725286280},{"id":"EuqZ.ts","timestamp":1652725923705}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/Desktop/Public-Repo/src/components/SegmentedControl/types.ts",
+  "entries": [
+    { "id": "adJ6.ts", "timestamp": 1650482282580 },
+    { "id": "IkSU.ts", "timestamp": 1650561386502 },
+    { "id": "vfP2.ts", "source": "Workspace Edit", "timestamp": 1650561387255 },
+    { "id": "K0DW.ts", "timestamp": 1650561393655 },
+    { "id": "yjyw.ts", "timestamp": 1650561442363 },
+    { "id": "HdZ2.ts", "timestamp": 1650562195588 },
+    {
+      "id": "iaOt.ts",
+      "source": "undoRedo.source",
+      "timestamp": 1650562210393
+    },
+    { "id": "et84.ts", "timestamp": 1650566425714 },
+    { "id": "Z2Tf.ts", "timestamp": 1650566459076 },
+    {
+      "id": "QE7o.ts",
+      "source": "undoRedo.source",
+      "timestamp": 1650566470033
+    },
+    { "id": "STsd.ts", "timestamp": 1650566475295 },
+    { "id": "7G9z.ts", "timestamp": 1650566502789 },
+    { "id": "8R6R.ts", "timestamp": 1650566551532 },
+    { "id": "RH3n.ts", "timestamp": 1650566810707 },
+    { "id": "HYFS.ts", "timestamp": 1650566842394 },
+    { "id": "Lzbf.ts", "timestamp": 1650567331719 },
+    { "id": "TBai.ts", "source": "Workspace Edit", "timestamp": 1650567332338 },
+    { "id": "fGJX.ts", "timestamp": 1650567346996 },
+    { "id": "j6M2.ts", "timestamp": 1650567377630 },
+    { "id": "JwoA.ts", "timestamp": 1650567427309 },
+    { "id": "15ef.ts", "timestamp": 1650569731317 },
+    { "id": "oLM5.ts", "timestamp": 1650569753442 },
+    { "id": "hvhW.ts", "timestamp": 1650569792664 },
+    { "id": "VSG9.ts", "timestamp": 1650570586037 },
+    { "id": "upEH.ts", "timestamp": 1650572506956 },
+    { "id": "uX4H.ts", "timestamp": 1650572564155 },
+    { "id": "VRzS.ts", "timestamp": 1650572583090 },
+    { "id": "Ls0k.ts", "source": "Workspace Edit", "timestamp": 1650572584429 },
+    { "id": "Annv.ts", "timestamp": 1650572612874 },
+    { "id": "eUkE.ts", "timestamp": 1650573635845 },
+    { "id": "QwSR.ts", "timestamp": 1651598199147 },
+    { "id": "V0u3.ts", "timestamp": 1651598518513 },
+    {
+      "id": "zsYe.ts",
+      "source": "undoRedo.source",
+      "timestamp": 1651598520495
+    },
+    { "id": "IiEd.ts", "timestamp": 1651598523724 },
+    { "id": "8dFf.ts", "timestamp": 1651598546474 },
+    { "id": "wOkX.ts", "timestamp": 1651598566526 },
+    { "id": "bQtW.ts", "timestamp": 1652724317629 },
+    { "id": "j0hW.ts", "timestamp": 1652724396861 },
+    { "id": "CsTL.ts", "source": "Workspace Edit", "timestamp": 1652724624191 },
+    {
+      "id": "hPAg.ts",
+      "source": "undoRedo.source",
+      "timestamp": 1652724652729
+    },
+    { "id": "jc0j.ts", "timestamp": 1652724660417 },
+    { "id": "PRYa.ts", "timestamp": 1652724677818 },
+    { "id": "BZ9G.ts", "timestamp": 1652724698565 },
+    { "id": "0LrB.ts", "timestamp": 1652724724448 },
+    {
+      "id": "tsL9.ts",
+      "source": "undoRedo.source",
+      "timestamp": 1652724734035
+    },
+    { "id": "B4JF.ts", "timestamp": 1652725080962 },
+    { "id": "RI8c.ts", "timestamp": 1652725286280 },
+    { "id": "EuqZ.ts", "timestamp": 1652725923705 }
+  ]
+}

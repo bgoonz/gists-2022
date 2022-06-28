@@ -34,7 +34,7 @@ export default function App() {
         isInSelectMode,
         setIsInSelectMode,
         selectedEntities,
-        setSelectedEntities
+        setSelectedEntities,
       }}
     >
       <Map />

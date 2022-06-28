@@ -9,9 +9,9 @@
 ## Learn in Public List
 
 - Christina Gorton
-	- https://modernweb.podbean.com/e/s07e4-modern-web-podcast-learning-in-public-code-education-community-building-with-christina-gorton/
+  - https://modernweb.podbean.com/e/s07e4-modern-web-podcast-learning-in-public-code-education-community-building-with-christina-gorton/
 - Monica Powell
-	- https://hanselminutes.com/753/leaning-into-learning-in-public-with-monica-powell 
+  - https://hanselminutes.com/753/leaning-into-learning-in-public-with-monica-powell
 
 ## spark joy
 
@@ -24,6 +24,6 @@ spark joy in slides -
 drawing
 themes (movie)
 jokes
- gimmick 
+gimmick
 
 Ui design for devs https://designcode.io/ui-design-for-developers

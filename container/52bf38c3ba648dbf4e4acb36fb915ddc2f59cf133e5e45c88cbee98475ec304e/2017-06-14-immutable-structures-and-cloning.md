@@ -42,11 +42,11 @@ One such library is [pvorb/clone](https://github.com/pvorb/clone), which has a
 very simple API. To clone an object you only have to
 
 ```javascript
-var clone = require('clone');
+var clone = require("clone");
 
-var a = { foo: { bar: 'baz' } };
+var a = { foo: { bar: "baz" } };
 var b = clone(a);
-a.foo.bar = 'foo';
+a.foo.bar = "foo";
 console.log(a); // {foo: {bar: 'foo'}}
 console.log(b); // {foo: {bar: 'baz'}}
 ```

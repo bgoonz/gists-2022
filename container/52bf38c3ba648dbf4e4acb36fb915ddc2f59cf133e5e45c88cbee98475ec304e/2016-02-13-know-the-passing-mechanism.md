@@ -4,7 +4,7 @@ tip-username: bmkmanoj
 tip-username-profile: https://github.com/bmkmanoj
 tip-tldr: JavaScript technically only passes by value for both primitives and object (or reference) types. In case of reference types the reference value itself is passed by value.
 
--   /en/know-the-passing-mechanism/
+- /en/know-the-passing-mechanism/
 
 JavaScript is pass-by-value, technically. It is neither pass-by-value nor pass-by-reference, going by the truest sense of these terms. To understand this passing mechanism, take a look at the following two example code snippets and the explanations.
 
@@ -12,17 +12,17 @@ JavaScript is pass-by-value, technically. It is neither pass-by-value nor pass-b
 
 ```js
 var me = {
-    // 1
-    partOf: 'A Team'
+  // 1
+  partOf: "A Team",
 };
 
 function myTeam(me) {
-    // 2
+  // 2
 
-    me = {
-        // 3
-        belongsTo: 'A Group'
-    };
+  me = {
+    // 3
+    belongsTo: "A Group",
+  };
 }
 
 myTeam(me);
@@ -37,13 +37,13 @@ When we assigned a new object at #`3`, we are changing this reference value enti
 
 ```js
 var me = {
-    // 1
-    partOf: 'A Team'
+  // 1
+  partOf: "A Team",
 };
 
 function myGroup(me) {
-    // 2
-    me.partOf = 'A Group'; // 3
+  // 2
+  me.partOf = "A Group"; // 3
 }
 
 myGroup(me);

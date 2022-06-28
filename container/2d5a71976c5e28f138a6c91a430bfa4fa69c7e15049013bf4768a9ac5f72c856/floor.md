@@ -122,11 +122,11 @@ Because `floor()` is a static method of `Math`, you always use it as `Math.floor
 
 ## See also
 
--   [`Math.abs()`](abs)
--   [`Math.ceil()`](ceil)
--   [`Math.round()`](round)
--   [`Math.sign()`](sign)
--   [`Math.trunc()`](trunc)
+- [`Math.abs()`](abs)
+- [`Math.ceil()`](ceil)
+- [`Math.round()`](round)
+- [`Math.sign()`](sign)
+- [`Math.trunc()`](trunc)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

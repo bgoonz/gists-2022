@@ -1,10 +1,8 @@
-
 ## No longer Fresh!
 
 > ⚠️ These are now merely reverse-chronoligical links on concurrent react - no longer actively updated as we expect an official release soon
 
 ## React Team Public Communication
-
 
 - 8 Aug 2019: [React v16.9.0 and the Roadmap Update](https://reactjs.org/blog/2019/08/08/react-v16.9.0.html)
 - 27 Nov 2018: [React 16.x Roadmap](https://reactjs.org/blog/2018/11/27/react-16-roadmap.html) blogpost with Suspense timeline

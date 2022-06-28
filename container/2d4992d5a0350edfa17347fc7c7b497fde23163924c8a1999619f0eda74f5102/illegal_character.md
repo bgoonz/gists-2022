@@ -63,6 +63,6 @@ When inspecting this code in an editor like Vim, you can see that there is actua
 
 ## See also
 
--   [Lexical grammar](../lexical_grammar)
+- [Lexical grammar](../lexical_grammar)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character</a>

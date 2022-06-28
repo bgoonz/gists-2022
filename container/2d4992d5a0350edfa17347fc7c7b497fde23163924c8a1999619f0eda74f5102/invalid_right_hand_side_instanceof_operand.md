@@ -45,7 +45,7 @@ To fix these errors, you will either need to replace the [`instanceof` operator]
 
 ## See also
 
--   [`instanceof` operator](../operators/instanceof)
--   [`typeof` operator](../operators/typeof)
+- [`instanceof` operator](../operators/instanceof)
+- [`typeof` operator](../operators/typeof)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/invalid_right_hand_side_instanceof_operand" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/invalid_right_hand_side_instanceof_operand</a>

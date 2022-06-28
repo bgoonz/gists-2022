@@ -281,9 +281,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.formatOnSave": true,
-"settingsSync.ignoredSettings": [
-    "editor.formatOnSave"
-],
-"editor.accessibilitySupport": "off",
-"git.allowNoVerifyCommit": true
+  "settingsSync.ignoredSettings": ["editor.formatOnSave"],
+  "editor.accessibilitySupport": "off",
+  "git.allowNoVerifyCommit": true
 }

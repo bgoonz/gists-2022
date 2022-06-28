@@ -40,7 +40,7 @@ _@next API: `scheduler.unstable_scheduleCallback`_
 ```js
 // inside event handler...
 scheduleCallback(() => {
-  this.setState({ update: 'lowPriority' });
+  this.setState({ update: "lowPriority" });
 });
 ```
 
@@ -53,7 +53,7 @@ _Current API: `ReactDOM.flushSync`_
 ```js
 // inside event handler...
 flushSync(() => {
-  this.setState({ update: 'highPriority' });
+  this.setState({ update: "highPriority" });
 });
 ```
 

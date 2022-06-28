@@ -207,8 +207,8 @@ Returns a new _array iterator_ object that contains the values for each index in
 
 ## See also
 
--   [JavaScript typed arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays)
--   [`ArrayBuffer`](arraybuffer)
--   [`DataView`](dataview)
+- [JavaScript typed arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays)
+- [`ArrayBuffer`](arraybuffer)
+- [`DataView`](dataview)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array</a>

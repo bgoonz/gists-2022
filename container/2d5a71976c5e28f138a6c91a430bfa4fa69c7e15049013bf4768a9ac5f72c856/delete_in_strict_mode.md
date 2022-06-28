@@ -53,8 +53,8 @@ To free the contents of a variable, you can set it to [`null`](../global_objects
 
 ## See also
 
--   `delete`
--   [Memory management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
--   [TypeError: property "x" is non-configurable and can't be deleted](cant_delete)
+- `delete`
+- [Memory management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
+- [TypeError: property "x" is non-configurable and can't be deleted](cant_delete)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Delete_in_strict_mode" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Delete_in_strict_mode</a>

@@ -20,10 +20,10 @@ The maximum allowed array length depends on the platform, browser and browser ve
 
 An invalid array length might appear in these situations:
 
--   Creating an [`Array`](../global_objects/array) or [`ArrayBuffer`](../global_objects/arraybuffer) with a negative length, or setting a negative value for the [`Array.length`](../global_objects/array/length) property.
--   Creating an [`Array`](../global_objects/array) or setting the [`Array.length`](../global_objects/array/length) property greater than 2GB-1 (2^32-1).
--   Creating an [`ArrayBuffer`](../global_objects/arraybuffer) that is bigger than 2GB-1 (2^32-1) on a 32-bit system or 8GB (2^33) on a 64-bit system.
--   Before Firefox 89: Creating an [`ArrayBuffer`](../global_objects/arraybuffer) that is bigger than 2GB-1 (2^32-1).
+- Creating an [`Array`](../global_objects/array) or [`ArrayBuffer`](../global_objects/arraybuffer) with a negative length, or setting a negative value for the [`Array.length`](../global_objects/array/length) property.
+- Creating an [`Array`](../global_objects/array) or setting the [`Array.length`](../global_objects/array/length) property greater than 2GB-1 (2^32-1).
+- Creating an [`ArrayBuffer`](../global_objects/arraybuffer) that is bigger than 2GB-1 (2^32-1) on a 32-bit system or 8GB (2^33) on a 64-bit system.
+- Before Firefox 89: Creating an [`ArrayBuffer`](../global_objects/arraybuffer) that is bigger than 2GB-1 (2^32-1).
 
 If you are creating an `Array`, using the constructor, you probably want to use the literal notation instead, as the first argument is interpreted as the length of the `Array`.
 
@@ -63,8 +63,8 @@ Otherwise, you might want to clamp the length before setting the length property
 
 ## See also
 
--   [`Array`](../global_objects/array)
--   [`Array.length`](../global_objects/array/length)
--   [`ArrayBuffer`](../global_objects/arraybuffer)
+- [`Array`](../global_objects/array)
+- [`Array.length`](../global_objects/array/length)
+- [`ArrayBuffer`](../global_objects/arraybuffer)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_array_length" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_array_length</a>

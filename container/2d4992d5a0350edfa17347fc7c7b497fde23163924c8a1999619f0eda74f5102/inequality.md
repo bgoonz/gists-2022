@@ -93,9 +93,9 @@ To prevent this, and require that different types are considered to be different
 
 ## See also
 
--   [Equality operator](equality)
--   [Strict equality operator](strict_equality)
--   [Strict inequality operator](strict_inequality)
+- [Equality operator](equality)
+- [Strict equality operator](strict_equality)
+- [Strict inequality operator](strict_inequality)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

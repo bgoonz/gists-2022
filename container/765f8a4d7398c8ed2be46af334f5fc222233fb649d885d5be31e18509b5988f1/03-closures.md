@@ -17,7 +17,7 @@ environment][functions] it was created in. The simplest example is:
 var foo = 42;
 
 function bar() {
-    console.log(foo);
+  console.log(foo);
 }
 ```
 

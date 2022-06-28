@@ -15,8 +15,8 @@ data type into another, these rules can be quite surprising.
 What does this have to do with comparison? JavaScript has two kind of comparison
 operators:
 
--   **Loose comparison** (`a == b`, `a != b`)
--   **Strict comparison** (`a === b`, `a !== b`)
+- **Loose comparison** (`a == b`, `a != b`)
+- **Strict comparison** (`a === b`, `a !== b`)
 
 The difference is that _loose_ comparison will _convert both values_ to the same
 data type if they are of different data types. _Strict_ comparison immediately
@@ -25,14 +25,14 @@ returns `false` if both values _don't have the same type_.
 Examples:
 
 ```javascript
-'42' == 42; // true
-(('42' ===
-    (42)[ // false
-        // Objects are compared by reference
-        (1, 2)
-    ]) ==
-    [1, 2][(1, 2)]) === // false
-    [1, 2]; // false
+"42" == 42; // true
+(("42" ===
+  (42)[ // false
+    // Objects are compared by reference
+    (1, 2)
+  ]) ==
+  [1, 2][(1, 2)]) === // false
+  [1, 2]; // false
 ```
 
 The following tool visualizes the steps of the _[abstract equality

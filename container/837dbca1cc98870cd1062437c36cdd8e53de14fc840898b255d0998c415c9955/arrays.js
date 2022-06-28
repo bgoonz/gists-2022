@@ -14,15 +14,15 @@ buckets.arrays = {};
  * or -1 if not found.
  */
 buckets.arrays.indexOf = function (array, item, equalsFunction) {
-    var equals = equalsFunction || buckets.defaultEquals,
-        length = array.length,
-        i;
-    for (i = 0; i < length; i += 1) {
-        if (equals(array[i], item)) {
-            return i;
-        }
+  var equals = equalsFunction || buckets.defaultEquals,
+    length = array.length,
+    i;
+  for (i = 0; i < length; i += 1) {
+    if (equals(array[i], item)) {
+      return i;
     }
-    return -1;
+  }
+  return -1;
 };
 
 /**
@@ -36,15 +36,15 @@ buckets.arrays.indexOf = function (array, item, equalsFunction) {
  * within the specified array or -1 if not found.
  */
 buckets.arrays.lastIndexOf = function (array, item, equalsFunction) {
-    var equals = equalsFunction || buckets.defaultEquals,
-        length = array.length,
-        i;
-    for (i = length - 1; i >= 0; i -= 1) {
-        if (equals(array[i], item)) {
-            return i;
-        }
+  var equals = equalsFunction || buckets.defaultEquals,
+    length = array.length,
+    i;
+  for (i = length - 1; i >= 0; i -= 1) {
+    if (equals(array[i], item)) {
+      return i;
     }
-    return -1;
+  }
+  return -1;
 };
 
 /**
@@ -56,7 +56,7 @@ buckets.arrays.lastIndexOf = function (array, item, equalsFunction) {
  * @return {boolean} True if the specified array contains the specified element.
  */
 buckets.arrays.contains = function (array, item, equalsFunction) {
-    return buckets.arrays.indexOf(array, item, equalsFunction) >= 0;
+  return buckets.arrays.indexOf(array, item, equalsFunction) >= 0;
 };
 
 /**
@@ -68,12 +68,12 @@ buckets.arrays.contains = function (array, item, equalsFunction) {
  * @return {boolean} True If the array changed after this call.
  */
 buckets.arrays.remove = function (array, item, equalsFunction) {
-    var index = buckets.arrays.indexOf(array, item, equalsFunction);
-    if (index < 0) {
-        return false;
-    }
-    array.splice(index, 1);
-    return true;
+  var index = buckets.arrays.indexOf(array, item, equalsFunction);
+  if (index < 0) {
+    return false;
+  }
+  array.splice(index, 1);
+  return true;
 };
 
 /**
@@ -87,16 +87,16 @@ buckets.arrays.remove = function (array, item, equalsFunction) {
  * equal to the specified item.
  */
 buckets.arrays.frequency = function (array, item, equalsFunction) {
-    var equals = equalsFunction || buckets.defaultEquals,
-        length = array.length,
-        freq = 0,
-        i;
-    for (i = 0; i < length; i += 1) {
-        if (equals(array[i], item)) {
-            freq += 1;
-        }
+  var equals = equalsFunction || buckets.defaultEquals,
+    length = array.length,
+    freq = 0,
+    i;
+  for (i = 0; i < length; i += 1) {
+    if (equals(array[i], item)) {
+      freq += 1;
     }
-    return freq;
+  }
+  return freq;
 };
 
 /**
@@ -111,19 +111,19 @@ buckets.arrays.frequency = function (array, item, equalsFunction) {
  * @return {boolean} True if the two arrays are equal.
  */
 buckets.arrays.equals = function (array1, array2, equalsFunction) {
-    var equals = equalsFunction || buckets.defaultEquals,
-        length = array1.length,
-        i;
+  var equals = equalsFunction || buckets.defaultEquals,
+    length = array1.length,
+    i;
 
-    if (array1.length !== array2.length) {
-        return false;
+  if (array1.length !== array2.length) {
+    return false;
+  }
+  for (i = 0; i < length; i += 1) {
+    if (!equals(array1[i], array2[i])) {
+      return false;
     }
-    for (i = 0; i < length; i += 1) {
-        if (!equals(array1[i], array2[i])) {
-            return false;
-        }
-    }
-    return true;
+  }
+  return true;
 };
 
 /**
@@ -132,7 +132,7 @@ buckets.arrays.equals = function (array1, array2, equalsFunction) {
  * @return {Array} A copy of the specified array.
  */
 buckets.arrays.copy = function (array) {
-    return array.concat();
+  return array.concat();
 };
 
 /**
@@ -143,15 +143,15 @@ buckets.arrays.copy = function (array) {
  * @return {boolean} True if the array is defined and the indexes are valid.
  */
 buckets.arrays.swap = function (array, i, j) {
-    var temp;
+  var temp;
 
-    if (i < 0 || i >= array.length || j < 0 || j >= array.length) {
-        return false;
-    }
-    temp = array[i];
-    array[i] = array[j];
-    array[j] = temp;
-    return true;
+  if (i < 0 || i >= array.length || j < 0 || j >= array.length) {
+    return false;
+  }
+  temp = array[i];
+  array[i] = array[j];
+  array[j] = temp;
+  return true;
 };
 
 /**
@@ -162,11 +162,11 @@ buckets.arrays.swap = function (array, i, j) {
  * optionally return false in the callback.
  */
 buckets.arrays.forEach = function (array, callback) {
-    var lenght = array.length,
-        i;
-    for (i = 0; i < lenght; i += 1) {
-        if (callback(array[i]) === false) {
-            return;
-        }
+  var lenght = array.length,
+    i;
+  for (i = 0; i < lenght; i += 1) {
+    if (callback(array[i]) === false) {
+      return;
     }
+  }
 };

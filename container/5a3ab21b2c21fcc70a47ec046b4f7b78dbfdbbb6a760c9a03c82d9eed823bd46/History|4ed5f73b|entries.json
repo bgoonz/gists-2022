@@ -1,1 +1,12 @@
-{"version":1,"resource":"file:///Users/BGuner/Projects/test/test/ClientApp/package.json","entries":[{"id":"t0cc.json","timestamp":1651778383822},{"id":"uYm1.json","source":"undoRedo.source","timestamp":1651778387580}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/Projects/test/test/ClientApp/package.json",
+  "entries": [
+    { "id": "t0cc.json", "timestamp": 1651778383822 },
+    {
+      "id": "uYm1.json",
+      "source": "undoRedo.source",
+      "timestamp": 1651778387580
+    }
+  ]
+}

@@ -73,8 +73,8 @@ No
 
 ## See also
 
--   [`Object.getOwnPropertyNames()`](getownpropertynames)
--   [`Symbol`](../symbol)
+- [`Object.getOwnPropertyNames()`](getownpropertynames)
+- [`Symbol`](../symbol)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

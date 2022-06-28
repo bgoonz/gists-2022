@@ -25,11 +25,11 @@ The modified array, filled with `value`.
 
 ## Description
 
--   If `start` is negative, it is treated as `array.length + start`.
--   If `end` is negative, it is treated as `array.length + end`.
--   `fill` is intentionally generic: it does not require that its `this` value be an `Array` object.
--   `fill` is a mutator method: it will change the array itself and return it, not a copy of it.
--   If the first parameter is an object, each slot in the array will reference that object.
+- If `start` is negative, it is treated as `array.length + start`.
+- If `end` is negative, it is treated as `array.length + end`.
+- `fill` is intentionally generic: it does not require that its `this` value be an `Array` object.
+- `fill` is a mutator method: it will change the array itself and return it, not a copy of it.
+- If the first parameter is an object, each slot in the array will reference that object.
 
 ## Polyfill
 
@@ -147,7 +147,7 @@ No
 
 ## See also
 
--   [`Array`](../array)
--   [`TypedArray.prototype.fill()`](../typedarray/fill)
+- [`Array`](../array)
+- [`TypedArray.prototype.fill()`](../typedarray/fill)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill</a>

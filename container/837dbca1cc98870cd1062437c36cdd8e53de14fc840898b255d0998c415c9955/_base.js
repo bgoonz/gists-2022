@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * Top level namespace for Buckets,
@@ -13,13 +13,13 @@ var buckets = {};
  * @private
  */
 buckets.defaultCompare = function (a, b) {
-    if (a < b) {
-        return -1;
-    }
-    if (a === b) {
-        return 0;
-    }
-    return 1;
+  if (a < b) {
+    return -1;
+  }
+  if (a === b) {
+    return 0;
+  }
+  return 1;
 };
 
 /**
@@ -28,7 +28,7 @@ buckets.defaultCompare = function (a, b) {
  * @private
  */
 buckets.defaultEquals = function (a, b) {
-    return a === b;
+  return a === b;
 };
 
 /**
@@ -37,16 +37,16 @@ buckets.defaultEquals = function (a, b) {
  * @private
  */
 buckets.defaultToString = function (item) {
-    if (item === null) {
-        return 'BUCKETS_NULL';
-    }
-    if (buckets.isUndefined(item)) {
-        return 'BUCKETS_UNDEFINED';
-    }
-    if (buckets.isString(item)) {
-        return item;
-    }
-    return item.toString();
+  if (item === null) {
+    return "BUCKETS_NULL";
+  }
+  if (buckets.isUndefined(item)) {
+    return "BUCKETS_UNDEFINED";
+  }
+  if (buckets.isString(item)) {
+    return item;
+  }
+  return item.toString();
 };
 
 /**
@@ -55,7 +55,7 @@ buckets.defaultToString = function (item) {
  * @private
  */
 buckets.isFunction = function (func) {
-    return (typeof func) === 'function';
+  return typeof func === "function";
 };
 
 /**
@@ -64,7 +64,7 @@ buckets.isFunction = function (func) {
  * @private
  */
 buckets.isUndefined = function (obj) {
-    return obj === undefined;
+  return obj === undefined;
 };
 
 /**
@@ -73,7 +73,7 @@ buckets.isUndefined = function (obj) {
  * @private
  */
 buckets.isString = function (obj) {
-    return Object.prototype.toString.call(obj) === '[object String]';
+  return Object.prototype.toString.call(obj) === "[object String]";
 };
 
 /**
@@ -82,21 +82,20 @@ buckets.isString = function (obj) {
  * @private
  */
 buckets.reverseCompareFunction = function (compareFunction) {
-    if (!buckets.isFunction(compareFunction)) {
-        return function (a, b) {
-            if (a < b) {
-                return 1;
-            }
-            if (a === b) {
-                return 0;
-            }
-            return -1;
-        };
-    }
-    return function (d, v) {
-        return compareFunction(d, v) * -1;
+  if (!buckets.isFunction(compareFunction)) {
+    return function (a, b) {
+      if (a < b) {
+        return 1;
+      }
+      if (a === b) {
+        return 0;
+      }
+      return -1;
     };
-
+  }
+  return function (d, v) {
+    return compareFunction(d, v) * -1;
+  };
 };
 
 /**
@@ -105,7 +104,7 @@ buckets.reverseCompareFunction = function (compareFunction) {
  * @private
  */
 buckets.compareToEquals = function (compareFunction) {
-    return function (a, b) {
-        return compareFunction(a, b) === 0;
-    };
+  return function (a, b) {
+    return compareFunction(a, b) === 0;
+  };
 };

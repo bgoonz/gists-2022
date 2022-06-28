@@ -11,9 +11,9 @@ categories: - en - javascript
 We all know that JavaScript is loosely typed and in some cases it fall behind specially when it comes to quality comparison with '==', comparing with '==' gives unexpected results due to whats called coercion or casting "converting one of the 2 operands to the other's type then compare".
 
 ```javascript
-0 == ' '; //true
+0 == " "; //true
 (null == undefined[1]) == //true
-    true; //true
+  true; //true
 ```
 
 So they provided us with the triple equal operator '===' which is more strict and does not coerce operands, However comparing with '===' is not the best solution you can get:
@@ -25,7 +25,7 @@ NaN === NaN; //false
 The great news that in ES6 there is the new 'Object.is()' which is better and more precise it has the same features as '===' and moreover it behaves well in some special cases:
 
 ```javascript
-Object.is(0, ' '); //false
+Object.is(0, " "); //false
 Object.is(null, undefined); //false
 Object.is([1], true); //false
 Object.is(NaN, NaN); //true

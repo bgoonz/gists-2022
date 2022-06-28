@@ -4,7 +4,7 @@ tip-username: mallowigi
 tip-username-profile: https://github.com/mallowigi
 tip-tldr: How to add private properties, getters and setters to objects.
 
--   /en/advanced-properties/
+- /en/advanced-properties/
 
 It is possible to configure object properties in Javascript for example to set properties to be pseudo-private or readonly. This feature is available since ECMAScript 5.1, therefore supported by all recent browsers.
 
@@ -12,9 +12,9 @@ To do so, you need to use the method `defineProperty` of the `Object` prototype 
 
 ```js
 var a = {};
-Object.defineProperty(a, 'readonly', {
-    value: 15,
-    writable: false
+Object.defineProperty(a, "readonly", {
+  value: 15,
+  writable: false,
 });
 
 a.readonly = 20;
@@ -31,22 +31,27 @@ or for multiple definitions:
 
 ```js
 Object.defineProperties(dest, {
-    propA: optionsA,
-    propB: optionsB //...
+  propA: optionsA,
+  propB: optionsB, //...
 });
 ```
 
 where options include the following attributes:
 
--   _value_: if the property is not a getter (see below), value is a mandatory attribute. `{a: 12}` === `Object.defineProperty(obj, 'a', {value: 12})`
--   _writable_: set the property as readonly. Note that if the property is a nested objects, its properties are still editable.
--   _enumerable_: set the property as hidden. That means that `for ... of` loops and `stringify` will not include the property in their result, but the property is still there. Note: That doesn't mean that the property is private! It can still be accessible from the outside, it just means that it won't be printed.
--   _configurable_: set the property as non modifiable, e.g. protected from deletion or redefinition. Again, if the property is a nested object, its properties are still configurable.
+- _value_: if the property is not a getter (see below), value is a mandatory attribute. `{a: 12}` === `Object.defineProperty(obj, 'a', {value: 12})`
+- _writable_: set the property as readonly. Note that if the property is a nested objects, its properties are still editable.
+- _enumerable_: set the property as hidden. That means that `for ... of` loops and `stringify` will not include the property in their result, but the property is still there. Note: That doesn't mean that the property is private! It can still be accessible from the outside, it just means that it won't be printed.
+- _configurable_: set the property as non modifiable, e.g. protected from deletion or redefinition. Again, if the property is a nested object, its properties are still configurable.
 
 So in order to create a private constant property, you can define it like so:
 
 ```js
-Object.defineProperty(obj, 'myPrivateProp', { value: val, enumerable: false, writable: false, configurable: false });
+Object.defineProperty(obj, "myPrivateProp", {
+  value: val,
+  enumerable: false,
+  writable: false,
+  configurable: false,
+});
 ```
 
 Besides configuring properties, `defineProperty` allows us to define _dynamic properties_, thanks to the second parameter being a string. For instance, let's say that I want to create properties according to some external configuration:
@@ -92,10 +97,10 @@ var obj = { a: { b: { c: [{ d: 10 }, { d: 20 }] } } };
 Now instead of doing `a.b.c[0].d` (where one of the properties can resolve to `undefined` and throw an error), we can instead create an alias:
 
 ```js
-Object.defineProperty(obj, 'firstD', {
-    get: function () {
-        return a && a.b && a.b.c && a.b.c[0] && a.b.c[0].d;
-    }
+Object.defineProperty(obj, "firstD", {
+  get: function () {
+    return a && a.b && a.b.c && a.b.c[0] && a.b.c[0].d;
+  },
 });
 
 console.log(obj.firstD); // 10
@@ -107,5 +112,5 @@ If you define a getter without a setter and still try to set a value, you will g
 
 ### Links
 
--   [defineProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
--   [Defining properties in JavaScript](http://bdadam.com/blog/defining-properties-in-javascript.html)
+- [defineProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+- [Defining properties in JavaScript](http://bdadam.com/blog/defining-properties-in-javascript.html)

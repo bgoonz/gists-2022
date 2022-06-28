@@ -66,12 +66,12 @@ Because `cos()` is a static method of `Math`, you always use it as `Math.cos()`,
 
 ## See also
 
--   [`Math.acos()`](acos)
--   [`Math.asin()`](asin)
--   [`Math.atan()`](atan)
--   [`Math.atan2()`](atan2)
--   [`Math.sin()`](sin)
--   [`Math.tan()`](tan)
+- [`Math.acos()`](acos)
+- [`Math.asin()`](asin)
+- [`Math.atan()`](atan)
+- [`Math.atan2()`](atan2)
+- [`Math.sin()`](sin)
+- [`Math.tan()`](tan)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

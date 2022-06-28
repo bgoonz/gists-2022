@@ -234,8 +234,8 @@ No
 
 ## See also
 
--   [`Symbol.asyncIterator`](../global_objects/symbol/asynciterator)
--   [`for...of`](for...of)
+- [`Symbol.asyncIterator`](../global_objects/symbol/asynciterator)
+- [`for...of`](for...of)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

@@ -458,9 +458,9 @@ Only Internet Explorer 9 and later, and Firefox 23 and later, appear to fully an
 
 Internet Explorer 8 implemented a `Object.defineProperty()` method that could [only be used on DOM objects](https://msdn.microsoft.com/en-us/library/dd229916%28VS.85%29.aspx). A few things need to be noted:
 
--   Trying to use `Object.defineProperty()` on native objects throws an error.
--   Property attributes must be set to some values. The `configurable`, `enumerable` and `writable` attributes should all be set to `true` for data descriptor and `true` for `configurable`, `false` for `enumerable` for accessor descriptor.(?) Any attempt to provide other value(?) will result in an error being thrown.
--   Reconfiguring a property requires first deleting the property. If the property isn't deleted, it stays as it was before the reconfiguration attempt.
+- Trying to use `Object.defineProperty()` on native objects throws an error.
+- Property attributes must be set to some values. The `configurable`, `enumerable` and `writable` attributes should all be set to `true` for data descriptor and `true` for `configurable`, `false` for `enumerable` for accessor descriptor.(?) Any attempt to provide other value(?) will result in an error being thrown.
+- Reconfiguring a property requires first deleting the property. If the property isn't deleted, it stays as it was before the reconfiguration attempt.
 
 ### Chrome 37 (and below) specific notes
 
@@ -468,16 +468,16 @@ Chrome 37 (and below) has a [bug](https://bugs.chromium.org/p/v8/issues/detail?i
 
 ## See also
 
--   [Enumerability and ownership of properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
--   [`Object.defineProperties()`](defineproperties)
--   [`Object.propertyIsEnumerable()`](propertyisenumerable)
--   [`Object.getOwnPropertyDescriptor()`](getownpropertydescriptor)
--   <span class="page-not-created">`Object.prototype.watch()`</span>
--   <span class="page-not-created">`Object.prototype.unwatch()`</span>
--   [`get`](../../functions/get)
--   [`set`](../../functions/set)
--   [`Object.create()`](create)
--   [`Reflect.defineProperty()`](../reflect/defineproperty)
+- [Enumerability and ownership of properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
+- [`Object.defineProperties()`](defineproperties)
+- [`Object.propertyIsEnumerable()`](propertyisenumerable)
+- [`Object.getOwnPropertyDescriptor()`](getownpropertydescriptor)
+- <span class="page-not-created">`Object.prototype.watch()`</span>
+- <span class="page-not-created">`Object.prototype.unwatch()`</span>
+- [`get`](../../functions/get)
+- [`set`](../../functions/set)
+- [`Object.create()`](create)
+- [`Reflect.defineProperty()`](../reflect/defineproperty)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

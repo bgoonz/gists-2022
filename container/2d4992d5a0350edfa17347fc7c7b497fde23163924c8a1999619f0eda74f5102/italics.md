@@ -65,9 +65,9 @@ The following example uses string methods to change the formatting of a string:
 
 ## See also
 
--   [`String.prototype.blink()`](blink)
--   [`String.prototype.bold()`](bold)
--   [`String.prototype.strike()`](strike)
+- [`String.prototype.blink()`](blink)
+- [`String.prototype.bold()`](bold)
+- [`String.prototype.strike()`](strike)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

@@ -12,17 +12,17 @@ categories: - en - javascript
 
 ```html
 <ul class="todo-list">
-    <li class="item">Walk your dog</li>
+  <li class="item">Walk your dog</li>
 </ul>
 ```
 
 ```js
-const list = document.querySelector('.todo-list');
+const list = document.querySelector(".todo-list");
 
-list.addEventListener('click', (e) => {
-    console.log(e.target);
-    // Output: <li class="item">Walk your dog</li>
-    console.log(e.currentTarget);
-    // Output: <ul class="todo-list"></ul>
+list.addEventListener("click", (e) => {
+  console.log(e.target);
+  // Output: <li class="item">Walk your dog</li>
+  console.log(e.currentTarget);
+  // Output: <ul class="todo-list"></ul>
 });
 ```

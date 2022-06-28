@@ -4,7 +4,7 @@ tip-username: loverajoel
 tip-username-profile: https://github.com/loverajoel
 tip-tldr: Understanding how to use `Bind` method with objects and functions in JavaScript
 
--   /en/binding-objects-to-functions/
+- /en/binding-objects-to-functions/
 
 categories: - en - javascript
 
@@ -36,21 +36,21 @@ A copy of the given function along with the specified `this` value and initial a
 
 ```js
 const myCar = {
-    brand: 'Ford',
-    type: 'Sedan',
-    color: 'Red'
+  brand: "Ford",
+  type: "Sedan",
+  color: "Red",
 };
 
 const getBrand = function () {
-    console.log(this.brand);
+  console.log(this.brand);
 };
 
 const getType = function () {
-    console.log(this.type);
+  console.log(this.type);
 };
 
 const getColor = function () {
-    console.log(this.color);
+  console.log(this.color);
 };
 
 getBrand(); // object not bind,undefined

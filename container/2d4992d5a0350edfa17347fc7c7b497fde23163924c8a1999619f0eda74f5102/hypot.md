@@ -116,9 +116,9 @@ No
 
 ## See also
 
--   [`Math.abs()`](abs)
--   [`Math.pow()`](pow)
--   [`Math.sqrt()`](sqrt)
+- [`Math.abs()`](abs)
+- [`Math.pow()`](pow)
+- [`Math.sqrt()`](sqrt)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

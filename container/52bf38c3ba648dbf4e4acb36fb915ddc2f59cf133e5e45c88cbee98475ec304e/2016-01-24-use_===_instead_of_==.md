@@ -4,7 +4,7 @@ tip-username: bhaskarmelkani
 tip-username-profile: https://www.twitter.com/bhaskarmelkani
 tip-tldr: The `==` (or `!=`) operator performs an automatic type conversion if needed. The `===` (or `!==`) operator will not perform any conversion. It compares the value and the type, which could be considered faster ([jsPref](http://jsperf.com/strictcompare)) than `==`.
 
--   /en/use*===\_instead_of*==/
+- /en/use*===\_instead_of*==/
 
 The `==` (or `!=`) operator performs an automatic type conversion if needed. The `===` (or `!==`) operator will not perform any conversion. It compares the value and the type, which could be considered faster ([jsPref](http://jsperf.com/strictcompare)) than `==`.
 

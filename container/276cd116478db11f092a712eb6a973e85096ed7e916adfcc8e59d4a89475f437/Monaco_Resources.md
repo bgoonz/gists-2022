@@ -24,7 +24,6 @@ other than VSCode of course
 - https://github.com/Lamden/wallet
 - https://github.com/eclipse-theia/theia (uses VScode)
 
-
 ## Helpful Blogposts
 
 - React
@@ -34,7 +33,6 @@ other than VSCode of course
   - https://www.swyx.io/writing/svelte-zen-garden/
 - Language Server Protocol
   - https://blog.codedamn.com/language-server-protocol-with-monaco-editor/
-
 
 ## Monaco tips
 

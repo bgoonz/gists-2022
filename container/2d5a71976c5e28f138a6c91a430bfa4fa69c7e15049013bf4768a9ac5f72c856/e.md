@@ -69,9 +69,9 @@ The following function returns e:
 
 ## See also
 
--   [`Math.exp()`](exp)
--   [`Math.log()`](log)
--   [`Math.log1p()`](log1p)
+- [`Math.exp()`](exp)
+- [`Math.log()`](log)
+- [`Math.log1p()`](log1p)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

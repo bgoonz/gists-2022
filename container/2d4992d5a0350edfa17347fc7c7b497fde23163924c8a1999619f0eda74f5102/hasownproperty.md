@@ -126,11 +126,11 @@ Note that in the last case there are no newly created objects.
 
 ## See also
 
--   [Enumerability and ownership of properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
--   [`Object.getOwnPropertyNames()`](getownpropertynames)
--   [`for...in`](../../statements/for...in)
--   [`in`](../../operators/in)
--   [JavaScript Guide: Inheritance revisited](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+- [Enumerability and ownership of properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
+- [`Object.getOwnPropertyNames()`](getownpropertynames)
+- [`for...in`](../../statements/for...in)
+- [`in`](../../operators/in)
+- [JavaScript Guide: Inheritance revisited](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

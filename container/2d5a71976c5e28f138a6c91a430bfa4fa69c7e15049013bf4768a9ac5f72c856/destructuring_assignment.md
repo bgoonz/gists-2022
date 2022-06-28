@@ -220,8 +220,8 @@ A variable can be assigned a default, in the case that the value unpacked from t
 
 A property can be both
 
--   Unpacked from an object and assigned to a variable with a different name.
--   Assigned a default value in case the unpacked value is `undefined`.
+- Unpacked from an object and assigned to a variable with a different name.
+- Assigned a default value in case the unpacked value is `undefined`.
 
 <!-- -->
 
@@ -496,8 +496,8 @@ No
 
 ## See also
 
--   [Assignment operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#Assignment_operators)
--   ["ES6 in Depth: Destructuring" on hacks.mozilla.org](https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/)
+- [Assignment operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#Assignment_operators)
+- ["ES6 in Depth: Destructuring" on hacks.mozilla.org](https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

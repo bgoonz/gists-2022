@@ -139,12 +139,12 @@ This uses the [`Array.prototype.filter()`](../array/filter) function to remove t
 
 ## See also
 
--   [Enumerability and ownership of properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
--   [`Object.prototype.hasOwnProperty()`](hasownproperty)
--   [`Object.prototype.propertyIsEnumerable()`](propertyisenumerable)
--   [`Object.create()`](create)
--   [`Object.keys()`](keys)
--   [`Array.forEach()`](../array/foreach)
+- [Enumerability and ownership of properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
+- [`Object.prototype.hasOwnProperty()`](hasownproperty)
+- [`Object.prototype.propertyIsEnumerable()`](propertyisenumerable)
+- [`Object.create()`](create)
+- [`Object.keys()`](keys)
+- [`Array.forEach()`](../array/foreach)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

@@ -8,10 +8,10 @@ The `InternalError` indicates an error that occurred internally in the JavaScrip
 
 Example cases are mostly when something is too large, e.g.:
 
--   "too many switch cases",
--   "too many parentheses in regular expression",
--   "array initializer too large",
--   "too much recursion".
+- "too many switch cases",
+- "too many parentheses in regular expression",
+- "array initializer too large",
+- "too much recursion".
 
 ## Constructor
 
@@ -124,7 +124,7 @@ No
 
 ## See also
 
--   [`Error`](error)
--   [InternalError: too much recursion](../errors/too_much_recursion)
+- [`Error`](error)
+- [InternalError: too much recursion](../errors/too_much_recursion)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError</a>

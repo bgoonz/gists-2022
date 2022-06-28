@@ -1,4 +1,3 @@
-
 # speaking calendar
 
 Mar 24 - the third age of js @ cityjs London
@@ -18,4 +17,3 @@ Oct 5 - React Day NY - sagas for time
 Oct 12 - Cascadia JS meetup - temporal
 Oct 20-22 Web Unleashed Canada Shawn pucknell - junior to senior devs
 Nov 12-13 React India https://www.reactindia.io/ temporal talk
-

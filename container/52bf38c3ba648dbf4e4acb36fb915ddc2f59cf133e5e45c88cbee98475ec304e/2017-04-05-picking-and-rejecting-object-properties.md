@@ -14,20 +14,25 @@ a few fields for some function:
 
 ```javascript
 function pick(obj, keys) {
-    return keys.map((k) => (k in obj ? { [k]: obj[k] } : {})).reduce((res, o) => Object.assign(res, o), {});
+  return keys
+    .map((k) => (k in obj ? { [k]: obj[k] } : {}))
+    .reduce((res, o) => Object.assign(res, o), {});
 }
 
 const row = {
-    'accounts.id': 1,
-    'client.name': 'John Doe',
-    'bank.code': 'MDAKW213'
+  "accounts.id": 1,
+  "client.name": "John Doe",
+  "bank.code": "MDAKW213",
 };
 
-const table = [row, { 'accounts.id': 3, 'client.name': 'Steve Doe', 'bank.code': 'STV12JB' }];
+const table = [
+  row,
+  { "accounts.id": 3, "client.name": "Steve Doe", "bank.code": "STV12JB" },
+];
 
-pick(row, ['client.name']); // Get client name
+pick(row, ["client.name"]); // Get client name
 
-table.map((row) => pick(row, ['client.name'])); // Get a list of client names
+table.map((row) => pick(row, ["client.name"])); // Get a list of client names
 ```
 
 There's a bit of skulduggery going on in pick. First, we `map` a function over
@@ -40,17 +45,17 @@ But what if we want to `reject` the attributes? Well, the function changes a bit
 
 ```javascript
 function reject(obj, keys) {
-    return Object.keys(obj)
-        .filter((k) => !keys.includes(k))
-        .map((k) => Object.assign({}, { [k]: obj[k] }))
-        .reduce((res, o) => Object.assign(res, o), {});
+  return Object.keys(obj)
+    .filter((k) => !keys.includes(k))
+    .map((k) => Object.assign({}, { [k]: obj[k] }))
+    .reduce((res, o) => Object.assign(res, o), {});
 }
 
 // or, reusing pick
 function reject(obj, keys) {
-    const vkeys = Object.keys(obj).filter((k) => !keys.includes(k));
-    return pick(obj, vkeys);
+  const vkeys = Object.keys(obj).filter((k) => !keys.includes(k));
+  return pick(obj, vkeys);
 }
 
-reject({ a: 2, b: 3, c: 4 }, ['a', 'b']); // => {c: 4}
+reject({ a: 2, b: 3, c: 4 }, ["a", "b"]); // => {c: 4}
 ```

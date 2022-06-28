@@ -81,10 +81,10 @@ No
 
 ## See also
 
--   [`String.prototype.startsWith()`](startswith)
--   [`String.prototype.includes()`](includes)
--   [`String.prototype.indexOf()`](indexof)
--   [`String.prototype.lastIndexOf()`](lastindexof)
+- [`String.prototype.startsWith()`](startswith)
+- [`String.prototype.includes()`](includes)
+- [`String.prototype.indexOf()`](indexof)
+- [`String.prototype.lastIndexOf()`](lastindexof)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

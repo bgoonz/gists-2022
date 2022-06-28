@@ -1,12 +1,11 @@
-(X)HTML5 validation results for https://bgoonz-blog.netlify.app/
-================================================================
+# (X)HTML5 validation results for https://bgoonz-blog.netlify.app/
 
 Validator Input
 
-| AddressFile UploadText Field |  |
-|  |  Show Image Report |
-|  |  Show Source |
-|  |  |
+| AddressFile UploadText Field | |
+| |  Show Image Report |
+| |  Show Source |
+| | |
 
 1.  **Error**: A `charset` attribute on a `meta` element found after the first 1024 bytes.
 

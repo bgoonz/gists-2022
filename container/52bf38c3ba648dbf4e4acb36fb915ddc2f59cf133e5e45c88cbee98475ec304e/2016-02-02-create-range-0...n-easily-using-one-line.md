@@ -4,7 +4,7 @@ tip-username: SarjuHansaliya
 tip-username-profile: https://github.com/SarjuHansaliya
 tip-tldr: Compact one-liners that generate ordinal sequence arrays
 
--   /en/create-range-0...n-easily-using-one-line/
+- /en/create-range-0...n-easily-using-one-line/
 
 Here are two compact code sequences to generate the `N`-element array `[0, 1, ..., N-1]`:
 
@@ -50,7 +50,7 @@ If you actually want the sequence [1, 2, ..., N], **Solution 1** becomes:
 
 ```js
 Array.apply(null, { length: N }).map(function (value, index) {
-    return index + 1;
+  return index + 1;
 });
 ```
 

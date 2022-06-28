@@ -130,13 +130,13 @@ The following `for` cycle calculates the offset position of a node in the `final
 
 ## See also
 
--   [empty statement](empty)
--   [`break`](break)
--   [`continue`](continue)
--   [`while`](while)
--   [`do...while`](do...while)
--   [`for...in`](for...in)
--   [`for...of`](for...of)
+- [empty statement](empty)
+- [`break`](break)
+- [`continue`](continue)
+- [`while`](while)
+- [`do...while`](do...while)
+- [`for...in`](for...in)
+- [`for...of`](for...of)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

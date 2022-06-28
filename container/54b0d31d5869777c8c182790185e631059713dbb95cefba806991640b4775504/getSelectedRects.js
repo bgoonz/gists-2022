@@ -13,5 +13,5 @@ export function getSelectedEntities(selectionArea, data) {
   const selectedSteps = data.steps.filter((step) =>
     Konva.Util.haveIntersection(selectionArea, step)
   );
-  return selectedSteps.map((step) => step.key)
+  return selectedSteps.map((step) => step.key);
 }

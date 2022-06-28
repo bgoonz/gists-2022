@@ -1,5 +1,5 @@
-Smooth Scroll
--------------
+## Smooth Scroll
+
 Smooth Scroll without conflict with other JS files.
 Added by [class="smoothScroll"]
 

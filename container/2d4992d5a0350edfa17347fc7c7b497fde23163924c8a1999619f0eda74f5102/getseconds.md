@@ -56,7 +56,7 @@ The second statement below assigns the value 30 to the variable `seconds`, based
 
 ## See also
 
--   [`Date.prototype.getUTCSeconds()`](getutcseconds)
--   [`Date.prototype.setSeconds()`](setseconds)
+- [`Date.prototype.getUTCSeconds()`](getutcseconds)
+- [`Date.prototype.setSeconds()`](setseconds)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getSeconds" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getSeconds</a>

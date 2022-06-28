@@ -106,10 +106,10 @@ In a related circumstance, what if you actually wanted your `Date()` function to
 
 The code above may seem inefficiently slow because of the triple nested function, but let's analyze the benefits of the above efficient method:
 
--   It allows the code in the string passed to `runCodeWithDateFunction()` to be minified.
--   Function call overhead is minimal, making the far smaller code size well worth the benefit
--   `Function()` more easily allows your code to utilize the performance buttering `"use strict";`
--   The code does not use `eval()`, making it orders of magnitude faster than otherwise.
+- It allows the code in the string passed to `runCodeWithDateFunction()` to be minified.
+- Function call overhead is minimal, making the far smaller code size well worth the benefit
+- `Function()` more easily allows your code to utilize the performance buttering `"use strict";`
+- The code does not use `eval()`, making it orders of magnitude faster than otherwise.
 
 Lastly, let's examine minification. With using `Function()` as shown above, you can minify the code string passed to `runCodeWithDateFunction()` far more efficiently because the function arguments names can be minified too as seen in the minified code below.
 
@@ -275,8 +275,8 @@ If you define multiple values then the last value is returned.
 
 ## See also
 
--   [`uneval()`](uneval)
--   [Property accessors](../operators/property_accessors)
--   [WebExtensions: Using eval in content scripts](<https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts#using_eval()_in_content_scripts>)
+- [`uneval()`](uneval)
+- [Property accessors](../operators/property_accessors)
+- [WebExtensions: Using eval in content scripts](<https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts#using_eval()_in_content_scripts>)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval</a>

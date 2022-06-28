@@ -297,15 +297,10 @@
   },
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "settingsSync.keybindingsPerPlatform": false,
-"workbench.colorCustomizations": {},
-"git.confirmSync": false,
-"editor.unicodeHighlight.invisibleCharacters": false,
-"typescript.updateImportsOnFileMove.enabled": "always",
-"cSpell.userWords": [
-    "bgoonz",
-    "cabextract",
-    "Guner",
-    "mixtape"
-],
-"cSpell.enabled": false
+  "workbench.colorCustomizations": {},
+  "git.confirmSync": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.userWords": ["bgoonz", "cabextract", "Guner", "mixtape"],
+  "cSpell.enabled": false
 }

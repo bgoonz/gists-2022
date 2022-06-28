@@ -23,9 +23,9 @@ It is not possible to simultaneously have a getter bound to a property and have 
 
 Note the following when working with the `get` syntax:
 
--   It can have an identifier which is either a number or a string;
--   It must have exactly zero parameters (see [Incompatible ES5 change: literal getter and setter functions must now have exactly zero or one arguments](https://whereswalden.com/2010/08/22/incompatible-es5-change-literal-getter-and-setter-functions-must-now-have-exactly-zero-or-one-arguments/) for more information);
--   It must not appear in an object literal with another `get` or with a data entry for the same property (`{ get x() { }, get x() { } }` and `{ x: ..., get x() { } }` are forbidden).
+- It can have an identifier which is either a number or a string;
+- It must have exactly zero parameters (see [Incompatible ES5 change: literal getter and setter functions must now have exactly zero or one arguments](https://whereswalden.com/2010/08/22/incompatible-es5-change-literal-getter-and-setter-functions-must-now-have-exactly-zero-or-one-arguments/) for more information);
+- It must not appear in an object literal with another `get` or with a data entry for the same property (`{ get x() { }, get x() { } }` and `{ x: ..., get x() { } }` are forbidden).
 
 ## Examples
 
@@ -76,9 +76,9 @@ Getters give you a way to _define_ a property of an object, but they do not _cal
 
 An additional optimization technique to lazify or delay the calculation of a property value and cache it for later access are **smart (or "[memoized](https://en.wikipedia.org/wiki/Memoization)") getters**. The value is calculated the first time the getter is called, and is then cached so subsequent accesses return the cached value without recalculating it. This is useful in the following situations:
 
--   If the calculation of a property value is expensive (takes much RAM or CPU time, spawns worker threads, retrieves remote file, etc).
--   If the value isn't needed just now. It will be used later, or in some case it's not used at all.
--   If it's used, it will be accessed several times, and there is no need to re-calculate that value will never be changed or shouldn't be re-calculated.
+- If the calculation of a property value is expensive (takes much RAM or CPU time, spawns worker threads, retrieves remote file, etc).
+- If the value isn't needed just now. It will be used later, or in some case it's not used at all.
+- If it's used, it will be accessed several times, and there is no need to re-calculate that value will never be changed or shouldn't be re-calculated.
 
 **Note:** This means that you shouldn't write a lazy getter for a property whose value you expect to change, because if the getter is lazy then it will not recalculate the value.
 
@@ -180,11 +180,11 @@ No
 
 ## See also
 
--   [setter](set)
--   [`delete`](../operators/delete)
--   [`Object.defineProperty()`](../global_objects/object/defineproperty)
--   [`__defineGetter__`](../global_objects/object/__definegetter__)
--   [`__defineSetter__`](../global_objects/object/__definesetter__)
--   [Defining Getters and Setters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#defining_getters_and_setters) in JavaScript Guide
+- [setter](set)
+- [`delete`](../operators/delete)
+- [`Object.defineProperty()`](../global_objects/object/defineproperty)
+- [`__defineGetter__`](../global_objects/object/__definegetter__)
+- [`__defineSetter__`](../global_objects/object/__definesetter__)
+- [Defining Getters and Setters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#defining_getters_and_setters) in JavaScript Guide
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get</a>

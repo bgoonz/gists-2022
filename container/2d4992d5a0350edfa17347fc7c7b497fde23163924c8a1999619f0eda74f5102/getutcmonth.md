@@ -54,7 +54,7 @@ The following example assigns the month portion of the current date to the varia
 
 ## See also
 
--   [`Date.prototype.getMonth()`](getmonth)
--   [`Date.prototype.setUTCMonth()`](setutcmonth)
+- [`Date.prototype.getMonth()`](getmonth)
+- [`Date.prototype.setUTCMonth()`](setutcmonth)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMonth" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMonth</a>

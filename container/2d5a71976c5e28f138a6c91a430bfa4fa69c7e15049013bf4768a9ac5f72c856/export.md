@@ -156,8 +156,8 @@ Then in the top-level module included in your HTML page, we could have:
 
 It is important to note the following:
 
--   You need to include this script in your HTML with a [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) element of type="module", so that it gets recognized as a module and dealt with appropriately.
--   You can't run JS modules via a `file://` URL — you'll get [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) errors. You need to run it via an HTTP server.
+- You need to include this script in your HTML with a [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) element of type="module", so that it gets recognized as a module and dealt with appropriately.
+- You can't run JS modules via a `file://` URL — you'll get [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) errors. You need to run it via an HTTP server.
 
 ### Using the default export
 
@@ -178,10 +178,10 @@ Then, in another script, it is straightforward to import the default export:
 
 Let's take an example where we have the following hierarchy:
 
--   `childModule1.js`: exporting `myFunction` and `myVariable`
--   `childModule2.js`: exporting `myClass`
--   `parentModule.js`: acting as an aggregator (and doing nothing else)
--   top level module: consuming the exports of `parentModule.js`
+- `childModule1.js`: exporting `myFunction` and `myVariable`
+- `childModule2.js`: exporting `myClass`
+- `parentModule.js`: acting as an aggregator (and doing nothing else)
+- top level module: consuming the exports of `parentModule.js`
 
 This is what it would look like using code snippets:
 
@@ -304,11 +304,11 @@ No
 
 ## See also
 
--   [`import`](import)
--   [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) guide
--   [ES6 in Depth: Modules](https://hacks.mozilla.org/2015/08/es6-in-depth-modules/), Hacks blog post by Jason Orendorff
--   [ES modules: A cartoon deep-dive](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/), Hacks blog post by Lin Clark
--   [Axel Rauschmayer's book: "Exploring JS: Modules"](https://exploringjs.com/es6/ch_modules.html)
+- [`import`](import)
+- [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) guide
+- [ES6 in Depth: Modules](https://hacks.mozilla.org/2015/08/es6-in-depth-modules/), Hacks blog post by Jason Orendorff
+- [ES modules: A cartoon deep-dive](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/), Hacks blog post by Lin Clark
+- [Axel Rauschmayer's book: "Exploring JS: Modules"](https://exploringjs.com/es6/ch_modules.html)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

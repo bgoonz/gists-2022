@@ -1,1 +1,10 @@
-{"version":1,"resource":"vscode-userdata:/Users/bryanguner/Library/Application%20Support/Code/User/settings.json","entries":[{"id":"yJGd.json","timestamp":1652648358731},{"id":"lmjo.json","timestamp":1652648436108},{"id":"mcQK.json","timestamp":1653212513213},{"id":"HjPU.json","timestamp":1653448220299}]}
+{
+  "version": 1,
+  "resource": "vscode-userdata:/Users/bryanguner/Library/Application%20Support/Code/User/settings.json",
+  "entries": [
+    { "id": "yJGd.json", "timestamp": 1652648358731 },
+    { "id": "lmjo.json", "timestamp": 1652648436108 },
+    { "id": "mcQK.json", "timestamp": 1653212513213 },
+    { "id": "HjPU.json", "timestamp": 1653448220299 }
+  ]
+}

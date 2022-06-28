@@ -2,9 +2,9 @@
 toc: What is this?
 chapter: this
 style: |
-    h1 {
-      text-align: center
-    }
+  h1 {
+    text-align: center
+  }
 ---
 
 # What is `this`?
@@ -25,7 +25,7 @@ Given the following function:
 
 ```javascript
 function foo() {
-    console.log(this);
+  console.log(this);
 }
 ```
 

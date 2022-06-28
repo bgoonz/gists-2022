@@ -2,9 +2,9 @@
  * Creates an empty binary heap.
  * @class
  * <p>A heap is a binary tree that maintains the heap property:
- * Every node is less than or equal to each of its children. 
+ * Every node is less than or equal to each of its children.
  * This implementation uses an array as the underlying storage.</p>
- * <p>If the inserted elements are custom objects, a compare function must be provided 
+ * <p>If the inserted elements are custom objects, a compare function must be provided
  * at construction time, otherwise the <=, === and >= operators are
  * used to compare elements.</p>
  * <p>Example:</p>
@@ -43,195 +43,194 @@
  * or greater than the second.
  */
 buckets.Heap = function (compareFunction) {
+  /**
+   * @exports heap as buckets.Heap
+   * @private
+   */
+  var heap = {},
+    // Array used to store the elements of the heap.
+    data = [],
+    // Function used to compare elements.
+    compare = compareFunction || buckets.defaultCompare;
 
-    /** 
-     * @exports heap as buckets.Heap
-     * @private
-     */
-    var heap = {},
-        // Array used to store the elements of the heap.
-        data = [],
-        // Function used to compare elements.
-        compare = compareFunction || buckets.defaultCompare;
-
-    // Moves the node at the given index up to its proper place in the heap.
-    function siftUp(index) {
-        var parent;
-        // Returns the index of the parent of the node at the given index.
-        function parentIndex(nodeIndex) {
-            return Math.floor((nodeIndex - 1) / 2);
-        }
-
-        parent = parentIndex(index);
-        while (index > 0 && compare(data[parent], data[index]) > 0) {
-            buckets.arrays.swap(data, parent, index);
-            index = parent;
-            parent = parentIndex(index);
-        }
+  // Moves the node at the given index up to its proper place in the heap.
+  function siftUp(index) {
+    var parent;
+    // Returns the index of the parent of the node at the given index.
+    function parentIndex(nodeIndex) {
+      return Math.floor((nodeIndex - 1) / 2);
     }
 
-    // Moves the node at the given index down to its proper place in the heap.
-    function siftDown(nodeIndex) {
-        var min;
-        // Returns the index of the left child of the node at the given index.
-        function leftChildIndex(nodeIndex) {
-            return (2 * nodeIndex) + 1;
-        }
+    parent = parentIndex(index);
+    while (index > 0 && compare(data[parent], data[index]) > 0) {
+      buckets.arrays.swap(data, parent, index);
+      index = parent;
+      parent = parentIndex(index);
+    }
+  }
 
-        // Returns the index of the right child of the node at the given index.
-        function rightChildIndex(nodeIndex) {
-            return (2 * nodeIndex) + 2;
-        }
-
-        // Returns the index of the smaller child node if it exists, -1 otherwise.
-        function minIndex(leftChild, rightChild) {
-            if (rightChild >= data.length) {
-                if (leftChild >= data.length) {
-                    return -1;
-                }
-                return leftChild;
-            }
-            if (compare(data[leftChild], data[rightChild]) <= 0) {
-                return leftChild;
-            }
-            return rightChild;
-        }
-
-        // Minimum child index
-        min = minIndex(leftChildIndex(nodeIndex), rightChildIndex(nodeIndex));
-
-        while (min >= 0 && compare(data[nodeIndex], data[min]) > 0) {
-            buckets.arrays.swap(data, min, nodeIndex);
-            nodeIndex = min;
-            min = minIndex(leftChildIndex(nodeIndex), rightChildIndex(nodeIndex));
-        }
+  // Moves the node at the given index down to its proper place in the heap.
+  function siftDown(nodeIndex) {
+    var min;
+    // Returns the index of the left child of the node at the given index.
+    function leftChildIndex(nodeIndex) {
+      return 2 * nodeIndex + 1;
     }
 
-    /**
-     * Retrieves but does not remove the root (minimum) element of the heap.
-     * @return {*} The value at the root of the heap. Returns undefined if the
-     * heap is empty.
-     */
-    heap.peek = function () {
-        if (data.length > 0) {
-            return data[0];
+    // Returns the index of the right child of the node at the given index.
+    function rightChildIndex(nodeIndex) {
+      return 2 * nodeIndex + 2;
+    }
+
+    // Returns the index of the smaller child node if it exists, -1 otherwise.
+    function minIndex(leftChild, rightChild) {
+      if (rightChild >= data.length) {
+        if (leftChild >= data.length) {
+          return -1;
         }
-        return undefined;
-    };
+        return leftChild;
+      }
+      if (compare(data[leftChild], data[rightChild]) <= 0) {
+        return leftChild;
+      }
+      return rightChild;
+    }
 
-    /**
-     * Adds the given element into the heap.
-     * @param {*} element The element.
-     * @return True if the element was added or false if it is undefined.
-     */
-    heap.add = function (element) {
-        if (buckets.isUndefined(element)) {
-            return undefined;
-        }
-        data.push(element);
-        siftUp(data.length - 1);
-        return true;
-    };
+    // Minimum child index
+    min = minIndex(leftChildIndex(nodeIndex), rightChildIndex(nodeIndex));
 
-    /**
-     * Retrieves and removes the root (minimum) element of the heap.
-     * @return {*} The removed element or
-     * undefined if the heap is empty.
-     */
-    heap.removeRoot = function () {
-        var obj;
-        if (data.length > 0) {
-            obj = data[0];
-            data[0] = data[data.length - 1];
-            data.splice(data.length - 1, 1);
-            if (data.length > 0) {
-                siftDown(0);
-            }
-            return obj;
-        }
-        return undefined;
-    };
+    while (min >= 0 && compare(data[nodeIndex], data[min]) > 0) {
+      buckets.arrays.swap(data, min, nodeIndex);
+      nodeIndex = min;
+      min = minIndex(leftChildIndex(nodeIndex), rightChildIndex(nodeIndex));
+    }
+  }
 
-    /**
-     * Returns true if the heap contains the specified element.
-     * @param {Object} element Element to search for.
-     * @return {boolean} True if the Heap contains the specified element, false
-     * otherwise.
-     */
-    heap.contains = function (element) {
-        var equF = buckets.compareToEquals(compare);
-        return buckets.arrays.contains(data, element, equF);
-    };
+  /**
+   * Retrieves but does not remove the root (minimum) element of the heap.
+   * @return {*} The value at the root of the heap. Returns undefined if the
+   * heap is empty.
+   */
+  heap.peek = function () {
+    if (data.length > 0) {
+      return data[0];
+    }
+    return undefined;
+  };
 
-    /**
-     * Returns the number of elements in the heap.
-     * @return {number} The number of elements in the heap.
-     */
-    heap.size = function () {
-        return data.length;
-    };
+  /**
+   * Adds the given element into the heap.
+   * @param {*} element The element.
+   * @return True if the element was added or false if it is undefined.
+   */
+  heap.add = function (element) {
+    if (buckets.isUndefined(element)) {
+      return undefined;
+    }
+    data.push(element);
+    siftUp(data.length - 1);
+    return true;
+  };
 
-    /**
-     * Checks if the heap is empty.
-     * @return {boolean} True if the heap contains no elements; false
-     * otherwise.
-     */
-    heap.isEmpty = function () {
-        return data.length <= 0;
-    };
+  /**
+   * Retrieves and removes the root (minimum) element of the heap.
+   * @return {*} The removed element or
+   * undefined if the heap is empty.
+   */
+  heap.removeRoot = function () {
+    var obj;
+    if (data.length > 0) {
+      obj = data[0];
+      data[0] = data[data.length - 1];
+      data.splice(data.length - 1, 1);
+      if (data.length > 0) {
+        siftDown(0);
+      }
+      return obj;
+    }
+    return undefined;
+  };
 
-    /**
-     * Removes all the elements from the heap.
-     */
-    heap.clear = function () {
-        data.length = 0;
-    };
+  /**
+   * Returns true if the heap contains the specified element.
+   * @param {Object} element Element to search for.
+   * @return {boolean} True if the Heap contains the specified element, false
+   * otherwise.
+   */
+  heap.contains = function (element) {
+    var equF = buckets.compareToEquals(compare);
+    return buckets.arrays.contains(data, element, equF);
+  };
 
-    /**
-     * Executes the provided function once per element present in the heap in
-     * no particular order.
-     * @param {function(Object):*} callback Function to execute,
-     * invoked with an element as argument. To break the iteration you can
-     * optionally return false.
-     */
-    heap.forEach = function (callback) {
-        buckets.arrays.forEach(data, callback);
-    };
+  /**
+   * Returns the number of elements in the heap.
+   * @return {number} The number of elements in the heap.
+   */
+  heap.size = function () {
+    return data.length;
+  };
 
-    /**
-     * Returns an array containing all the elements in the heap in no
-     * particular order.
-     * @return {Array.<*>} An array containing all the elements in the heap
-     * in no particular order.
-     */
-    heap.toArray = function () {
-        return buckets.arrays.copy(data);
-    };
+  /**
+   * Checks if the heap is empty.
+   * @return {boolean} True if the heap contains no elements; false
+   * otherwise.
+   */
+  heap.isEmpty = function () {
+    return data.length <= 0;
+  };
 
-    /**
-     * Returns true if the binary heap is equal to another heap.
-     * Two heaps are equal if they have the same elements.
-     * @param {buckets.Heap} other The other heap.
-     * @return {boolean} True if the heap is equal to the given heap.
-     */
-    heap.equals = function (other) {
-        var thisArray, otherArray, eqF;
+  /**
+   * Removes all the elements from the heap.
+   */
+  heap.clear = function () {
+    data.length = 0;
+  };
 
-        if (buckets.isUndefined(other) || typeof other.removeRoot !== 'function') {
-            return false;
-        }
-        if (heap.size() !== other.size()) {
-            return false;
-        }
+  /**
+   * Executes the provided function once per element present in the heap in
+   * no particular order.
+   * @param {function(Object):*} callback Function to execute,
+   * invoked with an element as argument. To break the iteration you can
+   * optionally return false.
+   */
+  heap.forEach = function (callback) {
+    buckets.arrays.forEach(data, callback);
+  };
 
-        thisArray = heap.toArray();
-        otherArray = other.toArray();
-        eqF = buckets.compareToEquals(compare);
-        thisArray.sort(compare);
-        otherArray.sort(compare);
+  /**
+   * Returns an array containing all the elements in the heap in no
+   * particular order.
+   * @return {Array.<*>} An array containing all the elements in the heap
+   * in no particular order.
+   */
+  heap.toArray = function () {
+    return buckets.arrays.copy(data);
+  };
 
-        return buckets.arrays.equals(thisArray, otherArray, eqF);
-    };
+  /**
+   * Returns true if the binary heap is equal to another heap.
+   * Two heaps are equal if they have the same elements.
+   * @param {buckets.Heap} other The other heap.
+   * @return {boolean} True if the heap is equal to the given heap.
+   */
+  heap.equals = function (other) {
+    var thisArray, otherArray, eqF;
 
-    return heap;
+    if (buckets.isUndefined(other) || typeof other.removeRoot !== "function") {
+      return false;
+    }
+    if (heap.size() !== other.size()) {
+      return false;
+    }
+
+    thisArray = heap.toArray();
+    otherArray = other.toArray();
+    eqF = buckets.compareToEquals(compare);
+    thisArray.sort(compare);
+    otherArray.sort(compare);
+
+    return buckets.arrays.equals(thisArray, otherArray, eqF);
+  };
+
+  return heap;
 };

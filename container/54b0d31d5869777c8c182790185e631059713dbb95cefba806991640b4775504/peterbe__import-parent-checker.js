@@ -5,7 +5,7 @@ const yaml = require("js-yaml");
 const enUS = new Set();
 
 function walkAndLog(root) {
-  fs.readdirSync(root).forEach(file => {
+  fs.readdirSync(root).forEach((file) => {
     let filepath = path.join(root, file);
     if (fs.statSync(filepath).isDirectory()) {
       walkAndLog(filepath);
@@ -22,7 +22,7 @@ function walkAndLog(root) {
 
 let noParent = 0;
 function walk(root, locale) {
-  fs.readdirSync(root).forEach(file => {
+  fs.readdirSync(root).forEach((file) => {
     let filepath = path.join(root, file);
     if (fs.statSync(filepath).isDirectory()) {
       walk(filepath, locale);

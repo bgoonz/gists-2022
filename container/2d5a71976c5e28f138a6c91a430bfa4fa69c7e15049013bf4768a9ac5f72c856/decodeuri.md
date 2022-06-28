@@ -75,8 +75,8 @@ Replaces each escape sequence in the encoded URI with the character that it repr
 
 ## See also
 
--   [`decodeURIComponent()`](decodeuricomponent)
--   [`encodeURI()`](encodeuri)
--   [`encodeURIComponent()`](encodeuricomponent)
+- [`decodeURIComponent()`](decodeuricomponent)
+- [`encodeURI()`](encodeuri)
+- [`encodeURIComponent()`](encodeuricomponent)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURI" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURI</a>

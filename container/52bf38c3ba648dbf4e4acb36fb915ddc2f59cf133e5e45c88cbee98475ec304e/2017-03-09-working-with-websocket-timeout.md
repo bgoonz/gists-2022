@@ -14,16 +14,16 @@ Let's have a look on implementation-
 ```js
 var timerID = 0;
 function keepAlive() {
-    var timeout = 20000;
-    if (webSocket.readyState == webSocket.OPEN) {
-        webSocket.send('');
-    }
-    timerId = setTimeout(keepAlive, timeout);
+  var timeout = 20000;
+  if (webSocket.readyState == webSocket.OPEN) {
+    webSocket.send("");
+  }
+  timerId = setTimeout(keepAlive, timeout);
 }
 function cancelKeepAlive() {
-    if (timerId) {
-        clearTimeout(timerId);
-    }
+  if (timerId) {
+    clearTimeout(timerId);
+  }
 }
 ```
 

@@ -107,10 +107,10 @@ You can make your own iterables like this:
 
 There are many APIs that accept iterables. Some examples include:
 
--   [`new Map([iterable])`](global_objects/map)
--   [`new WeakMap([iterable])`](global_objects/weakmap)
--   [`new Set([iterable])`](global_objects/set)
--   [`new WeakSet([iterable])`](global_objects/weakset)
+- [`new Map([iterable])`](global_objects/map)
+- [`new WeakMap([iterable])`](global_objects/weakmap)
+- [`new Set([iterable])`](global_objects/set)
+- [`new WeakSet([iterable])`](global_objects/weakset)
 
 <!-- -->
 
@@ -135,9 +135,9 @@ There are many APIs that accept iterables. Some examples include:
 
 #### See also
 
--   [`Promise.all(iterable)`](global_objects/promise/all)
--   [`Promise.race(iterable)`](global_objects/promise/race)
--   [`Array.from(iterable)`](global_objects/array/from)
+- [`Promise.all(iterable)`](global_objects/promise/all)
+- [`Promise.race(iterable)`](global_objects/promise/race)
+- [`Array.from(iterable)`](global_objects/array/from)
 
 ### Syntaxes expecting iterables
 
@@ -303,7 +303,7 @@ A [generator object](global_objects/generator) is _both_ iterator and iterable:
 
 ## See also
 
--   [the `function*` documentation](statements/function*)
--   [Iteration in the ECMAScript specification](https://tc39.es/ecma262/#sec-iteration)
+- [the `function*` documentation](statements/function*)
+- [Iteration in the ECMAScript specification](https://tc39.es/ecma262/#sec-iteration)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols</a>

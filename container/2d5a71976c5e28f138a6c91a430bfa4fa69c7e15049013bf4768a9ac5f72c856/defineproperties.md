@@ -167,9 +167,9 @@ Assuming a pristine execution environment with all names and properties referrin
 
 ## See also
 
--   [`Object.defineProperty()`](defineproperty)
--   [`Object.keys()`](keys)
--   [Enumerability and ownership of properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
+- [`Object.defineProperty()`](defineproperty)
+- [`Object.keys()`](keys)
+- [Enumerability and ownership of properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

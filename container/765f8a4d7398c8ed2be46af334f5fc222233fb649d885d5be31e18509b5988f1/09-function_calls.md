@@ -14,7 +14,7 @@ no matter how many formal parameters they have:
 
 ```javascript
 function myFunction(foo, bar) {
-    console.log(foo, bar);
+  console.log(foo, bar);
 }
 
 myFunction(); // undefined undefined
@@ -29,7 +29,7 @@ passed to a function, even if there are more than formal parameters:
 
 ```javascript
 function myFunction(foo, bar) {
-    console.log(foo, bar, arguments);
+  console.log(foo, bar, arguments);
 }
 
 myFunction(); // undefined undefined []

@@ -136,8 +136,8 @@ The following example provides the special encoding required within UTF-8 [`Cont
 
 ## See also
 
--   [`decodeURI`](decodeuri)
--   [`encodeURI`](encodeuri)
--   [`decodeURIComponent`](decodeuricomponent)
+- [`decodeURI`](decodeuri)
+- [`encodeURI`](encodeuri)
+- [`decodeURIComponent`](decodeuricomponent)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent</a>

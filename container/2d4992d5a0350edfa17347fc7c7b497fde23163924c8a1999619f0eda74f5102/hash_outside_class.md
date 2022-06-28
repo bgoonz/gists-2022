@@ -49,6 +49,6 @@ This can be fixed by moving the private field back into the class
 
 ## See also
 
--   [`SyntaxError`](../global_objects/syntaxerror)
+- [`SyntaxError`](../global_objects/syntaxerror)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Hash_outside_class" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Hash_outside_class</a>

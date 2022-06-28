@@ -106,7 +106,7 @@ Stack trace. Inherited from [`Error`](error).
 
 ## See also
 
--   [`Error`](error)
--   [`eval()`](eval)
+- [`Error`](error)
+- [`eval()`](eval)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError</a>

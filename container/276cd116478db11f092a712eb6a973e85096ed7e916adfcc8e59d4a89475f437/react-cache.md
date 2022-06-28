@@ -9,7 +9,7 @@ menu: APIs
 It was previously known as `simple-cache-provider`.
 [The entire codebase](https://github.com/facebook/react/blob/master/packages/react-cache/src/ReactCache.js) is less than 200 lines of Flow-typed code. You can see usage examples in the [Suspense fixture](https://github.com/facebook/react/blob/master/fixtures/unstable-async/suspense/src/components/UserPage.js).
 
-**Note: `react-cache` is under very active development - this document is more likely than the others to be out of date.** For example, `createCache` no longer exists. 
+**Note: `react-cache` is under very active development - this document is more likely than the others to be out of date.** For example, `createCache` no longer exists.
 
 This was last updated on Nov 13 2018.
 
@@ -39,7 +39,7 @@ The primary method of a `resource` is `read`. A mental model of `resource.read(k
 Note: You used to need a `cache` argument, as in `Resource.read(cache)`, but this was dropped along with some other API changes in v2.0.0. [PR here](https://github.com/facebook/react/pull/13337)
 
 ```js
-const FooResource = createResource(id => fetch(`/foo/${id}`)); // return a promise, or async/await
+const FooResource = createResource((id) => fetch(`/foo/${id}`)); // return a promise, or async/await
 
 // inside render...
 const fooResponse = FooResource.read(id); // suspends if not in cache; renders if in cache
@@ -58,8 +58,8 @@ Alternative Example with Image Loading:
 
 ```js
 const ImageResource = createResource(
-  src =>
-    new Promise(resolve => {
+  (src) =>
+    new Promise((resolve) => {
       const img = new Image();
       img.onload = () => resolve(src);
       img.src = src;
@@ -76,7 +76,6 @@ const Img = ({ src, alt, ...rest }) => (
 
 `resource.preload(key)` is like `resource.read(key)` except it does not throw and suspend rendering.
 Thus it has the effect of "warming" the cache in the background.
-
 
 Other APIs:
 

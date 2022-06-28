@@ -1,1 +1,16 @@
-{"version":1,"resource":"file:///Users/BGuner/BGOONZ_BLOG_2.0/src/pages/docs/git/index.md","entries":[{"id":"CvUQ.md","source":"searchReplace.source","timestamp":1649260770871},{"id":"Tq5z.md","source":"searchReplace.source","timestamp":1649260815683}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/BGOONZ_BLOG_2.0/src/pages/docs/git/index.md",
+  "entries": [
+    {
+      "id": "CvUQ.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260770871
+    },
+    {
+      "id": "Tq5z.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260815683
+    }
+  ]
+}

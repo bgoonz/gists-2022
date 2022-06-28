@@ -86,8 +86,8 @@ decodeURIComponent cannot be used directly to parse query parameters from a URL.
 
 ## See also
 
--   [`decodeURI`](decodeuri)
--   [`encodeURI`](encodeuri)
--   [`encodeURIComponent`](encodeuricomponent)
+- [`decodeURI`](decodeuri)
+- [`encodeURI`](encodeuri)
+- [`encodeURIComponent`](encodeuricomponent)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent</a>

@@ -16,9 +16,9 @@ A number representing the year of the given date, according to local time, minus
 
 ## Description
 
--   For years greater than or equal to 2000, the value returned by `getYear()` is 100 or greater. For example, if the year is 2026, `getYear()` returns 126.
--   For years between and including 1900 and 1999, the value returned by `getYear()` is between 0 and 99. For example, if the year is 1976, `getYear()` returns 76.
--   For years less than 1900, the value returned by `getYear()` is less than 0. For example, if the year is 1800, `getYear()` returns -100.
+- For years greater than or equal to 2000, the value returned by `getYear()` is 100 or greater. For example, if the year is 2026, `getYear()` returns 126.
+- For years between and including 1900 and 1999, the value returned by `getYear()` is between 0 and 99. For example, if the year is 1976, `getYear()` returns 76.
+- For years less than 1900, the value returned by `getYear()` is less than 0. For example, if the year is 1800, `getYear()` returns -100.
 
 To take into account years before and after 2000, you should use [`getFullYear()`](getfullyear) instead of `getYear()` so that the year is specified in full.
 
@@ -28,8 +28,8 @@ To take into account years before and after 2000, you should use [`getFullYear()
 
 The `getYear()` method returns either a 2-digit or 4-digit year:
 
--   For years between and including 1900 and 1999, the value returned by `getYear()` is the year minus 1900. For example, if the year is 1976, the value returned is 76.
--   For years less than 1900 or greater than 1999, the value returned by `getYear()` is the four-digit year. For example, if the year is 1856, the value returned is 1856. If the year is 2026, the value returned is 2026.
+- For years between and including 1900 and 1999, the value returned by `getYear()` is the year minus 1900. For example, if the year is 1976, the value returned is 76.
+- For years less than 1900 or greater than 1999, the value returned by `getYear()` is the four-digit year. For example, if the year is 1856, the value returned is 1856. If the year is 2026, the value returned is 2026.
 
 ## Examples
 
@@ -97,8 +97,8 @@ The third statement assigns the value 95 to the variable `year`, representing th
 
 ## See also
 
--   [`Date.prototype.getFullYear()`](getfullyear)
--   [`Date.prototype.getUTCFullYear()`](getutcfullyear)
--   [`Date.prototype.setYear()`](setyear)
+- [`Date.prototype.getFullYear()`](getfullyear)
+- [`Date.prototype.getUTCFullYear()`](getutcfullyear)
+- [`Date.prototype.setYear()`](setyear)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getYear" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getYear</a>

@@ -1,1 +1,11 @@
-{"version":1,"resource":"file:///Users/BGuner/BGOONZ_BLOG_2.0/src/pages/docs/reference/awesome-nodejs.md","entries":[{"id":"Icw2.md","source":"searchReplace.source","timestamp":1649260771397}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/BGOONZ_BLOG_2.0/src/pages/docs/reference/awesome-nodejs.md",
+  "entries": [
+    {
+      "id": "Icw2.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260771397
+    }
+  ]
+}

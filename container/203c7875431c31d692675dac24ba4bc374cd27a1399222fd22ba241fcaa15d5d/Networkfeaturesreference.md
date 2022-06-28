@@ -1,10 +1,11 @@
-
 # Network features reference - Chrome Developers
 
 > ## Excerpt
+>
 > A comprehensive reference of Chrome DevTools Network panel features.
 
 ---
+
 Discover new ways to analyze how your page loads in this comprehensive reference of Chrome DevTools network analysis features.
 
 **Note:** This reference is based on Chrome 58. If you use another version of Chrome, the UI and features of DevTools may be different. Check `chrome://help` to see what version of Chrome you're running.
@@ -21,8 +22,8 @@ By default, DevTools records all network requests in the Network panel, so long 
 
 To stop recording requests:
 
--   Click **Stop recording network log** ![Stop recording network](https://wd.imgix.net/image/QMjXarRXcMarxQddwrEdPvHVM242/20E6CLcSzNV2GELQu7oC.png?auto=format) on the Network panel. It turns grey to indicate that DevTools is no longer recording requests.
--   Press Command+E (Mac) or Control+E (Windows, Linux) while the Network panel is in focus.
+- Click **Stop recording network log** ![Stop recording network](https://wd.imgix.net/image/QMjXarRXcMarxQddwrEdPvHVM242/20E6CLcSzNV2GELQu7oC.png?auto=format) on the Network panel. It turns grey to indicate that DevTools is no longer recording requests.
+- Press Command+E (Mac) or Control+E (Windows, Linux) while the Network panel is in focus.
 
 ### Clear requests
 
@@ -50,9 +51,9 @@ Reload the page while the Network panel is in focus to capture screenshots.
 
 Once captured, you can interact with screenshots in the following ways:
 
--   Hover over a screenshot to view the point at which that screenshot was captured. A yellow line appears on the Overview pane.
--   Click a screenshot's thumbnail to filter out any requests that occurred after the screenshot was captured.
--   Double-click a thumbnail to zoom in on it.
+- Hover over a screenshot to view the point at which that screenshot was captured. A yellow line appears on the Overview pane.
+- Click a screenshot's thumbnail to filter out any requests that occurred after the screenshot was captured.
+- Double-click a thumbnail to zoom in on it.
 
 ![Capture screenshots enabled](https://wd.imgix.net/image/QMjXarRXcMarxQddwrEdPvHVM242/RM2QuyGbgYhQu61CSyCw.png?auto=format)
 
@@ -152,25 +153,25 @@ You can use multiple properties simultaneously by separating each property with 
 
 Below is a complete list of supported properties.
 
--   `cookie-domain`. Show the resources that set a specific [cookie domain](https://developer.mozilla.org/docs/web/http/headers/set-cookie#attributes).
--   `cookie-name`. Show the resources that set a specific [cookie name](https://developer.mozilla.org/docs/web/http/headers/set-cookie#attributes).
--   `cookie-path`. Show the resources that set a specific [cookie path](https://developer.mozilla.org/docs/web/http/headers/set-cookie#attributes).
--   `cookie-value`. Show the resources that set a specific [cookie value](https://developer.mozilla.org/docs/web/http/headers/set-cookie#attributes).
--   `domain`. Only display resources from the specified domain. You can use a wildcard character (`*`) to include multiple domains. For example, `*.com` displays resources from all domain names ending in `.com`. DevTools shows a populates the autocomplete dropdown menu with all of the domains it has encountered.
--   `has-response-header`. Show the resources that contain the specified HTTP response header. DevTools populates the autocomplete dropdown with all of the response headers that it has encountered.
--   `is`. Use `is:running` to find `WebSocket` resources.
--   `larger-than`. Show resources that are larger than the specified size, in bytes. Setting a value of `1000` is equivalent to setting a value of `1k`.
--   `method`. Show resources that were retrieved over a specified HTTP method type. DevTools populates the autocomplete dropdown with all of the HTTP methods it has encountered.
--   `mime-type`. Show resources of a specified MIME type. DevTools populates the autocomplete dropdown with all MIME types it has encountered.
--   `mixed-content`. Show all mixed content resources (`mixed-content:all`) or just the ones that are currently displayed (`mixed-content:displayed`).
--   `priority`. Show resources whose priority level matches the specified value.
--   `resource-type`. Show resources of a resource type, e.g. image. DevTools populates the autocomplete dropdown with all resource types it has encountered.
--   `scheme`. Show resources retrieved over unprotected HTTP (`scheme:http`) or protected HTTPS (`scheme:https`).
--   `set-cookie-domain`. Show the resources that have a `Set-Cookie` header with a `Domain` attribute that matches the specified value. DevTools populates the autocomplete with all of the cookie domains that it has encountered.
--   `set-cookie-name`. Show the resources that have a `Set-Cookie` header with a name that matches the specified value. DevTools populates the autocomplete with all of the cookie names that it has encountered.
--   `set-cookie-value`. Show the resources that have a `Set-Cookie` header with a value that matches the specified value. DevTools populates the autocomplete with all of the cookie values that it has encountered.
--   `status-code`. Only show resources whose HTTP status code match the specified code. DevTools populates the autocomplete dropdown menu with all of the status codes it has encountered.
--   `url`. Show the resources that have a `url` matching the specified value.
+- `cookie-domain`. Show the resources that set a specific [cookie domain](https://developer.mozilla.org/docs/web/http/headers/set-cookie#attributes).
+- `cookie-name`. Show the resources that set a specific [cookie name](https://developer.mozilla.org/docs/web/http/headers/set-cookie#attributes).
+- `cookie-path`. Show the resources that set a specific [cookie path](https://developer.mozilla.org/docs/web/http/headers/set-cookie#attributes).
+- `cookie-value`. Show the resources that set a specific [cookie value](https://developer.mozilla.org/docs/web/http/headers/set-cookie#attributes).
+- `domain`. Only display resources from the specified domain. You can use a wildcard character (`*`) to include multiple domains. For example, `*.com` displays resources from all domain names ending in `.com`. DevTools shows a populates the autocomplete dropdown menu with all of the domains it has encountered.
+- `has-response-header`. Show the resources that contain the specified HTTP response header. DevTools populates the autocomplete dropdown with all of the response headers that it has encountered.
+- `is`. Use `is:running` to find `WebSocket` resources.
+- `larger-than`. Show resources that are larger than the specified size, in bytes. Setting a value of `1000` is equivalent to setting a value of `1k`.
+- `method`. Show resources that were retrieved over a specified HTTP method type. DevTools populates the autocomplete dropdown with all of the HTTP methods it has encountered.
+- `mime-type`. Show resources of a specified MIME type. DevTools populates the autocomplete dropdown with all MIME types it has encountered.
+- `mixed-content`. Show all mixed content resources (`mixed-content:all`) or just the ones that are currently displayed (`mixed-content:displayed`).
+- `priority`. Show resources whose priority level matches the specified value.
+- `resource-type`. Show resources of a resource type, e.g. image. DevTools populates the autocomplete dropdown with all resource types it has encountered.
+- `scheme`. Show resources retrieved over unprotected HTTP (`scheme:http`) or protected HTTPS (`scheme:https`).
+- `set-cookie-domain`. Show the resources that have a `Set-Cookie` header with a `Domain` attribute that matches the specified value. DevTools populates the autocomplete with all of the cookie domains that it has encountered.
+- `set-cookie-name`. Show the resources that have a `Set-Cookie` header with a name that matches the specified value. DevTools populates the autocomplete with all of the cookie names that it has encountered.
+- `set-cookie-value`. Show the resources that have a `Set-Cookie` header with a value that matches the specified value. DevTools populates the autocomplete with all of the cookie values that it has encountered.
+- `status-code`. Only show resources whose HTTP status code match the specified code. DevTools populates the autocomplete dropdown menu with all of the status codes it has encountered.
+- `url`. Show the resources that have a `url` matching the specified value.
 
 ### Filter requests by type
 
@@ -214,11 +215,11 @@ Click the header of any column in the Requests to sort requests by that column.
 
 To change how the Waterfall sorts requests, right-click the header of the Requests table, hover over **Waterfall**, and select one of the following options:
 
--   **Start Time**. The first request that was initiated is at the top.
--   **Response Time**. The first request that started downloading is at the top.
--   **End Time**. The first request that finished is at the top.
--   **Total Duration**. The request with the shortest connection setup and request / response is at the top.
--   **Latency**. The request that waited the shortest time for a response is at the top.
+- **Start Time**. The first request that was initiated is at the top.
+- **Response Time**. The first request that started downloading is at the top.
+- **End Time**. The first request that finished is at the top.
+- **Total Duration**. The request with the shortest connection setup and request / response is at the top.
+- **Latency**. The request that waited the shortest time for a response is at the top.
 
 These descriptions assume that each respective option is ranked from shortest to longest. Clicking on the **Waterfall** column's header reverses the order.
 
@@ -240,17 +241,17 @@ Use the Requests table to view a log of all requests made while DevTools has bee
 
 The Requests table displays the following columns by default:
 
--   **Name**. The filename of, or an identifier for, the resource.
--   **Status**. The HTTP status code.
--   **Type**. The MIME type of the requested resource.
--   **Initiator**. The following objects or processes can initiate requests:
-    -   **Parser**. Chrome's HTML parser.
-    -   **Redirect**. An HTTP redirect.
-    -   **Script**. A JavaScript function.
-    -   **Other**. Some other process or action, such as navigating to a page via a link or entering a URL in the address bar.
--   **Size**. The combined size of the response headers plus the response body, as delivered by the server.
--   **Time**. The total duration, from the start of the request to the receipt of the final byte in the response.
--   [**Waterfall**](https://developer.chrome.com/docs/devtools/network/reference/?utm_source=devtools#waterfall). A visual breakdown of each request's activity.
+- **Name**. The filename of, or an identifier for, the resource.
+- **Status**. The HTTP status code.
+- **Type**. The MIME type of the requested resource.
+- **Initiator**. The following objects or processes can initiate requests:
+  - **Parser**. Chrome's HTML parser.
+  - **Redirect**. An HTTP redirect.
+  - **Script**. A JavaScript function.
+  - **Other**. Some other process or action, such as navigating to a page via a link or entering a URL in the address bar.
+- **Size**. The combined size of the response headers plus the response body, as delivered by the server.
+- **Time**. The total duration, from the start of the request to the receipt of the final byte in the response.
+- [**Waterfall**](https://developer.chrome.com/docs/devtools/network/reference/?utm_source=devtools#waterfall). A visual breakdown of each request's activity.
 
 #### Add or remove columns
 
@@ -293,16 +294,16 @@ To refresh the table, re-click the name of the WebSocket connection under the **
 
 The table contains three columns:
 
--   **Data**. The message payload. If the message is plain text, it's displayed here. For binary opcodes, this column displays the opcode's name and code. The following opcodes are supported: Continuation Frame, Binary Frame, Connection Close Frame, Ping Frame, and Pong Frame.
--   **Length**. The length of the message payload, in bytes.
--   **Time**. The time when the message was received or sent.
+- **Data**. The message payload. If the message is plain text, it's displayed here. For binary opcodes, this column displays the opcode's name and code. The following opcodes are supported: Continuation Frame, Binary Frame, Connection Close Frame, Ping Frame, and Pong Frame.
+- **Length**. The length of the message payload, in bytes.
+- **Time**. The time when the message was received or sent.
 
 Messages are color-coded according to their type:
 
--   Outgoing text messages are light-green.
--   Incoming text messages are white.
--   WebSocket opcodes are light-yellow.
--   Errors are light-red.
+- Outgoing text messages are light-green.
+- Incoming text messages are white.
+- WebSocket opcodes are light-yellow.
+- Errors are light-red.
 
 ### View a preview of a response body
 
@@ -345,9 +346,7 @@ By default, the Headers tab shows header names alphabetically. To view the HTTP 
 There are times where the headers will show a warning message "Provisional headers are shown...".
 
 1.  It could be due to the request not sent over the network (served from a local cache), which doesn't store the original request headers. In this case, you can [disable caching](https://developer.chrome.com/docs/devtools/network/reference/?utm_source=devtools#disable-cache) to see the full request headers. ![Provisional headers warning message](https://wd.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/AQfq69qS2Ig6lT9Y7vcc.png?auto=format)
-    
 2.  It could also be due to the network resource not valid (e.g. Try `fetch("https://jec.fyi.com/unknown-url/")` in the Console). DevTools could also display only provisional header due to security reasons. ![Provisional headers warning message](https://wd.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/xMKUHQxXLiRDiiUTol5J.png?auto=format)
-    
 
 ### View query string parameters
 
@@ -420,21 +419,21 @@ See [View the timing breakdown of a request](https://developer.chrome.com/docs/d
 
 Here's more information about each of the phases you may see in the Timing tab:
 
--   **Queueing**. The browser queues requests when:
-    -   There are higher priority requests.
-    -   There are already six TCP connections open for this origin, which is the limit. Applies to HTTP/1.0 and HTTP/1.1 only.
-    -   The browser is briefly allocating space in the disk cache
--   **Stalled**. The request could be stalled for any of the reasons described in **Queueing**.
--   **DNS Lookup**. The browser is resolving the request's IP address.
--   **Initial connection**. The browser is establishing a connection, including TCP handshakes/retries and negotiating an SSL.
--   **Proxy negotiation**. The browser is negotiating the request with a [proxy server](https://en.wikipedia.org/wiki/Proxy_server).
--   **Request sent**. The request is being sent.
--   **ServiceWorker Preparation**. The browser is starting up the service worker.
--   **Request to ServiceWorker**. The request is being sent to the service worker.
--   **Waiting (TTFB)**. The browser is waiting for the first byte of a response. TTFB stands for Time To First Byte. This timing includes 1 round trip of latency and the time the server took to prepare the response.
--   **Content Download**. The browser is receiving the response, either directly from the network or from a service worker. This value is the total amount of time spent reading the response body. Larger than expected values could indicate a slow network, or that the browser is busy performing other work which delays the response from being read.
--   **Receiving Push**. The browser is receiving data for this response via HTTP/2 Server Push.
--   **Reading Push**. The browser is reading the local data previously received.
+- **Queueing**. The browser queues requests when:
+  - There are higher priority requests.
+  - There are already six TCP connections open for this origin, which is the limit. Applies to HTTP/1.0 and HTTP/1.1 only.
+  - The browser is briefly allocating space in the disk cache
+- **Stalled**. The request could be stalled for any of the reasons described in **Queueing**.
+- **DNS Lookup**. The browser is resolving the request's IP address.
+- **Initial connection**. The browser is establishing a connection, including TCP handshakes/retries and negotiating an SSL.
+- **Proxy negotiation**. The browser is negotiating the request with a [proxy server](https://en.wikipedia.org/wiki/Proxy_server).
+- **Request sent**. The request is being sent.
+- **ServiceWorker Preparation**. The browser is starting up the service worker.
+- **Request to ServiceWorker**. The request is being sent to the service worker.
+- **Waiting (TTFB)**. The browser is waiting for the first byte of a response. TTFB stands for Time To First Byte. This timing includes 1 round trip of latency and the time the server took to prepare the response.
+- **Content Download**. The browser is receiving the response, either directly from the network or from a service worker. This value is the total amount of time spent reading the response body. Larger than expected values could indicate a slow network, or that the browser is busy performing other work which delays the response from being read.
+- **Receiving Push**. The browser is receiving data for this response via HTTP/2 Server Push.
+- **Reading Push**. The browser is reading the local data previously received.
 
 ### View initiators and dependencies
 
@@ -511,11 +510,11 @@ Once you've got a HAR file, you can import it back into DevTools for analysis. J
 
 Under the **Name** column of the Requests table, right-click a request, hover over **Copy**, and select one of the following options:
 
--   **Copy Link Address**. Copy the request's URL to the clipboard.
--   **Copy Response**. Copy the response body to the clipboard.
--   **Copy as cURL**. Copy the request as a cURL command.
--   **Copy All as cURL**. Copy all requests as a chain of cURL commands.
--   **Copy All as HAR**. Copy all requests as HAR data.
+- **Copy Link Address**. Copy the request's URL to the clipboard.
+- **Copy Response**. Copy the response body to the clipboard.
+- **Copy as cURL**. Copy the request as a cURL command.
+- **Copy All as cURL**. Copy all requests as a chain of cURL commands.
+- **Copy All as HAR**. Copy all requests as HAR data.
 
 ![Selecting Copy Response.](https://wd.imgix.net/image/BrQidfK9jaQyIHwdw91aVpkPiib2/FCQLdbRS9UMc4eFHzYvI.png?auto=format)
 

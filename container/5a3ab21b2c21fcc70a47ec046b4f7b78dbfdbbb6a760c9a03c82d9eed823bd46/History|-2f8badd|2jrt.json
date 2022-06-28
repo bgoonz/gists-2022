@@ -2,13 +2,7 @@
   "name": "jest-selenium-webdriver-sample",
   "version": "0.1.0",
   "description": "How to use Jest with Selenium tests on lambdatest",
-  "keywords": [
-    "javascript",
-    "selenium",
-    "local",
-    "test",
-    "jest"
-  ],
+  "keywords": ["javascript", "selenium", "local", "test", "jest"],
   "scripts": {
     "test": "jest"
   },

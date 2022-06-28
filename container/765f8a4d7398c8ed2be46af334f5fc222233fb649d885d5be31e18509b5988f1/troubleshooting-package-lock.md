@@ -164,16 +164,16 @@ If the developers make a `npm ci` instead of an `npm install` everyone in the te
 Now you can delegate the task for updating packages to a developer. Merge conflicts will not happen anymore / at least not that often. Of course you should do updates regularly and always check for vulnerabilities.\
 `npm audit` or other tools can help you here:
 
--   <https://docs.npmjs.com/cli/audit>
--   <https://docs.npmjs.com/cli/outdated>
--   <https://docs.npmjs.com/cli/update>
+- <https://docs.npmjs.com/cli/audit>
+- <https://docs.npmjs.com/cli/outdated>
+- <https://docs.npmjs.com/cli/update>
 
 ## Merge conflicts
 
 If I did understand correctly, one needs to merge the `package.json` only and then you can make a npm install to update the lock file again.\
 I also found out that there is a package which can help out further:
 
--   Have a look at [npm-merge-driver](https://www.npmjs.com/package/npm-merge-driver) --- automatic merging of lockfiles
+- Have a look at [npm-merge-driver](https://www.npmjs.com/package/npm-merge-driver) --- automatic merging of lockfiles
 
 > I did not yet try it out...
 
@@ -181,11 +181,11 @@ I also found out that there is a package which can help out further:
 
 There might be further challenges, depending on your workflows or setups. Please take care and take note for the following cases:
 
--   `npm ci` will take a bit longer, when it has to delete the `node_modules`
--   adding `npm ci`to your "project open" might help other devs
--   what about switching branches?
--   make sure `npm ci` is not running too often (not on every local build) --- maybe use [build-if-changed](https://www.npmjs.com/package/build-if-changed) or similar helpers
--   And for the future, keep an eye on [tink](https://www.npmjs.com/package/tink)
+- `npm ci` will take a bit longer, when it has to delete the `node_modules`
+- adding `npm ci`to your "project open" might help other devs
+- what about switching branches?
+- make sure `npm ci` is not running too often (not on every local build) --- maybe use [build-if-changed](https://www.npmjs.com/package/build-if-changed) or similar helpers
+- And for the future, keep an eye on [tink](https://www.npmjs.com/package/tink)
 
 > I am thinking about improving and automating the install for other devs in my team, but right now it still seems the best to simply do it manually.
 
@@ -199,10 +199,10 @@ Photo by [Matt Sclarandis](https://unsplash.com/@motornomad?utm_source=medium&ut
 
 So, now you should:
 
--   No random surprising fails anymore because of updated packages
--   Use `npm ci` , especially on build servers / CI
--   Know how the `package-lock.json`is used for
--   Understand behaviour and usage of `npm install` better
--   Understand why `npm install` will change the `package-lock.json`
--   Learned maybe also more about the semantical versions (SemVer)
--   Learned to lookup the documentation and follow the changes of new npm releases
+- No random surprising fails anymore because of updated packages
+- Use `npm ci` , especially on build servers / CI
+- Know how the `package-lock.json`is used for
+- Understand behaviour and usage of `npm install` better
+- Understand why `npm install` will change the `package-lock.json`
+- Learned maybe also more about the semantical versions (SemVer)
+- Learned to lookup the documentation and follow the changes of new npm releases

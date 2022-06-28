@@ -273,10 +273,10 @@ The following examples tests the behavior of the `filter` method when the array 
 
 ## See also
 
--   [`Array.prototype.forEach()`](foreach)
--   [`Array.prototype.every()`](every)
--   [`Array.prototype.some()`](some)
--   [`Array.prototype.reduce()`](reduce)
--   [`Array.prototype.find()`](find)
+- [`Array.prototype.forEach()`](foreach)
+- [`Array.prototype.every()`](every)
+- [`Array.prototype.some()`](some)
+- [`Array.prototype.reduce()`](reduce)
+- [`Array.prototype.find()`](find)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter</a>

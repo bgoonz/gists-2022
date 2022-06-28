@@ -1,1 +1,5 @@
-{"ref":"c1f4ef9f-3ec1-426e-9e98-2a1b510409d8","content":"{\"version\":2,\"machineId\":\"deac2115-0072-4ae6-a7d4-1e8b63961079\",\"content\":\"{\\\"windows\\\":\\\"[]\\\",\\\"mac\\\":\\\"[]\\\"}\"}","platformSpecific":true}
+{
+  "ref": "c1f4ef9f-3ec1-426e-9e98-2a1b510409d8",
+  "content": "{\"version\":2,\"machineId\":\"deac2115-0072-4ae6-a7d4-1e8b63961079\",\"content\":\"{\\\"windows\\\":\\\"[]\\\",\\\"mac\\\":\\\"[]\\\"}\"}",
+  "platformSpecific": true
+}

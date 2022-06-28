@@ -49,8 +49,8 @@ both are interpreted in the exact same way.
 Example:
 
 ```javascript
-var foo = 'bar';
-var bar = 'baz';
+var foo = "bar";
+var bar = "baz";
 ```
 
 [float]: http://en.wikipedia.org/wiki/Double-precision_floating-point_format

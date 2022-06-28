@@ -1,1 +1,18 @@
-{"version":1,"resource":"file:///Users/bryanguner/Downloads/interview/index.js","entries":[{"id":"Km9K.js","timestamp":1653447920058},{"id":"qAeL.js","timestamp":1653447998359},{"id":"CONI.js","timestamp":1653448061818},{"id":"Qm6T.js","timestamp":1653448078954},{"id":"OozD.js","timestamp":1653448120104},{"id":"60WY.js","source":"Convert to named function","timestamp":1653448128036},{"id":"snGD.js","timestamp":1653448168116},{"id":"a3FG.js","timestamp":1653448219970}]}
+{
+  "version": 1,
+  "resource": "file:///Users/bryanguner/Downloads/interview/index.js",
+  "entries": [
+    { "id": "Km9K.js", "timestamp": 1653447920058 },
+    { "id": "qAeL.js", "timestamp": 1653447998359 },
+    { "id": "CONI.js", "timestamp": 1653448061818 },
+    { "id": "Qm6T.js", "timestamp": 1653448078954 },
+    { "id": "OozD.js", "timestamp": 1653448120104 },
+    {
+      "id": "60WY.js",
+      "source": "Convert to named function",
+      "timestamp": 1653448128036
+    },
+    { "id": "snGD.js", "timestamp": 1653448168116 },
+    { "id": "a3FG.js", "timestamp": 1653448219970 }
+  ]
+}

@@ -1,1 +1,33 @@
-{"version":1,"resource":"file:///Users/BGuner/Desktop/Public-Repo/src/components/SimpleCalculator/types.tsx","entries":[{"id":"14ld.tsx","source":"Workspace Edit","timestamp":1651168665495},{"id":"jXNB.tsx","source":"Workspace Edit","timestamp":1651168775753},{"id":"s3ec.tsx","source":"Workspace Edit","timestamp":1651170461285},{"id":"A8dS.tsx","source":"Workspace Edit","timestamp":1651170792399},{"id":"NClW.tsx","timestamp":1651170820068},{"id":"Il6x.tsx","source":"Declare property 'InputFields'","timestamp":1652385200263},{"id":"Qzfa.tsx","timestamp":1652726983766}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/Desktop/Public-Repo/src/components/SimpleCalculator/types.tsx",
+  "entries": [
+    {
+      "id": "14ld.tsx",
+      "source": "Workspace Edit",
+      "timestamp": 1651168665495
+    },
+    {
+      "id": "jXNB.tsx",
+      "source": "Workspace Edit",
+      "timestamp": 1651168775753
+    },
+    {
+      "id": "s3ec.tsx",
+      "source": "Workspace Edit",
+      "timestamp": 1651170461285
+    },
+    {
+      "id": "A8dS.tsx",
+      "source": "Workspace Edit",
+      "timestamp": 1651170792399
+    },
+    { "id": "NClW.tsx", "timestamp": 1651170820068 },
+    {
+      "id": "Il6x.tsx",
+      "source": "Declare property 'InputFields'",
+      "timestamp": 1652385200263
+    },
+    { "id": "Qzfa.tsx", "timestamp": 1652726983766 }
+  ]
+}

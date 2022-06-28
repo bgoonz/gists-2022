@@ -1,13 +1,12 @@
-
 ## Cold email template
 
 from permissionless apprentice
 
- "Hey X,
+"Hey X,
 
-I'm a huge fan of your podcast. Your interview with X inspired me to start _____, thank you. 
+I'm a huge fan of your podcast. Your interview with X inspired me to start **\_**, thank you.
 
-As a gesture of thanks for all of the value you've provided me, I put together these 5 short highlight clips from your conversation with _____. Feel free to use them however you'd like.
+As a gesture of thanks for all of the value you've provided me, I put together these 5 short highlight clips from your conversation with **\_**. Feel free to use them however you'd like.
 
 I think there are a huge number of people missing out on your teachings and these short-form assets would be a great way to entice them to your YouTube channel.
 

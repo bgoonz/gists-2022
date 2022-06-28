@@ -78,7 +78,7 @@ With the [`element.style`](https://developer.mozilla.org/en-US/docs/Web/API/Elem
 
 ## See also
 
--   [`String.prototype.fontsize()`](fontsize)
+- [`String.prototype.fontsize()`](fontsize)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

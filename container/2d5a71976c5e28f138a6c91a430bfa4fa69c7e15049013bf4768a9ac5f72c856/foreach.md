@@ -62,12 +62,12 @@ The range of elements processed by `forEach()` is set before the first invocatio
 
 Early termination may be accomplished with:
 
--   A simple [for](../../statements/for) loop
--   A [for...of](../../statements/for...of) / [for...in](../../statements/for...in) loops
--   [`Array.prototype.every()`](every)
--   [`Array.prototype.some()`](some)
--   [`Array.prototype.find()`](find)
--   [`Array.prototype.findIndex()`](findindex)
+- A simple [for](../../statements/for) loop
+- A [for...of](../../statements/for...of) / [for...in](../../statements/for...in) loops
+- [`Array.prototype.every()`](every)
+- [`Array.prototype.some()`](some)
+- [`Array.prototype.find()`](find)
+- [`Array.prototype.findIndex()`](findindex)
 
 Array methods: [`every()`](every), [`some()`](some), [`find()`](find), and [`findIndex()`](findindex) test the array elements with a predicate returning a truthy value to determine if further iteration is required.
 
@@ -333,13 +333,13 @@ The following example is only here for learning purpose. If you want to flatten 
 
 ## See also
 
--   [`Array.prototype.find()`](find)
--   [`Array.prototype.findIndex()`](findindex)
--   [`Array.prototype.map()`](map)
--   [`Array.prototype.filter()`](filter)
--   [`Array.prototype.every()`](every)
--   [`Array.prototype.some()`](some)
--   [`Map.prototype.forEach()`](../map/foreach)
--   [`Set.prototype.forEach()`](../set/foreach)
+- [`Array.prototype.find()`](find)
+- [`Array.prototype.findIndex()`](findindex)
+- [`Array.prototype.map()`](map)
+- [`Array.prototype.filter()`](filter)
+- [`Array.prototype.every()`](every)
+- [`Array.prototype.some()`](some)
+- [`Map.prototype.forEach()`](../map/foreach)
+- [`Set.prototype.forEach()`](../set/foreach)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach</a>

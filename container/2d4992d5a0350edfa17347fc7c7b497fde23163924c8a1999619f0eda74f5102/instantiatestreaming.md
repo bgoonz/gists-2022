@@ -18,13 +18,13 @@ An object containing the values to be imported into the newly-created `Instance`
 
 A `Promise` that resolves to a `ResultObject` which contains two fields:
 
--   `module`: A [`WebAssembly.Module`](module) object representing the compiled WebAssembly module. This `Module` can be instantiated again or shared via [postMessage()](https://developer.mozilla.org/en-US/docs/Web/API/Worker/postMessage).
--   `instance`: A [`WebAssembly.Instance`](instance) object that contains all the [Exported WebAssembly functions](https://developer.mozilla.org/en-US/docs/WebAssembly/Exported_functions).
+- `module`: A [`WebAssembly.Module`](module) object representing the compiled WebAssembly module. This `Module` can be instantiated again or shared via [postMessage()](https://developer.mozilla.org/en-US/docs/Web/API/Worker/postMessage).
+- `instance`: A [`WebAssembly.Instance`](instance) object that contains all the [Exported WebAssembly functions](https://developer.mozilla.org/en-US/docs/WebAssembly/Exported_functions).
 
 ### Exceptions
 
--   If either of the parameters are not of the correct type or structure, a [`TypeError`](../typeerror) is thrown.
--   If the operation fails, the promise rejects with a [`WebAssembly.CompileError`](compileerror), [`WebAssembly.LinkError`](linkerror), or [`WebAssembly.RuntimeError`](runtimeerror), depending on the cause of the failure.
+- If either of the parameters are not of the correct type or structure, a [`TypeError`](../typeerror) is thrown.
+- If the operation fails, the promise rejects with a [`WebAssembly.CompileError`](compileerror), [`WebAssembly.LinkError`](linkerror), or [`WebAssembly.RuntimeError`](runtimeerror), depending on the cause of the failure.
 
 ## Examples
 
@@ -76,9 +76,9 @@ No
 
 ## See also
 
--   [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) overview page
--   [WebAssembly concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts)
--   [Using the WebAssembly JavaScript API](https://developer.mozilla.org/en-US/docs/WebAssembly/Using_the_JavaScript_API)
+- [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) overview page
+- [WebAssembly concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts)
+- [Using the WebAssembly JavaScript API](https://developer.mozilla.org/en-US/docs/WebAssembly/Using_the_JavaScript_API)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

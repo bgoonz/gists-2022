@@ -21,34 +21,34 @@ interfaces for your classes. Let's look at one-off implementation:
 const protocols = (...ps) => ps.reduce((c, p) => p(c), Object);
 
 const Mappable = (klass) => {
-    return class extends klass {
-        map() {
-            throw 'Not implemented';
-        }
-    };
+  return class extends klass {
+    map() {
+      throw "Not implemented";
+    }
+  };
 };
 
 const Foldable = (klass) => {
-    return class extends klass {
-        fold() {
-            throw 'Not implemented';
-        }
-    };
+  return class extends klass {
+    fold() {
+      throw "Not implemented";
+    }
+  };
 };
 
 class NaturalNumbers extends protocols(Mappable, Foldable) {
-    constructor() {
-        super();
-        this.elements = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-    }
+  constructor() {
+    super();
+    this.elements = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  }
 
-    map(f) {
-        return this.elements.map(f);
-    }
+  map(f) {
+    return this.elements.map(f);
+  }
 
-    fold(f) {
-        return this.elements.reduce(f, this.elements, 0);
-    }
+  fold(f) {
+    return this.elements.reduce(f, this.elements, 0);
+  }
 }
 ```
 

@@ -23,8 +23,8 @@ A new object with the specified prototype object and properties.
 
 The `proto` parameter has to be either
 
--   [`null`](../null) or
--   an [`Object`](../object) excluding [primitive wrapper objects](https://developer.mozilla.org/en-US/docs/Glossary/Primitive#primitive_wrapper_objects_in_javascript).
+- [`null`](../null) or
+- an [`Object`](../object) excluding [primitive wrapper objects](https://developer.mozilla.org/en-US/docs/Glossary/Primitive#primitive_wrapper_objects_in_javascript).
 
 If `proto` is neither of these a [`TypeError`](../typeerror) is thrown.
 
@@ -364,11 +364,11 @@ If you wish to inherit from multiple objects, then mixins are a possibility.
 
 ## See also
 
--   [`Object.defineProperty()`](defineproperty)
--   [`Object.defineProperties()`](defineproperties)
--   [`Object.prototype.isPrototypeOf()`](isprototypeof)
--   [`Reflect.construct()`](../reflect/construct)
--   John Resig's post on [getPrototypeOf()](http://ejohn.org/blog/objectgetprototypeof/)
+- [`Object.defineProperty()`](defineproperty)
+- [`Object.defineProperties()`](defineproperties)
+- [`Object.prototype.isPrototypeOf()`](isprototypeof)
+- [`Reflect.construct()`](../reflect/construct)
+- John Resig's post on [getPrototypeOf()](http://ejohn.org/blog/objectgetprototypeof/)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

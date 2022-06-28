@@ -73,8 +73,8 @@ Can be converted to:
 
 ## See also
 
--   <span class="page-not-created">`Date.prototype.toLocaleFormat`</span>
--   [`Date.prototype.toLocaleDateString`](../global_objects/date/tolocaledatestring)
--   [`Intl.DateTimeFormat`](../global_objects/intl/datetimeformat)
+- <span class="page-not-created">`Date.prototype.toLocaleFormat`</span>
+- [`Date.prototype.toLocaleDateString`](../global_objects/date/tolocaledatestring)
+- [`Intl.DateTimeFormat`](../global_objects/intl/datetimeformat)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_toLocaleFormat" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_toLocaleFormat</a>

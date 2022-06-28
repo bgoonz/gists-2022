@@ -16,7 +16,7 @@ Instead of `ReactDOM.render`, `ReactDOM.createRoot` creates a Concurrent root fo
 Roots expose a number of methods, the main of which is `Root.render`:
 
 ```js
-const container = document.getElementById('root');
+const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
 root.render(<App />);
 ```
@@ -27,14 +27,11 @@ API: `ReactDOM.createBlockingRoot
 
 Create a Batched Mode root. It does not support `createBatch`.
 
-
 ```js
-const container = document.getElementById('root');
+const container = document.getElementById("root");
 const root = ReactDOM.createBlockingRoot(container);
 root.render(<App />);
 ```
-
-
 
 > ⚠️ Everything below here is EVEN MORE UNSTABLE/UNTESTED THAN IN THE REST OF THIS PAGE SO IT IS PRETTY DAMN UNRELIABLE YOU HAVE BEEN WARNED ⚠️
 
@@ -58,11 +55,11 @@ Only for concurrent roots.
 ```js
 const root = createRoot(containerEl);
 const batch = root.createBatch();
-log.app('batch.render()');
+log.app("batch.render()");
 batch.render(createElement(TestApp));
 batch.then(
   wrap(() => {
-    log.app('batch.commit()');
+    log.app("batch.commit()");
     batch.commit();
   })
 );

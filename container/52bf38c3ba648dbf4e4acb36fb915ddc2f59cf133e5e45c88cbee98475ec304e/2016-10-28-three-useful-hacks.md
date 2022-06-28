@@ -4,7 +4,7 @@ tip-username: leandrosimoes
 tip-username-profile: https://github.com/leandrosimoes
 tip-tldr: Three very useful and syntax sugar hacks to speed up your development.
 
--   /en/three-useful-hacks/
+- /en/three-useful-hacks/
 
 categories: - en - javascript
 
@@ -29,7 +29,7 @@ If you have to execute a function just if a condition is `true`, like this:
 
 ```javascript
 if (condition) {
-    dosomething();
+  dosomething();
 }
 ```
 
@@ -48,11 +48,11 @@ var a;
 
 console.log(a); //undefined
 
-a = a || 'default value';
+a = a || "default value";
 
 console.log(a); //default value
 
-a = a || 'new value';
+a = a || "new value";
 
 console.log(a); //default value
 ```

@@ -10,17 +10,17 @@ Thus, the example of the previous slide is equivalent to the following:
 
 ```javascript
 function foo() {
-    var bar, i, j;
+  var bar, i, j;
 
-    bar = 42;
-    // loop
-    for (i = 0; i < 10; i++) {
-        j = i;
-    }
+  bar = 42;
+  // loop
+  for (i = 0; i < 10; i++) {
+    j = i;
+  }
 
-    console.log(bar); // 42
-    console.log(i); // 10
-    console.log(j); // 9
+  console.log(bar); // 42
+  console.log(i); // 10
+  console.log(j); // 9
 }
 ```
 
@@ -33,10 +33,10 @@ functions_. Consider the following example:
 
 ```javascript
 function isEven(n) {
-    if (n == 0) {
-        return true;
-    }
-    return isOdd(n - 1);
+  if (n == 0) {
+    return true;
+  }
+  return isOdd(n - 1);
 }
 
 // Normally may call `isEven` even though it's mutually
@@ -44,10 +44,10 @@ function isEven(n) {
 console.log(isEven(2)); // true
 
 function isOdd(n) {
-    if (n == 0) {
-        return false;
-    }
-    return isEven(n - 1);
+  if (n == 0) {
+    return false;
+  }
+  return isEven(n - 1);
 }
 ```
 

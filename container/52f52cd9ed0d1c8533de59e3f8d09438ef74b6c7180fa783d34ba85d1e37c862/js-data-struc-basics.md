@@ -1,4 +1,3 @@
-
 Understanding Data Structures is helpful in all aspects of programming, you don’t need to have a particular use case where you’ll use a Tree or a Graph to have to consider learning about them. In fact, I don’t think I’ve ever implemented a proper Tree structure in my 15 years of software development, however, understanding how they work has helped me several times in the past.
 
 The knowledge about them and about their structure and behavior can be extrapolated to other areas within our field. Say you have a Graph, and now think about how a microservice-base architecture can be described. Now look at the following image:
@@ -41,9 +40,9 @@ The generator function was added as an extra cherry on top to allow for operatio
 
 Other than the simple queue I’m showing you here, you can also find:
 
--   Priority queues, which have their elements internally sorted by a priority value.
--   Circular queues, which have their last element pointing to the first one.
--   And a Double Ended Queue, which allows you to add and remove elements both from the front and the back (something that, if you ask me, sounds like cheating!).
+- Priority queues, which have their elements internally sorted by a priority value.
+- Circular queues, which have their last element pointing to the first one.
+- And a Double Ended Queue, which allows you to add and remove elements both from the front and the back (something that, if you ask me, sounds like cheating!).
 
 I’m adding stacks as second on the list because honestly, they look a lot like queues, so much so that sometimes they get confused with each other.
 
@@ -61,8 +60,8 @@ Let’s first look at an undo stack example:
 
 You can see how we’re using a custom stack, one that makes use of a traditional one but also keeps track of a parallel value. The operations are represented as classes, all of them having two methods: `apply` which makes the operation effective and `undo` which represents the opposite operation. Our custom stack also has the `undo` method, which takes advantage of the stack structure where all operations are stored and is capable of undoing their effects, one by one. The result of executing the above code is:
 
-Current value:  4  
-Final value:  1
+Current value: 4  
+Final value: 1
 
 And as you’ve probably guessed, the implementation of the stack is almost identical to the queue class from before:
 
@@ -70,7 +69,7 @@ Can you spot the only difference? Check outline 27, luckily for us, the Array cl
 
 Stacks and Queues are cool, but let’s look at something a bit more complex, yet a lot more powerful and versatile as well, shall we?
 
-There is **a lot of theory** behind Trees to define what they are, how they’re formed and for what they can be used. I’m not going to get into that, because honestly, if you want theory, just hit [Wikipedia](https://en.wikipedia.org/wiki/Tree_(data_structure)) or one of the many books that cover them in detail.
+There is **a lot of theory** behind Trees to define what they are, how they’re formed and for what they can be used. I’m not going to get into that, because honestly, if you want theory, just hit [Wikipedia](<https://en.wikipedia.org/wiki/Tree_(data_structure)>) or one of the many books that cover them in detail.
 
 Instead, I’m going to give you the abbreviated version so you get a taste of what these bad boys can do, and if you end up liking them, you can digg as deep as you’d like.
 
@@ -86,9 +85,9 @@ Take the above diagram shows how the tree grows, there are a few interesting thi
 
 Just to clarify the nomenclature for the future, the different sections of the Tree are known as:
 
--   **Root node / Parent Node:** A node with children under it.
--   **Leaf node**: A node with no children nodes associated with it.
--   **Edge**: The link between two nodes.
+- **Root node / Parent Node:** A node with children under it.
+- **Leaf node**: A node with no children nodes associated with it.
+- **Edge**: The link between two nodes.
 
 ![](https://miro.medium.com/max/762/1*upQQ-BSwBiztey0CoR-LFQ.png)
 
@@ -96,14 +95,14 @@ The anatomy of a tree
 
 And from the diagram below, we can also define a few more things:
 
--   **Path**: A list of nodes required to go from the root node to a destination node.
--   **Height of a tree**: The amount of nodes forming the largest path between the root node and the furthest leaf node.
+- **Path**: A list of nodes required to go from the root node to a destination node.
+- **Height of a tree**: The amount of nodes forming the largest path between the root node and the furthest leaf node.
 
 That being said, there are several different types of trees depending on the logic associated with the data insertion and extraction from the structure:
 
--   **Binary Trees**: these are trees in which parent nodes can only have up to two children (hence the binary). One potential use case for this type of tree is compression algorithms. They’re also used to create Binary Search Trees.
--   **Binary Search Trees**: a special kind of BT, when inserting an element into the tree, the logic will compare it with the root node’s value and if its less than, it’ll go check on the left child, otherwise it’ll check on the right one. This logic is repeated until you either find a leaf node and link the new value to it as a child, or find an empty spot for a child of a parent. The classic use case for these is to keep a sorted structure of elements with very little effort.
--   **Depth First Search (DFS):** This is a way of combing through a tree looking for something. The way it works is you first traverse the entire left side first and then backtrack to the last visited parent and move on to the right sub-tree.
+- **Binary Trees**: these are trees in which parent nodes can only have up to two children (hence the binary). One potential use case for this type of tree is compression algorithms. They’re also used to create Binary Search Trees.
+- **Binary Search Trees**: a special kind of BT, when inserting an element into the tree, the logic will compare it with the root node’s value and if its less than, it’ll go check on the left child, otherwise it’ll check on the right one. This logic is repeated until you either find a leaf node and link the new value to it as a child, or find an empty spot for a child of a parent. The classic use case for these is to keep a sorted structure of elements with very little effort.
+- **Depth First Search (DFS):** This is a way of combing through a tree looking for something. The way it works is you first traverse the entire left side first and then backtrack to the last visited parent and move on to the right sub-tree.
 
 ![](https://miro.medium.com/max/578/1*jLUMB6y76C1CBWVJQexYjQ.png)
 
@@ -175,7 +174,7 @@ Hash maps on the other hand, allow you to create a structure which you can use w
 The output from the above script is:
 
 HashMap {  
-  map: { '0': \[ 'hello' \], '1': \[ 'world', 'this is a string' \] }  
+ map: { '0': \[ 'hello' \], '1': \[ 'world', 'this is a string' \] }  
 }
 
 Notice how both `"world"` and `"this is a string"` are associated to the same key, this is what is known as a hash collision. My `hash` method is simply doing a mod 10, to make sure we’re keeping up to 10 keys at any given time, no matter what the original key is. This is helpful if you have a limited amount of memory or for some reason need to keep a tight control over the keys. The way you implement your hashing method will determine how effective your hash map ends up being.

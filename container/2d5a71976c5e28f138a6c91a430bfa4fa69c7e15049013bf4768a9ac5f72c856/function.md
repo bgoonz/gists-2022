@@ -165,15 +165,15 @@ No
 
 ## See also
 
--   [Arrow functions](../functions/arrow_functions)
--   [Functions and function scope](../functions)
--   [`Function`](../global_objects/function)
--   [`function`](../statements/function) statement
--   [`function*`](../statements/function*) statement
--   [`function*`](function*) expression
--   [`GeneratorFunction`](../global_objects/generatorfunction)
--   [async function](../statements/async_function)
--   [async function expression](async_function)
+- [Arrow functions](../functions/arrow_functions)
+- [Functions and function scope](../functions)
+- [`Function`](../global_objects/function)
+- [`function`](../statements/function) statement
+- [`function*`](../statements/function*) statement
+- [`function*`](function*) expression
+- [`GeneratorFunction`](../global_objects/generatorfunction)
+- [async function](../statements/async_function)
+- [async function expression](async_function)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

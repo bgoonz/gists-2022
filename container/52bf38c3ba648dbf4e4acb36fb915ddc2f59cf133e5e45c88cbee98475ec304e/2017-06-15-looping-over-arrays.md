@@ -20,8 +20,8 @@ let index = 0;
 const array = [1, 2, 3, 4, 5, 6];
 
 while (index < array.length) {
-    console.log(array[index]);
-    index++;
+  console.log(array[index]);
+  index++;
 }
 ```
 
@@ -30,7 +30,7 @@ while (index < array.length) {
 ```javascript
 const array = [1, 2, 3, 4, 5, 6];
 for (let index = 0; index < array.length; index++) {
-    console.log(array[index]);
+  console.log(array[index]);
 }
 ```
 
@@ -40,7 +40,9 @@ for (let index = 0; index < array.length; index++) {
 const array = [1, 2, 3, 4, 5, 6];
 
 array.forEach(function (current_value, index, array) {
-    console.log(`At index ${index} in array ${array} the value is ${current_value}`);
+  console.log(
+    `At index ${index} in array ${array} the value is ${current_value}`
+  );
 });
 // => undefined
 ```
@@ -95,9 +97,9 @@ const array = [1, 2, 3, 4, 5, 6];
 const under_seven = (x) => x < 7;
 
 if (array.every(under_seven)) {
-    console.log('Every element in the array is less than 7');
+  console.log("Every element in the array is less than 7");
 } else {
-    console.log('At least one element in the array was bigger than 7');
+  console.log("At least one element in the array was bigger than 7");
 }
 ```
 
@@ -110,8 +112,8 @@ const array = [1, 2, 3, 9, 5, 6, 4];
 const over_seven = (x) => x > 7;
 
 if (array.some(over_seven)) {
-    console.log('At least one element bigger than 7 was found');
+  console.log("At least one element bigger than 7 was found");
 } else {
-    console.log('No element bigger than 7 was found');
+  console.log("No element bigger than 7 was found");
 }
 ```

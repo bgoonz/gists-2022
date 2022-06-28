@@ -179,8 +179,8 @@ Starting with ECMAScript 2015, `Int32Array` constructors require to be construct
 
 ## See also
 
--   [JavaScript typed arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays)
--   [`ArrayBuffer`](arraybuffer)
--   [`DataView`](dataview)
+- [JavaScript typed arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays)
+- [`ArrayBuffer`](arraybuffer)
+- [`DataView`](dataview)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array</a>

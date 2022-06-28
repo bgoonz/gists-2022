@@ -64,8 +64,8 @@ The second statement below assigns the value 1 to `weekday`, based on the value 
 
 ## See also
 
--   [`Date.prototype.getUTCDate()`](getutcdate)
--   [`Date.prototype.getUTCDay()`](getutcday)
--   [`Date.prototype.setDate()`](setdate)
+- [`Date.prototype.getUTCDate()`](getutcdate)
+- [`Date.prototype.getUTCDay()`](getutcday)
+- [`Date.prototype.setDate()`](setdate)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay</a>

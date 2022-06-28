@@ -141,9 +141,9 @@ const also works on objects and arrays.
 
 ## See also
 
--   [`var`](var)
--   [`let`](let)
--   [Constants in the JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#constants)
+- [`var`](var)
+- [`let`](let)
+- [Constants in the JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#constants)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

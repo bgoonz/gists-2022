@@ -1,5 +1,4 @@
-Structure of a Great Question
------------------------------
+## Structure of a Great Question
 
 1.  It's specific
 2.  It's clear and concise
@@ -55,8 +54,7 @@ Finally, it shows that the guy has done his work. It's difficult to boil down yo
 
 Now, this question is ambiguous and seeks clarification. But what if you had a real code-related question and you need the answerer to look at your code?
 
-Getting The Answerer To Look At Your Code
------------------------------------------
+## Getting The Answerer To Look At Your Code
 
 If you write code, you're already proving that you've done some work, so kudos to you.
 
@@ -96,8 +94,7 @@ If you can't use Codepen nor Github (I honestly can't think of a reason why), se
 
 If you noticed, the underlying principle is to show that you respect your answerer's time. Make your questions specific, clear and concise. Respect their time and you'll increase your chances of getting a great reply.
 
-Don't Feel Bad About Asking The Question
-----------------------------------------
+## Don't Feel Bad About Asking The Question
 
 Your question is legit. It bothers you, so ask it even if you feel that it's going to be a waste of your answerer's time!
 
@@ -105,8 +102,7 @@ People love to help. More often than not, they would already have seen the quest
 
 Also, don't worry if English isn't your native language. You don't need fanciful words to get question across. In fact, simple words and sentences often work way better than big words. Ignore trolls that criticize your English. They're not important.
 
-Pop The Question At The Correct Place
--------------------------------------
+## Pop The Question At The Correct Place
 
 You can pop the question via email, in forums, Stack Overflow, or anywhere you can think of. The point is to make sure you ask the question where the answerer feels most comfortable with answering your questions.
 

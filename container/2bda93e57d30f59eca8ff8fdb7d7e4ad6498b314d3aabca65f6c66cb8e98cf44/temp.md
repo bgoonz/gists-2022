@@ -1,9 +1,7 @@
-
-
 sudo sed -i '/node_modules/d' ./links.md
 sudo sed -i '/\.json/d' ./links.md
 sudo sed -i '/\.gif/d' ./links.md
-sudo sed -i '/\.png/d' ./links.md   
+sudo sed -i '/\.png/d' ./links.md  
 sudo sed -i '/\.css/d' ./links.md
 sudo sed -i '/\.js/d' ./links.md
 sudo sed -i '/\.php/d' ./links.md

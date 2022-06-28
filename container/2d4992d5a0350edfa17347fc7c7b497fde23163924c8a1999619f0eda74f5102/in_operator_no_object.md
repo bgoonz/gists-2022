@@ -57,6 +57,6 @@ Be careful when using the `in` operator to search in [`Array`](../global_objects
 
 ## See also
 
--   [`in` operator](../operators/in)
+- [`in` operator](../operators/in)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/in_operator_no_object" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/in_operator_no_object</a>

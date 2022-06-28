@@ -6,8 +6,8 @@ The `Symbol.isConcatSpreadable` well-known symbol is used to configure if an obj
 
 The `@@isConcatSpreadable` symbol (`Symbol.isConcatSpreadable`) can be defined as an own or inherited property and its value is a boolean. It can control behavior for arrays and array-like objects:
 
--   For array objects, the default behavior is to spread (flatten) elements. `Symbol.isConcatSpreadable` can avoid flattening in these cases.
--   For array-like objects, the default behavior is no spreading or flattening. `Symbol.isConcatSpreadable` can force flattening in these cases.
+- For array objects, the default behavior is to spread (flatten) elements. `Symbol.isConcatSpreadable` can avoid flattening in these cases.
+- For array-like objects, the default behavior is no spreading or flattening. `Symbol.isConcatSpreadable` can force flattening in these cases.
 
 Property attributes of `Symbol.isConcatSpreadable`
 
@@ -98,7 +98,7 @@ No
 
 ## See also
 
--   [`Array.prototype.concat()`](../array/concat)
+- [`Array.prototype.concat()`](../array/concat)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

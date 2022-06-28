@@ -4,7 +4,7 @@ tip-username: vamshisuram
 tip-username-profile: https://github.com/vamshisuram
 tip-tldr: A common task for us is iterate over a list looking for a value or values, but we can't return from inside a loop so we will have to iterate the whole array, even if the item we search is the first in the list, in this tip we will see how to short circuit with `.some` and `.every`.
 
--   /en/break-continue-loop-functional/
+- /en/break-continue-loop-functional/
 
 categories: - en - javascript
 
@@ -15,10 +15,10 @@ A common requirement of iteration is cancelation. Using `for` loops we can `brea
 ```javascript
 const a = [0, 1, 2, 3, 4];
 for (var i = 0; i < a.length; i++) {
-    if (a[i] === 2) {
-        break; // stop the loop
-    }
-    console.log(a[i]);
+  if (a[i] === 2) {
+    break; // stop the loop
+  }
+  console.log(a[i]);
 }
 //> 0, 1
 ```
@@ -30,11 +30,11 @@ then we lack the ability to `break`. In this situation the closest we get is `co
 
 ```javascript
 [0, 1, 2, 3, 4].forEach(function (val, i) {
-    if (val === 2) {
-        // how do we stop?
-        return true;
-    }
-    console.log(val); // your code
+  if (val === 2) {
+    // how do we stop?
+    return true;
+  }
+  console.log(val); // your code
 });
 //> 0, 1, 3, 4
 ```
@@ -54,10 +54,10 @@ Using `.some` we get iteration functionally similar to `.forEach` but with the a
 
 ```javascript
 [0, 1, 2, 3, 4].some(function (val, i) {
-    if (val === 2) {
-        return true;
-    }
-    console.log(val); // your code
+  if (val === 2) {
+    return true;
+  }
+  console.log(val); // your code
 });
 //> 0, 1
 ```
@@ -67,9 +67,9 @@ You keep returning `false` to make it `continue` to next item. When you return `
 ```javascript
 // Array contains 2
 const isTwoPresent = [0, 1, 2, 3, 4].some(function (val, i) {
-    if (val === 2) {
-        return true; // break
-    }
+  if (val === 2) {
+    return true; // break
+  }
 });
 console.log(isTwoPresent);
 //> true

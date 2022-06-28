@@ -66,8 +66,8 @@ No support for an undefined description.
 
 ## See also
 
--   [`Symbol.prototype.toString()`](tostring)
--   Polyfill: <https://npmjs.com/symbol.prototype.description>
+- [`Symbol.prototype.toString()`](tostring)
+- Polyfill: <https://npmjs.com/symbol.prototype.description>
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

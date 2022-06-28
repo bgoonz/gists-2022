@@ -96,8 +96,8 @@ Subtracting two subsequent `getTime()` calls on newly generated [`Date`](../date
 
 ## See also
 
--   [`Date.prototype.setTime()`](settime)
--   [`Date.prototype.valueOf()`](valueof)
--   [`Date.now()`](now)
+- [`Date.prototype.setTime()`](settime)
+- [`Date.prototype.valueOf()`](valueof)
+- [`Date.now()`](now)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime</a>

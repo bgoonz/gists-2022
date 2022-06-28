@@ -59,7 +59,7 @@ const triangle = `
 91 71 52 38 17 14 91 43 58 50 27 29 48
 63 66 04 68 89 53 67 30 73 16 69 87 40 31
 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23
-`
+`;
 
 export const maxPathSum = function (grid = triangle) {
   /**
@@ -100,13 +100,16 @@ export const maxPathSum = function (grid = triangle) {
    * sub-problems in a recursive manner, this is called Dynamic Programming.
    */
 
-  grid = grid.split(/\r\n|\n/).filter(l => l).map(r => r.split(' ').map(n => +n))
+  grid = grid
+    .split(/\r\n|\n/)
+    .filter((l) => l)
+    .map((r) => r.split(" ").map((n) => +n));
 
   for (let i = grid.length - 2; i >= 0; i--) {
     for (let j = 0; j < grid[i].length; j++) {
-      grid[i][j] += Math.max(grid[i + 1][j], grid[i + 1][j + 1])
+      grid[i][j] += Math.max(grid[i + 1][j], grid[i + 1][j + 1]);
     }
   }
 
-  return grid[0][0]
-}
+  return grid[0][0];
+};

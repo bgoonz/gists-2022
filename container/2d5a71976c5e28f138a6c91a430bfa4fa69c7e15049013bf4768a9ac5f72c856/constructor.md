@@ -209,9 +209,9 @@ or assign parent constructor identifier to a separate property on the Child cons
 
 ## See also
 
--   [Class declaration](../../statements/class)
--   [Class constructor](../../classes/constructor)
--   Glossary: [constructor](https://developer.mozilla.org/en-US/docs/Glossary/Constructor)
+- [Class declaration](../../statements/class)
+- [Class constructor](../../classes/constructor)
+- Glossary: [constructor](https://developer.mozilla.org/en-US/docs/Glossary/Constructor)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

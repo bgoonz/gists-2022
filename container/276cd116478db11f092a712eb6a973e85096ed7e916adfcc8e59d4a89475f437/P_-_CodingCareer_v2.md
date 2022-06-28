@@ -12,7 +12,7 @@ next.Egghead.io Notes brainstorm
 
 - difference between jr and senior portfolio
 - try this to ask a better question - pg 35
-  - more imp to ask good qtns than  always having answers
+  - more imp to ask good qtns than always having answers
   - worksheet? Before you ask?
 - when Senior: teach people how to fish, jr: how to prove you're ready
   - PUWTPD
@@ -26,7 +26,7 @@ next.Egghead.io Notes brainstorm
   - how to make that jump from proficient to expert
 - coping with crowdedness, deliberate planning, formulating routines?
 - learn to see the big picture
-  - ???  tacit knowledge not covered by the book
+  - ??? tacit knowledge not covered by the book
 - learn DS&As to apply it but when do you actually apply it
 - how to identify opportunity for a side project
   - juniors one off side project seniors side project make them more productive

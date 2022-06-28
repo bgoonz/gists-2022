@@ -4,16 +4,16 @@ tip-username: gogainda
 tip-username-profile: https://twitter.com/gogainda
 tip-tldr: Suppose you have a couple of variables with unknown types and you want to concatenate them in a string. To be sure that the arithmetical operation is not be applied during concatenation, use concat
 
--   /en/safe-string-concatenation/
+- /en/safe-string-concatenation/
 
 Suppose you have a couple of variables with unknown types and you want to concatenate them in a string. To be sure that the arithmetical operation is not be applied during concatenation, use `concat`:
 
 ```javascript
 var one = 1;
 var two = 2;
-var three = '3';
+var three = "3";
 
-var result = ''.concat(one, two, three); //"123"
+var result = "".concat(one, two, three); //"123"
 ```
 
 This way of concatenting does exactly what you'd expect. In contrast, concatenation with pluses might lead to unexpected results:
@@ -21,7 +21,7 @@ This way of concatenting does exactly what you'd expect. In contrast, concatenat
 ```javascript
 var one = 1;
 var two = 2;
-var three = '3';
+var three = "3";
 
 var result = one + two + three; //"33" instead of "123"
 ```

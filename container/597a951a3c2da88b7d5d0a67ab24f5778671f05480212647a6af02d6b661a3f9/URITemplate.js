@@ -13,20 +13,20 @@
  *
  */
 (function (root, factory) {
-  'use strict';
+  "use strict";
   // https://github.com/umdjs/umd/blob/master/returnExports.js
-  if (typeof exports === 'object') {
+  if (typeof exports === "object") {
     // Node
-    module.exports = factory(require('./URI'));
-  } else if (typeof define === 'function' && define.amd) {
+    module.exports = factory(require("./URI"));
+  } else if (typeof define === "function" && define.amd) {
     // AMD. Register as an anonymous module.
-    define(['./URI'], factory);
+    define(["./URI"], factory);
   } else {
     // Browser globals (root is window)
     root.URITemplate = factory(root.URI, root);
   }
-}(this, function (URI, root) {
-  'use strict';
+})(this, function (URI, root) {
+  "use strict";
   // FIXME: v2.0.0 renamce non-camelCase properties to uppercase
   /*jshint camelcase: false */
 
@@ -59,71 +59,71 @@
   // list of operators and their defined options
   var operators = {
     // Simple string expansion
-    '' : {
-      prefix: '',
-      separator: ',',
+    "": {
+      prefix: "",
+      separator: ",",
       named: false,
       empty_name_separator: false,
-      encode : 'encode'
+      encode: "encode",
     },
     // Reserved character strings
-    '+' : {
-      prefix: '',
-      separator: ',',
+    "+": {
+      prefix: "",
+      separator: ",",
       named: false,
       empty_name_separator: false,
-      encode : 'encodeReserved'
+      encode: "encodeReserved",
     },
     // Fragment identifiers prefixed by '#'
-    '#' : {
-      prefix: '#',
-      separator: ',',
+    "#": {
+      prefix: "#",
+      separator: ",",
       named: false,
       empty_name_separator: false,
-      encode : 'encodeReserved'
+      encode: "encodeReserved",
     },
     // Name labels or extensions prefixed by '.'
-    '.' : {
-      prefix: '.',
-      separator: '.',
+    ".": {
+      prefix: ".",
+      separator: ".",
       named: false,
       empty_name_separator: false,
-      encode : 'encode'
+      encode: "encode",
     },
     // Path segments prefixed by '/'
-    '/' : {
-      prefix: '/',
-      separator: '/',
+    "/": {
+      prefix: "/",
+      separator: "/",
       named: false,
       empty_name_separator: false,
-      encode : 'encode'
+      encode: "encode",
     },
     // Path parameter name or name=value pairs prefixed by ';'
-    ';' : {
-      prefix: ';',
-      separator: ';',
+    ";": {
+      prefix: ";",
+      separator: ";",
       named: true,
       empty_name_separator: false,
-      encode : 'encode'
+      encode: "encode",
     },
     // Query component beginning with '?' and consisting
     // of name=value pairs separated by '&'; an
-    '?' : {
-      prefix: '?',
-      separator: '&',
+    "?": {
+      prefix: "?",
+      separator: "&",
       named: true,
       empty_name_separator: true,
-      encode : 'encode'
+      encode: "encode",
     },
     // Continuation of query-style &name=value pairs
     // within a literal query component.
-    '&' : {
-      prefix: '&',
-      separator: '&',
+    "&": {
+      prefix: "&",
+      separator: "&",
       named: true,
       empty_name_separator: true,
-      encode : 'encode'
-    }
+      encode: "encode",
+    },
 
     // The operator characters equals ("="), comma (","), exclamation ("!"),
     // at sign ("@"), and pipe ("|") are reserved for future extensions.
@@ -139,11 +139,11 @@
   URITemplate.VARIABLE_NAME_PATTERN = /[^a-zA-Z0-9%_]/;
 
   // expand parsed expression (expression, not template!)
-  URITemplate.expand = function(expression, data) {
+  URITemplate.expand = function (expression, data) {
     // container for defined options for the given operator
     var options = operators[expression.operator];
     // expansion type (include keys or not)
-    var type = options.named ? 'Named' : 'Unnamed';
+    var type = options.named ? "Named" : "Unnamed";
     // list of variables within the expression
     var variables = expression.variables;
     // result buffer for evaluating the expression
@@ -157,41 +157,50 @@
         if (d.type) {
           // empty variables (empty string)
           // still lead to a separator being appended!
-          buffer.push('');
+          buffer.push("");
         }
         // no data, no action
         continue;
       }
 
       // expand the given variable
-      buffer.push(URITemplate['expand' + type](
-        d,
-        options,
-        variable.explode,
-        variable.explode && options.separator || ',',
-        variable.maxlength,
-        variable.name
-      ));
+      buffer.push(
+        URITemplate["expand" + type](
+          d,
+          options,
+          variable.explode,
+          (variable.explode && options.separator) || ",",
+          variable.maxlength,
+          variable.name
+        )
+      );
     }
 
     if (buffer.length) {
       return options.prefix + buffer.join(options.separator);
     } else {
       // prefix is not prepended for empty expressions
-      return '';
+      return "";
     }
   };
   // expand a named variable
-  URITemplate.expandNamed = function(d, options, explode, separator, length, name) {
+  URITemplate.expandNamed = function (
+    d,
+    options,
+    explode,
+    separator,
+    length,
+    name
+  ) {
     // variable result buffer
-    var result = '';
+    var result = "";
     // peformance crap
     var encode = options.encode;
     var empty_name_separator = options.empty_name_separator;
     // flag noting if values are already encoded
     var _encode = !d[encode].length;
     // key for named expansion
-    var _name = d.type === 2 ? '': URI[encode](name);
+    var _name = d.type === 2 ? "" : URI[encode](name);
     var _value, i, l;
 
     // for each found value
@@ -230,27 +239,34 @@
       if (!explode) {
         if (!i) {
           // first element, so prepend variable name
-          result += URI[encode](name) + (empty_name_separator || _value ? '=' : '');
+          result +=
+            URI[encode](name) + (empty_name_separator || _value ? "=" : "");
         }
 
         if (d.type === 2) {
           // without explode-modifier, keys of objects are returned comma-separated
-          result += _name + ',';
+          result += _name + ",";
         }
 
         result += _value;
       } else {
         // only add the = if it is either default (?&) or there actually is a value (;)
-        result += _name + (empty_name_separator || _value ? '=' : '') + _value;
+        result += _name + (empty_name_separator || _value ? "=" : "") + _value;
       }
     }
 
     return result;
   };
   // expand an unnamed variable
-  URITemplate.expandUnnamed = function(d, options, explode, separator, length) {
+  URITemplate.expandUnnamed = function (
+    d,
+    options,
+    explode,
+    separator,
+    length
+  ) {
     // variable result buffer
-    var result = '';
+    var result = "";
     // performance crap
     var encode = options.encode;
     var empty_name_separator = options.empty_name_separator;
@@ -268,7 +284,7 @@
         _value = URI[encode](d.val[i][1]);
         d[encode].push([
           d.type === 2 ? URI[encode](d.val[i][0]) : undefined,
-          _value
+          _value,
         ]);
       } else {
         // value already encoded, pull from cache
@@ -292,10 +308,10 @@
         result += _name;
         if (explode) {
           // explode-modifier separates name and value by "="
-          result += (empty_name_separator || _value ? '=' : '');
+          result += empty_name_separator || _value ? "=" : "";
         } else {
           // no explode-modifier separates name and value by ","
-          result += ',';
+          result += ",";
         }
       }
 
@@ -305,7 +321,7 @@
     return result;
   };
 
-  URITemplate.noConflict = function() {
+  URITemplate.noConflict = function () {
     if (root.URITemplate === URITemplate) {
       root.URITemplate = _URITemplate;
     }
@@ -314,8 +330,8 @@
   };
 
   // expand template through given data map
-  p.expand = function(data) {
-    var result = '';
+  p.expand = function (data) {
+    var result = "";
 
     if (!this.parts || !this.parts.length) {
       // lazilyy parse the template
@@ -330,18 +346,19 @@
 
     for (var i = 0, l = this.parts.length; i < l; i++) {
       /*jshint laxbreak: true */
-      result += typeof this.parts[i] === 'string'
-        // literal string
-        ? this.parts[i]
-        // expression
-        : URITemplate.expand(this.parts[i], data);
+      result +=
+        typeof this.parts[i] === "string"
+          ? // literal string
+            this.parts[i]
+          : // expression
+            URITemplate.expand(this.parts[i], data);
       /*jshint laxbreak: false */
     }
 
     return result;
   };
   // parse template into action tokens
-  p.parse = function() {
+  p.parse = function () {
     // performance crap
     var expression = this.expression;
     var ePattern = URITemplate.EXPRESSION_PATTERN;
@@ -349,7 +366,7 @@
     var nPattern = URITemplate.VARIABLE_NAME_PATTERN;
     // token result buffer
     var parts = [];
-      // position within source template
+    // position within source template
     var pos = 0;
     var variables, eMatch, vMatch;
 
@@ -371,25 +388,31 @@
       }
 
       if (!operators[eMatch[1]]) {
-        throw new Error('Unknown Operator "' + eMatch[1]  + '" in "' + eMatch[0] + '"');
+        throw new Error(
+          'Unknown Operator "' + eMatch[1] + '" in "' + eMatch[0] + '"'
+        );
       } else if (!eMatch[3]) {
-        throw new Error('Unclosed Expression "' + eMatch[0]  + '"');
+        throw new Error('Unclosed Expression "' + eMatch[0] + '"');
       }
 
       // parse variable-list
-      variables = eMatch[2].split(',');
+      variables = eMatch[2].split(",");
       for (var i = 0, l = variables.length; i < l; i++) {
         vMatch = variables[i].match(vPattern);
         if (vMatch === null) {
-          throw new Error('Invalid Variable "' + variables[i] + '" in "' + eMatch[0] + '"');
+          throw new Error(
+            'Invalid Variable "' + variables[i] + '" in "' + eMatch[0] + '"'
+          );
         } else if (vMatch[1].match(nPattern)) {
-          throw new Error('Invalid Variable Name "' + vMatch[1] + '" in "' + eMatch[0] + '"');
+          throw new Error(
+            'Invalid Variable Name "' + vMatch[1] + '" in "' + eMatch[0] + '"'
+          );
         }
 
         variables[i] = {
           name: vMatch[1],
           explode: !!vMatch[3],
-          maxlength: vMatch[4] && parseInt(vMatch[4], 10)
+          maxlength: vMatch[4] && parseInt(vMatch[4], 10),
         };
       }
 
@@ -400,7 +423,7 @@
       parts.push({
         expression: eMatch[0],
         operator: eMatch[1],
-        variables: variables
+        variables: variables,
       });
     }
 
@@ -416,7 +439,7 @@
   };
 
   // simplify data structures
-  Data.prototype.get = function(key) {
+  Data.prototype.get = function (key) {
     // performance crap
     var data = this.data;
     // cache for processed data-point
@@ -427,7 +450,7 @@
       val: [],
       // cache for encoded values (only for non-maxlength expansion)
       encode: [],
-      encodeReserved: []
+      encodeReserved: [],
     };
     var i, l, value;
 
@@ -438,10 +461,12 @@
 
     this.cache[key] = d;
 
-    if (String(Object.prototype.toString.call(data)) === '[object Function]') {
+    if (String(Object.prototype.toString.call(data)) === "[object Function]") {
       // data itself is a callback (global callback)
       value = data(key);
-    } else if (String(Object.prototype.toString.call(data[key])) === '[object Function]') {
+    } else if (
+      String(Object.prototype.toString.call(data[key])) === "[object Function]"
+    ) {
       // data is a map of callbacks (local callback)
       value = data[key](key);
     } else {
@@ -454,7 +479,9 @@
     if (value === undefined || value === null) {
       // undefined and null values are to be ignored completely
       return d;
-    } else if (String(Object.prototype.toString.call(value)) === '[object Array]') {
+    } else if (
+      String(Object.prototype.toString.call(value)) === "[object Array]"
+    ) {
       for (i = 0, l = value.length; i < l; i++) {
         if (value[i] !== undefined && value[i] !== null) {
           // arrays don't have names
@@ -466,9 +493,15 @@
         // only treat non-empty arrays as arrays
         d.type = 3; // array
       }
-    } else if (String(Object.prototype.toString.call(value)) === '[object Object]') {
+    } else if (
+      String(Object.prototype.toString.call(value)) === "[object Object]"
+    ) {
       for (i in value) {
-        if (hasOwn.call(value, i) && value[i] !== undefined && value[i] !== null) {
+        if (
+          hasOwn.call(value, i) &&
+          value[i] !== undefined &&
+          value[i] !== null
+        ) {
           // objects have keys, remember them for named expansion
           d.val.push([i, String(value[i])]);
         }
@@ -488,7 +521,7 @@
   };
 
   // hook into URI for fluid access
-  URI.expand = function(expression, data) {
+  URI.expand = function (expression, data) {
     var template = new URITemplate(expression);
     var expansion = template.expand(data);
 
@@ -496,4 +529,4 @@
   };
 
   return URITemplate;
-}));
+});

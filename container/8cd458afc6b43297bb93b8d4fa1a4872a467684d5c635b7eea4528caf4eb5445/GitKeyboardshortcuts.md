@@ -1,10 +1,11 @@
-
 # Keyboard shortcuts -
 
 > ## Excerpt
+>
 > Nearly every page on GitHub has a keyboard shortcut to perform actions faster.
 
 ---
+
 ## [](https://docs.github.com/en/get-started/using-github/keyboard-shortcuts#about-keyboard-shortcuts)About keyboard shortcuts
 
 Typing ? on GitHub brings up a dialog box that lists the keyboard shortcuts available for that page. You can use these keyboard shortcuts to perform actions across the site without using your mouse to navigate.

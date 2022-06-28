@@ -1,1 +1,77 @@
-{"version":1,"resource":"file:///Users/BGuner/BGOONZ_BLOG_2.0/docs/content/MDN/glossary/session_hijackingindex.md","entries":[{"id":"finF.md","source":"searchReplace.source","timestamp":1649259608878},{"id":"PHTw.md","source":"searchReplace.source","timestamp":1649259652259},{"id":"EtBF.md","source":"searchReplace.source","timestamp":1649259686443},{"id":"kgfn.md","source":"searchReplace.source","timestamp":1649259876429},{"id":"g4Uq.md","source":"searchReplace.source","timestamp":1649259939137},{"id":"QSFW.md","source":"searchReplace.source","timestamp":1649259954255},{"id":"TedV.md","source":"searchReplace.source","timestamp":1649260020519},{"id":"8044.md","source":"searchReplace.source","timestamp":1649260065754},{"id":"qpfn.md","source":"searchReplace.source","timestamp":1649260089114},{"id":"Mfe6.md","source":"searchReplace.source","timestamp":1649260160913},{"id":"4Yd1.md","source":"searchReplace.source","timestamp":1649260208843},{"id":"hRf5.md","source":"searchReplace.source","timestamp":1649260348256},{"id":"foOE.md","source":"searchReplace.source","timestamp":1649260699264},{"id":"c4MH.md","timestamp":1649260794846},{"id":"rt6Y.md","source":"searchReplace.source","timestamp":1649262172126}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/BGOONZ_BLOG_2.0/docs/content/MDN/glossary/session_hijackingindex.md",
+  "entries": [
+    {
+      "id": "finF.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259608878
+    },
+    {
+      "id": "PHTw.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259652259
+    },
+    {
+      "id": "EtBF.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259686443
+    },
+    {
+      "id": "kgfn.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259876429
+    },
+    {
+      "id": "g4Uq.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259939137
+    },
+    {
+      "id": "QSFW.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259954255
+    },
+    {
+      "id": "TedV.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260020519
+    },
+    {
+      "id": "8044.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260065754
+    },
+    {
+      "id": "qpfn.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260089114
+    },
+    {
+      "id": "Mfe6.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260160913
+    },
+    {
+      "id": "4Yd1.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260208843
+    },
+    {
+      "id": "hRf5.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260348256
+    },
+    {
+      "id": "foOE.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260699264
+    },
+    { "id": "c4MH.md", "timestamp": 1649260794846 },
+    {
+      "id": "rt6Y.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649262172126
+    }
+  ]
+}

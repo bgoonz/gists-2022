@@ -1,4 +1,4 @@
-http://blog.iconfinder.com/detecting-duplicate-images-using-python/  
+http://blog.iconfinder.com/detecting-duplicate-images-using-python/
 
 ```
 SELECT pk, hash, BIT_COUNT(

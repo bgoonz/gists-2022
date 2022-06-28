@@ -101,11 +101,11 @@ Here is a correct implementation:
 
 ## See also
 
--   [iterable protocol](../iteration_protocols#the_iterable_protocol)
--   [`Object.keys`](../global_objects/object/keys)
--   [`Object.entries`](../global_objects/object/entries)
--   [`Map`](../global_objects/map)
--   [generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators#generators)
--   [for…of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of_statement)
+- [iterable protocol](../iteration_protocols#the_iterable_protocol)
+- [`Object.keys`](../global_objects/object/keys)
+- [`Object.entries`](../global_objects/object/entries)
+- [`Map`](../global_objects/map)
+- [generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators#generators)
+- [for…of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of_statement)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/is_not_iterable" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/is_not_iterable</a>

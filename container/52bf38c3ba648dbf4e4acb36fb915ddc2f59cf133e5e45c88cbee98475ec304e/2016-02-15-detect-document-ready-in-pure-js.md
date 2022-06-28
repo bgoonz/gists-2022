@@ -5,13 +5,13 @@ tip-username-profile: https://www.twitter.com/loverajoel
 tip-tldr: The cross-browser way to check if the document has loaded in pure JavaScript
 tip-writer-support: https://www.coinbase.com/loverajoel
 
--   /en/detect-document-ready-in-pure-js/
+- /en/detect-document-ready-in-pure-js/
 
 The cross-browser way to check if the document has loaded in pure JavaScript is using [`readyState`](https://developer.mozilla.org/en-US/docs/Web/API/Document/readyState).
 
 ```js
-if (document.readyState === 'complete') {
-    // The page is fully loaded
+if (document.readyState === "complete") {
+  // The page is fully loaded
 }
 ```
 
@@ -19,10 +19,10 @@ You can detect when the document is ready...
 
 ```js
 let stateCheck = setInterval(() => {
-    if (document.readyState === 'complete') {
-        clearInterval(stateCheck);
-        // document ready
-    }
+  if (document.readyState === "complete") {
+    clearInterval(stateCheck);
+    // document ready
+  }
 }, 100);
 ```
 
@@ -30,9 +30,9 @@ or with [onreadystatechange](https://developer.mozilla.org/en-US/docs/Web/Events
 
 ```js
 document.onreadystatechange = () => {
-    if (document.readyState === 'complete') {
-        // document ready
-    }
+  if (document.readyState === "complete") {
+    // document ready
+  }
 };
 ```
 

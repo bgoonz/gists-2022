@@ -54,7 +54,7 @@ The following example assigns the milliseconds portion of the current time to th
 
 ## See also
 
--   [`Date.prototype.getUTCMilliseconds()`](getutcmilliseconds)
--   [`Date.prototype.setMilliseconds()`](setmilliseconds)
+- [`Date.prototype.getUTCMilliseconds()`](getutcmilliseconds)
+- [`Date.prototype.setMilliseconds()`](setmilliseconds)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMilliseconds" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMilliseconds</a>

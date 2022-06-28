@@ -1,42 +1,42 @@
 {
-    "telemetry.machineId": "f0a5fda2fd884e87728a4dc1fd9181e999ef9542cbd44c260540065586baec15",
-    "theme": "vs-dark",
-    "themeBackground": "#272822",
-    "windowSplash": {
-        "baseTheme": "vs-dark",
-        "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#272822",
-            "editorBackground": "#272822",
-            "titleBarBackground": "#1e1f1c",
-            "activityBarBackground": "#272822",
-            "sideBarBackground": "#1e1f1c",
-            "statusBarBackground": "#414339",
-            "statusBarNoFolderBackground": "#414339"
-        },
-        "layoutInfo": {
-            "sideBarSide": "left",
-            "editorPartMinWidth": 220,
-            "titleBarHeight": 30,
-            "activityBarWidth": 48,
-            "sideBarWidth": 395,
-            "statusBarHeight": 22,
-            "windowBorder": false
-        }
+  "telemetry.machineId": "f0a5fda2fd884e87728a4dc1fd9181e999ef9542cbd44c260540065586baec15",
+  "theme": "vs-dark",
+  "themeBackground": "#272822",
+  "windowSplash": {
+    "baseTheme": "vs-dark",
+    "colorInfo": {
+      "foreground": "#cccccc",
+      "background": "#272822",
+      "editorBackground": "#272822",
+      "titleBarBackground": "#1e1f1c",
+      "activityBarBackground": "#272822",
+      "sideBarBackground": "#1e1f1c",
+      "statusBarBackground": "#414339",
+      "statusBarNoFolderBackground": "#414339"
     },
-    "windowsState": {
-        "lastActiveWindow": {
-            "folder": "file:///c%3A/Users/bryan/Downloads/BGOONZ_BLOG_2.0-823674efededa418fe0cada0a5d5ffe803f45fc9%20%281%29/BGOONZ_BLOG_2.0-823674efededa418fe0cada0a5d5ffe803f45fc9",
-            "backupPath": "C:\\Users\\bryan\\AppData\\Roaming\\Code - Insiders\\Backups\\56bbc3fcf544fb4668d47610dd2e2820",
-            "uiState": {
-                "mode": 1,
-                "x": 314,
-                "y": 0,
-                "width": 1580,
-                "height": 1032
-            }
-        },
-        "openedWindows": []
+    "layoutInfo": {
+      "sideBarSide": "left",
+      "editorPartMinWidth": 220,
+      "titleBarHeight": 30,
+      "activityBarWidth": 48,
+      "sideBarWidth": 395,
+      "statusBarHeight": 22,
+      "windowBorder": false
+    }
+  },
+  "windowsState": {
+    "lastActiveWindow": {
+      "folder": "file:///c%3A/Users/bryan/Downloads/BGOONZ_BLOG_2.0-823674efededa418fe0cada0a5d5ffe803f45fc9%20%281%29/BGOONZ_BLOG_2.0-823674efededa418fe0cada0a5d5ffe803f45fc9",
+      "backupPath": "C:\\Users\\bryan\\AppData\\Roaming\\Code - Insiders\\Backups\\56bbc3fcf544fb4668d47610dd2e2820",
+      "uiState": {
+        "mode": 1,
+        "x": 314,
+        "y": 0,
+        "width": 1580,
+        "height": 1032
+      }
     },
-    "pickerWorkingDir": "C:\\MY-WEB-DEV\\BLOG____2.0\\BACKUP\\BGOONZ_BLOG_2.0-master\\notes"
+    "openedWindows": []
+  },
+  "pickerWorkingDir": "C:\\MY-WEB-DEV\\BLOG____2.0\\BACKUP\\BGOONZ_BLOG_2.0-master\\notes"
 }

@@ -3,11 +3,11 @@ title: Archive
 weight: 0
 excerpt: more tools that I have created or collaborated on.
 seo:
-    title: ''
-    description: 'embeded developer tools and utilities'
-    robots: []
-    extra: []
-    type: stackbit_page_meta
+  title: ""
+  description: "embeded developer tools and utilities"
+  robots: []
+  extra: []
+  type: stackbit_page_meta
 template: docs
 ---
 

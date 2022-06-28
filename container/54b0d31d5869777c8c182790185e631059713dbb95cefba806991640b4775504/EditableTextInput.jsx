@@ -1,5 +1,5 @@
 import React from "react";
-import { Text } from 'react-konva';
+import { Text } from "react-konva";
 import { Html } from "react-konva-utils";
 
 const RETURN_KEY = 13;
@@ -18,14 +18,14 @@ function getStyle(width, height) {
     resize: "none",
     colour: "black",
     fontSize: "16px",
-    fontFamily: "sans-serif"
+    fontFamily: "sans-serif",
   };
   if (isFirefox) {
     return baseStyle;
   }
   return {
     ...baseStyle,
-    margintop: "-4px"
+    margintop: "-4px",
   };
 }
 
@@ -37,7 +37,7 @@ export function EditableTextInput({
   onChange,
   text,
   width,
-  height
+  height,
 }) {
   function handleEscapeKeys(e) {
     if ((e.keyCode === RETURN_KEY && !e.shiftKey) || e.keyCode === ESCAPE_KEY) {
@@ -53,20 +53,9 @@ export function EditableTextInput({
     const style = getStyle(width, height);
     return (
       <Html groupProps={{ x, y }} divProps={{ style: { opacity: 1 } }}>
-        <textarea
-          value={value}
-          onChange={onChange}
-          style={style}
-        />
+        <textarea value={value} onChange={onChange} style={style} />
       </Html>
     );
   }
-  return (
-    <Text
-      x={x}
-      y={y}
-      width={width}
-      text={text}
-    />
-  )
+  return <Text x={x} y={y} width={width} text={text} />;
 }

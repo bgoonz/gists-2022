@@ -1,11 +1,15 @@
 [
-  {"title": "Title", 
-   "content": [
-     {"uri": "/en-US/docs/Foo/deeper", "title": "Deeper Title"},
-     {"title": "Even deeper", "content": [
-        {"uri": "/en-US/docs/Foo/deeper/2", "title": "Deeper Title 2"},
-        {"uri": "/en-US/docs/Foo/deeper/3", "title": "Deeper Title 3"},       
-      ]}
-     ]
+  {
+    "title": "Title",
+    "content": [
+      { "uri": "/en-US/docs/Foo/deeper", "title": "Deeper Title" },
+      {
+        "title": "Even deeper",
+        "content": [
+          { "uri": "/en-US/docs/Foo/deeper/2", "title": "Deeper Title 2" },
+          { "uri": "/en-US/docs/Foo/deeper/3", "title": "Deeper Title 3" }
+        ]
+      }
+    ]
   }
-  ]
+]

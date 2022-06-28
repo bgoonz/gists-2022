@@ -80,6 +80,6 @@ No
 
 ## See also
 
--   [`Intl.DateTimeFormat`](../datetimeformat)
+- [`Intl.DateTimeFormat`](../datetimeformat)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/formatRange" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/formatRange</a>

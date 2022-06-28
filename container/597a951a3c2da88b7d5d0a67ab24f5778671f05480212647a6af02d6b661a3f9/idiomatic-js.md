@@ -2,24 +2,23 @@
 
 ## General principles
 
-* All code in any code-base should look like a single person typed it, no matter how many people contributed.
-* The following outlines the practices that I seek to adhere to in all code that I originally author.
+- All code in any code-base should look like a single person typed it, no matter how many people contributed.
+- The following outlines the practices that I seek to adhere to in all code that I originally author.
 
 > "Part of being a good steward to a successful project is realizing that writing code for yourself is a Bad Idea™. If thousands of people are using your code, then write your code for maximum clarity, not your personal preference of how to get clever within the spec." - Idan Gazit
 
-
 ## Idiomatic style manifesto
 
-* [Whitespace](#whitespace)
-* [Syntax](#syntax)
-* [Type Checking (Courtesy jQuery Core Style Guidelines)](#type)
-* [Conditional Evaluation](#cond)
-* [Practical Style](#practical)
-* [Naming](#naming)
-* [Misc](#misc)
-* [Native & Host Objects](#native)
-* [Comments](#comments)
-* [One Language Code](#language)
+- [Whitespace](#whitespace)
+- [Syntax](#syntax)
+- [Type Checking (Courtesy jQuery Core Style Guidelines)](#type)
+- [Conditional Evaluation](#cond)
+- [Practical Style](#practical)
+- [Naming](#naming)
+- [Misc](#misc)
+- [Native & Host Objects](#native)
+- [Comments](#comments)
+- [One Language Code](#language)
 
 ### 1. Whitespace<a name="whitespace"></a>
 
@@ -31,10 +30,10 @@ The whitespace rules are set forth as a recommendation with a simpler, higher pu
 2. Choose between soft indents (spaces) or real tabs. Stick to your choice without fail. (Preference: spaces)
 3. Choose the number of characters used per indentation level. (Perference: 4 spaces)
 4. Configure your editor to "show invisibles". This will allow you to:
-    - Enforced consistency.
-    - Eliminating end of line whitespace.
-    - Eliminating blank line whitespace.
-    - Create commits and diffs that are easier to read.
+   - Enforced consistency.
+   - Eliminating end of line whitespace.
+   - Eliminating blank line whitespace.
+   - Create commits and diffs that are easier to read.
 
 Another option is to set your `.gitconfig` to treat certain non-conforming whitespace as an error.
 
@@ -45,32 +44,31 @@ Another option is to set your `.gitconfig` to treat certain non-conforming white
 ```javascript
 // Use whitespace to promote readability
 
-if ( condition ) {
-    // statements
+if (condition) {
+  // statements
 }
 
-while ( condition ) {
-    // statements
+while (condition) {
+  // statements
 }
 
 var i;
 var length = 100;
 
-for ( i = 0; i < length; i++ ) {
-    // statements
+for (i = 0; i < length; i++) {
+  // statements
 }
 
 var prop;
 
-for ( prop in object ) {
-    // statements
+for (prop in object) {
+  // statements
 }
 
-if ( true ) {
-    // statements
-}
-else {
-    // statements
+if (true) {
+  // statements
+} else {
+  // statements
 }
 ```
 
@@ -81,7 +79,7 @@ else {
 // Multiple `var` statements are easier to maintain
 // Read more: http://benalman.com/news/2012/05/multiple-var-statements-javascript
 
-var foo = 'bar';
+var foo = "bar";
 var num = 1;
 var undef;
 
@@ -89,69 +87,65 @@ var undef;
 var array = [];
 var object = {};
 
-
 // var statements should always be in the beginning of their respective scope (function).
 // Same goes for const and let from ECMAScript 6.
 
 function foo() {
-    var bar = '';
-    var qux;
+  var bar = "";
+  var qux;
 
-    // all statements after the variables declarations.
+  // all statements after the variables declarations.
 }
 ```
 
 ```javascript
 // Named function declaration
-function foo( arg1, argN ) {
-
-}
+function foo(arg1, argN) {}
 
 // Usage
-foo( arg1, argN );
+foo(arg1, argN);
 
 // Named function declaration
-function square( number ) {
-    return number * number;
+function square(number) {
+  return number * number;
 }
 
 // Usage
-square( 10 );
+square(10);
 
 // Really contrived continuation passing style
-function square( number, callback ) {
-    callback( number * number );
+function square(number, callback) {
+  callback(number * number);
 }
 
-square( 10, function( square ) {
-    // callback statements
+square(10, function (square) {
+  // callback statements
 });
 
-
 // Function expression
-var square = function( number ) {
-    // Return something valuable and relevant
-    return number * number;
+var square = function (number) {
+  // Return something valuable and relevant
+  return number * number;
 };
 
 // Function expression with identifier
 // This preferred form has the added value of being
 // able to call itself and have an identity in stack traces:
-var factorial = function factorial( number ) {
-    if ( number < 2 ) {
-        return 1;
-    }
+var factorial = function factorial(number) {
+  if (number < 2) {
+    return 1;
+  }
 
-    return number * factorial( number - 1 );
+  return number * factorial(number - 1);
 };
 
 // Constructor declaration
-function FooBar( options ) {
-    this.options = options;
+function FooBar(options) {
+  this.options = options;
 }
 
 // Usage
-var fooBar = new FooBar({ a: 'alpha' });
+var fooBar = new FooBar({ a: "alpha" });
 
 fooBar.options;
 // { a: 'alpha' }
@@ -161,26 +155,26 @@ fooBar.options;
 
 ```javascript
 // Functions with callbacks
-foo(function() {
-    // Note there is no extra space between the first paren
-    // of the executing function call and the word "function"
+foo(function () {
+  // Note there is no extra space between the first paren
+  // of the executing function call and the word "function"
 });
 
 // Function accepting an array, no space
-foo([ 'alpha', 'beta' ]);
+foo(["alpha", "beta"]);
 
 // Function accepting an object, no space
 foo({
-    a: 'alpha',
-    b: 'beta'
+  a: "alpha",
+  b: "beta",
 });
 
 // Single argument string literal, no space
-foo('bar');
+foo("bar");
 
 // Inner grouping parens, no space
-if ( !('foo' in obj) ) {
-    // statements
+if (!("foo" in obj)) {
+  // statements
 }
 ```
 
@@ -232,18 +226,18 @@ undefined:
 
 ```javascript
 // global variables:
-typeof variable === 'undefined'
+typeof variable === "undefined";
 
 // local variables:
-variable === undefined
+variable === undefined;
 ```
 
 Properties:
 
 ```javascript
-object.prop === undefined
-object.hasOwnProperty( prop )
-'prop' in object
+object.prop === undefined;
+object.hasOwnProperty(prop);
+"prop" in object;
 ```
 
 #### B. Coerced types
@@ -253,7 +247,7 @@ Consider the implications of the following...
 Given this HTML:
 
 ```html
-<input type="text" id="foo-input" value="1">
+<input type="text" id="foo-input" value="1" />
 ```
 
 ```javascript
@@ -304,13 +298,13 @@ Here are some common cases along with coercions:
 // 3.B.2.1
 
 var number = 1;
-var string = '1';
+var string = "1";
 var bool = false;
 
 number;
 // 1
 
-number + '';
+number + "";
 // "1"
 
 string;
@@ -331,7 +325,7 @@ bool;
 +bool;
 // 0
 
-bool + '';
+bool + "";
 // "false"
 ```
 
@@ -339,13 +333,13 @@ bool + '';
 // 3.B.2.2
 
 var number = 1;
-var string = '1';
+var string = "1";
 var bool = true;
 
 string === number;
 // false
 
-string === number + '';
+string === number + "";
 // true
 
 +string === number;
@@ -367,26 +361,26 @@ bool === !!string;
 ```javascript
 // 3.B.2.3
 
-var array = [ 'a', 'b', 'c' ];
+var array = ["a", "b", "c"];
 
-!!~array.indexOf('a');
+!!~array.indexOf("a");
 // true
 
-!!~array.indexOf('b');
+!!~array.indexOf("b");
 // true
 
-!!~array.indexOf('c');
+!!~array.indexOf("c");
 // true
 
-!!~array.indexOf('d');
+!!~array.indexOf("d");
 // false
 
 // Note that the above should be considered "unnecessarily clever"
 // Prefer the obvious approach of comparing the returned value of
 // indexOf, like:
 
-if ( array.indexOf('a') >= 0 ) {
-    // ...
+if (array.indexOf("a") >= 0) {
+  // ...
 }
 ```
 
@@ -395,7 +389,7 @@ if ( array.indexOf('a') >= 0 ) {
 
 var num = 2.5;
 
-parseInt( num, 10 );
+parseInt(num, 10);
 
 // is the same as...
 
@@ -407,12 +401,11 @@ num >>> 0;
 
 // All result in 2
 
-
 // Keep in mind however, that negative numbers will be treated differently...
 
 var neg = -2.5;
 
-parseInt( neg, 10 );
+parseInt(neg, 10);
 
 // is the same as...
 
@@ -427,7 +420,6 @@ neg >>> 0;
 
 // Will result in 4294967294
 ```
-
 
 ### 4. Conditional evaluation<a name="cond"></a>
 
@@ -513,28 +505,26 @@ ALWAYS evaluate for the best, most accurate result - the above is a guideline, n
 
 // === does not coerce type, which means that:
 
-'1' === 1;
+"1" === 1;
 // false
 
 // == does coerce type, which means that:
 
-'1' == 1;
+"1" == 1;
 // true
-
 
 // 4.2.2
 // Booleans, Truthies & Falsies
 
 // Booleans:
-true, false
+true, false;
 
 // Truthy:
-'foo', 1
+"foo", 1;
 
 // Falsy:
-'', 0, null, undefined, NaN, void 0
+"", 0, null, undefined, NaN, void 0;
 ```
-
 
 ### 5. Practical Style<a name="practical"></a>
 
@@ -542,68 +532,65 @@ true, false
 // 5.1.1
 // A Practical Module
 
-(function( global ) {
-    var Module = (function() {
-        var data = 'secret';
+(function (global) {
+  var Module = (function () {
+    var data = "secret";
 
-        return {
-            // This is some boolean property
-            bool: true,
-            // Some string value
-            string: 'a string',
-            // An array property
-            array: [ 1, 2, 3, 4 ],
-            // An object property
-            object: {
-                lang: 'en-us'
-            },
-            getData: function() {
-                // get the current value of `data`
-                return data;
-            },
-            setData: function( value ) {
-                // set the value of `data` and return it
-                return ( data = value );
-            }
-        };
-    }());
+    return {
+      // This is some boolean property
+      bool: true,
+      // Some string value
+      string: "a string",
+      // An array property
+      array: [1, 2, 3, 4],
+      // An object property
+      object: {
+        lang: "en-us",
+      },
+      getData: function () {
+        // get the current value of `data`
+        return data;
+      },
+      setData: function (value) {
+        // set the value of `data` and return it
+        return (data = value);
+      },
+    };
+  })();
 
-    // Other things might happen here
+  // Other things might happen here
 
-    // expose our module to the global object
-    global.Module = Module;
-
-}( this ));
+  // expose our module to the global object
+  global.Module = Module;
+})(this);
 ```
 
 ```javascript
 // 5.2.1
 // A Practical Constructor
 
-(function( global ) {
+(function (global) {
+  function Ctor(foo) {
+    this.foo = foo;
+    return this;
+  }
 
-    function Ctor( foo ) {
-        this.foo = foo;
-        return this;
-    }
+  Ctor.prototype.getFoo = function () {
+    return this.foo;
+  };
 
-    Ctor.prototype.getFoo = function() {
-        return this.foo;
-    };
+  Ctor.prototype.setFoo = function (val) {
+    return (this.foo = val);
+  };
 
-    Ctor.prototype.setFoo = function( val ) {
-        return ( this.foo = val );
-    };
+  // To call constructor's without `new`, you might do this:
+  var ctor = function (foo) {
+    return new Ctor(foo);
+  };
 
-    // To call constructor's without `new`, you might do this:
-    var ctor = function( foo ) {
-        return new Ctor( foo );
-    };
-
-    // expose our constructor to the global object
-    global.ctor = ctor;
-
-}( this ));
+  // expose our constructor to the global object
+  global.ctor = ctor;
+})(this);
 ```
 
 ### 6. Naming<a name="naming"></a>
@@ -616,17 +603,17 @@ Use thoughtful naming and a readable structure.
 // 6.1.1
 // Example of code with good names
 
-function query( selector ) {
-    return document.querySelectorAll( selector );
+function query(selector) {
+  return document.querySelectorAll(selector);
 }
 
 var idx;
 var elements = [];
-var matches = query('#foo');
+var matches = query("#foo");
 var length = matches.length;
 
-for( idx = 0; idx < length; idx++ ){
-    elements.push( matches[ idx ] );
+for (idx = 0; idx < length; idx++) {
+  elements.push(matches[idx]);
 }
 ```
 
@@ -686,52 +673,56 @@ https://github.com/rwldrn/idiomatic.js/issues/13
 // A better approach than switch statements would be to use an object literal or even a module:
 
 var switchObj = {
-    alpha: function() {
-        // statements
-        // a return
-    },
-    beta: function() {
-        // statements
-        // a return
-    },
-    _default: function() {
-        // statements
-        // a return
-    }
+  alpha: function () {
+    // statements
+    // a return
+  },
+  beta: function () {
+    // statements
+    // a return
+  },
+  _default: function () {
+    // statements
+    // a return
+  },
 };
 
 var switchModule = (function () {
-    return {
-        alpha: function() {
-            // statements
-            // a return
-        },
-        beta: function() {
-            // statements
-            // a return
-        },
-        _default: function() {
-            // statements
-            // a return
-        }
-    };
-}());
-
+  return {
+    alpha: function () {
+      // statements
+      // a return
+    },
+    beta: function () {
+      // statements
+      // a return
+    },
+    _default: function () {
+      // statements
+      // a return
+    },
+  };
+})();
 
 // 7.A.2.1
 // If `foo` is a property of `switchObj` or `switchModule`, execute as a method...
 
-( Object.hasOwnProperty.call( switchObj, foo ) && switchObj[ foo ] || switchObj._default )( args );
+(
+  (Object.hasOwnProperty.call(switchObj, foo) && switchObj[foo]) ||
+  switchObj._default
+)(args);
 
-( Object.hasOwnProperty.call( switchObj, foo ) && switchModule[ foo ] || switchModule._default )( args );
+(
+  (Object.hasOwnProperty.call(switchObj, foo) && switchModule[foo]) ||
+  switchModule._default
+)(args);
 
 // If you know and trust the value of `foo`, you could even omit the OR check
 // leaving only the execution:
 
-switchObj[ foo ]( args );
+switchObj[foo](args);
 
-switchModule[ foo ]( args );
-
+switchModule[foo](args);
 
 // This pattern also promotes code reusability.
 ```
@@ -740,14 +731,13 @@ switchModule[ foo ]( args );
 
 ```javascript
 // 7.B.1.1
-function returnEarly( foo ) {
-    if ( foo ) {
-        return 'foo';
-    }
-    return 'quux';
+function returnEarly(foo) {
+  if (foo) {
+    return "foo";
+  }
+  return "quux";
 }
 ```
-
 
 ### 8. Native & host objects<a name="native"></a>
 
@@ -760,42 +750,39 @@ To reinforce this concept, please watch the following presentation:
 http://blip.tv/jsconf/jsconf2011-andrew-dupont-everything-is-permitted-extending-built-ins-5211542
 )[“Everything is Permitted: Extending Built-ins”]( by Andrew Dupont (JSConf2011, Portland, Oregon)
 
-
 ### 9. Comments<a name="comments"></a>
 
-* Single line above the code that is subject
-* Multiline is good
-* End of line comments are prohibited!
-* JSDoc style is good, but requires a significant time investment
-
+- Single line above the code that is subject
+- Multiline is good
+- End of line comments are prohibited!
+- JSDoc style is good, but requires a significant time investment
 
 ### 10. One language code<a name="language"></a>
 
 Programs should be written in one language, whatever that language may be, as dictated by the maintainer or maintainers.
 
-
 ## Important, non-idiomatic resources
 
 ### Code quality: tooling and linting
 
- * [jsPerf](http://jsperf.com/)
- * [jsFiddle](http://jsfiddle.net/)
- * [jsbin](http://jsbin.com/)
- * [JavaScript Lint (JSL)](http://javascriptlint.com/)
- * [jshint](http://jshint.com/)
- * [jslint](http://jslint.org/)
+- [jsPerf](http://jsperf.com/)
+- [jsFiddle](http://jsfiddle.net/)
+- [jsbin](http://jsbin.com/)
+- [JavaScript Lint (JSL)](http://javascriptlint.com/)
+- [jshint](http://jshint.com/)
+- [jslint](http://jslint.org/)
 
 [Leveraging Code Quality Tools by Anton Kovalyov](http://anton.kovalyov.net/slides/gothamjs/)
 
 ### Education
 
- * [Baseline For Front End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)
- * [Eloquent JavaScript](http://eloquentjavascript.net/)
- * [JavaScript, JavaScript](http://javascriptweblog.wordpress.com/)
- * [Adventures in JavaScript Development](http://rmurphey.com/)
- * [Perfection Kills](http://perfectionkills.com/)
- * [Douglas Crockford's Site](http://www.crockford.com)
- * [JS Assessment](https://github.com/rmurphey/js-assessment)
+- [Baseline For Front End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)
+- [Eloquent JavaScript](http://eloquentjavascript.net/)
+- [JavaScript, JavaScript](http://javascriptweblog.wordpress.com/)
+- [Adventures in JavaScript Development](http://rmurphey.com/)
+- [Perfection Kills](http://perfectionkills.com/)
+- [Douglas Crockford's Site](http://www.crockford.com)
+- [JS Assessment](https://github.com/rmurphey/js-assessment)
 
 [http://es5.github.com/](http://es5.github.com/)
 
@@ -807,35 +794,34 @@ Projects should always attempt to include some generic means by which source can
 
 Projects _must_ include some form of unit, reference, implementation or functional testing. Use case demos DO NOT QUALIFY as "tests". The following is a list of potential test frameworks.
 
- * [QUnit](http://github.com/jquery/qunit)
- * [Jasmine](https://github.com/pivotal/jasmine)
- * [Vows](https://github.com/cloudhead/vows)
- * [Mocha](https://github.com/visionmedia/mocha)
- * [Hiro](http://hirojs.com/)
- * [JsTestDriver](https://code.google.com/p/js-test-driver/)
- * [Buster.js](http://busterjs.org/)
-
+- [QUnit](http://github.com/jquery/qunit)
+- [Jasmine](https://github.com/pivotal/jasmine)
+- [Vows](https://github.com/cloudhead/vows)
+- [Mocha](https://github.com/visionmedia/mocha)
+- [Hiro](http://hirojs.com/)
+- [JsTestDriver](https://code.google.com/p/js-test-driver/)
+- [Buster.js](http://busterjs.org/)
 
 ## Original contributors
 
-* Rick Waldron [@rwaldron](http://twitter.com/rwaldron), [github](https://github.com/rwldrn)
-* Mathias Bynens [@mathias](http://twitter.com/mathias), [github](https://github.com/mathiasbynens)
-* Schalk Neethling [@ossreleasefeed](http://twitter.com/ossreleasefeed), [github](https://github.com/ossreleasefeed/)
-* Kit Cambridge  [@kitcambridge](http://twitter.com/kitcambridge), [github](https://github.com/kitcambridge)
-* Raynos  [github](https://github.com/Raynos)
-* Matias Arriola [@MatiasArriola](https://twitter.com/MatiasArriola), [github](https://github.com/MatiasArriola/)
-* Idan Gazit [@idangazit](http://twitter.com/idangazit), [github](https://github.com/idangazit)
-* Leo Balter [@leobalter](http://twitter.com/leobalter), [github](https://github.com/leobalter)
-* Breno Oliveira [@garu_rj](http://twitter.com/garu_rj), [github](https://github.com/garu)
-* Leo Beto Souza [@leobetosouza](http://twitter.com/leobetosouza), [github](https://github.com/leobetosouza)
-* Ryuichi Okumura [@okuryu](http://twitter.com/okuryu), [github](https://github.com/okuryu)
-* EngForDev [engfordev](http://www.opentutorials.org/course/167/1363)
-    * Hwan Min Hong
-    * MinTaek Kwon [@leoinsight](http://twitter.com/leoinsight)
-    * Tw Shim [@marocchino](http://twitter.com/marocchino), [github](https://github.com/marocchino)
-    * Nassol Kim [@nassol99](http://twitter.com/nassol99), [github](https://github.com/nassol)
-    * Juntai Park [@rkJun](http://twitter.com/rkJun), [github](https://github.com/rkJun)
-    * Minkyu Shim
-    * Gangmin Won
-    * Justin Yoo [@justinchronicle](http://twitter.com/justinchronicle)
-    * Daeyup Lee
+- Rick Waldron [@rwaldron](http://twitter.com/rwaldron), [github](https://github.com/rwldrn)
+- Mathias Bynens [@mathias](http://twitter.com/mathias), [github](https://github.com/mathiasbynens)
+- Schalk Neethling [@ossreleasefeed](http://twitter.com/ossreleasefeed), [github](https://github.com/ossreleasefeed/)
+- Kit Cambridge [@kitcambridge](http://twitter.com/kitcambridge), [github](https://github.com/kitcambridge)
+- Raynos [github](https://github.com/Raynos)
+- Matias Arriola [@MatiasArriola](https://twitter.com/MatiasArriola), [github](https://github.com/MatiasArriola/)
+- Idan Gazit [@idangazit](http://twitter.com/idangazit), [github](https://github.com/idangazit)
+- Leo Balter [@leobalter](http://twitter.com/leobalter), [github](https://github.com/leobalter)
+- Breno Oliveira [@garu_rj](http://twitter.com/garu_rj), [github](https://github.com/garu)
+- Leo Beto Souza [@leobetosouza](http://twitter.com/leobetosouza), [github](https://github.com/leobetosouza)
+- Ryuichi Okumura [@okuryu](http://twitter.com/okuryu), [github](https://github.com/okuryu)
+- EngForDev [engfordev](http://www.opentutorials.org/course/167/1363)
+  - Hwan Min Hong
+  - MinTaek Kwon [@leoinsight](http://twitter.com/leoinsight)
+  - Tw Shim [@marocchino](http://twitter.com/marocchino), [github](https://github.com/marocchino)
+  - Nassol Kim [@nassol99](http://twitter.com/nassol99), [github](https://github.com/nassol)
+  - Juntai Park [@rkJun](http://twitter.com/rkJun), [github](https://github.com/rkJun)
+  - Minkyu Shim
+  - Gangmin Won
+  - Justin Yoo [@justinchronicle](http://twitter.com/justinchronicle)
+  - Daeyup Lee

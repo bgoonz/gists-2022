@@ -27,18 +27,18 @@ The `getPrototypeOf()` method must return an object or `null`.
 
 This trap can intercept these operations:
 
--   [`Object.getPrototypeOf()`](../../object/getprototypeof)
--   [`Reflect.getPrototypeOf()`](../../reflect/getprototypeof)
--   [`__proto__`](../../object/proto)
--   [`Object.prototype.isPrototypeOf()`](../../object/isprototypeof)
--   [`instanceof`](../../../operators/instanceof)
+- [`Object.getPrototypeOf()`](../../object/getprototypeof)
+- [`Reflect.getPrototypeOf()`](../../reflect/getprototypeof)
+- [`__proto__`](../../object/proto)
+- [`Object.prototype.isPrototypeOf()`](../../object/isprototypeof)
+- [`instanceof`](../../../operators/instanceof)
 
 ### Invariants
 
 If the following invariants are violated, the proxy will throw a [`TypeError`](../../typeerror):
 
--   `getPrototypeOf()` method must return an object or `null`.
--   If `target` is not extensible, `Object.getPrototypeOf(proxy)` method must return the same value as `Object.getPrototypeOf(target)`.
+- `getPrototypeOf()` method must return an object or `null`.
+- If `target` is not extensible, `Object.getPrototypeOf(proxy)` method must return the same value as `Object.getPrototypeOf(target)`.
 
 ## Examples
 
@@ -126,10 +126,10 @@ No
 
 ## See also
 
--   [`Proxy`](../../proxy)
--   [`handler`](../proxy)
--   [`Object.getPrototypeOf()`](../../object/getprototypeof)
--   [`Reflect.getPrototypeOf()`](../../reflect/getprototypeof)
+- [`Proxy`](../../proxy)
+- [`handler`](../proxy)
+- [`Object.getPrototypeOf()`](../../object/getprototypeof)
+- [`Reflect.getPrototypeOf()`](../../reflect/getprototypeof)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

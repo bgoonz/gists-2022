@@ -35,13 +35,13 @@ The `delete` operator removes a given property from an object. On successful del
 
 However, it is important to consider the following scenarios:
 
--   If the property which you are trying to delete does not exist, `delete` will not have any effect and will return `true`.
--   If a property with the same name exists on the object's prototype chain, then, after deletion, the object will use the property from the prototype chain (in other words, `delete` only has an effect on own properties).
--   Any property declared with [`var`](../statements/var) cannot be deleted from the global scope or from a function's scope.
-    -   As such, `delete` cannot delete any functions in the global scope (whether this is part from a function definition or a function expression).
-    -   Functions which are part of an object (apart from the global scope) can be deleted with `delete`.
--   Any property declared with [`let`](../statements/let) or [`const`](../statements/const) cannot be deleted from the scope within which they were defined.
--   Non-configurable properties cannot be removed. This includes properties of built-in objects like [`Math`](../global_objects/math), [`Array`](../global_objects/array), [`Object`](../global_objects/object) and properties that are created as non-configurable with methods like [`Object.defineProperty()`](../global_objects/object/defineproperty).
+- If the property which you are trying to delete does not exist, `delete` will not have any effect and will return `true`.
+- If a property with the same name exists on the object's prototype chain, then, after deletion, the object will use the property from the prototype chain (in other words, `delete` only has an effect on own properties).
+- Any property declared with [`var`](../statements/var) cannot be deleted from the global scope or from a function's scope.
+  - As such, `delete` cannot delete any functions in the global scope (whether this is part from a function definition or a function expression).
+  - Functions which are part of an object (apart from the global scope) can be deleted with `delete`.
+- Any property declared with [`let`](../statements/let) or [`const`](../statements/const) cannot be deleted from the scope within which they were defined.
+- Non-configurable properties cannot be removed. This includes properties of built-in objects like [`Math`](../global_objects/math), [`Array`](../global_objects/array), [`Object`](../global_objects/object) and properties that are created as non-configurable with methods like [`Object.defineProperty()`](../global_objects/object/defineproperty).
 
 The following snippet gives a simple example:
 
@@ -250,9 +250,9 @@ If instead, you want to remove an array element by changing the contents of the 
 
 ## See also
 
--   [In depth analysis on delete](http://perfectionkills.com/understanding-delete/)
--   [`Reflect.deleteProperty()`](../global_objects/reflect/deleteproperty)
--   [`Map.prototype.delete()`](../global_objects/map/delete)
+- [In depth analysis on delete](http://perfectionkills.com/understanding-delete/)
+- [`Reflect.deleteProperty()`](../global_objects/reflect/deleteproperty)
+- [`Map.prototype.delete()`](../global_objects/map/delete)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

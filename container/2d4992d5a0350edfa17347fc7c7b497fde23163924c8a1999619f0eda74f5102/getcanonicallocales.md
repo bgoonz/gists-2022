@@ -64,8 +64,8 @@ No
 
 ## See also
 
--   [`Intl.NumberFormat.supportedLocalesOf()`](numberformat/supportedlocalesof)
--   [`Intl.DateTimeFormat.supportedLocalesOf()`](datetimeformat/supportedlocalesof)
--   [`Intl.Collator.supportedLocalesOf()`](collator/supportedlocalesof)
+- [`Intl.NumberFormat.supportedLocalesOf()`](numberformat/supportedlocalesof)
+- [`Intl.DateTimeFormat.supportedLocalesOf()`](datetimeformat/supportedlocalesof)
+- [`Intl.Collator.supportedLocalesOf()`](collator/supportedlocalesof)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/getCanonicalLocales" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/getCanonicalLocales</a>

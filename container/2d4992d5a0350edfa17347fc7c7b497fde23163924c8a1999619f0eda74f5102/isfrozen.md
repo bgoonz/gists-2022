@@ -150,11 +150,11 @@ In ES5, if the argument to this method is not an object (a primitive), then it w
 
 ## See also
 
--   [`Object.freeze()`](freeze)
--   [`Object.preventExtensions()`](preventextensions)
--   [`Object.isExtensible()`](isextensible)
--   [`Object.seal()`](seal)
--   [`Object.isSealed()`](issealed)
+- [`Object.freeze()`](freeze)
+- [`Object.preventExtensions()`](preventextensions)
+- [`Object.isExtensible()`](isextensible)
+- [`Object.seal()`](seal)
+- [`Object.isSealed()`](issealed)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

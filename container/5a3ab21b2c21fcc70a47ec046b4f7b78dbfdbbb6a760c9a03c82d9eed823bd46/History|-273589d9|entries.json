@@ -1,1 +1,77 @@
-{"version":1,"resource":"file:///Users/BGuner/BGOONZ_BLOG_2.0/docs/content/MDN/glossary/serializationindex.md","entries":[{"id":"GJIw.md","source":"searchReplace.source","timestamp":1649259608878},{"id":"eaNc.md","source":"searchReplace.source","timestamp":1649259651701},{"id":"ZKaW.md","source":"searchReplace.source","timestamp":1649259686442},{"id":"MGyK.md","source":"searchReplace.source","timestamp":1649259876429},{"id":"jvGx.md","source":"searchReplace.source","timestamp":1649259939134},{"id":"x5X1.md","source":"searchReplace.source","timestamp":1649259954254},{"id":"WLWJ.md","source":"searchReplace.source","timestamp":1649260020500},{"id":"kfUP.md","source":"searchReplace.source","timestamp":1649260065752},{"id":"RtN6.md","source":"searchReplace.source","timestamp":1649260089113},{"id":"5uqx.md","source":"searchReplace.source","timestamp":1649260160912},{"id":"oVXp.md","source":"searchReplace.source","timestamp":1649260208840},{"id":"2Krn.md","source":"searchReplace.source","timestamp":1649260348255},{"id":"CH4F.md","source":"searchReplace.source","timestamp":1649260699263},{"id":"9zaY.md","timestamp":1649260794806},{"id":"JBvL.md","source":"searchReplace.source","timestamp":1649262171436}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/BGOONZ_BLOG_2.0/docs/content/MDN/glossary/serializationindex.md",
+  "entries": [
+    {
+      "id": "GJIw.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259608878
+    },
+    {
+      "id": "eaNc.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259651701
+    },
+    {
+      "id": "ZKaW.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259686442
+    },
+    {
+      "id": "MGyK.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259876429
+    },
+    {
+      "id": "jvGx.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259939134
+    },
+    {
+      "id": "x5X1.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259954254
+    },
+    {
+      "id": "WLWJ.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260020500
+    },
+    {
+      "id": "kfUP.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260065752
+    },
+    {
+      "id": "RtN6.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260089113
+    },
+    {
+      "id": "5uqx.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260160912
+    },
+    {
+      "id": "oVXp.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260208840
+    },
+    {
+      "id": "2Krn.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260348255
+    },
+    {
+      "id": "CH4F.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260699263
+    },
+    { "id": "9zaY.md", "timestamp": 1649260794806 },
+    {
+      "id": "JBvL.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649262171436
+    }
+  ]
+}

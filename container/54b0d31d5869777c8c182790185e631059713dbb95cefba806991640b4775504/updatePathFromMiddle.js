@@ -3,13 +3,13 @@ export function updatePathFromMiddle(path, edge, position) {
     if (edge.points.includes(index)) {
       return {
         ...item,
-        [edge.axis]: position[edge.axis]
+        [edge.axis]: position[edge.axis],
       };
     }
     return item;
   });
   return {
     ...path,
-    points: newPoints
+    points: newPoints,
   };
 }

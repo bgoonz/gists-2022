@@ -1,5 +1,5 @@
-
 ### CreatePageAction
+
 ```php
 <?php
 use MBITEL\Confluence\EditorActions\CreatePageAction;
@@ -11,8 +11,8 @@ $cPager->setTitle($pageTitle);
 $result = $cPager->save();
 ```
 
-
 ### EditPageAction
+
 ```php
 <?php
 use MBITEL\Confluence\EditorActions\EditPageAction;
@@ -26,6 +26,7 @@ $result = $editor->save();
 ```
 
 ### CopyPageAction
+
 ```php
 <?php
 
@@ -33,6 +34,7 @@ $result = $editor->save();
 ```
 
 ### RemovePageAction
+
 ```php
 <?php
 
@@ -40,7 +42,9 @@ $result = $editor->save();
 ```
 
 ### WikiConverterAction
+
 Wiki 2 HTML conversion
+
 ```php
 <?php
 use MBITEL\Confluence\PageActions\WikiConverterAction;
@@ -56,6 +60,7 @@ $html = $converter->wiki2html($wiki);
 ```
 
 ### AttachFileAction
+
 ```php
 <?php
 use MBITEL\Confluence\PageActions\AttachFileAction;

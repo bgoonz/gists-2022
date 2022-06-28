@@ -103,7 +103,7 @@
 - [https://bryanguner.medium.com/introductory-react-part-2-cda01615a186](https://bryanguner.medium.com/introductory-react-part-2-cda01615a186)
 - [https://app.netlify.com/sites/bgoonz-blog/deploys](https://app.netlify.com/sites/bgoonz-blog/deploys)
 - [https://pdfcrowd.com/url_to_pdf/?](https://pdfcrowd.com/url_to_pdf/?)
-- [https://www.pinterest.com/bryanguner/_saved/](https://www.pinterest.com/bryanguner/_saved/)
+- [https://www.pinterest.com/bryanguner/\_saved/](https://www.pinterest.com/bryanguner/_saved/)
 - [http://open.spotify.com/bgoonz](http://open.spotify.com/bgoonz)
 - [https://twitter.com/bgooonz](https://twitter.com/bgooonz)
 - [https://twitter.com/share?url=bgoonz-blog.netlify.app&via=elfsight&text=Now%20my%20site%20is%20cool%20as%20ever%20with%20a%20widget%20by%20Elfsight%20from%20https://elfsight.com/](https://twitter.com/share?url=bgoonz-blog.netlify.app&via=elfsight&text=Now%20my%20site%20is%20cool%20as%20ever%20with%20a%20widget%20by%20Elfsight%20from%20https://elfsight.com/)

@@ -220,11 +220,11 @@ To make an object immutable, recursively freeze each property which is of type o
 
 ## See also
 
--   [`Object.isFrozen()`](isfrozen)
--   [`Object.preventExtensions()`](preventextensions)
--   [`Object.isExtensible()`](isextensible)
--   [`Object.seal()`](seal)
--   [`Object.isSealed()`](issealed)
+- [`Object.isFrozen()`](isfrozen)
+- [`Object.preventExtensions()`](preventextensions)
+- [`Object.isExtensible()`](isextensible)
+- [`Object.seal()`](seal)
+- [`Object.isSealed()`](issealed)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

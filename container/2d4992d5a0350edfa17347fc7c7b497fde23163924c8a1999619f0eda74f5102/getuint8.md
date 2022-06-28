@@ -67,7 +67,7 @@ There is no alignment constraint; multi-byte values may be fetched from any offs
 
 ## See also
 
--   [`DataView`](../dataview)
--   [`ArrayBuffer`](../arraybuffer)
+- [`DataView`](../dataview)
+- [`ArrayBuffer`](../arraybuffer)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView/getUint8" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView/getUint8</a>

@@ -70,7 +70,7 @@ To fix this error, you will either need to remove line 16, where there is an att
 
 ## See also
 
--   [`Object.defineProperty()`](../global_objects/object/defineproperty)
--   [`Object.defineProperties()`](../global_objects/object/defineproperties)
+- [`Object.defineProperty()`](../global_objects/object/defineproperty)
+- [`Object.defineProperties()`](../global_objects/object/defineproperties)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Getter_only" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Getter_only</a>

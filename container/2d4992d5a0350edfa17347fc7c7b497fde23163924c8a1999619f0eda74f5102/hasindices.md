@@ -108,15 +108,15 @@ No
 
 ## See also
 
--   [`RegExp.lastIndex`](lastindex)
--   [`RegExp.prototype.exec()`](exec)
--   [`RegExp.prototype.dotAll`](dotall)
--   [`RegExp.prototype.global`](global)
--   [`RegExp.prototype.ignoreCase`](ignorecase)
--   [`RegExp.prototype.multiline`](multiline)
--   [`RegExp.prototype.source`](source)
--   [`RegExp.prototype.sticky`](sticky)
--   [`RegExp.prototype.unicode`](unicode)
+- [`RegExp.lastIndex`](lastindex)
+- [`RegExp.prototype.exec()`](exec)
+- [`RegExp.prototype.dotAll`](dotall)
+- [`RegExp.prototype.global`](global)
+- [`RegExp.prototype.ignoreCase`](ignorecase)
+- [`RegExp.prototype.multiline`](multiline)
+- [`RegExp.prototype.source`](source)
+- [`RegExp.prototype.sticky`](sticky)
+- [`RegExp.prototype.unicode`](unicode)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

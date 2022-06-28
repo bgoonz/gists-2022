@@ -9481,10 +9481,9 @@
   grid-template-rows: -webkit-min-content;
   grid-template-rows: min-content;
   grid-template-areas: "leadingAction leadingVisual label trailingVisual trailingAction";
-  grid-template-columns: -webkit-min-content -webkit-min-content minmax(
-      0,
-      auto
-    ) -webkit-min-content -webkit-min-content;
+  grid-template-columns:
+    -webkit-min-content -webkit-min-content minmax(0, auto)
+    -webkit-min-content -webkit-min-content;
   grid-template-columns: min-content min-content minmax(0, auto) min-content min-content;
   -webkit-align-items: start;
   align-items: start;
@@ -11657,14 +11656,15 @@ pre {
   grid-column: 2 / span 2;
 }
 .Layout.Layout--sidebarPosition-end {
-  grid-template-columns: minmax(
+  grid-template-columns:
+    minmax(
       0,
       -webkit-calc(100% - var(--Layout-sidebar-width) - var(--Layout-gutter))
-    ) 0 auto;
-  grid-template-columns: minmax(
-      0,
-      calc(100% - var(--Layout-sidebar-width) - var(--Layout-gutter))
-    ) 0 auto;
+    )
+    0 auto;
+  grid-template-columns:
+    minmax(0, calc(100% - var(--Layout-sidebar-width) - var(--Layout-gutter)))
+    0 auto;
 }
 .Layout.Layout--sidebarPosition-end .Layout-main {
   grid-column: 1;

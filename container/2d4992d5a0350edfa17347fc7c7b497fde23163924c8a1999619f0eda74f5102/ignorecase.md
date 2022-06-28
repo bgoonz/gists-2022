@@ -91,14 +91,14 @@ You cannot change this property directly.
 
 ## See also
 
--   [`RegExp.lastIndex`](lastindex)
--   [`RegExp.prototype.dotAll`](dotall)
--   [`RegExp.prototype.global`](global)
--   [`RegExp.prototype.hasIndices`](hasindices)
--   [`RegExp.prototype.multiline`](multiline)
--   [`RegExp.prototype.source`](source)
--   [`RegExp.prototype.sticky`](sticky)
--   [`RegExp.prototype.unicode`](unicode)
+- [`RegExp.lastIndex`](lastindex)
+- [`RegExp.prototype.dotAll`](dotall)
+- [`RegExp.prototype.global`](global)
+- [`RegExp.prototype.hasIndices`](hasindices)
+- [`RegExp.prototype.multiline`](multiline)
+- [`RegExp.prototype.source`](source)
+- [`RegExp.prototype.sticky`](sticky)
+- [`RegExp.prototype.unicode`](unicode)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

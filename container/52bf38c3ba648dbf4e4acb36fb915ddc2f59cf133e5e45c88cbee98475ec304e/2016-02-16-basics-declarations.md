@@ -4,15 +4,15 @@ tip-username: adaniloff
 tip-username-profile: https://github.com/adaniloff
 tip-tldr: Understand and work with declarations.
 
--   /en/basics-declarations/
+- /en/basics-declarations/
 
 Below, different ways to declare variables in JavaScript.
 Comments and console.log should be enough to explain what's happening here:
 
 ```js
 var y,
-    x = (y = 1); //== var x; var y; x = y = 1
-console.log('--> 1:', `x = ${x}, y = ${y}`);
+  x = (y = 1); //== var x; var y; x = y = 1
+console.log("--> 1:", `x = ${x}, y = ${y}`);
 
 // Will print
 //--> 1: x = 1, y = 1
@@ -22,10 +22,10 @@ First, we just set two variables. Nothing much here.
 
 ```js
 (() => {
-    var x = (y = 2); // == var x; x = y = 2;
-    console.log('2.0:', `x = ${x}, y = ${y}`);
+  var x = (y = 2); // == var x; x = y = 2;
+  console.log("2.0:", `x = ${x}, y = ${y}`);
 })();
-console.log('--> 2.1:', `x = ${x}, y = ${y}`);
+console.log("--> 2.1:", `x = ${x}, y = ${y}`);
 
 // Will print
 //2.0: x = 2, y = 2
@@ -36,11 +36,11 @@ As you can see, the code has only changed the global y, as we haven't declared t
 
 ```js
 (() => {
-    var x,
-        y = 3; // == var x; var y = 3;
-    console.log('3.0:', `x = ${x}, y = ${y}`);
+  var x,
+    y = 3; // == var x; var y = 3;
+  console.log("3.0:", `x = ${x}, y = ${y}`);
 })();
-console.log('--> 3.1:', `x = ${x}, y = ${y}`);
+console.log("--> 3.1:", `x = ${x}, y = ${y}`);
 
 // Will print
 //3.0: x = undefined, y = 3
@@ -51,11 +51,11 @@ Now we declare both variables through var. Meaning they only live in the context
 
 ```js
 (() => {
-    var y,
-        x = (y = 4); // == var x; var y; x = y = 4
-    console.log('4.0:', `x = ${x}, y = ${y}`);
+  var y,
+    x = (y = 4); // == var x; var y; x = y = 4
+  console.log("4.0:", `x = ${x}, y = ${y}`);
 })();
-console.log('--> 4.1:', `x = ${x}, y = ${y}`);
+console.log("--> 4.1:", `x = ${x}, y = ${y}`);
 
 // Will print
 //4.0: x = 4, y = 4
@@ -66,7 +66,7 @@ Both variables have been declared using var and only after that we've set their 
 
 ```js
 x = 5; // == x = 5
-console.log('--> 5:', `x = ${x}, y = ${y}`);
+console.log("--> 5:", `x = ${x}, y = ${y}`);
 
 // Will print
 //--> 5: x = 5, y = 2

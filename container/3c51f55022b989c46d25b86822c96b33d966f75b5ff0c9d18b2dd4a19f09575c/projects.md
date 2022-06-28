@@ -1,4 +1,3 @@
-
 - [index.html](https://bgoonz.github.io/Project-Showcase/index.html)
 - [Chessjs/index.html](https://bgoonz.github.io/Project-Showcase/Chessjs/index.html)
 - [Javascript-Drum-Kit-master/index.html](https://bgoonz.github.io/Project-Showcase/Javascript-Drum-Kit-master/index.html)
@@ -30,4 +29,3 @@
 - [project-archive/testing-an-existing-project-solution/list-of-items-screen.html](https://bgoonz.github.io/Project-Showcase/project-archive/testing-an-existing-project-solution/list-of-items-screen.html)
 - [project-archive/testing-an-existing-project-solution/todo-form-screen.html](https://bgoonz.github.io/Project-Showcase/project-archive/testing-an-existing-project-solution/todo-form-screen.html)
 - [yahtzze/index.html](https://bgoonz.github.io/Project-Showcase/yahtzze/index.html)
-

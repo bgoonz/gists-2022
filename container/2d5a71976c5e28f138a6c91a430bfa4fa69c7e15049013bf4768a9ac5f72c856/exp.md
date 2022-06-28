@@ -62,13 +62,13 @@ Because `exp()` is a static method of `Math`, you always use it as `Math.exp()`,
 
 ## See also
 
--   [`Math.E`](e)
--   [`Math.expm1()`](expm1)
--   [`Math.log()`](log)
--   [`Math.log10()`](log10)
--   [`Math.log1p()`](log1p)
--   [`Math.log2()`](log2)
--   [`Math.pow()`](pow)
+- [`Math.E`](e)
+- [`Math.expm1()`](expm1)
+- [`Math.log()`](log)
+- [`Math.log10()`](log10)
+- [`Math.log1p()`](log1p)
+- [`Math.log2()`](log2)
+- [`Math.pow()`](pow)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

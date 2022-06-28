@@ -66,8 +66,8 @@ In the following example, the `do...while` loop iterates at least once and reite
 
 ## See also
 
--   [`while`](while)
--   [`for`](for)
+- [`while`](while)
+- [`for`](for)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

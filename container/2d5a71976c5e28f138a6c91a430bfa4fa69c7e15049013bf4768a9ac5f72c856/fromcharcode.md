@@ -84,10 +84,10 @@ Supplementary characters, in UTF-16, require two code units (i.e. a surrogate pa
 
 ## See also
 
--   [`String.fromCodePoint()`](fromcodepoint)
--   [`String.prototype.charAt()`](charat)
--   [`String.prototype.charCodeAt()`](charcodeat)
--   [`String.prototype.codePointAt()`](codepointat)
+- [`String.fromCodePoint()`](fromcodepoint)
+- [`String.prototype.charAt()`](charat)
+- [`String.prototype.charCodeAt()`](charcodeat)
+- [`String.prototype.codePointAt()`](codepointat)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

@@ -1,1 +1,8 @@
-{"version":1,"resource":"file:///Users/BGuner/BGOONZ_BLOG_2.0/.gitignore","entries":[{"id":"hiY6","timestamp":1649256103172},{"id":"1qRP","timestamp":1649256120043}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/BGOONZ_BLOG_2.0/.gitignore",
+  "entries": [
+    { "id": "hiY6", "timestamp": 1649256103172 },
+    { "id": "1qRP", "timestamp": 1649256120043 }
+  ]
+}

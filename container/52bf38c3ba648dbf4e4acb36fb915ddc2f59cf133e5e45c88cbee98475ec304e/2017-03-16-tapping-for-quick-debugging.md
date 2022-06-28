@@ -15,8 +15,8 @@ want to print.
 
 ```javascript
 function tap(x) {
-    console.log(x);
-    return x;
+  console.log(x);
+  return x;
 }
 ```
 
@@ -24,9 +24,11 @@ Why would you use instead of good old `console.log`? Let me show you an example:
 
 ```javascript
 bank_totals_by_client(bank_info(1, banks), table)
-    .filter((c) => c.balance > 25000)
-    .sort((c1, c2) => (c1.balance <= c2.balance ? 1 : -1))
-    .map((c) => console.log(`${c.id} | ${c.tax_number} (${c.name}) => ${c.balance}`));
+  .filter((c) => c.balance > 25000)
+  .sort((c1, c2) => (c1.balance <= c2.balance ? 1 : -1))
+  .map((c) =>
+    console.log(`${c.id} | ${c.tax_number} (${c.name}) => ${c.balance}`)
+  );
 ```
 
 Now, suppose you're getting nothing from this chain (possibly an error).
@@ -60,8 +62,8 @@ that's why the function was returning nothing.
 
 ```javascript
 function tap(x, fn = (x) => x) {
-    console.log(fn(x));
-    return x;
+  console.log(fn(x));
+  return x;
 }
 ```
 

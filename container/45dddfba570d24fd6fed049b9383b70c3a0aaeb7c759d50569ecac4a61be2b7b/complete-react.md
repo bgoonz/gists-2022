@@ -3,10 +3,10 @@ title: Complete React
 weight: 0
 excerpt: React is a JavaScript library that aims to simplify development of visual interfaces.
 seo:
-    title: 'Comprehensive Guide To ReactJS'
-    description: 'Its primary goal is to make it easy to reason about an interface and its state at any point in time, by dividing the UI into a collection of components.'
-    robots: []
-    extra: []
+  title: "Comprehensive Guide To ReactJS"
+  description: "Its primary goal is to make it easy to reason about an interface and its state at any point in time, by dividing the UI into a collection of components."
+  robots: []
+  extra: []
 template: docs
 ---
 
@@ -17,77 +17,75 @@ template: docs
 [An introduction to React](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#an-introduction-to-the-react-view-library)  
 [How to use create-react-app](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#how-to-use-create-react-app)
 
+- [Variables](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#variables)
+- [Arrow functions](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#arrow-functions)
+- [Rest and spread](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#rest-and-spread)
+- [Object and array destructuring](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#object-and-array-destructuring)
+- [Template literals](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#template-literals)
+- [Classes](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#classes)
+- [Callbacks](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#callbacks)
+- [Promises](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#promises)
+- [Async/Await](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#async-await)
+- [ES Modules](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#es-modules)
 
+\***\*SECTION 2\*\***: REACT CONCEPTS
 
--   [Variables](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#variables)
--   [Arrow functions](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#arrow-functions)
--   [Rest and spread](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#rest-and-spread)
--   [Object and array destructuring](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#object-and-array-destructuring)
--   [Template literals](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#template-literals)
--   [Classes](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#classes)
--   [Callbacks](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#callbacks)
--   [Promises](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#promises)
--   [Async/Await](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#async-await)
--   [ES Modules](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#es-modules)
+- [Single Page Applications](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#single-page-applications)
+- [Declarative](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#declarative)
+- [Immutability](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#immutability)
+- [Purity](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#purity)
+- [Composition](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#composition)
+- [The Virtual DOM](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#the-virtual-dom)
+- [Unidirectional Data Flow](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#unidirectional-data-flow)
 
-****SECTION 2****: REACT CONCEPTS
+\***\*SECTION 3\*\***: IN-DEPTH REACT
 
--   [Single Page Applications](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#single-page-applications)
--   [Declarative](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#declarative)
--   [Immutability](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#immutability)
--   [Purity](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#purity)
--   [Composition](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#composition)
--   [The Virtual DOM](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#the-virtual-dom)
--   [Unidirectional Data Flow](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#unidirectional-data-flow)
+- [JSX](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#jsx)
+- [Components](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#components)
+- [State](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#state)
+- [Props](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#props)
+- [Presentational vs container components](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#presentational-vs-container-components)
+- [State vs props](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#state-vs-props)
+- [PropTypes](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#proptypes)
+- [React Fragment](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#react-fragment)
+- [Events](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#events)
+- [Lifecycle Events](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#lifecycle-events)
+- [Forms in React](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#forms-in-react)
+- [Reference a DOM element](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#reference-a-dom-element)
+- [Server side rendering](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#server-side-rendering)
+- [The Context API](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#the-context-api)
+- [Higher order components](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#higher-order-components)
+- [Render Props](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#render-props)
+- [Hooks](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#hooks)
+- [Code splitting](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#code-splitting)
 
-****SECTION 3****: IN-DEPTH REACT
+\***\*SECTION 4\*\***: PRACTICAL EXAMPLES
 
--   [JSX](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#jsx)
--   [Components](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#components)
--   [State](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#state)
--   [Props](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#props)
--   [Presentational vs container components](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#presentational-vs-container-components)
--   [State vs props](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#state-vs-props)
--   [PropTypes](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#proptypes)
--   [React Fragment](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#react-fragment)
--   [Events](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#events)
--   [Lifecycle Events](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#lifecycle-events)
--   [Forms in React](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#forms-in-react)
--   [Reference a DOM element](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#reference-a-dom-element)
--   [Server side rendering](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#server-side-rendering)
--   [The Context API](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#the-context-api)
--   [Higher order components](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#higher-order-components)
--   [Render Props](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#render-props)
--   [Hooks](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#hooks)
--   [Code splitting](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#code-splitting)
+- [Build a simple counter](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#build-a-simple-counter)
+- [Fetch and display GitHub users information via API](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#fetch-and-display-github-users-information-via-api)
 
-****SECTION 4****: PRACTICAL EXAMPLES
+\***\*SECTION 5\*\***: STYLING
 
--   [Build a simple counter](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#build-a-simple-counter)
--   [Fetch and display GitHub users information via API](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#fetch-and-display-github-users-information-via-api)
+- [CSS in React](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#css-in-react)
+- [SASS in React](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#sass-in-react)
+- [Styled Components](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#styled-components)
 
-****SECTION 5****: STYLING
+\***\*SECTION 6\*\***: TOOLING
 
--   [CSS in React](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#css-in-react)
--   [SASS in React](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#sass-in-react)
--   [Styled Components](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#styled-components)
+- [Babel](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#babel)
+- [Webpack](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#webpack)
 
-****SECTION 6****: TOOLING
+\***\*SECTION 7\*\***: TESTING
 
--   [Babel](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#babel)
--   [Webpack](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#webpack)
+- [Jest](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#jest)
+- [Testing React components](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#testing-react-components)
 
-****SECTION 7****: TESTING
+\***\*SECTION 8\*\***: THE REACT ECOSYSTEM
 
--   [Jest](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#jest)
--   [Testing React components](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#testing-react-components)
-
-****SECTION 8****: THE REACT ECOSYSTEM
-
--   [React Router](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#react-router)
--   [Redux](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#redux)
--   [Next.js](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#next-js)
--   [Gatsby](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#gatsby)
+- [React Router](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#react-router)
+- [Redux](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#redux)
+- [Next.js](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#next-js)
+- [Gatsby](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#gatsby)
 
 [Wrapping up](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/#wrapping-up)
 
@@ -127,10 +125,10 @@ Even though I said that React is simpler than alternative frameworks, diving int
 
 React in itself has a very small API, and you basically need to understand 4 concepts to get started:
 
--   Components
--   JSX
--   State
--   Props
+- Components
+- JSX
+- State
+- Props
 
 All these (and more) are explained in this handbook.
 
@@ -246,9 +244,9 @@ It also added a few commands in the `package.json` file, so you can immediately 
 
 In addition to `npm start`, `create-react-app` added a few other commands:
 
--   `npm run build`: to build the React application files in the `build` folder, ready to be deployed to a server
--   `npm test`: to run the testing suite using [Jest](https://flaviocopes.com/jest/)
--   `npm eject`: to eject from `create-react-app`
+- `npm run build`: to build the React application files in the `build` folder, ready to be deployed to a server
+- `npm test`: to run the testing suite using [Jest](https://flaviocopes.com/jest/)
+- `npm eject`: to eject from `create-react-app`
 
 Ejecting is the act of deciding that `create-react-app` has done enough for you, but you want to do more than what it allows.
 
@@ -620,9 +618,9 @@ const a_string = `something`
 
 They are unique because they provide a lot of features that normal strings built with quotes do not, in particular:
 
--   they offer a great syntax to define multiline strings
--   they provide an easy way to interpolate variables and expressions in strings
--   they allow you to create DSLs with template tags (DSL means domain specific language, and it's for example used in React by Styled Components, to define CSS for a component)
+- they offer a great syntax to define multiline strings
+- they provide an easy way to interpolate variables and expressions in strings
+- they allow you to create DSLs with template tags (DSL means domain specific language, and it's for example used in React by Styled Components, to define CSS for a component)
 
 Let's dive into each of these in detail.
 
@@ -724,7 +722,7 @@ class Person {
   constructor(name) {
     this.name = name
   }
-  
+
   hello() {
     return 'Hello, I am ' + this.name + '.'
   }
@@ -796,11 +794,11 @@ class Person {
   constructor(name) {
     this.name = name
   }
-  
+
   set name(value) {
     this.name = value
   }
-  
+
   get name() {
     return this.name
   }
@@ -814,7 +812,7 @@ class Person {
   constructor(name) {
     this.name = name
   }
-  
+
   get name() {
     return this.name
   }
@@ -828,7 +826,7 @@ class Person {
   constructor(name) {
     this.name = name
   }
-  
+
   set name(value) {
     this.name = value
   }
@@ -924,7 +922,7 @@ fs.readFile('/file.json', (err, data) => {
     console.log(err)
     return
   }
-  
+
   //no errors, process data
   console.log(data)
 })
@@ -956,8 +954,8 @@ How do we solve this?
 
 Starting with ES6, JavaScript introduced several features that help us with asynchronous code that do not involve using callbacks:
 
--   Promises (ES6)
--   Async/Await (ES8)
+- Promises (ES6)
+- Async/Await (ES8)
 
 ### Promises
 
@@ -1059,8 +1057,8 @@ In this example, we call `fetch()` to get a list of TODO items from the `todos.j
 
 Running `fetch()` returns a [response](https://fetch.spec.whatwg.org/#concept-response), which has many properties, and within those we reference:
 
--   `status`, a numeric value representing the HTTP status code
--   `statusText`, a status message, which is `OK` if the request succeeded
+- `status`, a numeric value representing the HTTP status code
+- `statusText`, a status message, which is `OK` if the request succeeded
 
 `response` also has a `json()` method, which returns a promise that will resolve with the content of the body processed and transformed into JSON.
 
@@ -1497,11 +1495,11 @@ The technology is always the same, but the philosophy and some key components of
 
 Some notable examples:
 
--   Gmail
--   Google Maps
--   Facebook
--   Twitter
--   Google Drive
+- Gmail
+- Google Maps
+- Facebook
+- Twitter
+- Google Drive
 
 #### Pros and cons of SPAs
 
@@ -1541,8 +1539,8 @@ React made its "declarative approach" quite popular and upfront so it permeated 
 
 It's really not a new concept, but React took building UIs a lot more declaratively than with HTML templates:
 
--   you can build Web interfaces without even touching the DOM directly
--   you can have an event system without having to interact with the actual DOM Events.
+- you can build Web interfaces without even touching the DOM directly
+- you can have an event system without having to interact with the actual DOM Events.
 
 The opposite of declarative is **imperative**. A common example of an imperative approach is looking up elements in the DOM using jQuery or DOM events. You tell the browser exactly what to do, instead of telling it what you need.
 
@@ -1576,9 +1574,9 @@ The question is, why?
 
 There are various reasons, the most important of which are:
 
--   Mutations can be centralized, like in the case of Redux, which improves your debugging capabilities and reduces sources of errors.
--   Code looks cleaner and simpler to understand. You never expect a function to change some value without you knowing, which gives you **predictability**. When a function does not mutate objects but just returns a new object, it's called a pure function.
--   The library can optimize the code because for example JavaScript is faster when swapping an old object reference for an entirely new object, rather than mutating an existing object. This gives you **performance**.
+- Mutations can be centralized, like in the case of Redux, which improves your debugging capabilities and reduces sources of errors.
+- Code looks cleaner and simpler to understand. You never expect a function to change some value without you knowing, which gives you **predictability**. When a function does not mutate objects but just returns a new object, it's called a pure function.
+- The library can optimize the code because for example JavaScript is faster when swapping an old object reference for an entirely new object, rather than mutating an existing object. This gives you **performance**.
 
 ### Purity
 
@@ -1660,7 +1658,7 @@ const Container = () => {
   const onClickHandler = () => {
     alert('clicked')
   }
-  
+
   return <LoginButton onClickHandler={onClickHandler} />
 }
 ```
@@ -1732,9 +1730,9 @@ When you call `setState()` on a Component, specifying a state different than the
 
 What happens next is:
 
--   React updates the Virtual DOM relative to the components marked as dirty (with some additional checks, like triggering `shouldComponentUpdate()`)
--   Runs the diffing algorithm to reconcile the changes
--   Updates the real DOM
+- React updates the Virtual DOM relative to the components marked as dirty (with some additional checks, like triggering `shouldComponentUpdate()`)
+- Runs the diffing algorithm to reconcile the changes
+- Updates the real DOM
 
 #### Why is the Virtual DOM helpful: batching
 
@@ -1748,18 +1746,18 @@ In general this concept means that data has one, and only one, way to be transfe
 
 In React this means that:
 
--   state is passed to the view and to child components
--   actions are triggered by the view
--   actions can update the state
--   the state change is passed to the view and to child components
+- state is passed to the view and to child components
+- actions are triggered by the view
+- actions can update the state
+- the state change is passed to the view and to child components
 
 The view is a result of the application state. State can only change when actions happen. When actions happen, the state is updated.
 
 Thanks to one-way bindings, data cannot flow in the opposite way (as would happen with two-way bindings, for example), and this has some key advantages:
 
--   it's less error prone, as you have more control over your data
--   it's easier to debug, as you know _what_ is coming from _where_
--   it's more efficient, as the library already knows what the boundaries are of each part of the system
+- it's less error prone, as you have more control over your data
+- it's easier to debug, as you know _what_ is coming from _where_
+- it's more efficient, as the library already knows what the boundaries are of each part of the system
 
 A state is always owned by one Component. Any data that's affected by this state can only affect Components below it: its children.
 
@@ -1802,8 +1800,8 @@ const element = <h1 id={myId}>Hello, world!</h1>
 
 You just need to pay attention when an attribute has a dash (`-`) which is converted to camelCase syntax instead, and these 2 special cases:
 
--   `class` becomes `className`
--   `for` becomes `htmlFor`
+- `class` becomes `className`
+- `for` becomes `htmlFor`
 
 because they are reserved words in JavaScript.
 
@@ -1908,9 +1906,9 @@ Just like in XHTML, if you have ever used it, you need to close all tags: no mor
 
 In HTML you'll find attributes without any case (e.g. `onchange`). In JSX, they are renamed to their camelCase equivalent:
 
--   `onchange` => `onChange`
--   `onclick` => `onClick`
--   `onsubmit` => `onSubmit`
+- `onchange` => `onChange`
+- `onclick` => `onClick`
+- `onsubmit` => `onSubmit`
 
 #### `class` becomes `className`
 
@@ -1952,9 +1950,9 @@ ReactDOM.render(<div style={{ color: 'white' }}>Hello World!</div>, mountNode)
 
 The CSS values you write in JSX are slightly different from plain CSS:
 
--   the keys property names are camelCased
--   values are just strings
--   you separate each tuple with a comma
+- the keys property names are camelCased
+- values are just strings
+- you separate each tuple with a comma
 
 #### Why is this preferred over plain CSS / SASS / LESS?
 
@@ -2189,7 +2187,7 @@ React makes it very simple: everything is a component.
 
 Even plain HTML tags are component on their own, and they are added by default.
 
-The next 2 lines are equivalent, they do the same thing. One with ****JSX****, one without, by injecting `<h1>Hello World!</h1>` into an element with id `app`.
+The next 2 lines are equivalent, they do the same thing. One with \***\*JSX\*\***, one without, by injecting `<h1>Hello World!</h1>` into an element with id `app`.
 
 ```
 import React from 'react'
@@ -2278,7 +2276,7 @@ class BlogPostExcerpt extends Component {
     super(props)
     this.state = { clicked: false }
   }
-  
+
   render() {
     return (
       <div>
@@ -2300,7 +2298,7 @@ class BlogPostExcerpt extends Component {
     super(props)
     this.state = { clicked: false }
   }
-  
+
   render() {
     return (
       <div>
@@ -2355,7 +2353,7 @@ class Converter extends React.Component {
     super(props)
     this.state = { currency: '€' }
   }
-  
+
   render() {
     return (
       <div>
@@ -2375,11 +2373,11 @@ class Converter extends React.Component {
     super(props)
     this.state = { currency: '€' }
   }
-  
+
   handleChangeCurrency = event => {
     this.setState({ currency: this.state.currency === '€' ? '$' : '€' })
   }
-  
+
   render() {
     return (
       <div>
@@ -2442,8 +2440,8 @@ Passing props down to child components is a great way to pass values around in y
 
 It gets complicated when:
 
--   you need to access the state of a component from a child that's several levels down (all the previous children need to act as a pass-through, even if they do not need to know the state, complicating things)
--   you need to access the state of a component from a completely unrelated component.
+- you need to access the state of a component from a child that's several levels down (all the previous children need to act as a pass-through, even if they do not need to know the state, complicating things)
+- you need to access the state of a component from a completely unrelated component.
 
 #### Default values for props
 
@@ -2526,13 +2524,13 @@ class UsersContainer extends React.Component {
       users: []
     }
   }
-  
+
   componentDidMount() {
     axios.get('/users').then(users =>
       this.setState({ users: users }))
     )
   }
-  
+
   render() {
     return <Users users={this.state.users} />
   }
@@ -2624,13 +2622,13 @@ export default BlogPostExcerpt
 
 These are the fundamental types we can accept:
 
--   PropTypes.array
--   PropTypes.bool
--   PropTypes.func
--   PropTypes.number
--   PropTypes.object
--   PropTypes.string
--   PropTypes.symbol
+- PropTypes.array
+- PropTypes.bool
+- PropTypes.func
+- PropTypes.number
+- PropTypes.object
+- PropTypes.string
+- PropTypes.symbol
 
 We can accept one of two types:
 
@@ -2710,8 +2708,7 @@ class BlogPostExcerpt extends Component {
 }
 ```
 
-which also has a very nice shorthand syntax `<>
-</>` that is supported only in recent releases (and Babel 7+):
+which also has a very nice shorthand syntax `<> </>` that is supported only in recent releases (and Babel 7+):
 
 ```
 import React, { Component } from 'react'
@@ -2799,113 +2796,113 @@ There are lots of events supported, here's a summary list.
 
 #### Clipboard
 
--   onCopy
--   onCut
--   onPaste
+- onCopy
+- onCut
+- onPaste
 
 #### Composition
 
--   onCompositionEnd
--   onCompositionStart
--   onCompositionUpdate
+- onCompositionEnd
+- onCompositionStart
+- onCompositionUpdate
 
 #### Keyboard
 
--   onKeyDown
--   onKeyPress
--   onKeyUp
+- onKeyDown
+- onKeyPress
+- onKeyUp
 
 #### Focus
 
--   onFocus
--   onBlur
+- onFocus
+- onBlur
 
 #### Form
 
--   onChange
--   onInput
--   onSubmit
+- onChange
+- onInput
+- onSubmit
 
 #### Mouse
 
--   onClick
--   onContextMenu
--   onDoubleClick
--   onDrag
--   onDragEnd
--   onDragEnter
--   onDragExit
--   onDragLeave
--   onDragOver
--   onDragStart
--   onDrop
--   onMouseDown
--   onMouseEnter
--   onMouseLeave
--   onMouseMove
--   onMouseOut
--   onMouseOver
--   onMouseUp
+- onClick
+- onContextMenu
+- onDoubleClick
+- onDrag
+- onDragEnd
+- onDragEnter
+- onDragExit
+- onDragLeave
+- onDragOver
+- onDragStart
+- onDrop
+- onMouseDown
+- onMouseEnter
+- onMouseLeave
+- onMouseMove
+- onMouseOut
+- onMouseOver
+- onMouseUp
 
 #### Selection
 
--   onSelect
+- onSelect
 
 #### Touch
 
--   onTouchCancel
--   onTouchEnd
--   onTouchMove
--   onTouchStart
+- onTouchCancel
+- onTouchEnd
+- onTouchMove
+- onTouchStart
 
 #### UI
 
--   onScroll
+- onScroll
 
 #### Mouse Wheel
 
--   onWheel
+- onWheel
 
 #### Media
 
--   onAbort
--   onCanPlay
--   onCanPlayThrough
--   onDurationChange
--   onEmptied
--   onEncrypted
--   onEnded
--   onError
--   onLoadedData
--   onLoadedMetadata
--   onLoadStart
--   onPause
--   onPlay
--   onPlaying
--   onProgress
--   onRateChange
--   onSeeked
--   onSeeking
--   onStalled
--   onSuspend
--   onTimeUpdate
--   onVolumeChange
--   onWaiting
+- onAbort
+- onCanPlay
+- onCanPlayThrough
+- onDurationChange
+- onEmptied
+- onEncrypted
+- onEnded
+- onError
+- onLoadedData
+- onLoadedMetadata
+- onLoadStart
+- onPause
+- onPlay
+- onPlaying
+- onProgress
+- onRateChange
+- onSeeked
+- onSeeking
+- onStalled
+- onSuspend
+- onTimeUpdate
+- onVolumeChange
+- onWaiting
 
 #### Image
 
--   onLoad
--   onError
+- onLoad
+- onError
 
 #### Animation
 
--   onAnimationStart
--   onAnimationEnd
--   onAnimationIteration
+- onAnimationStart
+- onAnimationEnd
+- onAnimationIteration
 
 #### Transition
 
--   onTransitionEnd
+- onTransitionEnd
 
 ### Lifecycle Events
 
@@ -2919,9 +2916,9 @@ What hook is best for what functionality is something we're going to see here.
 
 First, there are 3 phases in a React component lifecycle:
 
--   Mounting
--   Updating
--   Unmounting
+- Mounting
+- Updating
+- Unmounting
 
 Let's see those 3 phases in detail and the methods that get called for each.
 
@@ -3005,18 +3002,18 @@ They were designed to allow the user to interact with a page.
 
 Common uses of forms?
 
--   Search
--   Contact forms
--   Shopping carts checkout
--   Login and registration
--   and more!
+- Search
+- Contact forms
+- Shopping carts checkout
+- Login and registration
+- and more!
 
 Using React we can make our forms much more interactive and less static.
 
 There are two main ways of handling forms in React, which differ on a fundamental level: how data is managed.
 
--   if the data is handled by the DOM, we call them **uncontrolled components**
--   if the data is handled by the components we call them **controlled components**
+- if the data is handled by the DOM, we call them **uncontrolled components**
+- if the data is handled by the components we call them **controlled components**
 
 As you can imagine, controlled components is what you will use most of the time. The component state is the single source of truth, rather than the DOM. Some form fields are inherently uncontrolled because of their behavior, like the `<input type="file">` field.
 
@@ -3028,9 +3025,9 @@ class Form extends React.Component {
     super(props)
     this.state = { username: '' }
   }
-  
+
   handleChange(event) {}
-  
+
   render() {
     return (
       <form>
@@ -3055,11 +3052,11 @@ class Form extends React.Component {
     this.state = { username: '' }
     this.handleChange = this.handleChange.bind(this)
   }
-  
+
   handleChange(event) {
     this.setState({ value: event.target.value })
   }
-  
+
   render() {
     return (
       <form>
@@ -3084,16 +3081,16 @@ class Form extends React.Component {
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
   }
-  
+
   handleChange(event) {
     this.setState({ value: event.target.value })
   }
-  
+
   handleSubmit(event) {
     alert(this.state.username)
     event.preventDefault()
   }
-  
+
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
@@ -3139,12 +3136,12 @@ class FileInput extends React.Component {
     this.curriculum = React.createRef()
     this.handleSubmit = this.handleSubmit.bind(this)
   }
-  
+
   handleSubmit(event) {
     alert(this.curriculum.current.files[0].name)
     event.preventDefault()
   }
-  
+
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
@@ -3207,9 +3204,9 @@ function SomeComponent() {
 
 Why would we ever want to do so?
 
--   it allows your site to have a faster first page load time, which is the key to a good user experience
--   it is essential for SEO: search engines cannot (yet?) efficiently and correctly index applications that exclusively render client-side. Despite the latest improvements to indexing in Google, there are other search engines too, and Google is not perfect at it in any case. Also, Google favors sites with fast load times, and having to load client-side is not good for speed
--   it's great when people share a page of your site on social media, as they can easily gather the metadata needed to nicely share the link (images, title, description..)
+- it allows your site to have a faster first page load time, which is the key to a good user experience
+- it is essential for SEO: search engines cannot (yet?) efficiently and correctly index applications that exclusively render client-side. Despite the latest improvements to indexing in Google, there are other search engines too, and Google is not perfect at it in any case. Also, Google favors sites with fast load times, and having to load client-side is not good for speed
+- it's great when people share a page of your site on social media, as they can easily gather the metadata needed to nicely share the link (images, title, description..)
 
 Without Server Side Rendering, all your server ships is an HTML page with no body, just some script tags that are then used by the browser to render the application.
 
@@ -3217,8 +3214,8 @@ Client-rendered apps are great at any subsequent user interaction after the firs
 
 However Server Side Rendering has its drawback too:
 
--   it's fair to say that a simple SSR proof of concept is simple, but the complexity of SSR can grow with the complexity of your application
--   rendering a big application server-side can be quite resource-intensive, and under heavy load it could even provide a slower experience than client-side rendering, since you have a single bottleneck
+- it's fair to say that a simple SSR proof of concept is simple, but the complexity of SSR can grow with the complexity of your application
+- rendering a big application server-side can be quite resource-intensive, and under heavy load it could even provide a slower experience than client-side rendering, since you have a single bottleneck
 
 ### A very simplistic example of what it takes to Server-Side render a React app
 
@@ -3247,6 +3244,7 @@ You have a set of folders in your app directory. Create a new folder called `ser
 Following the `create-react-app` conventions, the app lives in the `src/App.js` file. We're going to load that component, and render it to a string using [ReactDOMServer.renderToString()](https://reactjs.org/docs/react-dom-server.html), which is provided by `react-dom`.
 
 You get the contents of the `./build/index.html` file, and replace the `<div id="root">
+
 </div>`placeholder, which is the tag where the application hooks by default, with `` `<div id="root">\${ReactDOMServer.renderToString(<App />)}</div> ``.
 
 All the content inside the `build` folder is going to be served as-is, statically by Express.
@@ -3345,8 +3343,8 @@ node server/index.js
 
 I said this is a simplistic approach, and it is:
 
--   it does not handle rendering images correctly when using imports, which need Webpack in order to work (and which complicates the process a lot)
--   it does not handle page header metadata, which is essential for SEO and social sharing purposes (among other things)
+- it does not handle rendering images correctly when using imports, which need Webpack in order to work (and which complicates the process a lot)
+- it does not handle page header metadata, which is essential for SEO and social sharing purposes (among other things)
 
 So while this is a good example of using `ReactDOMServer.renderToString()` and `ReactDOM.hydrate` to get this basic server-side rendering, it's not enough for real world usage.
 
@@ -3386,7 +3384,7 @@ class Container extends React.Component {
       something: 'hey'
     }
   }
-  
+
   render() {
     return (
       <Provider value={{ state: this.state }}>{this.props.children}</Provider>
@@ -3527,7 +3525,7 @@ class Parent extends React.Component {
       /*...*/
     }
   }
-  
+
   render() {
     return <div>{this.props.children}</div>
   }
@@ -3555,7 +3553,7 @@ class Parent extends React.Component {
     super(props)
     this.state = { name: 'Flavio' }
   }
-  
+
   render() {
     return <div>{this.props.children(this.state.name)}</div>
   }
@@ -3576,7 +3574,7 @@ class Parent extends React.Component {
     super(props)
     this.state = { name: 'Flavio', age: 35 }
   }
-  
+
   render() {
     return (
       <div>
@@ -3625,7 +3623,7 @@ import { useState } from 'react'
 
 const Counter = () => {
   const [count, setCount] = useState(0)
-  
+
   return (
     <div>
       <p>You clicked {count} times</p>
@@ -3659,11 +3657,11 @@ const { useEffect, useState } = React
 const CounterWithNameAndSideEffect = () => {
   const [count, setCount] = useState(0)
   const [name, setName] = useState('Flavio')
-  
+
   useEffect(() => {
     console.log(`Hi ${name} you clicked ${count} times`)
   })
-  
+
   return (
     <div>
       <p>
@@ -3800,9 +3798,9 @@ Code splitting is the practice of only loading the JavaScript you need the momen
 
 This improves:
 
--   the performance of your app
--   the impact on memory, and so battery usage on mobile devices
--   the downloaded KiloBytes (or MegaBytes) size
+- the performance of your app
+- the impact on memory, and so battery usage on mobile devices
+- the downloaded KiloBytes (or MegaBytes) size
 
 React 16.6.0, released in October 2018, introduced a way of performing code splitting that should take the place of every previously used tool or library: **React.lazy** and **Suspense**.
 
@@ -3898,7 +3896,7 @@ const Button = ({ increment }) => {
 
 const App = () => {
   let count = 0
-  
+
   return (
     <div>
       <Button increment={1} />
@@ -3925,11 +3923,11 @@ const Button = ({ increment, onClickFunction }) => {
 
 const App = () => {
   let count = 0
-  
+
   const incrementCount = increment => {
     //TODO
   }
-  
+
   return (
     <div>
       <Button increment={1} onClickFunction={incrementCount} />
@@ -3962,11 +3960,11 @@ const Button = ({ increment, onClickFunction }) => {
 
 const App = () => {
   const [count, setCount] = useState(0)
-  
+
   const incrementCount = increment => {
     setCount(count + increment)
   }
-  
+
   return (
     <div>
       <Button increment={1} onClickFunction={incrementCount} />
@@ -3999,9 +3997,9 @@ The example uses, in addition to React, the [Axios](https://flaviocopes.com/axio
 
 We start by creating the `Card` component, the one that will display our image and details as gathered from GitHub. It gets its data via props, using
 
--   `props.avatar_url` the user avatar
--   `props.name` the user name
--   `props.blog` the user website URL
+- `props.avatar_url` the user avatar
+- `props.name` the user name
+- `props.blog` the user website URL
 
 ```
 const Card = props => {
@@ -4034,7 +4032,7 @@ The parent component is App, which stores the `cards` array in its own state, ma
 ```
 const App = () => {
   const [cards, setCards] = useState([])
-  
+
   return (
     <div>
       <CardList cards={cards} />
@@ -4048,16 +4046,16 @@ Cool! We must have a way now to ask GitHub for the details of a single username.
 ```
 const Form = props => {
   const [username, setUsername] = useState('')
-  
+
   handleSubmit = event => {
     event.preventDefault()
-    
+
     axios.get(`https://api.github.com/users/${username}`).then(resp => {
       props.onSubmit(resp.data)
       setUsername('')
     })
   }
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <input
@@ -4080,11 +4078,11 @@ We add it to `App`, passing a method to add a new card to the list of cards, `ad
 ```
 const App = () => {
   const [cards, setCards] = useState([])
-  
+
   addNewCard = cardInfo => {
     setCards(cards.concat(cardInfo))
   }
-  
+
   return (
     <div>
       <Form onSubmit={addNewCard} />
@@ -4121,10 +4119,10 @@ const CardList = props => <div>{props.cards.map(card => <Card {...card} />)}</di
 
 const Form = props => {
   const [username, setUsername] = useState('')
-  
+
   handleSubmit = event => {
     event.preventDefault()
-    
+
     axios
       .get(`https://api.github.com/users/${username}`)
       .then(resp => {
@@ -4132,7 +4130,7 @@ const Form = props => {
         setUsername('')
       })
   }
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <input
@@ -4149,11 +4147,11 @@ const Form = props => {
 
 const App = () => {
   const [cards, setCards] = useState([])
-  
+
   addNewCard = cardInfo => {
     setCards(cards.concat(cardInfo))
   }
-  
+
   return (
     <div>
       <Form onSubmit={addNewCard} />
@@ -4282,9 +4280,9 @@ Conventions are not a solution to everything, and they are complex to remember, 
 
 New tools explored new ways of doing CSS-in-JS and a few succeeded with increasing popularity:
 
--   React Style
--   jsxstyle
--   Radium
+- React Style
+- jsxstyle
+- Radium
 
 and more.
 
@@ -4522,7 +4520,7 @@ var bob = {
   _friends: ["Sally", "Tom"],
   printFriends() {
     var _this = this;
-    
+
     this._friends.forEach(function (f) {
       return console.log(_this._name + " knows " + f);
     });
@@ -4639,24 +4637,24 @@ Webpack is a tool that lets you compile JavaScript modules, also known as **modu
 
 It can perform many operations:
 
--   helps you bundle your resources.
--   watches for changes and re-runs the tasks.
--   can run Babel transpilation to ES5, allowing you to use the latest JavaScript features without worrying about browser support.
--   can transpile CoffeeScript to JavaScript
--   can convert inline images to data URIs.
--   allows you to use require() for CSS files.
--   can run a development webserver.
--   can handle hot module replacement.
--   can split the output files into multiple files, to avoid having a huge js file to load in the first page hit.
--   can perform [tree shaking](https://flaviocopes.com/javascript-glossary/#tree-shaking).
+- helps you bundle your resources.
+- watches for changes and re-runs the tasks.
+- can run Babel transpilation to ES5, allowing you to use the latest JavaScript features without worrying about browser support.
+- can transpile CoffeeScript to JavaScript
+- can convert inline images to data URIs.
+- allows you to use require() for CSS files.
+- can run a development webserver.
+- can handle hot module replacement.
+- can split the output files into multiple files, to avoid having a huge js file to load in the first page hit.
+- can perform [tree shaking](https://flaviocopes.com/javascript-glossary/#tree-shaking).
 
 Webpack is not limited to be use on the frontend, it's also useful in backend Node.js development as well.
 
 Predecessors of webpack, and still widely used tools, include:
 
--   Grunt
--   Broccoli
--   Gulp
+- Grunt
+- Broccoli
+- Gulp
 
 There are lots of similarities in what those and Webpack can do, but the main difference is that those are known as **task runners**, while webpack was born as a module bundler.
 
@@ -4725,9 +4723,9 @@ in the project root.
 
 By default, webpack (starting from version 4) does not require any config if you respect these conventions:
 
--   the **entry point** of your app is `./src/index.js`
--   the output is put in `./dist/main.js`.
--   Webpack works in production mode
+- the **entry point** of your app is `./src/index.js`
+- the output is put in `./dist/main.js`.
+- Webpack works in production mode
 
 You can customize every little bit of webpack of course, when you need. The webpack configuration is stored in the `webpack.config.js` file, in the project root folder.
 
@@ -4935,11 +4933,11 @@ module.exports = {
 
 Development mode:
 
--   builds very fast
--   is less optimized than production
--   does not remove comments
--   provides more detailed error messages and suggestions
--   provides a better debugging experience
+- builds very fast
+- is less optimized than production
+- does not remove comments
+- provides more detailed error messages and suggestions
+- provides a better debugging experience
 
 Production mode is slower to build, since it needs to generate a more optimized bundle. The resulting JavaScript file is smaller in size, as it removes many things that are not needed in production.
 
@@ -5117,9 +5115,9 @@ module.exports = {
 
 `devtool` has [many possible values](https://webpack.js.org/configuration/devtool/), the most used probably are:
 
--   `none`: adds no source maps
--   `source-map`: ideal for production, provides a separate source map that can be minimized, and adds a reference into the bundle, so development tools know that the source map is available. Of course you should configure the server to avoid shipping this, and just use it for debugging purposes
--   `inline-source-map`: ideal for development, inlines the source map as a Data URL
+- `none`: adds no source maps
+- `source-map`: ideal for production, provides a separate source map that can be minimized, and adds a reference into the bundle, so development tools know that the source map is available. Of course you should configure the server to avoid shipping this, and just use it for debugging purposes
+- `inline-source-map`: ideal for development, inlines the source map as a Data URL
 
 ### SECTION 7: TESTING
 
@@ -5129,15 +5127,15 @@ Jest is a library for testing JavaScript code.
 
 It's an open source project maintained by Facebook, and it's especially well suited for React code testing, although not limited to that: it can test any JavaScript code. Its strengths are:
 
--   it's fast
--   it can perform **snapshot testing**
--   it's opinionated, and provides everything out of the box without requiring you to make choices
+- it's fast
+- it can perform **snapshot testing**
+- it's opinionated, and provides everything out of the box without requiring you to make choices
 
 Jest is a tool very similar to Mocha, although they have differences:
 
--   Mocha is less opinionated, while Jest has a certain set of conventions
--   Mocha requires more configuration, while Jest works usually out of the box, thanks to being opinionated
--   Mocha is older and more established, with more tooling integrations
+- Mocha is less opinionated, while Jest has a certain set of conventions
+- Mocha requires more configuration, while Jest works usually out of the box, thanks to being opinionated
+- Mocha is older and more established, with more tooling integrations
 
 In my opinion the biggest feature of Jest is it's an out of the box solution that works without having to interact with other testing libraries to perform its job.
 
@@ -5259,24 +5257,24 @@ A matcher is a method that lets you test values.
 
 Most commonly used matchers, comparing the value of the result of `expect()` with the value passed in as argument, are:
 
--   `toBe` compares strict equality, using `===`
--   `toEqual` compares the values of two variables. If it's an object or array, it checks the equality of all the properties or elements
--   `toBeNull` is true when passing a null value
--   `toBeDefined` is true when passing a defined value (opposite to the above)
--   `toBeUndefined` is true when passing an undefined value
--   `toBeCloseTo` is used to compare floating values, avoiding rounding errors
--   `toBeTruthy` true if the value is considered true (like an `if` does)
--   `toBeFalsy` true if the value is considered false (like an `if` does)
--   `toBeGreaterThan` true if the result of expect() is higher than the argument
--   `toBeGreaterThanOrEqual` true if the result of expect() is equal to the argument, or higher than the argument
--   `toBeLessThan` true if the result of expect() is lower than the argument
--   `toBeLessThanOrEqual` true if the result of expect() is equal to the argument, or lower than the argument
--   `toMatch` is used to compare strings with [regular expression](https://flaviocopes.com/javascript-regular-expressions/) pattern matching
--   `toContain` is used in arrays, true if the expected array contains the argument in its elements set
--   `toHaveLength(number)`: checks the length of an array
--   `toHaveProperty(key, value)`: checks if an object has a property, and optionally checks its value
--   `toThrow` checks if a function you pass throws an exception (in general) or a specific exception
--   `toBeInstanceOf()`: checks if an object is an instance of a class
+- `toBe` compares strict equality, using `===`
+- `toEqual` compares the values of two variables. If it's an object or array, it checks the equality of all the properties or elements
+- `toBeNull` is true when passing a null value
+- `toBeDefined` is true when passing a defined value (opposite to the above)
+- `toBeUndefined` is true when passing an undefined value
+- `toBeCloseTo` is used to compare floating values, avoiding rounding errors
+- `toBeTruthy` true if the value is considered true (like an `if` does)
+- `toBeFalsy` true if the value is considered false (like an `if` does)
+- `toBeGreaterThan` true if the result of expect() is higher than the argument
+- `toBeGreaterThanOrEqual` true if the result of expect() is equal to the argument, or higher than the argument
+- `toBeLessThan` true if the result of expect() is lower than the argument
+- `toBeLessThanOrEqual` true if the result of expect() is equal to the argument, or lower than the argument
+- `toMatch` is used to compare strings with [regular expression](https://flaviocopes.com/javascript-regular-expressions/) pattern matching
+- `toContain` is used in arrays, true if the expected array contains the argument in its elements set
+- `toHaveLength(number)`: checks the length of an array
+- `toHaveProperty(key, value)`: checks if an object has a property, and optionally checks its value
+- `toThrow` checks if a function you pass throws an exception (in general) or a specific exception
+- `toBeInstanceOf()`: checks if an object is an instance of a class
 
 All those matchers can be negated using `.not.` inside the statement, for example:
 
@@ -5357,7 +5355,7 @@ describe('second set', () => {
   })
   test(/*...*/)
   test(/*...*/)
-}) 
+})
 ```
 
 #### Testing asynchronous code
@@ -5463,10 +5461,10 @@ test(`uppercase 'test' to equal 'TEST'`, async () => {
 
 In testing, **mocking** allows you to test functionality that depends on:
 
--   **Database**
--   **Network** requests
--   access to **Files**
--   any **External** system
+- **Database**
+- **Network** requests
+- access to **Files**
+- any **External** system
 
 so that:
 
@@ -5482,10 +5480,10 @@ Even more important, if you are writing a **Unit Test**, you should test the fun
 
 Using mocks, you can inspect if a module function has been called and which parameters were used, with:
 
--   `expect().toHaveBeenCalled()`: check if a spied function has been called
--   `expect().toHaveBeenCalledTimes()`: count how many times a spied function has been called
--   `expect().toHaveBeenCalledWith()`: check if the function has been called with a specific set of parameters
--   `expect().toHaveBeenLastCalledWith()`: check the parameters of the last time the function has been invoked
+- `expect().toHaveBeenCalled()`: check if a spied function has been called
+- `expect().toHaveBeenCalledTimes()`: count how many times a spied function has been called
+- `expect().toHaveBeenCalledWith()`: check if the function has been called with a specific set of parameters
+- `expect().toHaveBeenLastCalledWith()`: check the parameters of the last time the function has been invoked
 
 #### Spy packages without affecting the functions code
 
@@ -5499,7 +5497,7 @@ const mathjs = require('mathjs')
 test(`The mathjs log function`, () => {
   const spy = jest.spyOn(mathjs, 'log')
   const result = mathjs.log(10000, 10)
-  
+
   expect(mathjs.log).toHaveBeenCalled()
   expect(mathjs.log).toHaveBeenCalledWith(10000, 10)
 })
@@ -5675,11 +5673,11 @@ import Button from './Button'
 
 const App = () => {
   const [count, setCount] = useState(0)
-  
+
   const incrementCount = increment => {
     setCount(count + increment)
   }
-  
+
   return (
     <div>
       <Button increment={1} onClickFunction={incrementCount} />
@@ -5780,12 +5778,12 @@ test('App works', () => {
   const { container } = render(<App />)
   console.log(container)
   const buttons = container.querySelectorAll('button')
-  
+
   expect(buttons[0].textContent).toBe('+1')
   expect(buttons[1].textContent).toBe('+10')
   expect(buttons[2].textContent).toBe('+100')
   expect(buttons[3].textContent).toBe('+1000')
-  
+
   const result = container.querySelector('span')
   expect(result.textContent).toBe('0')
   fireEvent.click(buttons[0])
@@ -5845,8 +5843,8 @@ yarn add react-router-dom
 
 React Router provides two different kind of routes:
 
--   `BrowserRouter`
--   `HashRouter`
+- `BrowserRouter`
+- `HashRouter`
 
 One builds classic URLs, the other builds URLs with the hash:
 
@@ -5861,9 +5859,9 @@ Which one to use is mainly dictated by the browsers you need to support. `Browse
 
 The 3 components you will interact the most when working with React Router are:
 
--   `BrowserRouter`, usually aliased as `Router`
--   `Link`
--   `Route`
+- `BrowserRouter`, usually aliased as `Router`
+- `Link`
+- `Route`
 
 `BrowserRouter` wraps all your Route components.
 
@@ -5945,7 +5943,7 @@ ReactDOM.render(
         <Link to={`/`}>Dashboard</Link>
         <Link to={`/about`}>About</Link>
       </aside>
-      
+
       <main>
         <Route exact path="/" component={Dashboard} />
         <Route path="/about" component={About} />
@@ -6147,10 +6145,10 @@ A pure function takes an input and returns an output without changing the input 
 
 A reducer should be a pure function, so it should:
 
--   never mutate its arguments
--   never mutate the state, but instead create a new one with `Object.assign({}, ...)`
--   never generate side-effects (no API calls changing anything)
--   never call non-pure functions, functions that change their output based on factors other than their input (e.g. `Date.now()` or `Math.random()`)
+- never mutate its arguments
+- never mutate the state, but instead create a new one with `Object.assign({}, ...)`
+- never generate side-effects (no API calls changing anything)
+- never call non-pure functions, functions that change their output based on factors other than their input (e.g. `Date.now()` or `Math.random()`)
 
 There is no reinforcement, but you should stick to the rules.
 
@@ -6223,10 +6221,10 @@ const listManager = (state = {}, action) => {
 
 The **Store** is an object that:
 
--   **holds the state** of the app
--   **exposes the state** via `getState()`
--   allows us to **update the state** via `dispatch()`
--   allows us to (un)register a **state change listener** using `subscribe()`
+- **holds the state** of the app
+- **exposes the state** via `getState()`
+- allows us to **update the state** via `dispatch()`
+- allows us to (un)register a **state change listener** using `subscribe()`
 
 A store is **unique** in the app.
 
@@ -6294,15 +6292,15 @@ It provides a common structure that allows you to easily build a frontend React 
 
 Here is a non-exhaustive list of the main Next.js features:
 
--   **Hot Code Reloading**: Next.js reloads the page when it detects any change saved to disk.
--   **Automatic Routing**: any URL is mapped to the filesystem, to files put in the `pages` folder, and you don't need any configuration (you have customization options of course).
--   **Single File Components**: using [styled-jsx](https://github.com/zeit/styled-jsx), completely integrated as built by the same team, it's trivial to add styles scoped to the component.
--   **Server Rendering**: you can (optionally) render React components on the server side, before sending the HTML to the client.
--   **Ecosystem Compatibility**: Next.js plays well with the rest of the JavaScript, Node and React ecosystem.
--   **Automatic Code Splitting**: pages are rendered with just the libraries and JavaScript that they need, no more.
--   **Prefetching**: the `Link` component, used to link together different pages, supports a `prefetch` prop which automatically prefetches page resources (including code missing due to code splitting) in the background.
--   **Dynamic Components**: you can import JavaScript modules and React Components dynamically ([https://github.com/zeit/next.js#dynamic-import](https://github.com/zeit/next.js#dynamic-import)).
--   **Static Exports**: using the `next export` command, Next.js allows you to export a fully static site from your app.
+- **Hot Code Reloading**: Next.js reloads the page when it detects any change saved to disk.
+- **Automatic Routing**: any URL is mapped to the filesystem, to files put in the `pages` folder, and you don't need any configuration (you have customization options of course).
+- **Single File Components**: using [styled-jsx](https://github.com/zeit/styled-jsx), completely integrated as built by the same team, it's trivial to add styles scoped to the component.
+- **Server Rendering**: you can (optionally) render React components on the server side, before sending the HTML to the client.
+- **Ecosystem Compatibility**: Next.js plays well with the rest of the JavaScript, Node and React ecosystem.
+- **Automatic Code Splitting**: pages are rendered with just the libraries and JavaScript that they need, no more.
+- **Prefetching**: the `Link` component, used to link together different pages, supports a `prefetch` prop which automatically prefetches page resources (including code missing due to code splitting) in the background.
+- **Dynamic Components**: you can import JavaScript modules and React Components dynamically ([https://github.com/zeit/next.js#dynamic-import](https://github.com/zeit/next.js#dynamic-import)).
+- **Static Exports**: using the `next export` command, Next.js allows you to export a fully static site from your app.
 
 #### Installation
 
@@ -6611,15 +6609,15 @@ It is one of the tools that allow you to build on a set of technologies and prac
 
 Gatsby is one of the cool kids in the Frontend Development space right now. Why? I think the reasons are:
 
--   the explosion of the JAMstack approach to building Web Apps and Web Sites
--   the rapid adoption of the [Progressive Web Apps](https://flaviocopes.com/progressive-web-apps/) technology in the industry, which is one of the key features of Gatsby
--   it's built in React and [GraphQL](https://flaviocopes.com/graphql/), which are two very popular and rising technologies
--   it's really powerful
--   it's fast
--   the documentation is great
--   the network effect (people use it, create sites, make tutorials, people know more about it, creating a cycle)
--   everything is JavaScript (no need to learn a new templating language)
--   it hides the complexity, in the beginning, but allows us access into every step to customize
+- the explosion of the JAMstack approach to building Web Apps and Web Sites
+- the rapid adoption of the [Progressive Web Apps](https://flaviocopes.com/progressive-web-apps/) technology in the industry, which is one of the key features of Gatsby
+- it's built in React and [GraphQL](https://flaviocopes.com/graphql/), which are two very popular and rising technologies
+- it's really powerful
+- it's fast
+- the documentation is great
+- the network effect (people use it, create sites, make tutorials, people know more about it, creating a cycle)
+- everything is JavaScript (no need to learn a new templating language)
+- it hides the complexity, in the beginning, but allows us access into every step to customize
 
 All those are great points, and Gatsby is definitely worth a look.
 
@@ -6682,10 +6680,10 @@ And here is our Hello World starter in action:
 
 If you open the site you created with your favorite code editor (I use [VS Code](https://flaviocopes.com/vscode/)), you'll find there are 3 folders:
 
--   `.cache`, a hidden folder that contains the Gatsby internals, nothing you should change right now
--   `public`, which contains the resulting website once you build it
--   `src` contains the React components, in this case just the `index` component
--   `static` which will contain the static resources like CSS and images
+- `.cache`, a hidden folder that contains the Gatsby internals, nothing you should change right now
+- `public`, which contains the resulting website once you build it
+- `src` contains the React components, in this case just the `index` component
+- `static` which will contain the static resources like CSS and images
 
 ![x5XH1s5uMEQdUfnZB6BM2-T9HXkDwv1xLhPd](https://cdn-media-1.freecodecamp.org/images/x5XH1s5uMEQdUfnZB6BM2-T9HXkDwv1xLhPd)
 
@@ -6742,14 +6740,14 @@ Gatsby provides lots of things out of the box, but many other functionalities ar
 
 There are 3 kind of plugins:
 
--   **source plugins** fetch data from a source. Create nodes that can be then filtered by transformer plugins
--   **transformer plugins** transform the data provided by source plugins into something Gatsby can use
--   **functional plugins** implement some kind of functionality, like adding sitemap support or more
+- **source plugins** fetch data from a source. Create nodes that can be then filtered by transformer plugins
+- **transformer plugins** transform the data provided by source plugins into something Gatsby can use
+- **functional plugins** implement some kind of functionality, like adding sitemap support or more
 
 Some commonly used plugins are:
 
--   [gatsby-plugin-react-helmet](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet/) which allows to edit the `head` tag content
--   [gatsby-plugin-catch-links](https://www.gatsbyjs.org/packages/gatsby-plugin-catch-links/) which uses the [History API](https://flaviocopes.com/history-api/) to prevent the browser reloading the page when a link is clicked, loading the new content using AJAX instead
+- [gatsby-plugin-react-helmet](https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet/) which allows to edit the `head` tag content
+- [gatsby-plugin-catch-links](https://www.gatsbyjs.org/packages/gatsby-plugin-catch-links/) which uses the [History API](https://flaviocopes.com/history-api/) to prevent the browser reloading the page when a link is clicked, loading the new content using AJAX instead
 
 A Gatsby plugin is installed in 2 steps. First you install it using `npm`, then you add it to the Gatsby configuration in `gatsby-config.js`.
 

@@ -4,18 +4,18 @@ toc: Title
 chapter: Intro
 layout: Center
 style: |
-    .exerslide-slide .Center-wrapper {
-      text-align: left;
-    }
-    .exerslide-slide h1 {
-      color: #444;
-      font-size: 400%;
-      margin-bottom: 50px;
-      text-align: center;
-    }
+  .exerslide-slide .Center-wrapper {
+    text-align: left;
+  }
+  .exerslide-slide h1 {
+    color: #444;
+    font-size: 400%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
 scale:
-    content_width: 39
-    column_width: 0.6
+  content_width: 39
+  column_width: 0.6
 ---
 
 A quick introduction to basic and important concepts of JavaScript

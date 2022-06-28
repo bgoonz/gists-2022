@@ -41,9 +41,9 @@ The internationalization constructors as well as several language sensitive meth
 
 The `locales` argument is used to determine the locale used in a given operation. The JavaScript implementation examines `locales`, and then computes a locale it understands that comes closest to satisfying the expressed preference. `locales` may be:
 
--   `undefined` (or omitted): The implementation's default locale will be used.
--   A locale: A locale identifier or an `Intl.Locale` object that wraps a locale identifier.
--   A list of locales: Any other value, that will be converted into an object and then treated as an array of locales.
+- `undefined` (or omitted): The implementation's default locale will be used.
+- A locale: A locale identifier or an `Intl.Locale` object that wraps a locale identifier.
+- A list of locales: Any other value, that will be converted into an object and then treated as an array of locales.
 
 In the latter two cases, the actual locale used is the best-supported locale determined by [locale negotiation](#locale_negotiation).
 
@@ -58,21 +58,21 @@ A locale identifier is a string that consists of:
 
 ...with all present subtags and sequences separated by hyphens. Locale identifiers are case-insensitive ASCII. However, it's conventional to use title case (first letter capitalized, successive letters lower case) for script subtags, upper case for region subtags, and lower case for everything else. For example:
 
--   "`hi`": Hindi (language)
--   "`de-AT`": German (language) as used in Austria (region)
--   "`zh-Hans-CN`": Chinese (language) written in simplified characters (script) as used in China (region)
--   "`en-emodeng`": English (language) in the "Early modern English" dialect (variant)
+- "`hi`": Hindi (language)
+- "`de-AT`": German (language) as used in Austria (region)
+- "`zh-Hans-CN`": Chinese (language) written in simplified characters (script) as used in China (region)
+- "`en-emodeng`": English (language) in the "Early modern English" dialect (variant)
 
 Subtags identifying languages, scripts, regions (including countries), and (rarely used) variants are registered in the [IANA Language Subtag Registry](https://www.iana.org/assignments/language-subtag-registry). This registry is periodically updated over time, and implementations may not always be up to date, so don't rely too much on subtags being universally supported.
 
 BCP 47 extension sequences consist of a single digit or letter (other than `"x"`) and one or more two- to eight-letter or digit subtags separated by hyphens. Only one sequence is permitted for each digit or letter: "`de-a-foo-a-foo`" is invalid. BCP 47 extension subtags are defined in the [Unicode CLDR Project](https://github.com/unicode-org/cldr/tree/master/common/bcp47). Currently only two extensions have defined semantics:
 
--   The `"u"` (Unicode) extension can be used to request additional customization of [`Intl/Collator`](intl/collator), [`Intl/NumberFormat`](intl/numberformat), or [`Intl/DateTimeFormat`](intl/datetimeformat) objects. Examples:
-    -   "`de-DE-u-co-phonebk`": Use the phonebook variant of the German sort order, which interprets umlauted vowels as corresponding character pairs: ä → ae, ö → oe, ü → ue.
-    -   "`th-TH-u-nu-thai`": Use Thai digits (๐, ๑, ๒, ๓, ๔, ๕, ๖, ๗, ๘, ๙) in number formatting.
-    -   "`ja-JP-u-ca-japanese`": Use the Japanese calendar in date and time formatting, so that 2013 is expressed as the year 25 of the Heisei period, or 平成 25.
-    -   "`en-GB-u-ca-islamic`": use British English with the Islamic (Hijri) calendar, where the Gregorian date 14 October, 2017 is the Hijri date 24 Muharram, 1439.
--   The `"t"` (transformed) extension indicates transformed content: for example, text that was translated from another locale. No `Intl` functionality currently considers the `"t"` extension. However, this extension sometimes contains a nested locale (with no extensions): for example, the transformed extension in "`de-t-en`" contains the locale identifier for English. If a nested locale is present, it must be a valid locale identifier. For example, because "`en-emodeng-emodeng`" is invalid (because it contains a duplicate `emodeng` variant subtag), "`de-t-en-emodeng-emodeng`" is also invalid.
+- The `"u"` (Unicode) extension can be used to request additional customization of [`Intl/Collator`](intl/collator), [`Intl/NumberFormat`](intl/numberformat), or [`Intl/DateTimeFormat`](intl/datetimeformat) objects. Examples:
+  - "`de-DE-u-co-phonebk`": Use the phonebook variant of the German sort order, which interprets umlauted vowels as corresponding character pairs: ä → ae, ö → oe, ü → ue.
+  - "`th-TH-u-nu-thai`": Use Thai digits (๐, ๑, ๒, ๓, ๔, ๕, ๖, ๗, ๘, ๙) in number formatting.
+  - "`ja-JP-u-ca-japanese`": Use the Japanese calendar in date and time formatting, so that 2013 is expressed as the year 25 of the Heisei period, or 平成 25.
+  - "`en-GB-u-ca-islamic`": use British English with the Islamic (Hijri) calendar, where the Gregorian date 14 October, 2017 is the Hijri date 24 Muharram, 1439.
+- The `"t"` (transformed) extension indicates transformed content: for example, text that was translated from another locale. No `Intl` functionality currently considers the `"t"` extension. However, this extension sometimes contains a nested locale (with no extensions): for example, the transformed extension in "`de-t-en`" contains the locale identifier for English. If a nested locale is present, it must be a valid locale identifier. For example, because "`en-emodeng-emodeng`" is invalid (because it contains a duplicate `emodeng` variant subtag), "`de-t-en-emodeng-emodeng`" is also invalid.
 
 Finally, a private-use extension sequence using the letter `"x"` may appear, followed by one or more one- to eight-letter or digit subtags separated by hyphens. This allows applications to encode information for their own private use, that will be ignored by all `Intl` operations.
 
@@ -404,20 +404,20 @@ No
 
 ## See also
 
--   Introduction: [The ECMAScript Internationalization API](https://norbertlindenberg.com/2012/12/ecmascript-internationalization-api/index.html)
--   Constructors
-    -   [`Intl.Collator`](intl/collator)
-    -   [`Intl.DateTimeFormat`](intl/datetimeformat)
-    -   [`Intl.ListFormat`](intl/listformat)
-    -   [`Intl.NumberFormat`](intl/numberformat)
-    -   [`Intl.PluralRules`](intl/pluralrules)
-    -   [`Intl.RelativeTimeFormat`](intl/relativetimeformat)
-    -   [`Intl.Locale`](intl/locale)
--   Methods
-    -   [`String.prototype.localeCompare()`](string/localecompare)
-    -   [`Number.prototype.toLocaleString()`](number/tolocalestring)
-    -   [`Date.prototype.toLocaleString()`](date/tolocalestring)
-    -   [`Date.prototype.toLocaleDateString()`](date/tolocaledatestring)
-    -   [`Date.prototype.toLocaleTimeString()`](date/tolocaletimestring)
+- Introduction: [The ECMAScript Internationalization API](https://norbertlindenberg.com/2012/12/ecmascript-internationalization-api/index.html)
+- Constructors
+  - [`Intl.Collator`](intl/collator)
+  - [`Intl.DateTimeFormat`](intl/datetimeformat)
+  - [`Intl.ListFormat`](intl/listformat)
+  - [`Intl.NumberFormat`](intl/numberformat)
+  - [`Intl.PluralRules`](intl/pluralrules)
+  - [`Intl.RelativeTimeFormat`](intl/relativetimeformat)
+  - [`Intl.Locale`](intl/locale)
+- Methods
+  - [`String.prototype.localeCompare()`](string/localecompare)
+  - [`Number.prototype.toLocaleString()`](number/tolocalestring)
+  - [`Date.prototype.toLocaleString()`](date/tolocalestring)
+  - [`Date.prototype.toLocaleDateString()`](date/tolocaledatestring)
+  - [`Date.prototype.toLocaleTimeString()`](date/tolocaletimestring)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl</a>

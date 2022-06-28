@@ -67,7 +67,7 @@ It is defined in `Object.prototype`, which sits at the end of every prototype
 chain.
 
 ```js
-var user = { name: 'Tom' };
+var user = { name: "Tom" };
 user.toString();
 // "[object Object]"
 ```

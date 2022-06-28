@@ -5,14 +5,14 @@ Find the sum of all the multiples of 3 or 5 below the provided parameter value n
 */
 
 const multiplesThreeAndFive = (num) => {
-  let total = 0
+  let total = 0;
   // total for calculating the sum
   for (let i = 0; i < num; i++) {
     if (i % 3 === 0 || i % 5 === 0) {
-      total += i
+      total += i;
     }
   }
-  return total
-}
+  return total;
+};
 
-export { multiplesThreeAndFive }
+export { multiplesThreeAndFive };

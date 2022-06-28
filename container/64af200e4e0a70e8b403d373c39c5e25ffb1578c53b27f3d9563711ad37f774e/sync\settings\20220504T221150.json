@@ -1,1 +1,4 @@
-{"version":2,"content":"{\"settings\":\"{\\r\\n    \\\"codestream.serverUrl\\\": \\\"https://api.codestream.com\\\"\\r\\n}\"}"}
+{
+  "version": 2,
+  "content": "{\"settings\":\"{\\r\\n    \\\"codestream.serverUrl\\\": \\\"https://api.codestream.com\\\"\\r\\n}\"}"
+}

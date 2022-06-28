@@ -12,10 +12,10 @@ called with the [`new` operator][new]:
 
 ```javascript
 function Person(name) {
-    this.name = name;
+  this.name = name;
 }
 
-var felix = new Person('Felix');
+var felix = new Person("Felix");
 console.log(felix.name);
 ```
 
@@ -30,13 +30,13 @@ Example:
 
 ```javascript
 function Person(name) {
-    this.name = name;
+  this.name = name;
 }
 Person.prototype.sayName = function () {
-    return this.name;
+  return this.name;
 };
 
-var felix = new Person('Felix');
+var felix = new Person("Felix");
 console.log(felix.sayName());
 ```
 

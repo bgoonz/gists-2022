@@ -1,1 +1,47 @@
-{"version":1,"resource":"file:///Users/BGuner/Desktop/Public-Repo/src/components/SimpleCalculator/data.js","entries":[{"id":"MWKM.js","timestamp":1651086349580},{"id":"xmHT.js","source":"undoRedo.source","timestamp":1651086352247},{"id":"exK5.js","timestamp":1651086369235},{"id":"SjA4.js","timestamp":1651086408913},{"id":"Z286.js","timestamp":1651086456128},{"id":"A3Fr.js","timestamp":1651086470596},{"id":"kBR9.js","timestamp":1651086506193},{"id":"oa1S.js","timestamp":1651086536243},{"id":"TKmP.js","timestamp":1651086559673},{"id":"f8Cu.js","timestamp":1651087052788},{"id":"ovrG.js","timestamp":1651087070006},{"id":"ljcE.js","timestamp":1651087107340},{"id":"J1g8.js","timestamp":1651087123651},{"id":"DYKm.js","timestamp":1651087142871},{"id":"SKS8.js","timestamp":1651087157389},{"id":"rSh6.js","timestamp":1651087172635},{"id":"LeGV.js","timestamp":1651087190975},{"id":"Ypjq.js","timestamp":1651087206872},{"id":"Y80h.js","timestamp":1651087263044},{"id":"dhbv.js","source":"undoRedo.source","timestamp":1651087264946},{"id":"sELB.js","timestamp":1651087284615},{"id":"jK59.js","timestamp":1651087626136},{"id":"Z2Gm.js","timestamp":1651087652019},{"id":"YurN.js","timestamp":1651087672001},{"id":"UBfT.js","timestamp":1651087695670},{"id":"U54q.js","timestamp":1651087980286},{"id":"lOhj.js","timestamp":1652206136651},{"id":"BIbX.js","source":"undoRedo.source","timestamp":1652206153275},{"id":"Unet.js","timestamp":1652206161214}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/Desktop/Public-Repo/src/components/SimpleCalculator/data.js",
+  "entries": [
+    { "id": "MWKM.js", "timestamp": 1651086349580 },
+    {
+      "id": "xmHT.js",
+      "source": "undoRedo.source",
+      "timestamp": 1651086352247
+    },
+    { "id": "exK5.js", "timestamp": 1651086369235 },
+    { "id": "SjA4.js", "timestamp": 1651086408913 },
+    { "id": "Z286.js", "timestamp": 1651086456128 },
+    { "id": "A3Fr.js", "timestamp": 1651086470596 },
+    { "id": "kBR9.js", "timestamp": 1651086506193 },
+    { "id": "oa1S.js", "timestamp": 1651086536243 },
+    { "id": "TKmP.js", "timestamp": 1651086559673 },
+    { "id": "f8Cu.js", "timestamp": 1651087052788 },
+    { "id": "ovrG.js", "timestamp": 1651087070006 },
+    { "id": "ljcE.js", "timestamp": 1651087107340 },
+    { "id": "J1g8.js", "timestamp": 1651087123651 },
+    { "id": "DYKm.js", "timestamp": 1651087142871 },
+    { "id": "SKS8.js", "timestamp": 1651087157389 },
+    { "id": "rSh6.js", "timestamp": 1651087172635 },
+    { "id": "LeGV.js", "timestamp": 1651087190975 },
+    { "id": "Ypjq.js", "timestamp": 1651087206872 },
+    { "id": "Y80h.js", "timestamp": 1651087263044 },
+    {
+      "id": "dhbv.js",
+      "source": "undoRedo.source",
+      "timestamp": 1651087264946
+    },
+    { "id": "sELB.js", "timestamp": 1651087284615 },
+    { "id": "jK59.js", "timestamp": 1651087626136 },
+    { "id": "Z2Gm.js", "timestamp": 1651087652019 },
+    { "id": "YurN.js", "timestamp": 1651087672001 },
+    { "id": "UBfT.js", "timestamp": 1651087695670 },
+    { "id": "U54q.js", "timestamp": 1651087980286 },
+    { "id": "lOhj.js", "timestamp": 1652206136651 },
+    {
+      "id": "BIbX.js",
+      "source": "undoRedo.source",
+      "timestamp": 1652206153275
+    },
+    { "id": "Unet.js", "timestamp": 1652206161214 }
+  ]
+}

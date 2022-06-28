@@ -56,8 +56,8 @@ The second statement below assigns the value 25 to the variable `day`, based on 
 
 ## See also
 
--   [`Date.prototype.getUTCDate()`](getutcdate)
--   [`Date.prototype.getUTCDay()`](getutcday)
--   [`Date.prototype.setDate()`](setdate)
+- [`Date.prototype.getUTCDate()`](getutcdate)
+- [`Date.prototype.getUTCDay()`](getutcday)
+- [`Date.prototype.setDate()`](setdate)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate</a>

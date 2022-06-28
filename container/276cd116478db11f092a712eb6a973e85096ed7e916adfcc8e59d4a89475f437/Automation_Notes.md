@@ -6,7 +6,7 @@
 
 - [fancyhands](https://www.fancyhands.com/) - US virtual assistant
 - [gethuman](https://gethuman.com/) - Help for customer service
-- [pickfu](https://www.pickfu.com/) - Market feedback from US consumers 
+- [pickfu](https://www.pickfu.com/) - Market feedback from US consumers
 - [Gosquaredaway](https://www.gosquaredaway.com/)- military spouse personal assistants
 
 ## code
@@ -38,11 +38,10 @@
 
 twint https://nixintel.info/osint/the-attrition-of-information-in-osint-why-acting-quickly-matters-and-how-to-recover-when-you-dont/
 
-small replit twitter bots (usually useless) 
+small replit twitter bots (usually useless)
 
 - [Another tweepy bot](https://repl.it/talk/share/Twitter-Bot/2738)
 - [Old tweepy bot](https://repl.it/@LilyInskip_Shes/Twitter-Bot)
-
 
 ### discord bots
 
@@ -56,7 +55,7 @@ small replit twitter bots (usually useless)
 
 - [Build a Whatsapp bot](https://repl.it/talk/challenge/Build-a-WhatsApp-bot-in-30-minutes/7673)
 
-### tiktok 
+### tiktok
 
 - [Tiktok Scraper](https://dev.to/id1/tiktok-scraper-25a9)
 
@@ -70,7 +69,6 @@ small replit twitter bots (usually useless)
 - more https://news.ycombinator.com/item?id=21772610
 - https://news.ycombinator.com/item?id=20822637
 - python! https://automatetheboringstuff.com/2e/
-
 
 ### scraping
 
@@ -96,10 +94,11 @@ misc
 - https://twitter.com/SahinKevin/status/1216343661459451906?s=20
 - https://qoob.cc/web-scraping/
 - https://chrome.google.com/webstore/detail/simplescraper-%E2%81%A0%E2%80%94-a-fast-a/lnddbhdmiciimpkbilgpklcglkdegdkg?utm_source=brainpint&utm_medium=email&utm_campaign=its_ok_to_go_off_script&utm_term=2021-07-06
+
 * [Beehive](https://github.com/muesli/beehive) - A flexible event/agent & automation system with lots of bees
 * [DataFire](https://github.com/DataFire/DataFire) - An open source framework for building and integrating APIs. Each integration provides a set of composable actions. New actions can be built by combining existing actions, JavaScript, and external libraries. They are driven by JavaScript Promises, and can be triggered by a URL, on a schedule, or manually.
 * [Kibitzr](https://kibitzr.github.io) - Get notified when important things happen
-* [Netflix Scumblr](https://github.com/Netflix/Scumblr) ([#1522](https://github.com/cantino/huginn/issues/1522)) - A web application that allows performing periodic searches and storing / taking actions on the identified results. 
+* [Netflix Scumblr](https://github.com/Netflix/Scumblr) ([#1522](https://github.com/cantino/huginn/issues/1522)) - A web application that allows performing periodic searches and storing / taking actions on the identified results.
 * [Node-RED](http://nodered.org) ([#1296](https://github.com/cantino/huginn/issues/1296)) - A tool for wiring together hardware devices, APIs, and online services in new and interesting ways.
 * [NoFlo](https://NoFlojs.org) - A JavaScript implementation of Flow-Based Programming (FBP). Separating the control flow of software from the actual software logic. Helping you organize large applications easier than traditional OOP paradigms, especially when importing and modifying large data sets.
 * [Pico-Engine](https://github.com/Picolab/pico-engine/) - A prototype implementation of the pico-engine written in node.js
@@ -137,7 +136,6 @@ webscraper.io
 - https://github.com/paperswithcode/sota-extractor
 - https://github.com/karpathy/arxiv-sanity-preserver
 - https://theheadless.dev/
-
 
 WEBCRAWLING ARCHITECTURE https://nlp.stanford.edu/IR-book/information-retrieval-book.html https://news.ycombinator.com/item?id=24338964
 

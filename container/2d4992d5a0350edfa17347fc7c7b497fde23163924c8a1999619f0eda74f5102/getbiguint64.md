@@ -71,8 +71,8 @@ No
 
 ## See also
 
--   [`DataView`](../dataview)
--   [`ArrayBuffer`](../arraybuffer)
--   [`BigInt`](../bigint)
+- [`DataView`](../dataview)
+- [`ArrayBuffer`](../arraybuffer)
+- [`BigInt`](../bigint)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView/getBigUint64" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView/getBigUint64</a>

@@ -19,7 +19,7 @@ A string created by using the specified sequence of code points.
 
 ### Exceptions
 
--   A [`RangeError`](../../errors/not_a_codepoint) is thrown if an invalid Unicode code point is given (e.g. `"RangeError: NaN is not a valid code point"`).
+- A [`RangeError`](../../errors/not_a_codepoint) is thrown if an invalid Unicode code point is given (e.g. `"RangeError: NaN is not a valid code point"`).
 
 ## Description
 
@@ -137,10 +137,10 @@ No
 
 ## See also
 
--   [`String.fromCharCode()`](fromcharcode)
--   [`String.prototype.charAt()`](charat)
--   [`String.prototype.codePointAt()`](codepointat)
--   [`String.prototype.charCodeAt()`](charcodeat)
+- [`String.fromCharCode()`](fromcharcode)
+- [`String.prototype.charAt()`](charat)
+- [`String.prototype.codePointAt()`](codepointat)
+- [`String.prototype.charCodeAt()`](charcodeat)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

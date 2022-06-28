@@ -12,7 +12,7 @@ $(function () {
       if (target.length) {
         $("html,body").animate(
           {
-            scrollTop: target.offset().top
+            scrollTop: target.offset().top,
           },
           800
         ); // The number here represents the speed of the scroll in milliseconds

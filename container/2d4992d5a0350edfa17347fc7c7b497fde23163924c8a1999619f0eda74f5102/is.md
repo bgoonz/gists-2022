@@ -22,16 +22,16 @@ A [`Boolean`](../boolean) indicating whether or not the two arguments are the sa
 
 `Object.is()` determines whether two values are [the same value](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness). Two values are the same if one of the following holds:
 
--   both [`undefined`](../undefined)
--   both [`null`](../null)
--   both `true` or both `false`
--   both strings of the same length with the same characters in the same order
--   both the same object (meaning both values reference the same object in memory)
--   both numbers and
-    -   both `+0`
-    -   both `-0`
-    -   both [`NaN`](../nan)
-    -   or both non-zero and both not [`NaN`](../nan) and both have the same value
+- both [`undefined`](../undefined)
+- both [`null`](../null)
+- both `true` or both `false`
+- both strings of the same length with the same characters in the same order
+- both the same object (meaning both values reference the same object in memory)
+- both numbers and
+  - both `+0`
+  - both `-0`
+  - both [`NaN`](../nan)
+  - or both non-zero and both not [`NaN`](../nan) and both have the same value
 
 This is _not_ the same as being equal according to the [`==`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#equality) operator. The `==` operator applies various coercions to both sides (if they are not the same Type) before testing for equality (resulting in such behavior as `"" == false` being `true`), but `Object.is` doesn't coerce either value.
 
@@ -121,7 +121,7 @@ No
 
 ## See also
 
--   [Equality comparisons and sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness) — a comparison of all three built-in sameness facilities
+- [Equality comparisons and sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness) — a comparison of all three built-in sameness facilities
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

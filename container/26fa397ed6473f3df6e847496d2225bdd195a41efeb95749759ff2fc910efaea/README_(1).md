@@ -6,7 +6,7 @@ Please follow https://github.com/reactwg/react-18/discussions from now on
 
 ## 2020 updates
 
-- **Switched batching model from Expiration Times to Lanes**: https://github.com/facebook/react/pull/18796. 
+- **Switched batching model from Expiration Times to Lanes**: https://github.com/facebook/react/pull/18796.
 - **preparing to use Chrome native scheduler**: https://github.com/facebook/react/pull/19121
 - **changing effect traversal for Suspense and Offscreen trees**: https://github.com/facebook/react/pull/19322
 - React 17 had [changes to event delegation](https://reactjs.org/blog/2020/08/10/react-v17-rc.html#changes-to-event-delegation) so as to enable React 18 and 17 trees to coexist in the same app
@@ -185,7 +185,7 @@ There are some cases when this is insufficient. Maybe some “new” loading sta
 
 ## Writing a Cache
 
-"If you have a cache and feel like eviction criteria are ad-hoc and unclear, it can help to have an explicit object that represents the caching lifetime. As long as you hold onto that object, you can read from the cache. Losing the reference to it means eviction. This has implications for data fetching. The classic fetch-on-render pattern (like fetch in componentDidMount or effect) with local state is relatively easy to do because it *does* tie data lifetime to a well-defined thing. React state! It lives while component is mounted. One of the many problems with this data fetching approach is that the cache is too local. If two components use the same data, you have to fetch it twice. Or lift it up. Redux is an extreme version of that. By lifting a cache too high, it no longer has a well-defined lifetime! One way you could try to solve this is with manual invalidation methods. Maybe you clear the cache on (some?) route changes or invalidate particular parts of it when necessary. It’s pretty hard to do manually in a consistent way though. Usually leads to bugs. This is really the key flaw with our early Suspense demos from a year ago. The “fetch-on-render” pattern that mirrors “fetch in componentDidMount” could work if we’re fine caching forever. But if we want cache invalidation, we need something to “anchor” that invalidation to. In Relay, that “anchor” is called “query reference”. My understanding is that Relay does refcounting for them.
+"If you have a cache and feel like eviction criteria are ad-hoc and unclear, it can help to have an explicit object that represents the caching lifetime. As long as you hold onto that object, you can read from the cache. Losing the reference to it means eviction. This has implications for data fetching. The classic fetch-on-render pattern (like fetch in componentDidMount or effect) with local state is relatively easy to do because it _does_ tie data lifetime to a well-defined thing. React state! It lives while component is mounted. One of the many problems with this data fetching approach is that the cache is too local. If two components use the same data, you have to fetch it twice. Or lift it up. Redux is an extreme version of that. By lifting a cache too high, it no longer has a well-defined lifetime! One way you could try to solve this is with manual invalidation methods. Maybe you clear the cache on (some?) route changes or invalidate particular parts of it when necessary. It’s pretty hard to do manually in a consistent way though. Usually leads to bugs. This is really the key flaw with our early Suspense demos from a year ago. The “fetch-on-render” pattern that mirrors “fetch in componentDidMount” could work if we’re fine caching forever. But if we want cache invalidation, we need something to “anchor” that invalidation to. In Relay, that “anchor” is called “query reference”. My understanding is that Relay does refcounting for them.
 
 In Suspense experimental docs, we use an explicit “resource” to represent the caching lifetime. But this is annoying in practice because you have to manage that object. What if that lifetime was managed automatically? For that to work, you need two ingredients:
 
@@ -196,7 +196,6 @@ Relay does (1) for GraphQL. We’re working on something more generic for REST e
 @sebmarkbage has an intriguing idea to solve (2) by integrating (1) closer with the routing system. Below the router level, we lose some information about user intent (did we move to a new page or navigate in history). But user expectations depend on user intent.
 
 That is all to say cache invalidation and expiration is a hard problem. But you can make it manageable if you anchor it to something with a well-defined timeline. Now you “just” need to decide what it is, and why that makes sense."
-
 
 (source: [Dan](https://twitter.com/dan_abramov/status/1202052703813357574))
 

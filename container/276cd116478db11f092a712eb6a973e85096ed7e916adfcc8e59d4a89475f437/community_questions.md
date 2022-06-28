@@ -1,8 +1,6 @@
-
 ### community questions
 
-
-What should I be observing? 
+What should I be observing?
 I have a personal philosophy of 'always be learning and observing'. I feel that the more we can do this, then the more answers naturally gravitate towards you.
 
 What is it the community is doing and talking about?
@@ -12,7 +10,7 @@ What annoys them?
 What is their vision?
 Why are they really there?
 What’s stopping them from going somewhere else?
- 
+
 What conversations are happening?
 The things people talk about are the clues you need. Pay attention to them. Be a good student and take notes!
 
@@ -24,7 +22,6 @@ Do you have anything to add to the conversations?
 Who aligns with your way of thinking?
 How does your vision fit within these current conversations, if at all?
 Taking the time to understand what people are talking about is your competitive advantage. The more time you take doing this, the more opportunities you will naturally discover that no one else will.
- 
 
 What is the vision of the organization?
 Much of what community building is about is getting people to believe in the direction you are heading. They have to love, want, or need to be a part of it.
@@ -38,7 +35,7 @@ Does your vision overlap with the values they hold?
 Does your vision stand a chance in the future?
 Is your vision too big?
 How can you break it down into smaller and meaningful actions?
- 
+
 What values do we hold?
 The world is changing fast. The values and rituals that use to be formed from religion and culture no longer exist. We are multicultural and we need to redefine the values and rituals that matter to us today.
 
@@ -50,10 +47,9 @@ What new rituals can be formed?
 How can we be less afraid of becoming the people we want to be?
 What boundaries can we positively break?
 This, to me, is perhaps one of the biggest areas of change and impact we can have as community builders. What we value is changing, constantly and increasingly quickly. How can we stay connected with all these moving pieces?
- 
 
 What trends are happening right now?
-Personally, I mostly look at trends from a technological, business, or cultural perspective. You may have different focuses. 
+Personally, I mostly look at trends from a technological, business, or cultural perspective. You may have different focuses.
 
 Whatever trends you focus on, please don’t dismiss them. You only need to look back 1(!), 5, 10, 15 years ago to see how the world has dramatically changed.
 

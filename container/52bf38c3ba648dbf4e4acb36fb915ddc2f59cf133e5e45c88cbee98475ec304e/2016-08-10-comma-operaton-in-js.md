@@ -4,7 +4,7 @@ tip-username: bhaskarmelkani
 tip-username-profile: https://www.twitter.com/bhaskarmelkani
 tip-tldr: When placed in an expression, it evaluates every expression from left to right and returns the last one.
 
--   /en/comma-operaton-in-js/
+- /en/comma-operaton-in-js/
 
 categories: - en - javascript
 
@@ -15,7 +15,7 @@ Eg:-
 
 ```js
 for (var i = 0, j = 0; i < 5; i++, j++, j++) {
-    console.log('i:' + i + ', j:' + j);
+  console.log("i:" + i + ", j:" + j);
 }
 ```
 
@@ -35,16 +35,16 @@ Eg:-
 
 ```js
 function a() {
-    console.log('a');
-    return 'a';
+  console.log("a");
+  return "a";
 }
 function b() {
-    console.log('b');
-    return 'b';
+  console.log("b");
+  return "b";
 }
 function c() {
-    console.log('c');
-    return 'c';
+  console.log("c");
+  return "c";
 }
 
 var x = (a(), b(), c());
@@ -55,14 +55,14 @@ console.log(x); // Outputs "c"
 Output:-
 
 ```js
-'a';
-'b';
-'c';
+"a";
+"b";
+"c";
 
-'c';
+"c";
 ```
 
--   Note: The comma(`,`) operator has the lowest priority of all javascript operators, so without the parenthesis the expression would become: `(x = a()), b(), c();`.
+- Note: The comma(`,`) operator has the lowest priority of all javascript operators, so without the parenthesis the expression would become: `(x = a()), b(), c();`.
 
 ##### Playground
 

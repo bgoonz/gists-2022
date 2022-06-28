@@ -1,4 +1,3 @@
-
 Before we get started, here's a brief look of valid (today) ways to import React and use the `useState` hook:
 
 window.React.useState()
@@ -29,71 +28,71 @@ var React \= require('react')
 
 var Counter \= React.createClass({
 
- propTypes: {
+propTypes: {
 
- initialCount: React.PropTypes.number.isRequired,
+initialCount: React.PropTypes.number.isRequired,
 
- step: React.PropTypes.number,
+step: React.PropTypes.number,
 
- },
+},
 
- getDefaultProps: function () {
+getDefaultProps: function () {
 
- return {step: 1}
+return {step: 1}
 
- },
+},
 
- getInitialState: function () {
+getInitialState: function () {
 
- var initialCount \= this.props.hasOwnProperty('initialCount')
+var initialCount \= this.props.hasOwnProperty('initialCount')
 
- ? this.props.initialCount
+? this.props.initialCount
 
- : 0
+: 0
 
- return {count: initialCount}
+return {count: initialCount}
 
- },
+},
 
- changeCount: function (change) {
+changeCount: function (change) {
 
- this.setState(function (previousState) {
+this.setState(function (previousState) {
 
- return {count: previousState.count + change}
+return {count: previousState.count + change}
 
- })
+})
 
- }
+}
 
- increment: function () {
+increment: function () {
 
- this.changeCount(this.props.step)
+this.changeCount(this.props.step)
 
- },
+},
 
- decrement: function () {
+decrement: function () {
 
- this.changeCount(\-this.props.step)
+this.changeCount(\-this.props.step)
 
- },
+},
 
- render: function () {
+render: function () {
 
- return (
+return (
 
- <div\>
+<div\>
 
- <div\>Current Count: {this.state.count}</div\>
+<div\>Current Count: {this.state.count}</div\>
 
- <button onClick\={this.decrement}\>\-</button\>
+<button onClick\={this.decrement}\>\-</button\>
 
- <button onClick\={this.increment}\>+</button\>
+<button onClick\={this.increment}\>+</button\>
 
- </div\>
+</div\>
 
- )
+)
 
- },
+},
 
 })
 
@@ -107,35 +106,35 @@ import React from 'react'
 
 class Counter extends React.Component {
 
- state \= {count: this.props.initialCount ?? 0}
+state \= {count: this.props.initialCount ?? 0}
 
- changeCount() {
+changeCount() {
 
- this.setState(({count}) \=> ({count + change}))
+this.setState(({count}) \=> ({count + change}))
 
- }
+}
 
- increment \= () \=> this.changeCount(this.props.step)
+increment \= () \=> this.changeCount(this.props.step)
 
- decrement \= () \=> this.changeCount(\-this.props.step)
+decrement \= () \=> this.changeCount(\-this.props.step)
 
- render() {
+render() {
 
- return (
+return (
 
- <div\>
+<div\>
 
- <div\>Current Count: {this.state.count}</div\>
+<div\>Current Count: {this.state.count}</div\>
 
- <button onClick\={this.decrement}\>\-</button\>
+<button onClick\={this.decrement}\>\-</button\>
 
- <button onClick\={this.increment}\>+</button\>
+<button onClick\={this.increment}\>+</button\>
 
- </div\>
+</div\>
 
- )
+)
 
- }
+}
 
 }
 
@@ -145,35 +144,35 @@ import React, {Component} from 'react'
 
 class Counter extends Component {
 
- state \= {count: this.props.initialCount ?? 0}
+state \= {count: this.props.initialCount ?? 0}
 
- changeCount() {
+changeCount() {
 
- this.setState(({count}) \=> ({count + change}))
+this.setState(({count}) \=> ({count + change}))
 
- }
+}
 
- increment \= () \=> this.changeCount(this.props.step)
+increment \= () \=> this.changeCount(this.props.step)
 
- decrement \= () \=> this.changeCount(\-this.props.step)
+decrement \= () \=> this.changeCount(\-this.props.step)
 
- render() {
+render() {
 
- return (
+return (
 
- <div\>
+<div\>
 
- <div\>Current Count: {this.state.count}</div\>
+<div\>Current Count: {this.state.count}</div\>
 
- <button onClick\={this.decrement}\>\-</button\>
+<button onClick\={this.decrement}\>\-</button\>
 
- <button onClick\={this.increment}\>+</button\>
+<button onClick\={this.increment}\>+</button\>
 
- </div\>
+</div\>
 
- )
+)
 
- }
+}
 
 }
 
@@ -207,25 +206,25 @@ import React from 'react'
 
 function Counter({initialCount \= 0, step}) {
 
- const \[count, setCount\] \= React.useState(initialCount)
+const \[count, setCount\] \= React.useState(initialCount)
 
- const decrement \= () \=> setCount((c) \=> c \- step)
+const decrement \= () \=> setCount((c) \=> c \- step)
 
- const increment \= () \=> setCount((c) \=> c + step)
+const increment \= () \=> setCount((c) \=> c + step)
 
- return (
+return (
 
- <div\>
+<div\>
 
- <div\>Current Count: {count}</div\>
+<div\>Current Count: {count}</div\>
 
- <button onClick\={decrement}\>\-</button\>
+<button onClick\={decrement}\>\-</button\>
 
- <button onClick\={increment}\>+</button\>
+<button onClick\={increment}\>+</button\>
 
- </div\>
+</div\>
 
- )
+)
 
 }
 
@@ -247,7 +246,7 @@ Finally, React 17 was released with basically no real breaking changes but [an a
 
 function App() {
 
- return <h1\>Hello World</h1\>
+return <h1\>Hello World</h1\>
 
 }
 
@@ -257,7 +256,7 @@ import {jsx as \_jsx} from 'react/jsx-runtime'
 
 function App() {
 
- return \_jsx('h1', {children: 'Hello world'})
+return \_jsx('h1', {children: 'Hello world'})
 
 }
 
@@ -277,12 +276,12 @@ The React team decided to go with the named imports approach. I disagree with th
 
 {
 
- "import React": {
+"import React": {
 
- "prefix": "ir",
+"prefix": "ir",
 
- "body": \["import \* as React from 'react'\\n"\]
+"body": \["import \* as React from 'react'\\n"\]
 
- },
+},
 
 }

@@ -88,6 +88,6 @@ The following is a shim to provide support to non-supporting browsers:
 
 ## See also
 
--   [`String`](../global_objects/string)
+- [`String`](../global_objects/string)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_String_generics" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_String_generics</a>

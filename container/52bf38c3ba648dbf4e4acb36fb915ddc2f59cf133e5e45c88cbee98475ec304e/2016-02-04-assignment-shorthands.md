@@ -4,7 +4,7 @@ tip-username: hsleonis
 tip-username-profile: https://github.com/hsleonis
 tip-tldr: Assigning is very common. Sometimes typing becomes time consuming for us 'Lazy programmers'. So, we can use some tricks to help us and make our code cleaner and simpler.
 
--   /en/assignment-shorthands/
+- /en/assignment-shorthands/
 
 Assigning is very common. Sometimes typing becomes time consuming for us 'Lazy programmers'.
 So, we can use some tricks to help us and make our code cleaner and simpler.
@@ -71,15 +71,15 @@ var newValue = value > 10 ? 5 : 2;
 ### Null, Undefined, Empty Checks
 
 ```javascript
-if (variable1 !== null || variable1 !== undefined || variable1 !== '') {
-    var variable2 = variable1;
+if (variable1 !== null || variable1 !== undefined || variable1 !== "") {
+  var variable2 = variable1;
 }
 ```
 
 Shorthand here:
 
 ```javascript
-var variable2 = variable1 || '';
+var variable2 = variable1 || "";
 ```
 
 P.S.: If variable1 is a number, then first check if it is 0.
@@ -90,14 +90,14 @@ Instead of using:
 
 ```javascript
 var a = new Array();
-a[0] = 'myString1';
-a[1] = 'myString2';
+a[0] = "myString1";
+a[1] = "myString2";
 ```
 
 Use this:
 
 ```javascript
-var a = ['myString1', 'myString2'];
+var a = ["myString1", "myString2"];
 ```
 
 ### Associative array
@@ -106,15 +106,15 @@ Instead of using:
 
 ```javascript
 var skillSet = new Array();
-skillSet['Document language'] = 'HTML5';
-skillSet['Styling language'] = 'CSS3';
+skillSet["Document language"] = "HTML5";
+skillSet["Styling language"] = "CSS3";
 ```
 
 Use this:
 
 ```javascript
 var skillSet = {
-    'Document language': 'HTML5',
-    'Styling language': 'CSS3'
+  "Document language": "HTML5",
+  "Styling language": "CSS3",
 };
 ```

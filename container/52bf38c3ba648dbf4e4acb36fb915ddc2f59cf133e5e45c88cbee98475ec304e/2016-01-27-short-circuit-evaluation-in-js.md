@@ -4,7 +4,7 @@ tip-username: bhaskarmelkani
 tip-username-profile: https://www.twitter.com/bhaskarmelkani
 tip-tldr: Short-circuit evaluation says, the second argument is executed or evaluated only if the first argument does not suffice to determine the value of the expression, when the first argument of the AND `&&` function evaluates to false, the overall value must be false, and when the first argument of the OR `||` function evaluates to true, the overall value must be true.
 
--   /en/short-circuit-evaluation-in-js/
+- /en/short-circuit-evaluation-in-js/
 
 [Short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation) says, the second argument is executed or evaluated only if the first argument does not suffice to determine the value of the expression: when the first argument of the AND (`&&`) function evaluates to false, the overall value must be false; and when the first argument of the OR (`||`) function evaluates to true, the overall value must be true.
 
@@ -13,10 +13,10 @@ For the following `test` condition and `isTrue` and `isFalse` function.
 ```js
 var test = true;
 var isTrue = function () {
-    console.log('Test is true.');
+  console.log("Test is true.");
 };
 var isFalse = function () {
-    console.log('Test is false.');
+  console.log("Test is false.");
 };
 ```
 
@@ -25,7 +25,7 @@ Using logical AND - `&&`.
 ```js
 // A normal if statement.
 if (test) {
-    isTrue(); // Test is true
+  isTrue(); // Test is true
 }
 
 // Above can be done using '&&' as -
@@ -38,7 +38,7 @@ Using logical OR - `||`.
 ```js
 test = false;
 if (!test) {
-    isFalse(); // Test is false.
+  isFalse(); // Test is false.
 }
 
 test || isFalse(); // Test is false.
@@ -48,11 +48,11 @@ The logical OR could also be used to set a default value for function argument.
 
 ```js
 function theSameOldFoo(name) {
-    name = name || 'Bar';
-    console.log("My best friend's name is " + name);
+  name = name || "Bar";
+  console.log("My best friend's name is " + name);
 }
 theSameOldFoo(); // My best friend's name is Bar
-theSameOldFoo('Bhaskar'); // My best friend's name is Bhaskar
+theSameOldFoo("Bhaskar"); // My best friend's name is Bhaskar
 ```
 
 The logical AND could be used to avoid exceptions when using properties of undefined.
@@ -60,9 +60,9 @@ Example:
 
 ```js
 var dog = {
-    bark: function () {
-        console.log('Woof Woof');
-    }
+  bark: function () {
+    console.log("Woof Woof");
+  },
 };
 
 // Calling dog.bark();

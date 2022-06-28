@@ -1,1 +1,13 @@
-{"version":1,"resource":"file:///c%3A/MY-WEB-DEV/BLOG____2.0/BGOONZ_BLOG_2.0/src/pages/docs/reference/vscode.md","entries":[{"id":"BYjK.md","timestamp":1653191121996},{"id":"7uWR.md","source":"undoRedo.source","timestamp":1653191124705},{"id":"3aXQ.md","timestamp":1653191148970}]}
+{
+  "version": 1,
+  "resource": "file:///c%3A/MY-WEB-DEV/BLOG____2.0/BGOONZ_BLOG_2.0/src/pages/docs/reference/vscode.md",
+  "entries": [
+    { "id": "BYjK.md", "timestamp": 1653191121996 },
+    {
+      "id": "7uWR.md",
+      "source": "undoRedo.source",
+      "timestamp": 1653191124705
+    },
+    { "id": "3aXQ.md", "timestamp": 1653191148970 }
+  ]
+}

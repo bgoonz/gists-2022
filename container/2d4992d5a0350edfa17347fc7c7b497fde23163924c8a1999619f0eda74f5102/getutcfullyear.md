@@ -58,7 +58,7 @@ The following example assigns the four-digit value of the current year to the va
 
 ## See also
 
--   [`Date.prototype.getFullYear()`](getfullyear)
--   [`Date.prototype.setFullYear()`](setfullyear)
+- [`Date.prototype.getFullYear()`](getfullyear)
+- [`Date.prototype.setFullYear()`](setfullyear)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCFullYear" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCFullYear</a>

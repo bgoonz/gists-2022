@@ -1,11 +1,11 @@
-
 # Using Iframes vs Scripts for Embedding Components
 
-
 > ## Excerpt
+>
 > Have you ever tried embedding an image, video, or a whole part from an external website into your web application? Although there are various methods of doing this, it’s essential to find the right…
 
 ---
+
 ## Iframe or script, what is the better option?
 
 ![](https://miro.medium.com/max/1400/1*94Lb06JEK-kfEN_5HRG4dA.jpeg)

@@ -96,11 +96,9 @@ Also see the React Suspense Fixture: [CodeSandBox](https://codesandbox.io/s/w0n9
 
 control the reveal order of a list of suspense Items - refresh and see these demos and how they load:
 
-
 - SuspenseList Demos:
   - https://eddie-cooro.github.io/suspense-list-forwards-demo/
   - https://eddie-cooro.github.io/suspense-list-together-demo/
-
 
 ---
 

@@ -54,7 +54,7 @@ The following example assigns the seconds portion of the current time to the var
 
 ## See also
 
--   [`Date.prototype.getSeconds()`](getseconds)
--   [`Date.prototype.setUTCSeconds()`](setutcseconds)
+- [`Date.prototype.getSeconds()`](getseconds)
+- [`Date.prototype.setUTCSeconds()`](setutcseconds)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCSeconds" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCSeconds</a>

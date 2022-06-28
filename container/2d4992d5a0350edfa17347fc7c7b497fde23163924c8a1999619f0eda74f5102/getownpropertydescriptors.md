@@ -101,9 +101,9 @@ No
 
 ## See also
 
--   [`Object.getOwnPropertyDescriptor()`](getownpropertydescriptor)
--   [`Object.defineProperty()`](defineproperty)
--   [Polyfill](https://github.com/tc39/proposal-object-getownpropertydescriptors)
+- [`Object.getOwnPropertyDescriptor()`](getownpropertydescriptor)
+- [`Object.defineProperty()`](defineproperty)
+- [Polyfill](https://github.com/tc39/proposal-object-getownpropertydescriptors)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

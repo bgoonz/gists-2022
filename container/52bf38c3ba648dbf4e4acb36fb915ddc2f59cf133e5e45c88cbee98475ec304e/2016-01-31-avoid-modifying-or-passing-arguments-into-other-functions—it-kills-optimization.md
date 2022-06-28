@@ -4,7 +4,7 @@ tip-username: berkana
 tip-username-profile: https://github.com/berkana
 tip-tldr: Within JavaScript functions, the variable name `arguments` lets you access all of the arguments passed to the function. `arguments` is an _array-like object_; `arguments` can be accessed using array notation, and it has the _length_ property, but it doesn't have many of the built-in methods that arrays have such as `filter` and `map` and `forEach`. Because of this, it is a fairly common practice to convert `arguments` into an array using the following snipet
 
--   /en/avoid-modifying-or-passing-arguments-into-other-functions-it-kills-optimization/
+- /en/avoid-modifying-or-passing-arguments-into-other-functions-it-kills-optimization/
 
 ###Background
 
@@ -31,7 +31,7 @@ Instead, if you want an array of the arguments that lets you use you need to res
 ```js
 var args = new Array(arguments.length);
 for (var i = 0; i < args.length; ++i) {
-    args[i] = arguments[i];
+  args[i] = arguments[i];
 }
 ```
 

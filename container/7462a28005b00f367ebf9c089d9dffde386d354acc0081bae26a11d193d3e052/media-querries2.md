@@ -1,28 +1,24 @@
-
 # What media query breakpoints should I use?
 
 > ## Excerpt
+>
 > Let's dive into the most common media queries are used in frameworks today
 
 ---
+
 Let's dive into the most common media queries are used in frameworks today
 
- [![Photo unrelated](https://ricostacruz.com/til/static/0b22b64f4d4500f294d09f3d2af61c99/d165a/SO5jpAT2bN8.jpg "Photo unrelated")](https://ricostacruz.com/til/static/0b22b64f4d4500f294d09f3d2af61c99/d165a/SO5jpAT2bN8.jpg) 
+[![Photo unrelated](https://ricostacruz.com/til/static/0b22b64f4d4500f294d09f3d2af61c99/d165a/SO5jpAT2bN8.jpg "Photo unrelated")](https://ricostacruz.com/til/static/0b22b64f4d4500f294d09f3d2af61c99/d165a/SO5jpAT2bN8.jpg)
 
 Before we can figure out what media query breakpoints to use, we need to look at what devices we're designing for.
 
 I've dug into some common device resolutions, and most can be grouped into categories. I've listed these categories, along with the resolutions they cater to:
 
--   **Mobile portait** (320px to 414px) — For devices with 4" to 6.9" screens.
-    
--   **Mobile landscape** (568px to 812px) — Same, but landscape.
-    
--   **Tablet portait** (768px to 834px) — For devices 7" to 10"
-    
--   **Tablet landscape** (1024px to 1112px) — Ditto, but also 12" tablets on portrait
-    
--   **Laptop & desktop displays** (1200px+) — Varies a lot, but is usually 1200px and above
-    
+- **Mobile portait** (320px to 414px) — For devices with 4" to 6.9" screens.
+- **Mobile landscape** (568px to 812px) — Same, but landscape.
+- **Tablet portait** (768px to 834px) — For devices 7" to 10"
+- **Tablet landscape** (1024px to 1112px) — Ditto, but also 12" tablets on portrait
+- **Laptop & desktop displays** (1200px+) — Varies a lot, but is usually 1200px and above
 
 > **Next:** So how do we make sense of these devices?
 
@@ -263,6 +259,6 @@ Instead, I propose calling it with more generic names. Most designers are intima
 
 ```
 @media (--viewport-4) {
-  
+
 }
 ```

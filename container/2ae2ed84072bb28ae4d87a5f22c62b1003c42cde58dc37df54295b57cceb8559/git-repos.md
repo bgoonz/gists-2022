@@ -3,17 +3,15 @@ title: Git Repo List
 weight: 0
 excerpt: lorem-ipsum
 seo:
-    title: ''
-    description: ''
-    robots: []
-    extra: []
-    type: stackbit_page_meta
+  title: ""
+  description: ""
+  robots: []
+  extra: []
+  type: stackbit_page_meta
 template: docs
 ---
 
-
 # My Repos:
-
 
 <details>
 <summary><span style="align-self: center; margin: auto; font-family: papyrus; font-size: 2em;"> ===➤(_CLICK TO SEE MORE_)➤</span></summary>
@@ -55,8 +53,6 @@ template: docs
 | [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=bgoonz&repo=web-crawler-node)](https://hub.com/bgoonz/web-crawler-node)                                    | [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=bgoonz&repo=web-dev-notes-resource-site)](https://hub.com/bgoonz/web-dev-notes-resource-site)                                                    | [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=bgoonz&repo=WEB-DEV-TOOLS-HUB)](https://hub.com/bgoonz/WEB-DEV-TOOLS-HUB)                                                     | [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=bgoonz&repo=WebAudioDaw)](https://hub.com/bgoonz/WebAudioDaw)                                                  |
 
 </details>  
-  
-
 
 
 - [https://github.com/bgoonz/03-fetch-data](https://github.com/bgoonz/03-fetch-data)

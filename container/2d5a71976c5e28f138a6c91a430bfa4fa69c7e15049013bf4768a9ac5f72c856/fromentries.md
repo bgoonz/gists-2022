@@ -88,12 +88,12 @@ No
 
 ## See also
 
--   [`Object.entries()`](entries)
--   [`Object.keys()`](keys)
--   [`Object.values()`](values)
--   [`Map.prototype.entries()`](../map/entries)
--   [`Map.prototype.keys()`](../map/keys)
--   [`Map.prototype.values()`](../map/values)
+- [`Object.entries()`](entries)
+- [`Object.keys()`](keys)
+- [`Object.values()`](values)
+- [`Map.prototype.entries()`](../map/entries)
+- [`Map.prototype.keys()`](../map/keys)
+- [`Map.prototype.values()`](../map/values)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

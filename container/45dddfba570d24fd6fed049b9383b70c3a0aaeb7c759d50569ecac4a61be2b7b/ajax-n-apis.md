@@ -3,13 +3,12 @@ title: AJAX and APIs
 weight: 0
 excerpt: AJAX and APIs
 seo:
-    title: 'AJAX and APIs'
-    description: 'You can use any AJAX library you like with React. Some popular ones are Axios, jQuery AJAX, and the browser built-in window.fetch.'
-    robots: []
-    extra: []
+  title: "AJAX and APIs"
+  description: "You can use any AJAX library you like with React. Some popular ones are Axios, jQuery AJAX, and the browser built-in window.fetch."
+  robots: []
+  extra: []
 template: docs
 ---
-
 
 # AJAX and APIs - React
 
@@ -46,53 +45,53 @@ The example API returns a JSON object like this:
 ```js
 //
 class MyComponent extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            error: null,
-            isLoaded: false,
-            items: []
-        };
-    }
+  constructor(props) {
+    super(props);
+    this.state = {
+      error: null,
+      isLoaded: false,
+      items: [],
+    };
+  }
 
-    componentDidMount() {
-        fetch('https://api.example.com/items')
-            .then((res) => res.json())
-            .then(
-                (result) => {
-                    this.setState({
-                        isLoaded: true,
-                        items: result.items
-                    });
-                },
+  componentDidMount() {
+    fetch("https://api.example.com/items")
+      .then((res) => res.json())
+      .then(
+        (result) => {
+          this.setState({
+            isLoaded: true,
+            items: result.items,
+          });
+        },
 
-                (error) => {
-                    this.setState({
-                        isLoaded: true,
-                        error
-                    });
-                }
-            );
-    }
-
-    render() {
-        const { error, isLoaded, items } = this.state;
-        if (error) {
-            return <div>Error: {error.message}</div>;
-        } else if (!isLoaded) {
-            return <div>Loading...</div>;
-        } else {
-            return (
-                <ul>
-                    {items.map((item) => (
-                        <li key={item.id}>
-                            {item.name} {item.price}
-                        </li>
-                    ))}
-                </ul>
-            );
+        (error) => {
+          this.setState({
+            isLoaded: true,
+            error,
+          });
         }
+      );
+  }
+
+  render() {
+    const { error, isLoaded, items } = this.state;
+    if (error) {
+      return <div>Error: {error.message}</div>;
+    } else if (!isLoaded) {
+      return <div>Loading...</div>;
+    } else {
+      return (
+        <ul>
+          {items.map((item) => (
+            <li key={item.id}>
+              {item.name} {item.price}
+            </li>
+          ))}
+        </ul>
+      );
     }
+  }
 }
 ```
 
@@ -100,46 +99,44 @@ Here is the equivalent with [Hooks](https://reactjs.org/docs/hooks-intro.html):
 
 ---
 
-
 ```js
 //
 
-
 function MyComponent() {
-    const [error, setError] = useState(null);
-    const [isLoaded, setIsLoaded] = useState(false);
-    const [items, setItems] = useState([]);
+  const [error, setError] = useState(null);
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [items, setItems] = useState([]);
 
-    useEffect(() => {
-        fetch('https://api.example.com/items')
-            .then((res) => res.json())
-            .then(
-                (result) => {
-                    setIsLoaded(true);
-                    setItems(result);
-                },
+  useEffect(() => {
+    fetch("https://api.example.com/items")
+      .then((res) => res.json())
+      .then(
+        (result) => {
+          setIsLoaded(true);
+          setItems(result);
+        },
 
-                (error) => {
-                    setIsLoaded(true);
-                    setError(error);
-                }
-            );
-    }, []);
+        (error) => {
+          setIsLoaded(true);
+          setError(error);
+        }
+      );
+  }, []);
 
-    if (error) {
-        return <div>Error: {error.message}</div>;
-    } else if (!isLoaded) {
-        return <div>Loading...</div>;
-    } else {
-        return (
-            <ul>
-                {items.map((item) => (
-                    <li key={item.id}>
-                        {item.name} {item.price}
-                    </li>
-                ))}
-            </ul>
-        );
-    }
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  } else if (!isLoaded) {
+    return <div>Loading...</div>;
+  } else {
+    return (
+      <ul>
+        {items.map((item) => (
+          <li key={item.id}>
+            {item.name} {item.price}
+          </li>
+        ))}
+      </ul>
+    );
+  }
 }
 ```

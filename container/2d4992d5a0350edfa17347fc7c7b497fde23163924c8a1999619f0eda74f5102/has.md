@@ -31,17 +31,17 @@ The `handler.has()` method is a trap for the [`in`](../../../operators/in) opera
 
 This trap can intercept these operations:
 
--   Property query: `foo in proxy`
--   Inherited property query: `foo in Object.create(proxy)`
--   `with` check: `with(proxy) { (foo); }`
--   [`Reflect.has()`](../../reflect/has)
+- Property query: `foo in proxy`
+- Inherited property query: `foo in Object.create(proxy)`
+- `with` check: `with(proxy) { (foo); }`
+- [`Reflect.has()`](../../reflect/has)
 
 ### Invariants
 
 If the following invariants are violated, the proxy will throw a [`TypeError`](../../typeerror):
 
--   A property cannot be reported as non-existent, if it exists as a non-configurable own property of the target object.
--   A property cannot be reported as non-existent, if it exists as an own property of the target object and the target object is not extensible.
+- A property cannot be reported as non-existent, if it exists as a non-configurable own property of the target object.
+- A property cannot be reported as non-existent, if it exists as an own property of the target object and the target object is not extensible.
 
 ## Examples
 
@@ -107,10 +107,10 @@ No
 
 ## See also
 
--   [`Proxy`](../../proxy)
--   [`handler`](../proxy)
--   [`in`](../../../operators/in) operator
--   [`Reflect.has()`](../../reflect/has)
+- [`Proxy`](../../proxy)
+- [`handler`](../proxy)
+- [`in`](../../../operators/in) operator
+- [`Reflect.has()`](../../reflect/has)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

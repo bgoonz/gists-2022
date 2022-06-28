@@ -1,1 +1,36 @@
-{"version":1,"resource":"file:///c%3A/MY-WEB-DEV/BLOG____2.0/BACKUP/medium/2021-03-18_HTTP-Basics-8f02a96a834a.md","entries":[{"id":"2pIy.md","source":"searchReplace.source","timestamp":1652668104053},{"id":"vbrE.md","source":"searchReplace.source","timestamp":1652668132807},{"id":"EPJ7.md","source":"searchReplace.source","timestamp":1652668634911},{"id":"qOOp.md","source":"searchReplace.source","timestamp":1652668669130},{"id":"Pspt.md","source":"searchReplace.source","timestamp":1652668700011},{"id":"AqQF.md","source":"searchReplace.source","timestamp":1652669030594}]}
+{
+  "version": 1,
+  "resource": "file:///c%3A/MY-WEB-DEV/BLOG____2.0/BACKUP/medium/2021-03-18_HTTP-Basics-8f02a96a834a.md",
+  "entries": [
+    {
+      "id": "2pIy.md",
+      "source": "searchReplace.source",
+      "timestamp": 1652668104053
+    },
+    {
+      "id": "vbrE.md",
+      "source": "searchReplace.source",
+      "timestamp": 1652668132807
+    },
+    {
+      "id": "EPJ7.md",
+      "source": "searchReplace.source",
+      "timestamp": 1652668634911
+    },
+    {
+      "id": "qOOp.md",
+      "source": "searchReplace.source",
+      "timestamp": 1652668669130
+    },
+    {
+      "id": "Pspt.md",
+      "source": "searchReplace.source",
+      "timestamp": 1652668700011
+    },
+    {
+      "id": "AqQF.md",
+      "source": "searchReplace.source",
+      "timestamp": 1652669030594
+    }
+  ]
+}

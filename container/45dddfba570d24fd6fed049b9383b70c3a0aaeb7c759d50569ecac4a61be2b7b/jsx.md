@@ -3,16 +3,14 @@ title: Introducing JSX
 weight: 0
 excerpt: lorem-ipsum
 seo:
-    title: ''
-    description: ''
-    robots: []
-    extra: []
+  title: ""
+  description: ""
+  robots: []
+  extra: []
 template: docs
 ---
 
-
 # Introducing JSX
-
 
 ###### JSX is an XML/HTML-like syntax used by React that extends ECMAScript so that XML/HTML-like text can co-exist with JavaScript/React code. The syntax is intended to be used by preprocessors (i.e., transpilers like Babel) to transform HTML-like text found in JavaScript files into standard JavaScript objects that a JavaScript engine will parse.
 
@@ -23,22 +21,21 @@ By using JSX one can write the following JSX/JavaScript code:
 ```js
 //
 const nav = (
-    <ul id="nav">
-      <li>
-<a href="#">Home</a>
-</li>
-      <li>
-<a href="#">About</a>
-</li>
-      <li>
-<a href="#">Clients</a>
-</li>
-      <li>
-<a href="#">Contact Us</a>
-</li>
-    </ul>
+  <ul id="nav">
+    <li>
+      <a href="#">Home</a>
+    </li>
+    <li>
+      <a href="#">About</a>
+    </li>
+    <li>
+      <a href="#">Clients</a>
+    </li>
+    <li>
+      <a href="#">Contact Us</a>
+    </li>
+  </ul>
 );
-
 ```
 
 And Babel will transform it into this:
@@ -46,46 +43,29 @@ And Babel will transform it into this:
 ```js
 //
 const nav = React.createElement(
-   "ul",
-   { id: "nav" },
-   React.createElement(
-      "li",
-      null,
-      React.createElement(
-         "a",
-         { href: "#" },
-         "Home"
-      )
-   ),
-   React.createElement(
-      "li",
-      null,
-      React.createElement(
-         "a",
-         { href: "#" },
-         "About"
-      )
-   ),
-   React.createElement(
-      "li",
-      null,
-      React.createElement(
-         "a",
-         { href: "#" },
-         "Clients"
-      )
-   ),
-   React.createElement(
-      "li",
-      null,
-      React.createElement(
-         "a",
-         { href: "#" },
-         "Contact Us"
-      )
-   )
+  "ul",
+  { id: "nav" },
+  React.createElement(
+    "li",
+    null,
+    React.createElement("a", { href: "#" }, "Home")
+  ),
+  React.createElement(
+    "li",
+    null,
+    React.createElement("a", { href: "#" }, "About")
+  ),
+  React.createElement(
+    "li",
+    null,
+    React.createElement("a", { href: "#" }, "Clients")
+  ),
+  React.createElement(
+    "li",
+    null,
+    React.createElement("a", { href: "#" }, "Contact Us")
+  )
 );
-
 ```
 
 You can think of JSX as a shorthand for calling `React.createElement()`.

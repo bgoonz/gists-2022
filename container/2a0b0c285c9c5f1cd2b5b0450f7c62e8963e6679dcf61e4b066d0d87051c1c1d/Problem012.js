@@ -20,7 +20,7 @@
  * We can see that 28 is the first triangle number to have over five divisors.
  *
  * What is the value of the first triangle number to have over five hundred divisors?
-*/
+ */
 
 /**
  * Gets number of divisors of a given number
@@ -28,37 +28,37 @@
  */
 const getNumOfDivisors = (num) => {
   // initialize numberOfDivisors
-  let numberOfDivisors = 0
+  let numberOfDivisors = 0;
 
   // if one divisor less than sqrt(num) exists
   // then another divisor greater than sqrt(n) exists and its value is num/i
-  const sqrtNum = Math.sqrt(num)
+  const sqrtNum = Math.sqrt(num);
   for (let i = 0; i <= sqrtNum; i++) {
     // check if i divides num
     if (num % i === 0) {
       if (i === sqrtNum) {
         // if both divisors are equal, i.e., num is perfect square, then only 1 divisor
-        numberOfDivisors++
+        numberOfDivisors++;
       } else {
         // 2 divisors, one of them is less than sqrt(n), other greater than sqrt(n)
-        numberOfDivisors += 2
+        numberOfDivisors += 2;
       }
     }
   }
-  return numberOfDivisors
-}
+  return numberOfDivisors;
+};
 
 /**
  * Loops till first triangular number with 500 divisors is found
  */
 const firstTriangularWith500Divisors = () => {
-  let triangularNum
+  let triangularNum;
   // loop forever until numOfDivisors becomes greater than or equal to 500
   for (let n = 1; ; n++) {
     // nth triangular number is (1/2)*n*(n+1) by Arithmetic Progression
-    triangularNum = (1 / 2) * n * (n + 1)
-    if (getNumOfDivisors(triangularNum) >= 500) return triangularNum
+    triangularNum = (1 / 2) * n * (n + 1);
+    if (getNumOfDivisors(triangularNum) >= 500) return triangularNum;
   }
-}
+};
 
-export { firstTriangularWith500Divisors }
+export { firstTriangularWith500Divisors };

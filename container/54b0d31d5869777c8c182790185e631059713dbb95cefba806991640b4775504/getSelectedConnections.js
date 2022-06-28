@@ -35,14 +35,14 @@ function getEdgeRects(connection) {
           x: minX,
           y: minY - 5,
           width: 10,
-          height: Math.abs(maxY) - Math.abs(minY)
+          height: Math.abs(maxY) - Math.abs(minY),
         });
       } else {
         edges.push({
           x: minX - 5,
           y: minY,
           width: Math.abs(maxX) - Math.abs(minX),
-          height: 10
+          height: 10,
         });
       }
     }
@@ -60,5 +60,5 @@ export function getSelectedEntities(selectionArea, data) {
       return result;
     }, false);
   });
-  return selectedConnections.map((connection) => connection.key)
+  return selectedConnections.map((connection) => connection.key);
 }

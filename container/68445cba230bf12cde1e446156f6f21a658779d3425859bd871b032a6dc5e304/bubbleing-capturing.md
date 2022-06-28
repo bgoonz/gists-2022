@@ -1,22 +1,23 @@
-
 # Everything about event bubbling/capturing
 
 > ## Excerpt
+>
 > Definition
-What is event bubbling?
+> What is event bubbling?
 
 Most events attached to the DOM node do propagate (bubble/capture). In other
 words, when an event is triggered
 
- * It first goes from the most parent event (i.e., the window object) to the
-   lowest descendant. This phase is called capturing.
-   Note: IE does not support
-   [https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#Browser_compatibility] 
-   event capture.
- * After that, the event goes back from the lowest descendant to the
+- It first goes from the most parent event (i.e., the window object) to the
+  lowest descendant. This phase is called capturing.
+  Note: IE does not support
+  [https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#Browser_compatibility]
+  event capture.
+- After that, the event goes back from the lowest descendant to the
 
 ---
--   [![Tran Sang](https://www.gravatar.com/avatar/1680e1243aec860a526fc7df7bd01f6f?s=250&d=mm&r=x)](https://transang.me/author/sang/)
+
+- [![Tran Sang](https://www.gravatar.com/avatar/1680e1243aec860a526fc7df7bd01f6f?s=250&d=mm&r=x)](https://transang.me/author/sang/)
 
 Dec 20, 2020 • 7 min read
 
@@ -28,9 +29,9 @@ What is event bubbling?
 
 Most events attached to the DOM node do propagate (bubble/capture). In other words, when an event is triggered
 
--   It **first** goes from the most parent event (i.e., the `window` object) to the lowest descendant. This phase is called **capturing**.  
-    **_Note_**: IE does [not support](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#Browser_compatibility) event capture.
--   **After** that, the event goes back from the lowest descendant to the highest ascendant (the `window` object). This phase is called **bubbling**.
+- It **first** goes from the most parent event (i.e., the `window` object) to the lowest descendant. This phase is called **capturing**.  
+  **_Note_**: IE does [not support](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#Browser_compatibility) event capture.
+- **After** that, the event goes back from the lowest descendant to the highest ascendant (the `window` object). This phase is called **bubbling**.
 
 ![](https://transang.me/content/images/2020/12/a-7.png)
 
@@ -52,7 +53,7 @@ From [react docs](https://reactjs.org/docs/events.html#supported-events)
 
 React supports an extensive range of events, namely: `copy`, `cut`, `paste`, `compositionend`, `compositionstart`, `compositionupdate`, `keydown`, `keypress`, `keyup`, `blur`, `focus`, `change`, `input`, `invalid`, `reset`, `submit`, `error`, `load`, `select`, `touchcancel`, `touchend`, `touchemove`, `touchstart`, `scroll`, `wheel`, `animationstart`, `animationend`, `animationiteration`, `transitionend`, `toggle`, [media events](https://reactjs.org/docs/events.html#media-events), [pointer events](https://reactjs.org/docs/events.html#pointer-events), [mouse events](https://reactjs.org/docs/events.html#mouse-events).
 
-___
+---
 
 ### Document type
 
@@ -60,26 +61,26 @@ _Note_: I said `window` is the highest ascendant object in the event bubbling/ca
 
 The following facts can solve this question:
 
--   The equivalent javascript DOMElement of the `<html>` tag is `document.documentElement`.
--   `document` is the parent of the `<html>` element.
--   `window` is a parent of the `document` object.
+- The equivalent javascript DOMElement of the `<html>` tag is `document.documentElement`.
+- `document` is the parent of the `<html>` element.
+- `window` is a parent of the `document` object.
 
 Hence, some top objects in the event tree are `window` -> `document` -> `document.documentElement` (`<html>` element) -> ...
 
-___
+---
 
 ## Which events do not bubble?
 
 Most events do bubble. There are several exception events that do not bubble. Some of them are:
 
--   [focus](https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event) ([focusin](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusin_event) is the equivalent bubbling version).
--   [blur](https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event) ([focusout](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event) is the equivalent bubbling version).
--   [load](https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event), [unload](https://developer.mozilla.org/en-US/docs/Web/API/Window/unload_event), [abort](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/abort_event), [error](https://developer.mozilla.org/en-US/docs/Web/API/Element/error_event), [beforeunload](https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event).
--   [mouseenter](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event) ([mouseover](https://transang.me/everything-about-event-bubbling/mouseover) is similar but do bubble).
--   [mouseleave](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseleave_event) ([mouseout](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseout_event) is similar but do bubble).
--   [DOMNodeInsertedIntoDocument](https://w3c.github.io/uievents/#event-type-DOMNodeInsertedIntoDocument), [DOMNodeRemovedFromDocument](https://w3c.github.io/uievents/#event-type-DOMNodeRemovedFromDocument) (both events are [deprecated](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Mutation_events)).
--   In IE prior to version 9: [change](https://www.quirksmode.org/dom/events/change.html), [submit and reset](https://quirksmode.org/dom/events/submit.html).
--   and many others...
+- [focus](https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event) ([focusin](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusin_event) is the equivalent bubbling version).
+- [blur](https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event) ([focusout](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event) is the equivalent bubbling version).
+- [load](https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event), [unload](https://developer.mozilla.org/en-US/docs/Web/API/Window/unload_event), [abort](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/abort_event), [error](https://developer.mozilla.org/en-US/docs/Web/API/Element/error_event), [beforeunload](https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event).
+- [mouseenter](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event) ([mouseover](https://transang.me/everything-about-event-bubbling/mouseover) is similar but do bubble).
+- [mouseleave](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseleave_event) ([mouseout](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseout_event) is similar but do bubble).
+- [DOMNodeInsertedIntoDocument](https://w3c.github.io/uievents/#event-type-DOMNodeInsertedIntoDocument), [DOMNodeRemovedFromDocument](https://w3c.github.io/uievents/#event-type-DOMNodeRemovedFromDocument) (both events are [deprecated](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Mutation_events)).
+- In IE prior to version 9: [change](https://www.quirksmode.org/dom/events/change.html), [submit and reset](https://quirksmode.org/dom/events/submit.html).
+- and many others...
 
 This information can be checked from [MDN Event reference](https://developer.mozilla.org/en-US/docs/Web/Events) or [W3C UI Events](https://w3c.github.io/uievents/).
 
@@ -93,7 +94,7 @@ The answer is **yes**, unless the browser does not support event capture. See [t
 
 non-bubble events are captured (in browsers that support event capture)
 
-___
+---
 
 ## Event listener firing order
 
@@ -127,11 +128,11 @@ From [MND docs](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/add
 
 There are three types of event canceling.
 
--   [preventDefault()](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault):  
-    \- has no effect on non-[cancelable](https://developer.mozilla.org/en-US/docs/Web/API/Event/cancelable) events.  
-    \- prevents the default handler of the event, such as form submission, text input, ...
--   [stopPropagation()](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation): prevents the event to continue the capture/bubble chain.
--   [stopImmediatePropagation()](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopImmediatePropagation): prevents the event listeners attached to the same target from being fired.
+- [preventDefault()](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault):  
+  \- has no effect on non-[cancelable](https://developer.mozilla.org/en-US/docs/Web/API/Event/cancelable) events.  
+  \- prevents the default handler of the event, such as form submission, text input, ...
+- [stopPropagation()](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation): prevents the event to continue the capture/bubble chain.
+- [stopImmediatePropagation()](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopImmediatePropagation): prevents the event listeners attached to the same target from being fired.
 
 All three calls have different event listeners which are affected. None of them affects the target listeners of any other.
 
@@ -139,20 +140,20 @@ All three calls have different event listeners which are affected. None of them 
 
 preventDefault() v.s. stopPropagation() v.s stopImmediatePropagation()
 
-___
+---
 
 ## Event target
 
 The are several target-related properties in the event object which are handy to obtain useful context information because sometimes the element that triggers the event is not always the element where the event listener is attached to. Some of these properties are:
 
--   [Event.target](https://developer.mozilla.org/en-US/docs/Web/API/Event/target): the element that triggers the event.
--   [Event.currentTarget](https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget): the element where the event listener is attached to.
+- [Event.target](https://developer.mozilla.org/en-US/docs/Web/API/Event/target): the element that triggers the event.
+- [Event.currentTarget](https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget): the element where the event listener is attached to.
 
 ![](https://transang.me/content/images/2020/12/a-12.png)
 
 Event's various target types
 
--   [MouseEvent.relatedTarget](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/relatedTarget), [FocusEvent.relatedTarget](https://developer.mozilla.org/en-US/docs/Web/API/FocusEvent/relatedTarget)
+- [MouseEvent.relatedTarget](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/relatedTarget), [FocusEvent.relatedTarget](https://developer.mozilla.org/en-US/docs/Web/API/FocusEvent/relatedTarget)
 
 ![](https://transang.me/content/images/2021/07/a.png)
 
@@ -166,10 +167,10 @@ For [mousenter](https://developer.mozilla.org/en-US/docs/Web/Events/mouseenter),
 
 For example:
 
--   mouseenter: mouse enters/overs/dragenter event.target from event.relatedTarget
--   mouseleave: mouse leaves/outs/dragexit event.target to event.relatedTarget
+- mouseenter: mouse enters/overs/dragenter event.target from event.relatedTarget
+- mouseleave: mouse leaves/outs/dragexit event.target to event.relatedTarget
 
-___
+---
 
 ## Focus/Blur events
 
@@ -205,7 +206,7 @@ To correctly determine if the target element (where the event listener is attach
 
 The following source code is copied from [here](https://github.com/facebook/react/issues/6410#issuecomment-671915381).
 
-___
+---
 
 ## How much does .addEventListener / .removeEventListener affects the performance?
 

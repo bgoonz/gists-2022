@@ -25,9 +25,8 @@ export let loader: LoaderFunction = async () => {
       headers: {
         // max-age controls the browser cache
         // s-maxage controls a CDN cache
-        "Cache-Control":
-          "public, max-age=30, s-maxage=86400"
-      }
+        "Cache-Control": "public, max-age=30, s-maxage=86400",
+      },
     }
   );
 };
@@ -47,18 +46,13 @@ Let's say we have a CDN in front of our app and we really want our homepage to l
 
 ```tsx filename=app/routes/index.tsx lines=[5,21-27]
 import { Link } from "remix";
-import type {
-  MetaFunction,
-  LinksFunction,
-  HeadersFunction
-} from "remix";
+import type { MetaFunction, LinksFunction, HeadersFunction } from "remix";
 import stylesUrl from "../styles/index.css";
 
 export let meta: MetaFunction = () => {
   return {
     title: "Remix: So great, it's funny!",
-    description:
-      "Remix jokes app. Learn Remix and laugh at the same time!"
+    description: "Remix jokes app. Learn Remix and laugh at the same time!",
   };
 };
 
@@ -68,9 +62,9 @@ export let links: LinksFunction = () => {
 
 export let headers: HeadersFunction = () => {
   return {
-    "Cache-Control": `public, max-age=${
-      60 * 10
-    }, s-maxage=${60 * 60 * 24 * 30}`
+    "Cache-Control": `public, max-age=${60 * 10}, s-maxage=${
+      60 * 60 * 24 * 30
+    }`,
   };
 };
 
@@ -110,22 +104,17 @@ import type {
   ActionFunction,
   HeadersFunction,
   LinksFunction,
-  MetaFunction
+  MetaFunction,
 } from "remix";
 import { useActionData, Form } from "remix";
-import {
-  login,
-  createUserSession,
-  register
-} from "~/utils/session.server";
+import { login, createUserSession, register } from "~/utils/session.server";
 import { db } from "~/utils/db.server";
 import stylesUrl from "../styles/login.css";
 
 export let meta: MetaFunction = () => {
   return {
     title: "Remix Jokes | Login",
-    description:
-      "Login to submit your own jokes to Remix Jokes!"
+    description: "Login to submit your own jokes to Remix Jokes!",
   };
 };
 
@@ -135,9 +124,9 @@ export let links: LinksFunction = () => {
 
 export let headers: HeadersFunction = () => {
   return {
-    "Cache-Control": `public, max-age=${
-      60 * 10
-    }, s-maxage=${60 * 60 * 24 * 30}`
+    "Cache-Control": `public, max-age=${60 * 10}, s-maxage=${
+      60 * 60 * 24 * 30
+    }`,
   };
 };
 
@@ -167,7 +156,7 @@ type ActionData = {
 };
 
 export let action: ActionFunction = async ({
-  request
+  request,
 }): Promise<Response | ActionData> => {
   let form = await request.formData();
   let loginType = form.get("loginType");
@@ -184,10 +173,9 @@ export let action: ActionFunction = async ({
   let fields = { loginType, username, password };
   let fieldErrors = {
     username: validateUsername(username),
-    password: validatePassword(password)
+    password: validatePassword(password),
   };
-  if (Object.values(fieldErrors).some(Boolean))
-    return { fieldErrors, fields };
+  if (Object.values(fieldErrors).some(Boolean)) return { fieldErrors, fields };
 
   switch (loginType) {
     case "login": {
@@ -195,26 +183,26 @@ export let action: ActionFunction = async ({
       if (!user) {
         return {
           fields,
-          formError: `Username/Password combination is incorrect`
+          formError: `Username/Password combination is incorrect`,
         };
       }
       return createUserSession(user.id, "/jokes");
     }
     case "register": {
       let userExists = await db.user.findFirst({
-        where: { username }
+        where: { username },
       });
       if (userExists) {
         return {
           fields,
-          formError: `User with username ${username} already exists`
+          formError: `User with username ${username} already exists`,
         };
       }
       let user = await register({ username, password });
       if (!user) {
         return {
           fields,
-          formError: `Something went wrong trying to create a new user.`
+          formError: `Something went wrong trying to create a new user.`,
         };
       }
       return createUserSession(user.id, "/jokes");
@@ -234,15 +222,11 @@ export default function Login() {
         <Form
           method="post"
           aria-describedby={
-            actionData?.formError
-              ? "form-error-message"
-              : undefined
+            actionData?.formError ? "form-error-message" : undefined
           }
         >
           <fieldset>
-            <legend className="sr-only">
-              Login or Register?
-            </legend>
+            <legend className="sr-only">Login or Register?</legend>
             <label>
               <input
                 type="radio"
@@ -260,10 +244,7 @@ export default function Login() {
                 type="radio"
                 name="loginType"
                 value="register"
-                defaultChecked={
-                  actionData?.fields?.loginType ===
-                  "register"
-                }
+                defaultChecked={actionData?.fields?.loginType === "register"}
               />{" "}
               Register
             </label>
@@ -276,14 +257,10 @@ export default function Login() {
               name="username"
               defaultValue={actionData?.fields?.username}
               aria-invalid={
-                Boolean(
-                  actionData?.fieldErrors?.username
-                ) || undefined
+                Boolean(actionData?.fieldErrors?.username) || undefined
               }
               aria-describedby={
-                actionData?.fieldErrors?.username
-                  ? "username-error"
-                  : undefined
+                actionData?.fieldErrors?.username ? "username-error" : undefined
               }
             />
             {actionData?.fieldErrors?.username ? (
@@ -304,14 +281,10 @@ export default function Login() {
               defaultValue={actionData?.fields?.password}
               type="password"
               aria-invalid={
-                Boolean(
-                  actionData?.fieldErrors?.password
-                ) || undefined
+                Boolean(actionData?.fieldErrors?.password) || undefined
               }
               aria-describedby={
-                actionData?.fieldErrors?.password
-                  ? "password-error"
-                  : undefined
+                actionData?.fieldErrors?.password ? "password-error" : undefined
               }
             />
             {actionData?.fieldErrors?.password ? (
@@ -326,10 +299,7 @@ export default function Login() {
           </div>
           <div id="form-error-message">
             {actionData?.formError ? (
-              <p
-                className="form-validation-error"
-                role="alert"
-              >
+              <p className="form-validation-error" role="alert">
                 {actionData.formError}
               </p>
             ) : null}
@@ -365,102 +335,75 @@ import type {
   LoaderFunction,
   ActionFunction,
   MetaFunction,
-  HeadersFunction
+  HeadersFunction,
 } from "remix";
-import {
-  json,
-  useLoaderData,
-  useCatch,
-  Link,
-  Form,
-  redirect
-} from "remix";
+import { json, useLoaderData, useCatch, Link, Form, redirect } from "remix";
 import { useParams } from "react-router-dom";
 import type { Joke } from "@prisma/client";
 import { db } from "~/utils/db.server";
-import {
-  getUserId,
-  requireUserId
-} from "~/utils/session.server";
+import { getUserId, requireUserId } from "~/utils/session.server";
 
 export let meta: MetaFunction = ({
-  data
+  data,
 }: {
   data: LoaderData | undefined;
 }) => {
   if (!data) {
     return {
       title: "No joke",
-      description: "No joke found"
+      description: "No joke found",
     };
   }
   return {
     title: `"${data.joke.name}" joke`,
-    description: `Enjoy the "${data.joke.name}" joke and much more`
+    description: `Enjoy the "${data.joke.name}" joke and much more`,
   };
 };
 
 type LoaderData = { joke: Joke; isOwner: boolean };
 
-export let loader: LoaderFunction = async ({
-  request,
-  params
-}) => {
+export let loader: LoaderFunction = async ({ request, params }) => {
   let userId = await getUserId(request);
   let joke = await db.joke.findUnique({
-    where: { id: params.jokeId }
+    where: { id: params.jokeId },
   });
   if (!joke) {
     throw new Response("What a joke! Not found.", {
-      status: 404
+      status: 404,
     });
   }
   let data: LoaderData = {
     joke,
-    isOwner: userId === joke.jokesterId
+    isOwner: userId === joke.jokesterId,
   };
   return json(data, {
     headers: {
-      "Cache-Control": `public, max-age=${
-        60 * 5
-      }, s-maxage=${60 * 60 * 24}`,
-      Vary: "Cookie"
-    }
+      "Cache-Control": `public, max-age=${60 * 5}, s-maxage=${60 * 60 * 24}`,
+      Vary: "Cookie",
+    },
   });
 };
 
-export let headers: HeadersFunction = ({
-  loaderHeaders
-}) => {
+export let headers: HeadersFunction = ({ loaderHeaders }) => {
   return {
-    "Cache-Control":
-      loaderHeaders.get("Cache-Control") ?? "",
-    Vary: loaderHeaders.get("Vary") ?? ""
+    "Cache-Control": loaderHeaders.get("Cache-Control") ?? "",
+    Vary: loaderHeaders.get("Vary") ?? "",
   };
 };
 
-export let action: ActionFunction = async ({
-  request,
-  params
-}) => {
+export let action: ActionFunction = async ({ request, params }) => {
   if (request.method === "DELETE") {
     let userId = await requireUserId(request);
     let joke = await db.joke.findUnique({
-      where: { id: params.jokeId }
+      where: { id: params.jokeId },
     });
     if (!joke) {
-      throw new Response(
-        "Can't delete what does not exist",
-        { status: 404 }
-      );
+      throw new Response("Can't delete what does not exist", { status: 404 });
     }
     if (joke.jokesterId !== userId) {
-      throw new Response(
-        "Pssh, nice try. That's not your joke",
-        {
-          status: 401
-        }
-      );
+      throw new Response("Pssh, nice try. That's not your joke", {
+        status: 401,
+      });
     }
     await db.joke.delete({ where: { id: params.jokeId } });
     return redirect("/jokes");
@@ -477,11 +420,7 @@ export default function JokeRoute() {
       <Link to=".">{data.joke.name} Permalink</Link>
       {data.isOwner ? (
         <Form method="post">
-          <input
-            type="hidden"
-            name="_method"
-            value="delete"
-          />
+          <input type="hidden" name="_method" value="delete" />
           <button type="submit" className="button">
             Delete
           </button>
@@ -580,13 +519,13 @@ export let loader: LoaderFunction = async ({ request }) => {
   let jokeListItems = await db.joke.findMany({
     take: 5,
     select: { id: true, name: true },
-    orderBy: { createdAt: "desc" }
+    orderBy: { createdAt: "desc" },
   });
   let user = await getUser(request);
 
   let data: LoaderData = {
     jokeListItems,
-    user
+    user,
   };
 
   return data;
@@ -604,11 +543,7 @@ export default function JokesScreen() {
       <header className="jokes-header">
         <div className="container">
           <h1 className="home-link">
-            <Link
-              to="/"
-              title="Remix Jokes"
-              aria-label="Remix Jokes"
-            >
+            <Link to="/" title="Remix Jokes" aria-label="Remix Jokes">
               <span className="logo">🤪</span>
               <span className="logo-medium">J🤪KES</span>
             </Link>
@@ -633,19 +568,15 @@ export default function JokesScreen() {
             {data.jokeListItems.length ? (
               <>
                 <Link to=".">Get a random joke</Link>
-                <p>
-                  Here are a few more jokes to check out:
-                </p>
+                <p>Here are a few more jokes to check out:</p>
                 <ul>
-                  {data.jokeListItems.map(
-                    ({ id, name }) => (
-                      <li key={id}>
-                        <Link to={id} prefetch="intent">
-                          {name}
-                        </Link>
-                      </li>
-                    )
-                  )}
+                  {data.jokeListItems.map(({ id, name }) => (
+                    <li key={id}>
+                      <Link to={id} prefetch="intent">
+                        {name}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
                 <Link to="new" className="button">
                   Add your own

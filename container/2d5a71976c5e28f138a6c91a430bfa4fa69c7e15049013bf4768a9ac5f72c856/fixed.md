@@ -62,9 +62,9 @@ The following example uses the `fixed` method to change the formatting of a stri
 
 ## See also
 
--   [`String.prototype.bold()`](bold)
--   [`String.prototype.italics()`](italics)
--   [`String.prototype.strike()`](strike)
+- [`String.prototype.bold()`](bold)
+- [`String.prototype.italics()`](italics)
+- [`String.prototype.strike()`](strike)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

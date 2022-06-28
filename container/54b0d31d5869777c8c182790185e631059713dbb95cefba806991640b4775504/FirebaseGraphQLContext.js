@@ -25,11 +25,11 @@ async function getUserIdFromGraphqlAuth(request) {
   }
 }
 
-const typeDefs = '' // this would be loaded from GraphQL schema file
+const typeDefs = ""; // this would be loaded from GraphQL schema file
 
 const resolvers = {
   Query: {
-    getMyMaps: async (parent, args, {userId, db}) => {
+    getMyMaps: async (parent, args, { userId, db }) => {
       if (userId === null) {
         return {
           message: "UNAUTHENTICATED",
@@ -43,7 +43,7 @@ const resolvers = {
   Mutation: {},
   MapListResponse: {
     __resolveType(obj) {
-      if (typeof(obj.message) !== "undefined") {
+      if (typeof obj.message !== "undefined") {
         return "ApplicationError";
       }
       return "MapListResult";
@@ -58,7 +58,7 @@ const graphqlConfig = {
 
 const graphqlServer = new ApolloServer({
   ...graphqlConfig,
-  context: async ({req}) => {
+  context: async ({ req }) => {
     const userId = await getUserIdFromGraphqlAuth(req);
     return {
       userId,

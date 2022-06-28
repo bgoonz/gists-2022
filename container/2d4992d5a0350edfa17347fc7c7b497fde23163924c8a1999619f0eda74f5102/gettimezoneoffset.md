@@ -26,8 +26,8 @@ In a time zone that annually shifts in and out of Daylight Saving Time (DST), th
 
 Consider a given local time zone and a date date1 that are both in DST, and consider minutes, the number of minutes returned by calling `date1.getTimezoneOffset()`; then:
 
--   If the local time zone is currently in DST, but a given date date2 is _not_ in DST, then the number of minutes returned by `date2.getTimezoneOffset()` is minutes ± 60.
--   If the local time zone is _not_ currently in DST, but a given date date3 is in DST, then the number of minutes returned by `date3.getTimezoneOffset()` is minutes ± 60.
+- If the local time zone is currently in DST, but a given date date2 is _not_ in DST, then the number of minutes returned by `date2.getTimezoneOffset()` is minutes ± 60.
+- If the local time zone is _not_ currently in DST, but a given date date3 is in DST, then the number of minutes returned by `date3.getTimezoneOffset()` is minutes ± 60.
 
 In a time zone that doesn't annually shift in and out of Daylight Saving Time (DST), the number of minutes returned by calling `getTimezoneOffset()` always returns the same number of minutes, regardless of the date instance it's called from.
 
@@ -78,6 +78,6 @@ In a time zone that doesn't annually shift in and out of Daylight Saving Time (D
 
 ## See also
 
--   [`Date`](../date)
+- [`Date`](../date)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset</a>

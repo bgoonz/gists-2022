@@ -82,7 +82,7 @@ No
 
 ## See also
 
--   [`instanceof`](../../operators/instanceof)
+- [`instanceof`](../../operators/instanceof)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

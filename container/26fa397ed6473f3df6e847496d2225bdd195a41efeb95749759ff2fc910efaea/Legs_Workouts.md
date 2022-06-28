@@ -1,12 +1,10 @@
 ## legs day
 
-
 3 sets each of
 
 thigh:
 forward lunge 15x
 then stretch thigh 45 secs
-
 
 thigh:
 single leg squat with back leg on platform 15x

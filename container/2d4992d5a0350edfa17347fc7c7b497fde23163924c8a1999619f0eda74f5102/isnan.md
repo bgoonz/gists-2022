@@ -107,7 +107,7 @@ You can use this, for example, to test whether an argument to a function is arit
 
 ## See also
 
--   [`NaN`](nan)
--   [`Number.isNaN()`](number/isnan)
+- [`NaN`](nan)
+- [`Number.isNaN()`](number/isnan)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN</a>

@@ -449,7 +449,7 @@ No
 
 ## See also
 
--   [`throw`](../statements/throw)
--   [`try...catch`](../statements/try...catch)
+- [`throw`](../statements/throw)
+- [`try...catch`](../statements/try...catch)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error</a>

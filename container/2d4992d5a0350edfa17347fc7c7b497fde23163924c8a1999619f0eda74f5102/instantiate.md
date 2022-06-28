@@ -2,8 +2,8 @@
 
 The `WebAssembly.instantiate()` function allows you to compile and instantiate WebAssembly code. This function has two overloads:
 
--   The primary overload takes the WebAssembly binary code, in the form of a [typed array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) or [`ArrayBuffer`](../arraybuffer), and performs both compilation and instantiation in one step. The returned `Promise` resolves to both a compiled [`WebAssembly.Module`](module) and its first [`WebAssembly.Instance`](instance).
--   The secondary overload takes an already-compiled [`WebAssembly.Module`](module) and returns a `Promise` that resolves to an `Instance` of that `Module`. This overload is useful if the `Module` has already been compiled.
+- The primary overload takes the WebAssembly binary code, in the form of a [typed array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) or [`ArrayBuffer`](../arraybuffer), and performs both compilation and instantiation in one step. The returned `Promise` resolves to both a compiled [`WebAssembly.Module`](module) and its first [`WebAssembly.Instance`](instance).
+- The secondary overload takes an already-compiled [`WebAssembly.Module`](module) and returns a `Promise` that resolves to an `Instance` of that `Module`. This overload is useful if the `Module` has already been compiled.
 
 **Warning:** This method is not the most efficient way of fetching and instantiating wasm modules. If at all possible, you should use the newer [`WebAssembly.instantiateStreaming()`](instantiatestreaming) method instead, which fetches, compiles, and instantiates a module all in one step, directly from the raw bytecode, so doesn't require conversion to an [`ArrayBuffer`](../arraybuffer).
 
@@ -25,13 +25,13 @@ An object containing the values to be imported into the newly-created `Instance`
 
 A `Promise` that resolves to a `ResultObject` which contains two fields:
 
--   `module`: A [`WebAssembly.Module`](module) object representing the compiled WebAssembly module. This `Module` can be instantiated again, shared via [`postMessage()`](https://developer.mozilla.org/en-US/docs/Web/API/Worker/postMessage) or [cached in IndexedDB](https://developer.mozilla.org/en-US/docs/WebAssembly/Caching_modules).
--   `instance`: A [`WebAssembly.Instance`](instance) object that contains all the [Exported WebAssembly functions](https://developer.mozilla.org/en-US/docs/WebAssembly/Exported_functions).
+- `module`: A [`WebAssembly.Module`](module) object representing the compiled WebAssembly module. This `Module` can be instantiated again, shared via [`postMessage()`](https://developer.mozilla.org/en-US/docs/Web/API/Worker/postMessage) or [cached in IndexedDB](https://developer.mozilla.org/en-US/docs/WebAssembly/Caching_modules).
+- `instance`: A [`WebAssembly.Instance`](instance) object that contains all the [Exported WebAssembly functions](https://developer.mozilla.org/en-US/docs/WebAssembly/Exported_functions).
 
 #### Exceptions
 
--   If either of the parameters are not of the correct type or structure, a [`TypeError`](../typeerror) is thrown.
--   If the operation fails, the promise rejects with a [`WebAssembly.CompileError`](compileerror), [`WebAssembly.LinkError`](linkerror), or [`WebAssembly.RuntimeError`](runtimeerror), depending on the cause of the failure.
+- If either of the parameters are not of the correct type or structure, a [`TypeError`](../typeerror) is thrown.
+- If the operation fails, the promise rejects with a [`WebAssembly.CompileError`](compileerror), [`WebAssembly.LinkError`](linkerror), or [`WebAssembly.RuntimeError`](runtimeerror), depending on the cause of the failure.
 
 ### Secondary overload — taking a module object instance
 
@@ -51,8 +51,8 @@ A `Promise` that resolves to an [`WebAssembly.Instance`](instance) object.
 
 #### Exceptions
 
--   If either of the parameters are not of the correct type or structure, a [`TypeError`](../typeerror) is thrown.
--   If the operation fails, the promise rejects with a [`WebAssembly.CompileError`](compileerror), [`WebAssembly.LinkError`](linkerror), or [`WebAssembly.RuntimeError`](runtimeerror), depending on the cause of the failure.
+- If either of the parameters are not of the correct type or structure, a [`TypeError`](../typeerror) is thrown.
+- If the operation fails, the promise rejects with a [`WebAssembly.CompileError`](compileerror), [`WebAssembly.LinkError`](linkerror), or [`WebAssembly.RuntimeError`](runtimeerror), depending on the cause of the failure.
 
 ## Examples
 
@@ -149,9 +149,9 @@ Disabled in the Firefox 52 Extended Support Release (ESR).
 
 ## See also
 
--   [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) overview page
--   [WebAssembly concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts)
--   [Using the WebAssembly JavaScript API](https://developer.mozilla.org/en-US/docs/WebAssembly/Using_the_JavaScript_API)
+- [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) overview page
+- [WebAssembly concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts)
+- [Using the WebAssembly JavaScript API](https://developer.mozilla.org/en-US/docs/WebAssembly/Using_the_JavaScript_API)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

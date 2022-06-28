@@ -31,8 +31,7 @@ Without further ado:
 
 In 2019 I published [the list of podcasts I listen to](https://www.swyx.io/fave-podcasts/), and [last year](https://www.swyx.io/fave-podcasts-2020/) I updated it with newer podcasts, so I'm continuing that tradition this year!
 
-The big difference is that [I now run a daily mixtape](https://www.swyx.io/personal-podcasting) which clips from all the podcasts I listen to, so you get a live "best of" feed from me if you [subscribe](https://swyx.transistor.fm/). I also run my own [infrequent YouTube podcast](https://www.youtube.com/playlist?list=PLH8IAbt5kqZOlrX34L93lFzOZ1k-ry_Ll) and am a panelist on [Svelte Radio](https://www.svelteradio.com/episodes). 
-
+The big difference is that [I now run a daily mixtape](https://www.swyx.io/personal-podcasting) which clips from all the podcasts I listen to, so you get a live "best of" feed from me if you [subscribe](https://swyx.transistor.fm/). I also run my own [infrequent YouTube podcast](https://www.youtube.com/playlist?list=PLH8IAbt5kqZOlrX34L93lFzOZ1k-ry_Ll) and am a panelist on [Svelte Radio](https://www.svelteradio.com/episodes).
 
 ## Good But Dead
 
@@ -51,4 +50,3 @@ I love good picks that last! Here are some special highlights and shoutouts from
 - **[Conan](https://www.earwolf.com/show/conan-obrien/)**: Conan, Sona and gang are still hilarious and great company. [Their recent live show was INCREDIBLE](https://www.earwolf.com/episode/live-with-will-arnett-at-the-wiltern-theatre/).
 - **[Software Social](https://softwaresocial.dev/)**: Michele has now pulled off a book launch ([I liked it](https://twitter.com/mjwhansen/status/1437414398184808451)) and Colleen now has a job! It has been fun to follow along.
 - **[Writing Excuses](https://writingexcuses.com/)**: Brandon Sanderson hasn't swung by in forever, but the tips have continued flowing! I liked the episode on [Audiobooks](https://writingexcuses.com/2020/10/25/15-43-audiobook-narration-with-bruce-d-richardson/) and they had some good stuff on MICE and Game/Worldbuilding.
-

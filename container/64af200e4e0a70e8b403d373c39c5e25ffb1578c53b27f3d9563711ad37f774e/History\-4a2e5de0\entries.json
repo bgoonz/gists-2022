@@ -1,1 +1,13 @@
-{"version":1,"resource":"file:///c%3A/MY-WEB-DEV/BLOG____2.0/BGOONZ_BLOG_2.0/src/pages/docs/projects/index.md","entries":[{"id":"yx5X.md","timestamp":1653264314710},{"id":"Ruzp.md","timestamp":1653264336881},{"id":"gURp.md","source":"searchReplace.source","timestamp":1653264428666}]}
+{
+  "version": 1,
+  "resource": "file:///c%3A/MY-WEB-DEV/BLOG____2.0/BGOONZ_BLOG_2.0/src/pages/docs/projects/index.md",
+  "entries": [
+    { "id": "yx5X.md", "timestamp": 1653264314710 },
+    { "id": "Ruzp.md", "timestamp": 1653264336881 },
+    {
+      "id": "gURp.md",
+      "source": "searchReplace.source",
+      "timestamp": 1653264428666
+    }
+  ]
+}

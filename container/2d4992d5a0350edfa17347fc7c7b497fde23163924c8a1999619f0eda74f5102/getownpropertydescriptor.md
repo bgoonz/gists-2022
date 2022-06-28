@@ -143,8 +143,8 @@ In Internet Explorer 8, this was only supported on DOM objects and with some non
 
 ## See also
 
--   [`Object.defineProperty()`](defineproperty)
--   [`Reflect.getOwnPropertyDescriptor()`](../reflect/getownpropertydescriptor)
+- [`Object.defineProperty()`](defineproperty)
+- [`Reflect.getOwnPropertyDescriptor()`](../reflect/getownpropertydescriptor)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

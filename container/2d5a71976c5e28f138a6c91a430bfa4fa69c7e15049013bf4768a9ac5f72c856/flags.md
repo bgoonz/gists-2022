@@ -73,7 +73,7 @@ No
 
 ## See also
 
--   [`RegExp.prototype.source`](source)
+- [`RegExp.prototype.source`](source)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

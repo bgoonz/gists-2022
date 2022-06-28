@@ -5,7 +5,7 @@ tip-username-profile: https://www.twitter.com/loverajoel
 tip-tldr: Three different solutions to merge multidimensional array into a single array.
 tip-writer-support: https://www.coinbase.com/loverajoel
 
--   /en/flattening-multidimensional-arrays-in-javascript/
+- /en/flattening-multidimensional-arrays-in-javascript/
 
 These are the three known ways to merge multidimensional array into a single array.
 
@@ -13,9 +13,9 @@ Given this array:
 
 ```js
 var myArray = [
-    [1, 2],
-    [3, 4, 5],
-    [6, 7, 8, 9]
+  [1, 2],
+  [3, 4, 5],
+  [6, 7, 8, 9],
 ];
 ```
 
@@ -36,7 +36,7 @@ var myNewArray = [].concat.apply([], myArray);
 
 ```js
 var myNewArray = myArray.reduce(function (prev, curr) {
-    return prev.concat(curr);
+  return prev.concat(curr);
 });
 // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
@@ -46,7 +46,7 @@ var myNewArray = myArray.reduce(function (prev, curr) {
 ```js
 var myNewArray3 = [];
 for (var i = 0; i < myArray.length; ++i) {
-    for (var j = 0; j < myArray[i].length; ++j) myNewArray3.push(myArray[i][j]);
+  for (var j = 0; j < myArray[i].length; ++j) myNewArray3.push(myArray[i][j]);
 }
 console.log(myNewArray3);
 // [1, 2, 3, 4, 5, 6, 7, 8, 9]

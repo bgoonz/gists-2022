@@ -1,1 +1,66 @@
-{"version":1,"resource":"file:///Users/BGuner/BGOONZ_BLOG_2.0/docs/content/MDN/glossary/abstractionindex.md","entries":[{"id":"b9eW.md","source":"searchReplace.source","timestamp":1649259608877},{"id":"Lqgh.md","source":"searchReplace.source","timestamp":1649259651698},{"id":"koNf.md","source":"searchReplace.source","timestamp":1649259686198},{"id":"nALu.md","source":"searchReplace.source","timestamp":1649259876428},{"id":"Nmnv.md","source":"searchReplace.source","timestamp":1649259938850},{"id":"NowD.md","source":"searchReplace.source","timestamp":1649259953946},{"id":"qauH.md","source":"searchReplace.source","timestamp":1649260019935},{"id":"Yn3s.md","source":"undoRedo.source","timestamp":1649260033001},{"id":"hkoZ.md","source":"searchReplace.source","timestamp":1649260088883},{"id":"ptTJ.md","source":"searchReplace.source","timestamp":1649260208840},{"id":"nun6.md","source":"searchReplace.source","timestamp":1649260348167},{"id":"VRFR.md","source":"searchReplace.source","timestamp":1649262170996}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/BGOONZ_BLOG_2.0/docs/content/MDN/glossary/abstractionindex.md",
+  "entries": [
+    {
+      "id": "b9eW.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259608877
+    },
+    {
+      "id": "Lqgh.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259651698
+    },
+    {
+      "id": "koNf.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259686198
+    },
+    {
+      "id": "nALu.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259876428
+    },
+    {
+      "id": "Nmnv.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259938850
+    },
+    {
+      "id": "NowD.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259953946
+    },
+    {
+      "id": "qauH.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260019935
+    },
+    {
+      "id": "Yn3s.md",
+      "source": "undoRedo.source",
+      "timestamp": 1649260033001
+    },
+    {
+      "id": "hkoZ.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260088883
+    },
+    {
+      "id": "ptTJ.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260208840
+    },
+    {
+      "id": "nun6.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260348167
+    },
+    {
+      "id": "VRFR.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649262170996
+    }
+  ]
+}

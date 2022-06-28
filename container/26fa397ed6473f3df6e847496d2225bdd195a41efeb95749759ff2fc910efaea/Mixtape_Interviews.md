@@ -16,7 +16,6 @@ Along the way we touch on what OpenUI is, Adam's Deferred Inputs proposal, the 4
 
 I hope you enjoy these long form conversations I'm trying to produce with amazing developers. I haven't been as regular as I would like but I am investing into YouTube in 2022 and am keen on producing more high quality conversations. If you liked this, share it with a friend. If you have requests for other guests, tag them on social media. I'd like to basically make this a space where passionate builders and doers can talk about their craft and where things are going.
 
-
 ## Interview idea list
 
 planetscale https://twitter.com/kwuchu/status/1441113333000597509?s=21
@@ -24,6 +23,7 @@ planetscale https://twitter.com/kwuchu/status/1441113333000597509?s=21
 laurie voss
 
 mcguire bannon - webflow guy
+
 - 26 mins background https://overcast.fm/+wGq3eNwfg
 
 veni kunche
@@ -31,6 +31,7 @@ veni kunche
 randall kanna
 
 nicole https://twitter.com/stubbornella/status/1471213109767405568?s=21
+
 - https://css-tricks.com/the-ui-fund/
 
 the listennotes guy
@@ -44,9 +45,11 @@ mitchell wright on gitlab
 kent c pod https://kentcdodds.com/chats/04#tabs--244--tab--0
 
 gergely https://twitter.com/gergelyorosz/status/1442537833495990278?s=21
+
 - https://newsletter.pragmaticengineer.com/p/project-management-in-tech
 
 auchenberg
+
 - how to build a platform
 - when to pluginify
 - the platform line

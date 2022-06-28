@@ -4,8 +4,8 @@ import React, {
   useEffect,
   useState,
   useRef,
-} from 'react';
-import Sockette from 'sockette';
+} from "react";
+import Sockette from "sockette";
 
 const WSSContext = createContext(null);
 
@@ -38,16 +38,16 @@ export function WSSProvider({ children }) {
 
   let wssRef = useRef();
   useEffect(() => {
-    console.log('WSSProvider mounted');
+    console.log("WSSProvider mounted");
     let mounted = true;
-    const wsUrl = process.env.REACT_APP_WS_URL || 'wss://admin.peterbe.com/ws';
+    const wsUrl = process.env.REACT_APP_WS_URL || "wss://admin.peterbe.com/ws";
 
     console.log(`Setting up WebSocket connection to ${wsUrl}`);
     wssRef.current = new Sockette(wsUrl, {
       timeout: 5e3,
       maxAttempts: 25,
       onopen: (e) => {
-        console.log('WebSocket connected!');
+        console.log("WebSocket connected!");
         if (mounted) {
           setConnected(true);
           setWebsocketErrored(false);
@@ -58,16 +58,16 @@ export function WSSProvider({ children }) {
         try {
           data = JSON.parse(e.data);
         } catch (ex) {
-          console.warn('WebSocket message data is not JSON');
+          console.warn("WebSocket message data is not JSON");
           data = e.data;
         }
         callbacks.current.send(data);
       },
       onreconnect: (e) => {
-        console.log('Reconnecting WebSocket');
+        console.log("Reconnecting WebSocket");
       },
       onmaximum: (e) => {
-        console.log('Maximum attempts to reconnect. I give up.');
+        console.log("Maximum attempts to reconnect. I give up.");
       },
       onclose: (e) => {
         if (mounted) setConnected(false);

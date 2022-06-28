@@ -1,9 +1,11 @@
-# The ultimate guide to iframes 
+# The ultimate guide to iframes
 
 > ## Excerpt
+>
 > Not a fan of iframes? This post provides an overview of the tag's best features, shows you how to use them, and how to secure them against vulnerabilities.
 
 ---
+
 The iframe element (short for inline frame) is probably among the oldest HTML tags and was introduced in 1997 with HTML 4.01 by Microsoft Internet Explorer.
 
 Even though all modern browsers support them, many developers write endless articles advising against using them.
@@ -65,9 +67,9 @@ To this day, there are eight attributes we can use to customize the behavior or 
 ```
 <iframe
 
-  src="https://google.com/"    <!-- Sets the address of the document to embed --> 
+  src="https://google.com/"    <!-- Sets the address of the document to embed -->
 
-  srcdoc="<p>Some html</p>"    <!-- Sets the HTML content of the page to show --> 
+  srcdoc="<p>Some html</p>"    <!-- Sets the HTML content of the page to show -->
 
   height="100px"               <!-- Sets the iframe height in pixels -->
 
@@ -94,15 +96,14 @@ You may find more than the ones listed above, but keep in mind that they are not
 
 ### iframe events and communication
 
- **Loading and errors**
+**Loading and errors**
 
 Because an iframe is a document, you can use most [global event handlers](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers).
 
 When you are initiating the iframe, two of them come in handy to improve the experience, like displaying a spinner or a specific message to assist the user:
 
--   The `load` event. It is triggered when the iframe is fully loaded. In other words, all static assets have been downloaded, and all the elements in the DOM tree have fired their load event.
--   The `error` event that is triggered when the loading failed.
-    
+- The `load` event. It is triggered when the iframe is fully loaded. In other words, all static assets have been downloaded, and all the elements in the DOM tree have fired their load event.
+- The `error` event that is triggered when the loading failed.
 
 You can listen to them with the `onload` and `onerror` attribute respectively:
 
@@ -197,18 +198,18 @@ You have to use the `sandbox` and `allow` the attributes we discussed earlier.
 
 Here is the complete list of sandboxing flags and their purposes:
 
-| Flag | Details |
-| --- | --- |
-| **allow-forms** | Allows form submission. |
-| **allow-modals** | Allows the resource to open new modal windows. |
-| **allow-orientation-lock** | Allows the resource to lock the screen orientation. |
-| **allow-pointer-lock** | Allows the resource to use the Pointer Lock API. |
-| **allow-popups** | Allows the resource to open new popups or tabs. |
-| **allow-popups-to-escape-sandbox** | Allows the resource to open new windows that will not inherit the sandboxing. |
-| **allow-presentation** | Allows the resource to start a presentation session. |
-| **allow-same-origin** | Allows the resource to maintain its origin. |
-| **allow-scripts** | Allows the resource to run scripts. |
-| **allow-top-navigation** | Allows the resource to navigate the top-level browsing context. |
+| Flag                                        | Details                                                                                                  |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **allow-forms**                             | Allows form submission.                                                                                  |
+| **allow-modals**                            | Allows the resource to open new modal windows.                                                           |
+| **allow-orientation-lock**                  | Allows the resource to lock the screen orientation.                                                      |
+| **allow-pointer-lock**                      | Allows the resource to use the Pointer Lock API.                                                         |
+| **allow-popups**                            | Allows the resource to open new popups or tabs.                                                          |
+| **allow-popups-to-escape-sandbox**          | Allows the resource to open new windows that will not inherit the sandboxing.                            |
+| **allow-presentation**                      | Allows the resource to start a presentation session.                                                     |
+| **allow-same-origin**                       | Allows the resource to maintain its origin.                                                              |
+| **allow-scripts**                           | Allows the resource to run scripts.                                                                      |
+| **allow-top-navigation**                    | Allows the resource to navigate the top-level browsing context.                                          |
 | **allow-top-navigation-by-user-activation** | Allows the resource to navigate the top-level browsing context, but only if initiated by a user gesture. |
 
 It is up to you to define which privileges you can grant to each iframe.
@@ -241,22 +242,22 @@ This `allow` attribute is currently experimental and only supported by Chromium-
 
 There are more than 25 available flags, so I will not list them all here. You can browse them [on the Mozilla Feature Policy Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy#Directives). I summarized the most popular in the table below:
 
-| Flag | Details |
-| --- | --- |
-| **accelerometer** | Allows access the Accelerometer interface |
-| **ambient-light-sensor** | Allows access the AmbientLightSensor interface |
-| **autoplay** | Allows to autoplay video and audio files |
-| **battery** | Allows access to the Battery Status API |
-| **camera** | Allows access to the camera |
-| **fullscreen** | Allows access to fullscreen mode |
-| **geolocation** | Allows access to the Geolocation API |
-| **gyroscope** | Allows access to the Sensors API Gyroscope interface |
-| **magnetometer** | Allows access to the Sensors API Magnetometer interface |
-| **microphone** | Allows access to the device microphone |
-| **midi** | Allows access to the Web MIDI API |
-| **payment** | Allows access to the Payment Request API |
-| **usb** | Allows access to the WebUSB API |
-| **vibrate** | Allows access to the Vibration API |
+| Flag                     | Details                                                 |
+| ------------------------ | ------------------------------------------------------- |
+| **accelerometer**        | Allows access the Accelerometer interface               |
+| **ambient-light-sensor** | Allows access the AmbientLightSensor interface          |
+| **autoplay**             | Allows to autoplay video and audio files                |
+| **battery**              | Allows access to the Battery Status API                 |
+| **camera**               | Allows access to the camera                             |
+| **fullscreen**           | Allows access to fullscreen mode                        |
+| **geolocation**          | Allows access to the Geolocation API                    |
+| **gyroscope**            | Allows access to the Sensors API Gyroscope interface    |
+| **magnetometer**         | Allows access to the Sensors API Magnetometer interface |
+| **microphone**           | Allows access to the device microphone                  |
+| **midi**                 | Allows access to the Web MIDI API                       |
+| **payment**              | Allows access to the Payment Request API                |
+| **usb**                  | Allows access to the WebUSB API                         |
+| **vibrate**              | Allows access to the Vibration API                      |
 
 ### Things to know about iframes
 
@@ -320,11 +321,9 @@ But how can you do so when you have an iframe in your page?
 
 We could dedicate an entire guide regarding the myriad of ways to make your iframe responsive. Instead, I will just link to two excellent articles:
 
--   [This first article (with probably the simplest solution)](https://blog.theodo.com/2018/01/responsive-iframes-css-trick/) will show you how you can achieve this by wrapping your iframe in another HTML element and by adding a few CSS properties to it.
--   [This second article](https://css-tricks.com/responsive-iframes/) will show you how you can make an iframe responsive by dealing with aspect ratios.
-    
--   There is also the [Iframe Resizer Library](https://github.com/davidjbradshaw/iframe-resizer), but keep in mind that it comes with a lot of additional features you may not actually need.
-    
+- [This first article (with probably the simplest solution)](https://blog.theodo.com/2018/01/responsive-iframes-css-trick/) will show you how you can achieve this by wrapping your iframe in another HTML element and by adding a few CSS properties to it.
+- [This second article](https://css-tricks.com/responsive-iframes/) will show you how you can make an iframe responsive by dealing with aspect ratios.
+- There is also the [Iframe Resizer Library](https://github.com/davidjbradshaw/iframe-resizer), but keep in mind that it comes with a lot of additional features you may not actually need.
 
 **Note**: If you are using the bootstrap library in your project, there are the `embed-responsive` and `embed-responsive-16by9` that you can use straight out of the box to make your iframes responsive.
 
@@ -345,7 +344,7 @@ Easy peasy lemon squeezy! As you can access the window element of the iframe wit
 ```
 
 const iframe = document.getElementById('myIframe');
-    
+
 
 iframe.contentWindow.location.reload();
 ```

@@ -195,8 +195,8 @@ However, if you are more interested in all the little technical bits defined by 
 
 ## See also
 
--   [`Array.prototype.lastIndexOf()`](lastindexof)
--   [`TypedArray.prototype.indexOf()`](../typedarray/indexof)
--   [`String.prototype.indexOf()`](../string/indexof)
+- [`Array.prototype.lastIndexOf()`](lastindexof)
+- [`TypedArray.prototype.indexOf()`](../typedarray/indexof)
+- [`String.prototype.indexOf()`](../string/indexof)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf</a>

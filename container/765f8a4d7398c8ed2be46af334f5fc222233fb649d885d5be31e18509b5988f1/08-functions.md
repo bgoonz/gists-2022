@@ -10,7 +10,7 @@ and function **expressions**.
 
 ```javascript
 function foo(a, b, c) {
-    // do something
+  // do something
 }
 ```
 
@@ -18,7 +18,7 @@ function foo(a, b, c) {
 
 ```javascript
 var foo = function (a, b, c) {
-    // do something
+  // do something
 };
 ```
 

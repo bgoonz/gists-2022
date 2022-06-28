@@ -16,7 +16,7 @@ export function EditableText({
   onResize,
   text,
   width,
-  height
+  height,
 }) {
   function handleEscapeKeys(e) {
     if ((e.keyCode === RETURN_KEY && !e.shiftKey) || e.keyCode === ESCAPE_KEY) {

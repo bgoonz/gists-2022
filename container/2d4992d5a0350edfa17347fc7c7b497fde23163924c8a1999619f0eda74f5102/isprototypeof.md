@@ -99,10 +99,10 @@ For example, to execute some code that's only safe to run if a `baz` object has 
 
 ## See also
 
--   [`instanceof`](../../operators/instanceof)
--   [`Object.getPrototypeOf()`](getprototypeof)
--   [`Object.setPrototypeOf()`](setprototypeof)
--   [`Object/proto`](proto)
+- [`instanceof`](../../operators/instanceof)
+- [`Object.getPrototypeOf()`](getprototypeof)
+- [`Object.setPrototypeOf()`](setprototypeof)
+- [`Object/proto`](proto)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

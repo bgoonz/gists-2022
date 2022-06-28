@@ -4,23 +4,23 @@ tip-username: AlbertoFuente
 tip-username-profile: https://github.com/AlbertoFuente
 tip-tldr: How can we improve and make a more efficient nested `if` statement in javascript?
 
--   /en/improve-nested-conditionals/
+- /en/improve-nested-conditionals/
 
 How can we improve and make a more efficient nested `if` statement in javascript?
 
 ```javascript
 if (color) {
-    if (color === 'black') {
-        printBlackBackground();
-    } else if (color === 'red') {
-        printRedBackground();
-    } else if (color === 'blue') {
-        printBlueBackground();
-    } else if (color === 'green') {
-        printGreenBackground();
-    } else {
-        printYellowBackground();
-    }
+  if (color === "black") {
+    printBlackBackground();
+  } else if (color === "red") {
+    printRedBackground();
+  } else if (color === "blue") {
+    printBlueBackground();
+  } else if (color === "green") {
+    printGreenBackground();
+  } else {
+    printYellowBackground();
+  }
 }
 ```
 
@@ -28,20 +28,20 @@ One way to improve the nested `if` statement would be using the `switch` stateme
 
 ```javascript
 switch (color) {
-    case 'black':
-        printBlackBackground();
-        break;
-    case 'red':
-        printRedBackground();
-        break;
-    case 'blue':
-        printBlueBackground();
-        break;
-    case 'green':
-        printGreenBackground();
-        break;
-    default:
-        printYellowBackground();
+  case "black":
+    printBlackBackground();
+    break;
+  case "red":
+    printRedBackground();
+    break;
+  case "blue":
+    printBlueBackground();
+    break;
+  case "green":
+    printGreenBackground();
+    break;
+  default:
+    printYellowBackground();
 }
 ```
 
@@ -50,21 +50,21 @@ If we pass `true` as a parameter to the `switch` statement, it allows us to put 
 
 ```javascript
 switch (true) {
-    case typeof color === 'string' && color === 'black':
-        printBlackBackground();
-        break;
-    case typeof color === 'string' && color === 'red':
-        printRedBackground();
-        break;
-    case typeof color === 'string' && color === 'blue':
-        printBlueBackground();
-        break;
-    case typeof color === 'string' && color === 'green':
-        printGreenBackground();
-        break;
-    case typeof color === 'string' && color === 'yellow':
-        printYellowBackground();
-        break;
+  case typeof color === "string" && color === "black":
+    printBlackBackground();
+    break;
+  case typeof color === "string" && color === "red":
+    printRedBackground();
+    break;
+  case typeof color === "string" && color === "blue":
+    printBlueBackground();
+    break;
+  case typeof color === "string" && color === "green":
+    printGreenBackground();
+    break;
+  case typeof color === "string" && color === "yellow":
+    printYellowBackground();
+    break;
 }
 ```
 
@@ -72,9 +72,9 @@ If refactoring is an option, we can try to simplify the functions themselves. Fo
 
 ```javascript
 function printBackground(color) {
-    if (!color || typeof color !== 'string') {
-        return; // Invalid color, return immediately
-    }
+  if (!color || typeof color !== "string") {
+    return; // Invalid color, return immediately
+  }
 }
 ```
 
@@ -82,15 +82,15 @@ But if refactoring is not an option, we must always avoid having several checks 
 
 ```javascript
 var colorObj = {
-    black: printBlackBackground,
-    red: printRedBackground,
-    blue: printBlueBackground,
-    green: printGreenBackground,
-    yellow: printYellowBackground
+  black: printBlackBackground,
+  red: printRedBackground,
+  blue: printBlueBackground,
+  green: printGreenBackground,
+  yellow: printYellowBackground,
 };
 
 if (color in colorObj) {
-    colorObj[color]();
+  colorObj[color]();
 }
 ```
 

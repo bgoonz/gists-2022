@@ -10,16 +10,16 @@ With the syntax, the example from the previous slide would look like
 
 ```javascript
 class Person {
-    constructor(name) {
-        this.name = name;
-    }
+  constructor(name) {
+    this.name = name;
+  }
 
-    sayName() {
-        return name;
-    }
+  sayName() {
+    return name;
+  }
 }
 
-var felix = new Person('Felix');
+var felix = new Person("Felix");
 ```
 
 <div class="callout warning">

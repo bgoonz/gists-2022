@@ -1,1 +1,96 @@
-{"version":1,"resource":"file:///Users/BGuner/Desktop/Public-Repo/src/components/SimpleCalculator/index.tsx","entries":[{"id":"0cEz.tsx","timestamp":1652384154179},{"id":"x4i9.tsx","source":"Workspace Edit","timestamp":1652384155611},{"id":"ARIu.tsx","timestamp":1652384158231},{"id":"IbwQ.tsx","timestamp":1652384188039},{"id":"oUwY.tsx","timestamp":1652384240314},{"id":"3KPw.tsx","timestamp":1652384317844},{"id":"cDwH.tsx","timestamp":1652385003649},{"id":"Geh6.tsx","timestamp":1652385068799},{"id":"iHr2.tsx","timestamp":1652385106226},{"id":"1YgQ.tsx","timestamp":1652385156431},{"id":"8Iwu.tsx","source":"undoRedo.source","timestamp":1652385161018},{"id":"9klE.tsx","timestamp":1652385171500},{"id":"EFBo.tsx","timestamp":1652385252115},{"id":"bcYm.tsx","timestamp":1652385365198},{"id":"IZoZ.tsx","timestamp":1652385510577},{"id":"IDla.tsx","source":"undoRedo.source","timestamp":1652385512313},{"id":"0IsW.tsx","timestamp":1652385516986},{"id":"8fny.tsx","source":"undoRedo.source","timestamp":1652385519598},{"id":"Dmsk.tsx","timestamp":1652385543843},{"id":"z0G8.tsx","timestamp":1652385709958},{"id":"vICo.tsx","timestamp":1652386266654},{"id":"fuBa.tsx","timestamp":1652386294564},{"id":"s6A6.tsx","source":"undoRedo.source","timestamp":1652386327117},{"id":"7gi1.tsx","timestamp":1652386330964},{"id":"prc1.tsx","timestamp":1652386376153},{"id":"Y4bC.tsx","timestamp":1652386426040},{"id":"kYxs.tsx","source":"undoRedo.source","timestamp":1652386428347},{"id":"xxoN.tsx","timestamp":1652386553692},{"id":"ti84.tsx","timestamp":1652722808651},{"id":"5FhK.tsx","timestamp":1652722834036},{"id":"8na2.tsx","source":"undoRedo.source","timestamp":1652722840705},{"id":"slJL.tsx","timestamp":1652722989653},{"id":"8VNF.tsx","timestamp":1652726631451},{"id":"hIyH.tsx","timestamp":1652726650957},{"id":"fMtQ.tsx","timestamp":1652726712803},{"id":"Nxjp.tsx","source":"Change spelling to 'LazyImage'","timestamp":1652726746171},{"id":"r0is.tsx","timestamp":1652726888486},{"id":"deLO.tsx","timestamp":1652726906037},{"id":"FUxa.tsx","timestamp":1652726922326},{"id":"rUP1.tsx","timestamp":1652726938262},{"id":"VAmg.tsx","timestamp":1652727037616},{"id":"pxnN.tsx","timestamp":1652727079320},{"id":"h3pE.tsx","timestamp":1652727145654},{"id":"vLXk.tsx","source":"Change spelling to 'inputMinWarning'","timestamp":1652727241912},{"id":"fUCb.tsx","timestamp":1652799820638},{"id":"P1Ds.tsx","source":"undoRedo.source","timestamp":1652799823507},{"id":"olQT.tsx","timestamp":1652799829350},{"id":"V7CG.tsx","timestamp":1652799842562},{"id":"kcXL.tsx","timestamp":1653067207666},{"id":"Jbq8.tsx","timestamp":1653067226974}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/Desktop/Public-Repo/src/components/SimpleCalculator/index.tsx",
+  "entries": [
+    { "id": "0cEz.tsx", "timestamp": 1652384154179 },
+    {
+      "id": "x4i9.tsx",
+      "source": "Workspace Edit",
+      "timestamp": 1652384155611
+    },
+    { "id": "ARIu.tsx", "timestamp": 1652384158231 },
+    { "id": "IbwQ.tsx", "timestamp": 1652384188039 },
+    { "id": "oUwY.tsx", "timestamp": 1652384240314 },
+    { "id": "3KPw.tsx", "timestamp": 1652384317844 },
+    { "id": "cDwH.tsx", "timestamp": 1652385003649 },
+    { "id": "Geh6.tsx", "timestamp": 1652385068799 },
+    { "id": "iHr2.tsx", "timestamp": 1652385106226 },
+    { "id": "1YgQ.tsx", "timestamp": 1652385156431 },
+    {
+      "id": "8Iwu.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1652385161018
+    },
+    { "id": "9klE.tsx", "timestamp": 1652385171500 },
+    { "id": "EFBo.tsx", "timestamp": 1652385252115 },
+    { "id": "bcYm.tsx", "timestamp": 1652385365198 },
+    { "id": "IZoZ.tsx", "timestamp": 1652385510577 },
+    {
+      "id": "IDla.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1652385512313
+    },
+    { "id": "0IsW.tsx", "timestamp": 1652385516986 },
+    {
+      "id": "8fny.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1652385519598
+    },
+    { "id": "Dmsk.tsx", "timestamp": 1652385543843 },
+    { "id": "z0G8.tsx", "timestamp": 1652385709958 },
+    { "id": "vICo.tsx", "timestamp": 1652386266654 },
+    { "id": "fuBa.tsx", "timestamp": 1652386294564 },
+    {
+      "id": "s6A6.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1652386327117
+    },
+    { "id": "7gi1.tsx", "timestamp": 1652386330964 },
+    { "id": "prc1.tsx", "timestamp": 1652386376153 },
+    { "id": "Y4bC.tsx", "timestamp": 1652386426040 },
+    {
+      "id": "kYxs.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1652386428347
+    },
+    { "id": "xxoN.tsx", "timestamp": 1652386553692 },
+    { "id": "ti84.tsx", "timestamp": 1652722808651 },
+    { "id": "5FhK.tsx", "timestamp": 1652722834036 },
+    {
+      "id": "8na2.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1652722840705
+    },
+    { "id": "slJL.tsx", "timestamp": 1652722989653 },
+    { "id": "8VNF.tsx", "timestamp": 1652726631451 },
+    { "id": "hIyH.tsx", "timestamp": 1652726650957 },
+    { "id": "fMtQ.tsx", "timestamp": 1652726712803 },
+    {
+      "id": "Nxjp.tsx",
+      "source": "Change spelling to 'LazyImage'",
+      "timestamp": 1652726746171
+    },
+    { "id": "r0is.tsx", "timestamp": 1652726888486 },
+    { "id": "deLO.tsx", "timestamp": 1652726906037 },
+    { "id": "FUxa.tsx", "timestamp": 1652726922326 },
+    { "id": "rUP1.tsx", "timestamp": 1652726938262 },
+    { "id": "VAmg.tsx", "timestamp": 1652727037616 },
+    { "id": "pxnN.tsx", "timestamp": 1652727079320 },
+    { "id": "h3pE.tsx", "timestamp": 1652727145654 },
+    {
+      "id": "vLXk.tsx",
+      "source": "Change spelling to 'inputMinWarning'",
+      "timestamp": 1652727241912
+    },
+    { "id": "fUCb.tsx", "timestamp": 1652799820638 },
+    {
+      "id": "P1Ds.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1652799823507
+    },
+    { "id": "olQT.tsx", "timestamp": 1652799829350 },
+    { "id": "V7CG.tsx", "timestamp": 1652799842562 },
+    { "id": "kcXL.tsx", "timestamp": 1653067207666 },
+    { "id": "Jbq8.tsx", "timestamp": 1653067226974 }
+  ]
+}

@@ -65,15 +65,15 @@ If used prefix, with operator before operand (for example, `++x`), the increment
 
 ## See also
 
--   [Addition operator](addition)
--   [Subtraction operator](subtraction)
--   [Division operator](division)
--   [Multiplication operator](multiplication)
--   [Remainder operator](remainder)
--   [Exponentiation operator](exponentiation)
--   [Decrement operator](decrement)
--   [Unary negation operator](unary_negation)
--   [Unary plus operator](unary_plus)
+- [Addition operator](addition)
+- [Subtraction operator](subtraction)
+- [Division operator](division)
+- [Multiplication operator](multiplication)
+- [Remainder operator](remainder)
+- [Exponentiation operator](exponentiation)
+- [Decrement operator](decrement)
+- [Unary negation operator](unary_negation)
+- [Unary plus operator](unary_plus)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

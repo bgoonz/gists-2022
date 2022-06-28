@@ -80,7 +80,7 @@
   //!------------------------------------------------------------
   //------------------beginning of extension settingsr---------------\\
   "markdown.preview.openMarkdownLinks": "inEditor",
-"vsicons.presets.jsOfficial": true,
+  "vsicons.presets.jsOfficial": true,
   //---------------------------end of extensions----------------------\\
   //!-------------------------------------------------------------------
   //--------------beginning of language-features settingsr------------\\
@@ -117,7 +117,7 @@
   //--------------beginning of file settings------------\\
   "files.exclude": {
     "**/.git": false
-},
+  },
 
   "breadcrumbs.filePath": "on",
   "files.autoSave": "afterDelay",
@@ -148,35 +148,35 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
-        "source": "PowerShell",
-        "icon": "terminal-powershell"
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
     },
     "Command Prompt": {
-        "path": [
-            "${env:windir}\\Sysnative\\cmd.exe",
-            "${env:windir}\\System32\\cmd.exe"
-        ],
-        "args": [],
-        "icon": "terminal-cmd"
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
     },
     "Git Bash": {
-        "source": "Git Bash"
+      "source": "Git Bash"
     },
     "C:\\WINDOWS\\System32\\wsl.exe (migrated)": {
-        "path": "C:\\WINDOWS\\System32\\wsl.exe",
-        "args": []
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": []
     },
     "JavaScript Debug Terminal": {
-        "extensionIdentifier": "ms-vscode.js-debug",
-        "icon": "debug",
-        "id": "extension.js-debug.debugTerminal",
-        "title": "JavaScript Debug Terminal"
+      "extensionIdentifier": "ms-vscode.js-debug",
+      "icon": "debug",
+      "id": "extension.js-debug.debugTerminal",
+      "title": "JavaScript Debug Terminal"
     },
     "C:\\Program Files\\PowerShell\\7\\pwsh.exe (migrated)": {
-        "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
-        "args": []
+      "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+      "args": []
     }
-},
+  },
   "files.autoSaveDelay": 100,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -189,35 +189,22 @@
   "references.preferredLocation": "view",
 
   "workbench.iconTheme": "material-icon-theme",
-"git.enableSmartCommit": true,
+  "git.enableSmartCommit": true,
   "[less]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  // Controls the font size in pixels of the terminal, this defaults to editor.fontSize's value.
+  "terminal.integrated.fontSize": 10,
 
-
-
-
-
-// Controls the font size in pixels of the terminal, this defaults to editor.fontSize's value.
-"terminal.integrated.fontSize": 10,
-
-// Controls the line height of the terminal, this number is multipled by the terminal font size to get the actual line-height in pixels.
-"terminal.integrated.lineHeight": 1.2,
-
-
-
-
-
-
-
-
+  // Controls the line height of the terminal, this number is multipled by the terminal font size to get the actual line-height in pixels.
+  "terminal.integrated.lineHeight": 1.2,
 
   "jupyter.allowUnauthorizedRemoteConnection": true,
   "jupyter.changeDirOnImportExport": true,
   "jupyter.generateSVGPlots": true,
   "jupyter.interactiveWindowMode": "single",
-    "jupyter.jupyterLab.allowUnauthorizedRemoteConnection": true,
+  "jupyter.jupyterLab.allowUnauthorizedRemoteConnection": true,
   "telemetry.telemetryLevel": "off",
   "git.autofetch": true,
   "[scss]": {
@@ -230,48 +217,48 @@
     "markdown": true
   },
   "workbench.editor.untitled.hint": "hidden",
-"workbench.tree.indent": 10,
+  "workbench.tree.indent": 10,
   "tabnine.experimentalAutoImports": true,
-"files.maxMemoryForLargeFilesMB": 8000,
-"diffEditor.ignoreTrimWhitespace": false,
-"editor.dragAndDrop": false,
-"editor.minimap.showSlider": "always",
-"window.zoomLevel": -1,
-"[yaml]": {
+  "files.maxMemoryForLargeFilesMB": 8000,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.dragAndDrop": false,
+  "editor.minimap.showSlider": "always",
+  "window.zoomLevel": -1,
+  "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"terminal.external.windowsExec": "C:\\Users\\bryan\\AppData\\Local\\Microsoft\\WindowsApps\\ubuntu.exe",
-"terminal.integrated.profiles.linux": {
+  },
+  "terminal.external.windowsExec": "C:\\Users\\bryan\\AppData\\Local\\Microsoft\\WindowsApps\\ubuntu.exe",
+  "terminal.integrated.profiles.linux": {
     "bash": {
-        "path": "bash",
-        "icon": "terminal-bash"
+      "path": "bash",
+      "icon": "terminal-bash"
     },
     "zsh": {
-        "path": "zsh"
+      "path": "zsh"
     },
     "fish": {
-        "path": "fish"
+      "path": "fish"
     },
     "tmux": {
-        "path": "tmux",
-        "icon": "terminal-tmux"
+      "path": "tmux",
+      "icon": "terminal-tmux"
     },
     "pwsh": {
-        "path": "pwsh",
-        "icon": "terminal-powershell"
+      "path": "pwsh",
+      "icon": "terminal-powershell"
     },
     "bash (2)": {
-        "path": "/usr/bin/bash"
+      "path": "/usr/bin/bash"
     }
-},
-"terminal.integrated.defaultProfile.linux": "bash (2)",
-"path-intellisense.showHiddenFiles": true,
-"workbench.colorCustomizations": {},
-"redhat.telemetry.enabled": false,
-"DockerRun.DisableAutoGenerateConfig": true,
-"security.workspace.trust.banner": "always",
-"security.workspace.trust.enabled": false,
-"[javascript]": {
+  },
+  "terminal.integrated.defaultProfile.linux": "bash (2)",
+  "path-intellisense.showHiddenFiles": true,
+  "workbench.colorCustomizations": {},
+  "redhat.telemetry.enabled": false,
+  "DockerRun.DisableAutoGenerateConfig": true,
+  "security.workspace.trust.banner": "always",
+  "security.workspace.trust.enabled": false,
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-}
+  }
 }

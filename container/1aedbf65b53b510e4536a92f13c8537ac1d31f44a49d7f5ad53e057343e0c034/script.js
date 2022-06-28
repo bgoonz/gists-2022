@@ -12,9 +12,10 @@ context.translate(canvas.width, 0);
 context.scale(-1, 1);
 
 // hiragana characters.
-let chars = "mazal「平」とは平凡な、や さしいという意で通に 使 ל 用 する文 字 体 平 仮 名 は 漢 字の知 識 מ ז ל に乏しい人々などがמזל用いる私的な$#@&!あった".split(
-  ""
-);
+let chars =
+  "mazal「平」とは平凡な、や さしいという意で通に 使 ל 用 する文 字 体 平 仮 名 は 漢 字の知 識 מ ז ל に乏しい人々などがמזל用いる私的な$#@&!あった".split(
+    ""
+  );
 
 for (let i = 0; i < columns; i++) drops[i] = Math.random() * 43 - 43;
 

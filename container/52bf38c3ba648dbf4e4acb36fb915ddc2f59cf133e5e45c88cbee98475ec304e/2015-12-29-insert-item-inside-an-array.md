@@ -6,7 +6,7 @@ tip-username-profile: https://github.com/loverajoel
 tip-tldr: Inserting an item into an existing array is a daily common task. You can add elements to the end of an array using push, to the beginning using unshift, or to the middle using splice.
 tip-writer-support: https://www.coinbase.com/loverajoel
 
--   /en/insert-item-inside-an-array/
+- /en/insert-item-inside-an-array/
 
 # Inserting an item into an existing array
 
@@ -172,8 +172,8 @@ Final victor
 Adding items in the middle of an array is easy with splice, and it's the most performant way to do it.
 
 ```javascript
-var items = ['one', 'two', 'three', 'four'];
-items.splice(items.length / 2, 0, 'hello');
+var items = ["one", "two", "three", "four"];
+items.splice(items.length / 2, 0, "hello");
 ```
 
 I tried to run these tests in various Browsers and OS and the results were similar. I hope these tips will be useful for you and encourage to perform your own tests!

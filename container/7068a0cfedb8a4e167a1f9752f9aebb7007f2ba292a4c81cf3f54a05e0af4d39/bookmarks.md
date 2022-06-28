@@ -1,5 +1,4 @@
-Bookmarks
-=========
+# Bookmarks
 
 ### Bookmarks bar
 
@@ -79,7 +78,7 @@ Bookmarks
 
 [Home](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Home&pos=859.9999389648438&uri=http://127.0.0.1:5500/Site1/Home.html)
 
-[Microdata (HTML) - Wikipedia](https://en.wikipedia.org/wiki/Microdata_(HTML))
+[Microdata (HTML) - Wikipedia](<https://en.wikipedia.org/wiki/Microdata_(HTML)>)
 
 [Microsoft account | Devices](https://account.microsoft.com/devices?refd=account.microsoft.com)
 
@@ -153,7 +152,7 @@ Bookmarks
 
 [ExpressJS Apis | webdevhub](https://bgoonz-blog-2-0.vercel.app/blog/blogwcomments/)
 
-[Combined_____-_____Doc](file:///C:/Users/bryan/AppData/Local/Temp/mume20211116-21588-10awjjq.uu3x.html)
+[Combined**\_**-**\_**Doc](file:///C:/Users/bryan/AppData/Local/Temp/mume20211116-21588-10awjjq.uu3x.html)
 
 [collaborate? - bryan.guner@gmail.com - Gmail](https://mail.google.com/mail/u/0/?tab=rm&ogbl#search/Tips+fo/FMfcgzGllMDQdVMdZlCWDhWNZTWMdkdK)
 
@@ -161,7 +160,7 @@ Bookmarks
 
 [Technical SEO Consultant for eCommerce, Javascript & Large Scale Websites - ScottySEO](https://scottyseo.com/)
 
-[Inbox (16) - bgoonz1996@gmail.com - Gmail](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Inbox%20(16)%20-%20bgoonz1996%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/3/#inbox)
+[Inbox (16) - bgoonz1996@gmail.com - Gmail](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Inbox%20(16)%20-%20bgoonz1996%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/3/#inbox>)
 
 [🚀 Your GitHub launch code - bryan.guner.1996@gmail.com - Gmail](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=%F0%9F%9A%80%20Your%20GitHub%20launch%20code%20-%20bryan.guner.1996%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/4/#inbox/FMfcgzGllVmMgLnJFpGRPqpmxpnRJcQZ)
 
@@ -209,7 +208,7 @@ Bookmarks
 
 [How to make a Pagination using HTML and CSS ? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-make-a-pagination-using-html-and-css/)
 
-[Inbox (16) - bgoonz1996@gmail.com - Gmail](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Inbox%20(16)%20-%20bgoonz1996%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/3/#inbox)
+[Inbox (16) - bgoonz1996@gmail.com - Gmail](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Inbox%20(16)%20-%20bgoonz1996%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/3/#inbox>)
 
 [🚀 Your GitHub launch code - bryan.guner.1996@gmail.com - Gmail](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=%F0%9F%9A%80%20Your%20GitHub%20launch%20code%20-%20bryan.guner.1996%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/4/#inbox/FMfcgzGllVmMgLnJFpGRPqpmxpnRJcQZ)
 
@@ -409,7 +408,7 @@ Bookmarks
 
 [URL Inspection](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fbgoonz-blog.netlify.app%2F&id=4N5exYHORt2HLM1-veXXcg&alt_id=7ezhCZdVNi9rVRMcNyTG0w&hl=en)
 
-[Sign up for Google Workspace](https://workspace.google.com/business/signup/bring?hl=en&source=gafb-homepage-canvas-en&ga_region=noram&ga_country=us&ga_lang=en&__utma=61317162.46158731.1639797153.1639931391.1639931391.1&__utmb=61317162.2.9.1639931392011&__utmc=61317162&__utmx=-&__utmz=61317162.1639931391.1.1.utmcsr%3Dsupport.google.com%7Cutmccn%3D(referral)%7Cutmcmd%3Dreferral%7Cutmcct%3D/&__utmv=-&__utmk=204190039)
+[Sign up for Google Workspace](<https://workspace.google.com/business/signup/bring?hl=en&source=gafb-homepage-canvas-en&ga_region=noram&ga_country=us&ga_lang=en&__utma=61317162.46158731.1639797153.1639931391.1639931391.1&__utmb=61317162.2.9.1639931392011&__utmc=61317162&__utmx=-&__utmz=61317162.1639931391.1.1.utmcsr%3Dsupport.google.com%7Cutmccn%3D(referral)%7Cutmcmd%3Dreferral%7Cutmcct%3D/&__utmv=-&__utmk=204190039>)
 
 [New campaign - 121-718-5098 - Google Ads](https://ads.google.com/aw/campaigns/new?ocid=684885266&cmpnInfo=%7B%228%22%3A%22a4C43E97B-E3CC-4677-8342-2995EDB48A41--21%22%7D&euid=511440374&__u=5714947526&uscid=684885266&__c=9965720834&authuser=0&subid=ww-ww-et-g-aw-a-vasquette_ads_cons_1%21o2m--ahpm-0000000097-0000000000)
 
@@ -477,7 +476,7 @@ Bookmarks
 
 [Learn JAMstack in Free 3.5 Hour Video Course - Demos & Examples](https://www.netlify.com/blog/2020/03/12/learn-jamstack-with-a-free-3.5-hour-video-of-demos-and-examples/?utm_source=fcc-jamstack-course&utm_medium=phil-pnh&utm_campaign=devex)
 
-[*GridSound](https://gridsound.com/daw/)
+[\*GridSound](https://gridsound.com/daw/)
 
 [general](https://discord.com/channels/442778850829795330/442778851534307339)
 
@@ -637,11 +636,11 @@ Bookmarks
 
 [Build your first WebAuthn app](https://codelabs.developers.google.com/codelabs/webauthn-reauth#1)
 
-[Glitch :･ﾟ✧](https://glitch.com/edit/#!/entertaining-night-garment)
+[Glitch :･ﾟ ✧](https://glitch.com/edit/#!/entertaining-night-garment)
 
-[Glitch :･ﾟ✧](https://glitch.com/edit/#!/planet-sore-dragon?path=.env%3A1%3A0)
+[Glitch :･ﾟ ✧](https://glitch.com/edit/#!/planet-sore-dragon?path=.env%3A1%3A0)
 
-[Glitch :･ﾟ✧](https://glitch.com/edit/#!/planet-sore-dragon?path=README.md%3A1%3A0)
+[Glitch :･ﾟ ✧](https://glitch.com/edit/#!/planet-sore-dragon?path=README.md%3A1%3A0)
 
 [Projects 💻 | Four Ton Fish](https://fourtonfish.com/projects/)
 
@@ -739,7 +738,7 @@ Bookmarks
 
 [Add files via upload by bgoonz - Pull Request #1387 - bgoonz/BGOONZ_BLOG_2.0](https://github.com/bgoonz/BGOONZ_BLOG_2.0/pull/1387)
 
-[_functions.scss: changed by bgoonz - Pull Request #1386 - bgoonz/BGOONZ_BLOG_2.0](https://github.com/bgoonz/BGOONZ_BLOG_2.0/pull/1386)
+[\_functions.scss: changed by bgoonz - Pull Request #1386 - bgoonz/BGOONZ_BLOG_2.0](https://github.com/bgoonz/BGOONZ_BLOG_2.0/pull/1386)
 
 [Cheatsheets - Stackbit App](https://v1.stackbit.com/studio/61a171aa5c760600c8e0277b/#/react/)
 
@@ -1719,11 +1718,11 @@ Bookmarks
 
 [OFFICIAL_CURRENT_RESUME - OneDrive](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=OFFICIAL_CURRENT_RESUME%20-%20OneDrive&pos=0&uri=https://onedrive.live.com/?authkey=%21AHDtXKk3OB9SimA&id=D21009FDD967A241%21700674&cid=D21009FDD967A241)
 
-[bryan_guner_resume_2021-V8 (1).docx - Microsoft Word Online](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=bryan_guner_resume_2021-V8%20(1).docx%20-%20Microsoft%20Word%20Online&pos=0&uri=https://onedrive.live.com/edit.aspx?cid=d21009fdd967a241&page=view&resid=D21009FDD967A241!700683&parId=D21009FDD967A241!700674&authkey=!AHDtXKk3OB9SimA&app=Word)
+[bryan_guner_resume_2021-V8 (1).docx - Microsoft Word Online](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=bryan_guner_resume_2021-V8%20(1).docx%20-%20Microsoft%20Word%20Online&pos=0&uri=https://onedrive.live.com/edit.aspx?cid=d21009fdd967a241&page=view&resid=D21009FDD967A241!700683&parId=D21009FDD967A241!700674&authkey=!AHDtXKk3OB9SimA&app=Word>)
 
 [Share Badge - Credly](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Share%20Badge%20-%20Credly&pos=0&uri=https://www.credly.com/earner/earned/share/bd145ba3-0f09-42fc-8d1f-a3bc4e0a46b4?provider=url)
 
-[Full Stack Web Development Course | BloomTech (formerly Lambda School)](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Full%20Stack%20Web%20Development%20Course%20%7C%C2%A0BloomTech%20(formerly%20Lambda%20School)&pos=897.7777709960938&uri=https://www.bloomtech.com/courses/full-stack-web-development#curriculum)
+[Full Stack Web Development Course | BloomTech (formerly Lambda School)](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Full%20Stack%20Web%20Development%20Course%20%7C%C2%A0BloomTech%20(formerly%20Lambda%20School)&pos=897.7777709960938&uri=https://www.bloomtech.com/courses/full-stack-web-development#curriculum>)
 
 [bryan_guner_resume_2021-V8.docx - Microsoft Word Online](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=bryan_guner_resume_2021-V8.docx%20-%20Microsoft%20Word%20Online&pos=0&uri=https://onedrive.live.com/edit.aspx?cid=d21009fdd967a241&page=view&resid=D21009FDD967A241!700676&parId=D21009FDD967A241!700674&authkey=!AHDtXKk3OB9SimA&app=Word)
 
@@ -1741,19 +1740,19 @@ Bookmarks
 
 [Bryan Guner | LinkedIn](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Bryan%20Guner%20%7C%20LinkedIn&pos=999.9999389648438&uri=https://www.linkedin.com/in/bryan-guner-046199128/)
 
-[68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67 (36×28)](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67%20(36%C3%9728)&pos=0&uri=https://camo.githubusercontent.com/ce92692573446d5f1369c742f5c8c168166c0a462e5b12751cc5ddf6ee95b9c9/68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67)
+[68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67 (36×28)](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67%20(36%C3%9728)&pos=0&uri=https://camo.githubusercontent.com/ce92692573446d5f1369c742f5c8c168166c0a462e5b12751cc5ddf6ee95b9c9/68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67>)
 
 [Paste to Markdown](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Paste%20to%20Markdown&pos=0&uri=https://euangoddard.github.io/clipboard2markdown/)
 
-[68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67 (36×28)](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67%20(36%C3%9728)&pos=0&uri=https://camo.githubusercontent.com/ce92692573446d5f1369c742f5c8c168166c0a462e5b12751cc5ddf6ee95b9c9/68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67)
+[68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67 (36×28)](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67%20(36%C3%9728)&pos=0&uri=https://camo.githubusercontent.com/ce92692573446d5f1369c742f5c8c168166c0a462e5b12751cc5ddf6ee95b9c9/68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67>)
 
 [skills](file:///C:/Users/bryan/AppData/Local/Temp/mume20211030-2976-129bdea.4zqo.html)
 
-[Job opportunity (W2 only) NYPA - .Net Programmer (IT - 228) - White Plains, NY 10601 - bryan.guner@gmail.com - Gmail](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Job%20opportunity%20(W2%20only)%20NYPA%20-%20.Net%20Programmer%20(IT%20-%20228)%20-%20White%20Plains%2C%20NY%2010601%20-%20bryan.guner%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/0/?ogbl#inbox/FMfcgzGlkjWzClNbKQDXbsfjGcjRfwhS)
+[Job opportunity (W2 only) NYPA - .Net Programmer (IT - 228) - White Plains, NY 10601 - bryan.guner@gmail.com - Gmail](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Job%20opportunity%20(W2%20only)%20NYPA%20-%20.Net%20Programmer%20(IT%20-%20228)%20-%20White%20Plains%2C%20NY%2010601%20-%20bryan.guner%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/0/?ogbl#inbox/FMfcgzGlkjWzClNbKQDXbsfjGcjRfwhS>)
 
 [Intro to Web Dev - GitHub Education](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Intro%20to%20Web%20Dev%20-%20GitHub%20Education&pos=1050&uri=https://education.github.com/experiences/intro_to_web_dev)
 
-[Updated invitation: Job Search Kick-off November 1st @ Mon Nov 1, 2021 1pm - 2pm (EDT) (Lambda Job Search Program) - bryan.guner@gmail.com - Gmail](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Updated%20invitation%3A%20Job%20Search%20Kick-off%20November%201st%20%40%20Mon%20Nov%201%2C%202021%201pm%20-%202pm%20(EDT)%20(Lambda%20Job%20Search%20Program)%20-%20bryan.guner%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGlkjWxkKJlLzBqVkNhLnHMdklZ)
+[Updated invitation: Job Search Kick-off November 1st @ Mon Nov 1, 2021 1pm - 2pm (EDT) (Lambda Job Search Program) - bryan.guner@gmail.com - Gmail](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Updated%20invitation%3A%20Job%20Search%20Kick-off%20November%201st%20%40%20Mon%20Nov%201%2C%202021%201pm%20-%202pm%20(EDT)%20(Lambda%20Job%20Search%20Program)%20-%20bryan.guner%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGlkjWxkKJlLzBqVkNhLnHMdklZ>)
 
 [Bookmarks](chrome://bookmarks/)
 
@@ -1769,7 +1768,7 @@ Bookmarks
 
 [Salesforce Archives - GeeksforGeeks](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Salesforce%20Archives%20-%20GeeksforGeeks&pos=0&uri=https://www.geeksforgeeks.org/tag/salesforce/)
 
-[(3) What is the Salesforce 2-hour remote programming test (2nd round interview) like? - Quora](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=(3)%20What%20is%20the%20Salesforce%202-hour%20remote%20programming%20test%20(2nd%20round%20interview)%20like%3F%20-%20Quora&pos=0&uri=https://www.quora.com/What-is-the-Salesforce-2-hour-remote-programming-test-2nd-round-interview-like)
+[(3) What is the Salesforce 2-hour remote programming test (2nd round interview) like? - Quora](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=(3)%20What%20is%20the%20Salesforce%202-hour%20remote%20programming%20test%20(2nd%20round%20interview)%20like%3F%20-%20Quora&pos=0&uri=https://www.quora.com/What-is-the-Salesforce-2-hour-remote-programming-test-2nd-round-interview-like>)
 
 [Salesforce - Aloha 5 Coding Challenge - Blind](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Salesforce%20-%20Aloha%205%20Coding%20Challenge%20-%20Blind&pos=0&uri=https://www.teamblind.com/post/Salesforce---Aloha-5-Coding-Challenge-dOwiMSSr)
 
@@ -1787,11 +1786,11 @@ Bookmarks
 
 [OFFICIAL_CURRENT_RESUME - OneDrive](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=OFFICIAL_CURRENT_RESUME%20-%20OneDrive&pos=0&uri=https://onedrive.live.com/?authkey=%21AHDtXKk3OB9SimA&id=D21009FDD967A241%21700674&cid=D21009FDD967A241)
 
-[bryan_guner_resume_2021-V8 (1).docx - Microsoft Word Online](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=bryan_guner_resume_2021-V8%20(1).docx%20-%20Microsoft%20Word%20Online&pos=0&uri=https://onedrive.live.com/edit.aspx?cid=d21009fdd967a241&page=view&resid=D21009FDD967A241!700683&parId=D21009FDD967A241!700674&authkey=!AHDtXKk3OB9SimA&app=Word)
+[bryan_guner_resume_2021-V8 (1).docx - Microsoft Word Online](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=bryan_guner_resume_2021-V8%20(1).docx%20-%20Microsoft%20Word%20Online&pos=0&uri=https://onedrive.live.com/edit.aspx?cid=d21009fdd967a241&page=view&resid=D21009FDD967A241!700683&parId=D21009FDD967A241!700674&authkey=!AHDtXKk3OB9SimA&app=Word>)
 
 [Share Badge - Credly](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Share%20Badge%20-%20Credly&pos=0&uri=https://www.credly.com/earner/earned/share/bd145ba3-0f09-42fc-8d1f-a3bc4e0a46b4?provider=url)
 
-[Full Stack Web Development Course | BloomTech (formerly Lambda School)](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Full%20Stack%20Web%20Development%20Course%20%7C%C2%A0BloomTech%20(formerly%20Lambda%20School)&pos=897.7777709960938&uri=https://www.bloomtech.com/courses/full-stack-web-development#curriculum)
+[Full Stack Web Development Course | BloomTech (formerly Lambda School)](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Full%20Stack%20Web%20Development%20Course%20%7C%C2%A0BloomTech%20(formerly%20Lambda%20School)&pos=897.7777709960938&uri=https://www.bloomtech.com/courses/full-stack-web-development#curriculum>)
 
 [bryan_guner_resume_2021-V8.docx - Microsoft Word Online](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=bryan_guner_resume_2021-V8.docx%20-%20Microsoft%20Word%20Online&pos=0&uri=https://onedrive.live.com/edit.aspx?cid=d21009fdd967a241&page=view&resid=D21009FDD967A241!700676&parId=D21009FDD967A241!700674&authkey=!AHDtXKk3OB9SimA&app=Word)
 
@@ -1811,11 +1810,11 @@ Bookmarks
 
 [(2) Bryan Guner | LinkedIn](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Bryan%20Guner%20%7C%20LinkedIn&pos=999.9999389648438&uri=https://www.linkedin.com/in/bryan-guner-046199128/)
 
-[68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67 (36×28)](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67%20(36%C3%9728)&pos=0&uri=https://camo.githubusercontent.com/ce92692573446d5f1369c742f5c8c168166c0a462e5b12751cc5ddf6ee95b9c9/68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67)
+[68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67 (36×28)](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67%20(36%C3%9728)&pos=0&uri=https://camo.githubusercontent.com/ce92692573446d5f1369c742f5c8c168166c0a462e5b12751cc5ddf6ee95b9c9/68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67>)
 
 [Paste to Markdown](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Paste%20to%20Markdown&pos=0&uri=https://euangoddard.github.io/clipboard2markdown/)
 
-[68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67 (36×28)](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67%20(36%C3%9728)&pos=0&uri=https://camo.githubusercontent.com/ce92692573446d5f1369c742f5c8c168166c0a462e5b12751cc5ddf6ee95b9c9/68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67)
+[68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67 (36×28)](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67%20(36%C3%9728)&pos=0&uri=https://camo.githubusercontent.com/ce92692573446d5f1369c742f5c8c168166c0a462e5b12751cc5ddf6ee95b9c9/68747470733a2f2f64617368626f617264732e6c616d6264617363686f6f6c2e636f6d2f7374617469632f696d672f636865636b2e706e67>)
 
 [HTML to Markdown Converter](https://codebeautify.org/html-to-markdown)
 
@@ -1839,7 +1838,7 @@ Bookmarks
 
 [Salesforce Archives - GeeksforGeeks](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Salesforce%20Archives%20-%20GeeksforGeeks&pos=0&uri=https://www.geeksforgeeks.org/tag/salesforce/)
 
-[(3) What is the Salesforce 2-hour remote programming test (2nd round interview) like? - Quora](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=(3)%20What%20is%20the%20Salesforce%202-hour%20remote%20programming%20test%20(2nd%20round%20interview)%20like%3F%20-%20Quora&pos=0&uri=https://www.quora.com/What-is-the-Salesforce-2-hour-remote-programming-test-2nd-round-interview-like)
+[(3) What is the Salesforce 2-hour remote programming test (2nd round interview) like? - Quora](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=(3)%20What%20is%20the%20Salesforce%202-hour%20remote%20programming%20test%20(2nd%20round%20interview)%20like%3F%20-%20Quora&pos=0&uri=https://www.quora.com/What-is-the-Salesforce-2-hour-remote-programming-test-2nd-round-interview-like>)
 
 [Salesforce - Aloha 5 Coding Challenge - Blind](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Salesforce%20-%20Aloha%205%20Coding%20Challenge%20-%20Blind&pos=0&uri=https://www.teamblind.com/post/Salesforce---Aloha-5-Coding-Challenge-dOwiMSSr)
 
@@ -1963,7 +1962,7 @@ Bookmarks
 
 [Free Bootstrap Themes, Templates, Snippets, and Guides - Start Bootstrap](chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#ttl=Free%20Bootstrap%20Themes%2C%20Templates%2C%20Snippets%2C%20and%20Guides%20-%20Start%20Bootstrap&pos=0&uri=https://startbootstrap.com/)
 
-[127.0.0.1:5501/02-cloned-repos/_web_dev_tools/_Html-Templates/startbootstrap-master/templates/admin-dashboard.html](chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#ttl=127.0.0.1%3A5501%2F02-cloned-repos%2F_web_dev_tools%2F_Html-Templates%2Fstartbootstrap-master%2Ftemplates%2Fadmin-dashboard.html&pos=0&uri=http://127.0.0.1:5501/02-cloned-repos/_web_dev_tools/_Html-Templates/startbootstrap-master/templates/admin-dashboard.html)
+[127.0.0.1:5501/02-cloned-repos/\_web_dev_tools/\_Html-Templates/startbootstrap-master/templates/admin-dashboard.html](chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#ttl=127.0.0.1%3A5501%2F02-cloned-repos%2F_web_dev_tools%2F_Html-Templates%2Fstartbootstrap-master%2Ftemplates%2Fadmin-dashboard.html&pos=0&uri=http://127.0.0.1:5501/02-cloned-repos/_web_dev_tools/_Html-Templates/startbootstrap-master/templates/admin-dashboard.html)
 
 [Mongodb - Google Search](chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#ttl=Mongodb%20-%20Google%20Search&pos=0&uri=https://www.google.com/search?rlz=1C1UEAD_enUS928US928&sxsrf=ALeKk03jA2xWewWzMXp36sg1DiEghNxcjw%3A1610735181489&ei=Td4BYIWBHbGl_QaqsbvACA&q=Mongodb&oq=Mongodb&gs_lcp=CgZwc3ktYWIQAzIICAAQyQMQkQIyBwgAELEDEEMyBwgAEEMQiwMyCggAELEDEEMQiwMyCggAELEDEEMQiwMyCAgAELEDEIsDMgUIABCLAzILCAAQsQMQgwEQiwMyCAgAELEDEIsDMggIABCxAxCLAzoECAAQRzoECCMQJzoECAAQQzoICC4QxwEQowI6CAgAELEDEIMBOgsILhCxAxDHARCjAjoCCAA6BQgAEJECOgsILhCLAxCoAxCjAzoFCC4QiwM6EQguEMcBEKMCEIsDEKgDEKcDOggILhCxAxCLAzoOCC4QsQMQiwMQqAMQnwM6DgguELEDEIsDEKgDEJ0DUPdXWNJoYMJxaABwBXgAgAFhiAHNBJIBATeYAQCgAQGqAQdnd3Mtd2l6yAEIuAEDwAEB&sclient=psy-ab&ved=0ahUKEwjF28aSyJ7uAhWxUt8KHarYDogQ4dUDCA0&uact=5)
 
@@ -2275,7 +2274,7 @@ AddToAny
 
 [DOM Tips and Techniques: Parent, Child, and Siblings - SitePoint](https://www.sitepoint.com/dom-tips-techniques-parent-child-siblings/)
 
-[C:/MY-WEB-DEV/__Projects/Medium_Articles](https://modest-booth-4e17df.netlify.app/directory.html)
+[C:/MY-WEB-DEV/\_\_Projects/Medium_Articles](https://modest-booth-4e17df.netlify.app/directory.html)
 
 [PostgreSQL Setup For Windows & WSL/Ubuntu](https://modest-booth-4e17df.netlify.app/originals/2021-03-06_postgresql-setup-for-windows---wsl-ubuntu-801672ab7089)
 
@@ -2923,7 +2922,7 @@ AddToAny
 
 [Site overview | project-showcase-bgoonz](https://app.netlify.com/teams/bgoonz)
 
-[/MY-WEB-DEV/__Projects/Projects](https://project-showcase-bgoonz.netlify.app/)
+[/MY-WEB-DEV/\_\_Projects/Projects](https://project-showcase-bgoonz.netlify.app/)
 
 [Medium](https://medium.com/me/export)
 
@@ -3207,7 +3206,7 @@ AddToAny
 
 [Web-Dev-Hub](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Web-Dev-Hub&pos=0&uri=https://bgoonz-blog.netlify.app/)
 
-[5DXlzrI.png (553×603)](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=5DXlzrI.png%20(553%C3%97603)&pos=0&uri=https://i.imgur.com/5DXlzrI.png)
+[5DXlzrI.png (553×603)](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=5DXlzrI.png%20(553%C3%97603)&pos=0&uri=https://i.imgur.com/5DXlzrI.png>)
 
 [Waylon Walkers Digital Garden](https://waylonwalker.com/archive/)
 
@@ -3229,7 +3228,7 @@ AddToAny
 
 [Bryan, a UI Developer job opening - bryan.guner@gmail.com - Gmail](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGllClSCxknLxrWKjjLgmWLxFML)
 
-[Drafts (1) - bryan.guner@gmail.com - Gmail](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Drafts%20(1)%20-%20bryan.guner%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/0/#drafts?compose=CqMvqmWVRJPjRfrbPrMmvGqLSgnKHJdFQbJjxXmkZsllbRdxpffhDPVGlDpzDCdKZbcwBlbVjFg)
+[Drafts (1) - bryan.guner@gmail.com - Gmail](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Drafts%20(1)%20-%20bryan.guner%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/0/#drafts?compose=CqMvqmWVRJPjRfrbPrMmvGqLSgnKHJdFQbJjxXmkZsllbRdxpffhDPVGlDpzDCdKZbcwBlbVjFg>)
 
 [Direct Client Job Opportunity ::Engr 2, Product Development-Franklin Lakes, NJ  - bryan.guner@gmail.com - Gmail](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Direct%20Client%20Job%20Opportunity%20%3A%3AEngr%202%2C%20Product%20Development-Franklin%20Lakes%2C%20NJ%C2%A0%20-%20bryan.guner%40gmail.com%20-%20Gmail&pos=0&uri=https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent/FMfcgzGllCmcFbMmWlXwtmbdDrpKKXWS)
 
@@ -3395,7 +3394,7 @@ AddToAny
 
 [bgoonz-blog.netlify.app Technology Profile](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=bgoonz-blog.netlify.app%20Technology%20Profile&pos=0&uri=https://builtwith.com/?https%3a%2f%2fbgoonz-blog.netlify.app%2f)
 
-[LinkedIn](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=LinkedIn&pos=600&uri=https://www.linkedin.com/interview-prep/assessments/urn:li:fs_assessment:(1,a)/question/urn:li:fs_assessmentQuestion:(10013,aq13)/)
+[LinkedIn](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=LinkedIn&pos=600&uri=https://www.linkedin.com/interview-prep/assessments/urn:li:fs_assessment:(1,a)/question/urn:li:fs_assessmentQuestion:(10013,aq13)/>)
 
 [Everything You Need To Become A Machine Learner - DEV Community 👩‍💻👨‍💻](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Everything%20You%20Need%20To%20Become%20A%20Machine%C2%A0Learner%20-%20DEV%20Community%20%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&pos=2500&uri=https://dev.to/bgoonz/everything-you-need-to-become-a-machine-learner-1cjp)
 
@@ -3421,7 +3420,7 @@ AddToAny
 
 [How to Do Speech Recognition With a Dynamic Time Warping Algorithm | by Beril Gökçe Çiçek | Better Programming](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=How%20to%20Do%20Speech%20Recognition%20With%20a%20Dynamic%20Time%20Warping%20Algorithm%20%7C%20by%20Beril%20G%C3%B6k%C3%A7e%20%C3%87i%C3%A7ek%20%7C%20Better%20Programming&pos=9600&uri=https://betterprogramming.pub/how-to-do-speech-recognition-with-a-dynamic-time-warping-algorithm-159c2a1bb83c)
 
-[(PDF) Dynamic Programming Algorithms in Speech Recognition](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=(PDF)%20Dynamic%20Programming%20Algorithms%20in%20Speech%20Recognition&pos=0&uri=https://www.researchgate.net/publication/26569937_Dynamic_Programming_Algorithms_in_Speech_Recognition)
+[(PDF) Dynamic Programming Algorithms in Speech Recognition](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=(PDF)%20Dynamic%20Programming%20Algorithms%20in%20Speech%20Recognition&pos=0&uri=https://www.researchgate.net/publication/26569937_Dynamic_Programming_Algorithms_in_Speech_Recognition>)
 
 [Understanding Dynamic Time Warping - The Databricks Blog](https://databricks.com/blog/2019/04/30/understanding-dynamic-time-warping.html)
 
@@ -3763,11 +3762,11 @@ AddToAny
 
 [Bryan Guner | Facebook](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Bryan%20Guner%20%7C%20Facebook&pos=155.5555419921875&uri=https://www.facebook.com/bryan.guner/)
 
-[(3) Facebook](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=(3)%20Facebook&pos=0&uri=https://www.facebook.com/)
+[(3) Facebook](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=(3)%20Facebook&pos=0&uri=https://www.facebook.com/>)
 
 [Share Badge - Credly](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Share%20Badge%20-%20Credly&pos=0&uri=https://www.credly.com/earner/earned/share/bd145ba3-0f09-42fc-8d1f-a3bc4e0a46b4?provider=print)
 
-[Full-Stack_Web_Development_+_Technical_Interviewing_Badge20211029-36-1n2uz4g.pdf](file:///C:/Users/bryan/Downloads/Full-Stack_Web_Development_+_Technical_Interviewing_Badge20211029-36-1n2uz4g.pdf)
+[Full-Stack*Web_Development*+\_Technical_Interviewing_Badge20211029-36-1n2uz4g.pdf](file:///C:/Users/bryan/Downloads/Full-Stack_Web_Development_+_Technical_Interviewing_Badge20211029-36-1n2uz4g.pdf)
 
 [Check My Links: Options](chrome-extension://ojkcdipcgfaekbeaelaapakgnjflfglf/options.html)
 
@@ -3781,7 +3780,7 @@ AddToAny
 
 [Convert URL to HTML Link](https://www.textfixer.com/html/convert-url-to-html-link.php)
 
-[Full-Stack_Web_Development_+_Technical_Interviewing_Badge20211029-36-1n2uz4g.pdf](file:///C:/Users/bryan/Downloads/Full-Stack_Web_Development_+_Technical_Interviewing_Badge20211029-36-1n2uz4g.pdf)
+[Full-Stack*Web_Development*+\_Technical_Interviewing_Badge20211029-36-1n2uz4g.pdf](file:///C:/Users/bryan/Downloads/Full-Stack_Web_Development_+_Technical_Interviewing_Badge20211029-36-1n2uz4g.pdf)
 
 [Resources - Job Search](https://app.gitbook.com/s/TN1g7AHGrcAvsuhBRdr7/c/SAjtvJfpccGxE7rKsRVW/resources)
 
@@ -3801,7 +3800,7 @@ AddToAny
 
 [Medium](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Medium&pos=0&uri=https://medium.com/unrecognized-account#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1ODI4YzU5Mjg0YTY5YjU0YjI3NDgzZTQ4N2MzYmQ0NmNkMmEyYjMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2MzU1NjE5MzMsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNzI3NTI1NjA3OTc3NzU3NTA4NyIsImVtYWlsIjoiYnJ5YW4uZ3VuZXJAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiJCcnlhbiBHdW5lciIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQU9oMTRHaEZoY2xpZVhfN2NUbks2TDM3MWJjYmI3Y0FsRnV1aDEzUzlFRDdLQT1zOTYtYyIsImdpdmVuX25hbWUiOiJCcnlhbiIsImZhbWlseV9uYW1lIjoiR3VuZXIiLCJpYXQiOjE2MzU1NjIyMzMsImV4cCI6MTYzNTU2NTgzMywianRpIjoiMzllMTQ1ZjkzZGYwMWRhOGMwZWQzNzJmMmZhMDk3MDQ4OTk4YTMzNSJ9.Uf5qJr8BmJDX-R3gUd7NOIItTc7q96sl_iry1yMjiTYYUolkFv3DrWm-DrF20e3nbJztkRtMvgiP96234QSuIRamXguedDHTSLTwjVxNQzZuWtSsbHXoeU8-pZM67phFRDrPx7gNtwlV4tWiDmtAH8nDM4Y8uI6yFo41M52pULPhfcPSqEnQRnp5BguULoh4Z8MTfFXEv0t3m1I-qBErnhhtfp7hTkUdFVLUUfwqO8md4Cham-2qDMA-1_xqSmj4ZCYFnJzbLDg81vYU2bLRa12c_HOVi9cW2nJdPMaF-l89wD0j7DJKTEfG3W5j42QIHxPqcxEkPMOK1fyVa1ZlQA)
 
-[Top 10 Free Plagiarism Detection Tools For eLearning Professionals (2020 Update) - eLearning Industry](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Top%2010%20Free%20Plagiarism%20Detection%20Tools%20For%20eLearning%20Professionals%20(2020%20Update)%20-%20eLearning%20Industry&pos=1949.9998779296875&uri=https://elearningindustry.com/top-10-free-plagiarism-detection-tools-for-teachers)
+[Top 10 Free Plagiarism Detection Tools For eLearning Professionals (2020 Update) - eLearning Industry](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Top%2010%20Free%20Plagiarism%20Detection%20Tools%20For%20eLearning%20Professionals%20(2020%20Update)%20-%20eLearning%20Industry&pos=1949.9998779296875&uri=https://elearningindustry.com/top-10-free-plagiarism-detection-tools-for-teachers>)
 
 [Login or Sign Up to Copyleaks](https://copyleaks.com/success/registration)
 
@@ -3879,7 +3878,7 @@ AddToAny
 
 [How to get Search Engine ID - Elfsight Help Center](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=How%20to%20get%20Search%20Engine%20ID%20-%20Elfsight%20Help%20Center&pos=0&uri=https://help.elfsight.com/article/331-how-to-get-search-engine-id?_ga=2.116999878.1143149374.1638103197-1647944814.1638103197)
 
-[The Best Free Widgets and Plugins for your Website (2021)](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=The%20Best%20Free%20Widgets%20and%20Plugins%20for%20your%20Website%20(2021)&pos=0&uri=https://elfsight.com/widgets/)
+[The Best Free Widgets and Plugins for your Website (2021)](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=The%20Best%20Free%20Widgets%20and%20Plugins%20for%20your%20Website%20(2021)&pos=0&uri=https://elfsight.com/widgets/>)
 
 [Announcements - Google Search Help](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Announcements%20-%20Google%20Search%20Help&pos=0&uri=https://support.google.com/websearch/announcements/9587893)
 
@@ -3893,15 +3892,15 @@ AddToAny
 
 [Elfsight Apps](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Elfsight%20Apps&pos=0&uri=https://apps.elfsight.com/panel/applications/file-embed/)
 
-[How to create a PDF Viewer widget for website (2021)](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=How%20to%20create%20a%20PDF%20Viewer%20widget%20for%20website%20(2021)&pos=540&uri=https://elfsight.com/pdf-embed-widget/create/)
+[How to create a PDF Viewer widget for website (2021)](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=How%20to%20create%20a%20PDF%20Viewer%20widget%20for%20website%20(2021)&pos=540&uri=https://elfsight.com/pdf-embed-widget/create/>)
 
-[Facebook Chat - Add Facebook messenger widget to your Website (2021)](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Facebook%20Chat%20-%20Add%20Facebook%20messenger%20widget%20to%20your%20Website%20(2021)&pos=0&uri=https://elfsight.com/facebook-chat-widget/)
+[Facebook Chat - Add Facebook messenger widget to your Website (2021)](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Facebook%20Chat%20-%20Add%20Facebook%20messenger%20widget%20to%20your%20Website%20(2021)&pos=0&uri=https://elfsight.com/facebook-chat-widget/>)
 
 [The best Social Media Share Buttons for website (for free)](https://elfsight.com/social-media-share-buttons/)
 
 [Best Instagram widget for Website | Free Instagram Gallery - InstaLink](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Best%20Instagram%20widget%20for%20Website%20%7C%20Free%20Instagram%20Gallery%20-%20InstaLink&pos=0&uri=https://elfsight.com/instagram-widget-instalink/)
 
-[Paypal Button widget: get payments and donations on your website (free!)](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Paypal%20Button%20widget%3A%20get%20payments%20and%20donations%20on%20your%20website%20(free!)&pos=0&uri=https://elfsight.com/paypal-button-widget-generator/)
+[Paypal Button widget: get payments and donations on your website (free!)](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Paypal%20Button%20widget%3A%20get%20payments%20and%20donations%20on%20your%20website%20(free!)&pos=0&uri=https://elfsight.com/paypal-button-widget-generator/>)
 
 [Discover Netlify's Top 10 Build Plugins of 2021](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Discover%20Netlify's%20Top%2010%20Build%20Plugins%20of%202021&pos=2270&uri=https://www.netlify.com/blog/2021/01/25/top-10-netlify-build-plugins-2021-update/)
 
@@ -3915,13 +3914,13 @@ AddToAny
 
 [New Tab](chrome://newtab/)
 
-[bgoonz-resume](file:///C:/Users/bryan/Downloads/bryan_guner_resume_2021-v7%20(2).pdf)
+[bgoonz-resume](<file:///C:/Users/bryan/Downloads/bryan_guner_resume_2021-v7%20(2).pdf>)
 
 [Algo-Practice](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=Algo-Practice&pos=53303.703125&uri=https://gist.github.com/bgoonz/2872db1c51ccb45b106f0feef5f90917)
 
 [embed-pdf-file.pdf](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=embed-pdf-file.pdf&pos=0&uri=https://docs.google.com/viewerng/viewer?url=https://files.elfsight.com/storage/_assets/file-embed/files/embed-pdf-file.pdf)
 
-[File Viewer - Upload any Files to your Website (fast and easy)](chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=File%20Viewer%20-%20Upload%20any%20Files%20to%20your%20Website%20(fast%20and%20easy)&pos=1500&uri=https://elfsight.com/file-embed-widget/?utm_source=websites&utm_medium=clients&utm_content=file-embed&utm_term=static.elfsight.com&utm_campaign=free-widget)
+[File Viewer - Upload any Files to your Website (fast and easy)](<chrome-extension://jaekigmcljkkalnicnjoafgfjoefkpeg/suspended.html#ttl=File%20Viewer%20-%20Upload%20any%20Files%20to%20your%20Website%20(fast%20and%20easy)&pos=1500&uri=https://elfsight.com/file-embed-widget/?utm_source=websites&utm_medium=clients&utm_content=file-embed&utm_term=static.elfsight.com&utm_campaign=free-widget>)
 
 [frontend-interview-questions](https://gist.github.com/bgoonz/9d758c214f580118552683d711822e39)
 
@@ -4009,7 +4008,7 @@ AddToAny
 
 [Hello Alonso Ahmetaj, while I agree that Colt Steele's JavaScript Algorithms and Data Structures... | by javinpaul | Medium](https://medium.com/@javinpaul/hello-alonso-ahmetaj-while-i-agree-that-colt-steeles-javascript-algorithms-and-data-structures-fa5a33d22ae3)
 
-[______🚗______________](https://bruno-simon.com/)
+[**\_\_**🚗******\_\_******](https://bruno-simon.com/)
 
 [The Hash Table data structure - Ben's Blog](https://blog.benoitvallon.com/data-structures-in-javascript/the-hash-table-data-structure/)
 
@@ -4085,7 +4084,7 @@ AddToAny
 
 [Newest 'pandoc' Questions - Stack Overflow](https://stackoverflow.com/questions/tagged/pandoc)
 
-[Pandoc: Convert Markdown to HTML *without* any HTML attributes - Stack Overflow](https://stackoverflow.com/questions/53403041/pandoc-convert-markdown-to-html-without-any-html-attributes)
+[Pandoc: Convert Markdown to HTML _without_ any HTML attributes - Stack Overflow](https://stackoverflow.com/questions/53403041/pandoc-convert-markdown-to-html-without-any-html-attributes)
 
 [Hottest 'pandoc' Answers - Super User](https://superuser.com/tags/pandoc/hot)
 
@@ -4095,7 +4094,7 @@ AddToAny
 
 [Pandoc Cheat Sheet: Download now | Opensource.com](https://opensource.com/downloads/pandoc-cheat-sheet)
 
-[C:/MY-WEB-DEV/_0-KNOWLEDGE/knowledge-master](file:///C:/MY-WEB-DEV/_0-KNOWLEDGE/knowledge-master/directory.html)
+[C:/MY-WEB-DEV/\_0-KNOWLEDGE/knowledge-master](file:///C:/MY-WEB-DEV/_0-KNOWLEDGE/knowledge-master/directory.html)
 
 [‎Nikita Voloboev's profile - Letterboxd](https://letterboxd.com/nikitavoloboev/)
 
@@ -4601,7 +4600,7 @@ Drag to Bookmarks to add to Bookmarks!
 
 [Tell us what you think](https://docs.google.com/forms/d/e/1FAIpQLScSJh-cah44J1y-I2xLkJEBL4w_ZosZhnUy1ePxAOqFcdKCGw/viewform?c=0&w=1)
 
-[/MY-WEB-DEV/__Projects/Projects](file:///C:/MY-WEB-DEV/__ARCHIVE/Project-Showcase/index.html)
+[/MY-WEB-DEV/\_\_Projects/Projects](file:///C:/MY-WEB-DEV/__ARCHIVE/Project-Showcase/index.html)
 
 [Document](https://code-playground.netlify.app/)
 
@@ -4679,7 +4678,7 @@ Drag to Bookmarks to add to Bookmarks!
 
 [Deploys | cheatsheets-42](https://app.netlify.com/sites/cheatsheets-42/deploys)
 
-[BGOONZ_BLOG_2.0/_docs.scss at b26e20e4f50eb6e5411748692f23685c7f55283f - bgoonz/BGOONZ_BLOG_2.0](https://github.com/bgoonz/BGOONZ_BLOG_2.0/blob/b26e20e4f50eb6e5411748692f23685c7f55283f/src/sass/imports/_docs.scss)
+[BGOONZ_BLOG_2.0/\_docs.scss at b26e20e4f50eb6e5411748692f23685c7f55283f - bgoonz/BGOONZ_BLOG_2.0](https://github.com/bgoonz/BGOONZ_BLOG_2.0/blob/b26e20e4f50eb6e5411748692f23685c7f55283f/src/sass/imports/_docs.scss)
 
 [BGOONZBLOG2 - Stackbit App](https://v1.stackbit.com/studio/609b2d7c71a5dd0016f36326/)
 

@@ -50,8 +50,8 @@ No
 
 ## See also
 
--   [`Error.prototype.stack`](stack)
--   [`Error.prototype.columnNumber`](columnnumber)
--   [`Error.prototype.lineNumber`](linenumber)
+- [`Error.prototype.stack`](stack)
+- [`Error.prototype.columnNumber`](columnnumber)
+- [`Error.prototype.lineNumber`](linenumber)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/fileName" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/fileName</a>

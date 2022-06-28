@@ -3,11 +3,11 @@ title: React Components
 weight: 0
 excerpt: All of the code examples below will be included a second time at the bottom of this article as an embedded gist.
 seo:
-    title: 'React Intro'
-    description: 'Introduction to React for Complete Beginners All of the code examples below will be included a second time at the bottom of this article as an embedded gist, so that it is properly syntax highlighted. React uses a syntax extension of JavaScript called JSX that allows you to write HTML directly within JavaScript.'
-    robots: []
-    extra: []
-    type: stackbit_page_meta
+  title: "React Intro"
+  description: "Introduction to React for Complete Beginners All of the code examples below will be included a second time at the bottom of this article as an embedded gist, so that it is properly syntax highlighted. React uses a syntax extension of JavaScript called JSX that allows you to write HTML directly within JavaScript."
+  robots: []
+  extra: []
+  type: stackbit_page_meta
 template: docs
 ---
 
@@ -43,9 +43,9 @@ import React, { Component } from 'react';
 
 ```js
 class BasicClassComponent extends Component {
-    render() {
-        return <div>Hello World!</div>;
-    }
+  render() {
+    return <div>Hello World!</div>;
+  }
 }
 ```
 
@@ -68,14 +68,14 @@ import React, { Component } from 'react';
 
 ```js
 class ClassComponentWithState extends Component {
-    constructor() {
-        super();
-        this.state = {};
-    }
+  constructor() {
+    super();
+    this.state = {};
+  }
 
-    render() {
-        return <div>Hello World!</div>;
-    }
+  render() {
+    return <div>Hello World!</div>;
+  }
 }
 ```
 
@@ -90,16 +90,16 @@ Ok, now let's actually use this state object. One very common application of sta
 
 ```js
 class ClassComponentWithState extends Component {
-    constructor() {
-        super();
-        this.state = {
-            someData: 8
-        };
-    }
+  constructor() {
+    super();
+    this.state = {
+      someData: 8,
+    };
+  }
 
-    render() {
-        return <div>{`Here's some data to render: ${this.state.someData}`}</div>;
-    }
+  render() {
+    return <div>{`Here's some data to render: ${this.state.someData}`}</div>;
+  }
 }
 ```
 
@@ -108,28 +108,24 @@ So what's changed here? Well, we added a key-value pair to our state object insi
 
 With React's newest version, we can actually now add state to a component without explicitly defining a constructor on the class. We can refactor our class component to look like this:
 
-
 ```js
 class ClassComponentWithState extends Component {
-state = {
-someData: 8
-};
+  state = {
+    someData: 8,
+  };
 
-    render() {
-        return (
-            <div>{`Here's some data to render: ${this.state.someData}`}</div>
-        );
-    }
-
+  render() {
+    return <div>{`Here's some data to render: ${this.state.someData}`}</div>;
+  }
 }
-
 ```
 
 export default ClassComponentWithState;
 Our code is slightly cleaner, and doesn't require as many keystrokes as the older version. Fewer keystrokes are always a plus in my book! This new syntax is what is often referred to as 'syntactic sugar': under the hood, the React library translates this back into the old constructor code that we first started with, so that the JavaScript remains valid to the JavaScript interpreter. The clue to this is the fact that when we want to access some data from the state object, we still need to call it with this.state.someData; changing it to just state.someData does not work.
 
 While being able to write our code in this way is nice and convenient, going forward, I'm going to stick with the 'older' style of writing my React components by explicitly defining constructors so that you'll all have a better idea of what's going on under the hood. In other words, it's more "pedagogically sound". If you prefer the newer style (and I would in my own code), feel free to write your React components that way.
-```js
+
+````js
 class Component Updating State
 Great, so we can render some state that our component persists for us. However, we said an important use case of component state is to handle dynamic data. A single static number isn't very dynamic at all. So now let's walk through how to update component state.
 
@@ -163,7 +159,7 @@ return (
 }
 }
 
-```
+````
 
 export default ClassComponentUpdatingState;
 Notice that we've added two methods to our class: increment and decrement. increment and decrement are methods that we are adding to our class component. Unlike the render method,increment and decrement were not already a part of our class component. This is why increment and decrement are written as arrow functions, so that they are automatically bound to our class component. This needs to happen so that we can call them later on. Again, there's no crazy React black magic going on here, we simply added two methods to our class.
@@ -173,7 +169,8 @@ The more interesting thing is what is going on within the bodies of these method
 So the way to use setState to update a component's state is to pass it an object with each of the state keys you wish to update, along with the updated value. In our increment method we said "I would like to update the aNumber property on my component state by adding one to it and then setting the new value as my new aNumber". The same thing happens in our decrement method, only we're subtracting instead of adding.
 
 Then the other new concept we're running into here is how to actually call these methods we've added to our class. We added two HTML button tags within our render function, then in their respective onClick handlers, we specify the method that should be called whenever this button gets clicked. So whenever we click either of the buttons, our state gets updated appropriately and our component will re-render to show the correct value we're expecting.
-```js
+
+````js
 class Component Iterating State
 Another common state pattern you'll see being used in React components is iterating over an array in our state object and rendering each array element in its own tag. This is often used in order to render lists.
 
@@ -219,7 +216,7 @@ class ClassComponentIteratingState extends Component {
 
 }
 
-```
+````
 
 export default ClassComponentIteratingState;
 The first change to note is that our state object now has an 'ingredients' array, and a 'newIngredient' field that has been initialized to an empty string. The ingredients array contains the elements that we'll want to render in our list. We'll see shortly why the newIngredient field is needed.
@@ -247,49 +244,52 @@ Now let's get into talking about how to have components interact with each other
 The beauty of React lies in the fact that it allows us to compose modular components together. Let's start off with the component we just saw, but let's change its name to ParentComponent.
 
 ```js
-import React, { Component } from 'react';
-import ChildComponent from './ChildComponent';
+import React, { Component } from "react";
+import ChildComponent from "./ChildComponent";
 class ParentComponent extends Component {
-    constructor() {
-        super();
+  constructor() {
+    super();
 
-        this.state = {
-            ingredients: ['flour', 'eggs', 'milk', 'sugar', 'vanilla'],
-            newIngredient: ''
-        };
-    }
-
-
-
-    handleIngredientInput = (event) => {
-        this.setState({ newIngredient: event.target.value });
+    this.state = {
+      ingredients: ["flour", "eggs", "milk", "sugar", "vanilla"],
+      newIngredient: "",
     };
+  }
 
-    addIngredient = (event) => {
-        event.preventDefault();
-        const ingredientsList = this.state.ingredients;
-        ingredientsList.push(this.state.newIngredient);
-        this.setState({
-            newIngredient: '',
-            ingredients: ingredientsList
-        });
-    };
+  handleIngredientInput = (event) => {
+    this.setState({ newIngredient: event.target.value });
+  };
 
-    render() {
-        return (
-            <div>
-                {this.state.ingredients.map(ingredient => <ChildComponent thing={ingredient} />)}
-                <form onSubmit={this.addIngredient}>
-                    <input type="text" onChange={this.handleIngredientInput} placeholder="Add a new ingredient" value={this.state.newIngredient} />
-                </form>
-            </div>
-        );
-    }
+  addIngredient = (event) => {
+    event.preventDefault();
+    const ingredientsList = this.state.ingredients;
+    ingredientsList.push(this.state.newIngredient);
+    this.setState({
+      newIngredient: "",
+      ingredients: ingredientsList,
+    });
+  };
 
+  render() {
+    return (
+      <div>
+        {this.state.ingredients.map((ingredient) => (
+          <ChildComponent thing={ingredient} />
+        ))}
+        <form onSubmit={this.addIngredient}>
+          <input
+            type="text"
+            onChange={this.handleIngredientInput}
+            placeholder="Add a new ingredient"
+            value={this.state.newIngredient}
+          />
+        </form>
+      </div>
+    );
+  }
 }
 export default ParentComponent;
 ```
-
 
 The only two other differences in this component are that we're importing a ChildComponent and then using it inside our this.state.ingredients.map call. ChildComponent is another React component. Notice that we're using it just as if it were any other HTML tag. This is how we lay out our component hierarchy: the ChildComponent is rendered within the ParentComponent. We can see this to be the case if we open up the developer console and inspect these elements.
 
@@ -297,29 +297,31 @@ Note also that we're passing each ingredient as a 'thing' to the ChildComponent 
 
 Let's take a look now at the Child Component. It serves two purposes: 1) to render the props data that it gets from a parent component, and 2) to add the ability for a user to click on it and have it toggle a strikethrough, indicating that the item is 'complete'.
 import React, { Component } from 'react';
+
 ```js
 class ChildComponent extends Component {
   constructor() {
     super();
     this.state = {
-      clicked: false
+      clicked: false,
     };
   }
 
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
 
-
-handleClick = () => {
-this.setState({ clicked: !this.state.clicked });
-};
-
-render() {
-const styles = this.state.clicked ? { textDecoration: 'line-through'} : { textDecoration: 'none' };
-return (
-<div style={styles} onClick={this.handleClick}>{this.props.thing}</div>
-);
+  render() {
+    const styles = this.state.clicked
+      ? { textDecoration: "line-through" }
+      : { textDecoration: "none" };
+    return (
+      <div style={styles} onClick={this.handleClick}>
+        {this.props.thing}
+      </div>
+    );
+  }
 }
-}
-
 ```
 
 export default ChildComponent;
@@ -330,4 +332,7 @@ A component accesses its props via the this.props object. Any prop a parent comp
 So our child component keeps its own state that tracks whether the component has been clicked or not. Then at the top of the render function, it uses a ternary condition to determine whether the div tag that is being rendered should have a strikethrough or not. The handleClick method is then invoked via an onClick handler on the div tag; it does the work of toggling the this.state.clicked boolean.
 
 The overall structure of React applications can be represented as a hierarchical tree structure, just like how the DOM itself is structure. There is an overarching root component at the top of the hierarchy that every other component sits underneath. Specifying that a component should be a child of some parent component is as simple as throwing it in the parent component's render function, just like how we did it in this example.
+
+```
+
 ```

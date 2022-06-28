@@ -1,1 +1,80 @@
-{"version":1,"resource":"file:///Users/BGuner/Desktop/Public-Repo/src/components/TempSimpleCalculator/index.tsx","entries":[{"id":"Txup.tsx","timestamp":1650561282765},{"id":"LTVw.tsx","timestamp":1650561303467},{"id":"00ct.tsx","timestamp":1650566938007},{"id":"Nouf.tsx","timestamp":1650566955929},{"id":"sTVD.tsx","source":"undoRedo.source","timestamp":1650566961348},{"id":"wAOW.tsx","timestamp":1650566979259},{"id":"jJ6c.tsx","timestamp":1650567293413},{"id":"YrY6.tsx","timestamp":1650568049939},{"id":"ze7c.tsx","timestamp":1650568527420},{"id":"7VRF.tsx","source":"undoRedo.source","timestamp":1650568531145},{"id":"r58W.tsx","timestamp":1650568533178},{"id":"feJC.tsx","timestamp":1650568578114},{"id":"e9A9.tsx","timestamp":1650568611912},{"id":"dGcc.tsx","source":"undoRedo.source","timestamp":1650568614316},{"id":"KSqD.tsx","timestamp":1650568617798},{"id":"WRHH.tsx","timestamp":1650568633539},{"id":"vNFC.tsx","timestamp":1650568660718},{"id":"rFKt.tsx","timestamp":1650568676108},{"id":"W1dX.tsx","timestamp":1650568727531},{"id":"WIkK.tsx","source":"undoRedo.source","timestamp":1650568730168},{"id":"gLTg.tsx","timestamp":1650568735698},{"id":"QodR.tsx","timestamp":1650568779178},{"id":"OqFv.tsx","source":"undoRedo.source","timestamp":1650568780970},{"id":"XRKK.tsx","timestamp":1650568793003},{"id":"RWAS.tsx","timestamp":1650569327648},{"id":"jGUE.tsx","timestamp":1650569371371},{"id":"UteV.tsx","timestamp":1650569387619},{"id":"gPUH.tsx","timestamp":1650569479394},{"id":"XP01.tsx","timestamp":1650569610396},{"id":"7Gx2.tsx","timestamp":1650569641532},{"id":"HQ5i.tsx","timestamp":1650569885087},{"id":"svsE.tsx","timestamp":1650570418391},{"id":"SOS8.tsx","timestamp":1650570492548},{"id":"HIR0.tsx","timestamp":1650570935823},{"id":"Hw8M.tsx","timestamp":1650571350104},{"id":"Nv0B.tsx","timestamp":1650571446365},{"id":"vJ2k.tsx","timestamp":1650571618767},{"id":"Oz8y.tsx","timestamp":1650571651866},{"id":"n8g4.tsx","timestamp":1650571787135},{"id":"2ed5.tsx","timestamp":1650571991017},{"id":"Nj9m.tsx","timestamp":1650572016270},{"id":"Rebn.tsx","timestamp":1650572100949},{"id":"cjWg.tsx","timestamp":1650572183512},{"id":"qpNv.tsx","timestamp":1650572383773},{"id":"i1Th.tsx","timestamp":1650572465798},{"id":"XbKh.tsx","timestamp":1650572624792},{"id":"VPYO.tsx","timestamp":1650573019144},{"id":"3P39.tsx","timestamp":1650911460599},{"id":"iytN.tsx","timestamp":1650911540364},{"id":"5GPl.tsx","source":"undoRedo.source","timestamp":1650911651394}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/Desktop/Public-Repo/src/components/TempSimpleCalculator/index.tsx",
+  "entries": [
+    { "id": "Txup.tsx", "timestamp": 1650561282765 },
+    { "id": "LTVw.tsx", "timestamp": 1650561303467 },
+    { "id": "00ct.tsx", "timestamp": 1650566938007 },
+    { "id": "Nouf.tsx", "timestamp": 1650566955929 },
+    {
+      "id": "sTVD.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1650566961348
+    },
+    { "id": "wAOW.tsx", "timestamp": 1650566979259 },
+    { "id": "jJ6c.tsx", "timestamp": 1650567293413 },
+    { "id": "YrY6.tsx", "timestamp": 1650568049939 },
+    { "id": "ze7c.tsx", "timestamp": 1650568527420 },
+    {
+      "id": "7VRF.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1650568531145
+    },
+    { "id": "r58W.tsx", "timestamp": 1650568533178 },
+    { "id": "feJC.tsx", "timestamp": 1650568578114 },
+    { "id": "e9A9.tsx", "timestamp": 1650568611912 },
+    {
+      "id": "dGcc.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1650568614316
+    },
+    { "id": "KSqD.tsx", "timestamp": 1650568617798 },
+    { "id": "WRHH.tsx", "timestamp": 1650568633539 },
+    { "id": "vNFC.tsx", "timestamp": 1650568660718 },
+    { "id": "rFKt.tsx", "timestamp": 1650568676108 },
+    { "id": "W1dX.tsx", "timestamp": 1650568727531 },
+    {
+      "id": "WIkK.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1650568730168
+    },
+    { "id": "gLTg.tsx", "timestamp": 1650568735698 },
+    { "id": "QodR.tsx", "timestamp": 1650568779178 },
+    {
+      "id": "OqFv.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1650568780970
+    },
+    { "id": "XRKK.tsx", "timestamp": 1650568793003 },
+    { "id": "RWAS.tsx", "timestamp": 1650569327648 },
+    { "id": "jGUE.tsx", "timestamp": 1650569371371 },
+    { "id": "UteV.tsx", "timestamp": 1650569387619 },
+    { "id": "gPUH.tsx", "timestamp": 1650569479394 },
+    { "id": "XP01.tsx", "timestamp": 1650569610396 },
+    { "id": "7Gx2.tsx", "timestamp": 1650569641532 },
+    { "id": "HQ5i.tsx", "timestamp": 1650569885087 },
+    { "id": "svsE.tsx", "timestamp": 1650570418391 },
+    { "id": "SOS8.tsx", "timestamp": 1650570492548 },
+    { "id": "HIR0.tsx", "timestamp": 1650570935823 },
+    { "id": "Hw8M.tsx", "timestamp": 1650571350104 },
+    { "id": "Nv0B.tsx", "timestamp": 1650571446365 },
+    { "id": "vJ2k.tsx", "timestamp": 1650571618767 },
+    { "id": "Oz8y.tsx", "timestamp": 1650571651866 },
+    { "id": "n8g4.tsx", "timestamp": 1650571787135 },
+    { "id": "2ed5.tsx", "timestamp": 1650571991017 },
+    { "id": "Nj9m.tsx", "timestamp": 1650572016270 },
+    { "id": "Rebn.tsx", "timestamp": 1650572100949 },
+    { "id": "cjWg.tsx", "timestamp": 1650572183512 },
+    { "id": "qpNv.tsx", "timestamp": 1650572383773 },
+    { "id": "i1Th.tsx", "timestamp": 1650572465798 },
+    { "id": "XbKh.tsx", "timestamp": 1650572624792 },
+    { "id": "VPYO.tsx", "timestamp": 1650573019144 },
+    { "id": "3P39.tsx", "timestamp": 1650911460599 },
+    { "id": "iytN.tsx", "timestamp": 1650911540364 },
+    {
+      "id": "5GPl.tsx",
+      "source": "undoRedo.source",
+      "timestamp": 1650911651394
+    }
+  ]
+}

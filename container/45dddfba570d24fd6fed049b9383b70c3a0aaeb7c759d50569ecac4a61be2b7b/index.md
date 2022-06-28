@@ -1,27 +1,27 @@
 ---
 title: React
 excerpt: >-
-    To make it easy to write documentation in plain Markdown, most React are
-    styled using Markdown elements with few additional CSS classes.
+  To make it easy to write documentation in plain Markdown, most React are
+  styled using Markdown elements with few additional CSS classes.
 seo:
-    title: React
-    description: This is the React page
-    extra:
-        - name: 'og:type'
-          value: website
-          keyName: property
-        - name: 'og:title'
-          value: React
-          keyName: property
-        - name: 'og:description'
-          value: This is the React page
-          keyName: property
-        - name: 'twitter:card'
-          value: summary
-        - name: 'twitter:title'
-          value: React
-        - name: 'twitter:description'
-          value: This is the React page
+  title: React
+  description: This is the React page
+  extra:
+    - name: "og:type"
+      value: website
+      keyName: property
+    - name: "og:title"
+      value: React
+      keyName: property
+    - name: "og:description"
+      value: This is the React page
+      keyName: property
+    - name: "twitter:card"
+      value: summary
+    - name: "twitter:title"
+      value: React
+    - name: "twitter:description"
+      value: This is the React page
 template: docs
 ---
 
@@ -65,10 +65,10 @@ Here I will walk through a demo…. skip down below for more fundamental example
 
 ```js
 //x
-
 ```
 
 ## React Cheat Sheet: <a id="8738">
+
 </a>
 
 React-Tutorial-1:[react-tutorial-1A React repl by bgoonzreplit.com](https://replit.com/@bgoonz/react-tutorial-1)

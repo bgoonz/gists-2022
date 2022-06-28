@@ -1,12 +1,13 @@
-
 # What is JSON? - Tutorial
 
 > ## Excerpt
+>
 > JSON (JavaScript Object Notation) is an independent data exchange format designed for representing simple data structures.
-JSON is limited to text and numeric values.
-Binary values are not supported.
+> JSON is limited to text and numeric values.
+> Binary values are not supported.
 
 ---
+
 > JSON. This article explains JSON, the JavaScript Object Notification.
 
 ## [](https://www.vogella.com/tutorials/JSON/article.html#jsonoverview)[1\. Using JSON](https://www.vogella.com/tutorials/JSON/article.html#jsonoverview)

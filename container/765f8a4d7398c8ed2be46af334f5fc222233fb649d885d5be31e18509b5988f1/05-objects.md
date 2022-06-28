@@ -12,8 +12,8 @@ object literal. For example:
 
 ```javascript
 var obj = {
-    foo: 'bar',
-    baz: 42
+  foo: "bar",
+  baz: 42,
 };
 ```
 
@@ -49,17 +49,17 @@ value will always be converted to a **string**.
 
 ES2015 adds two extensions to object values and object literals:
 
--   _Symbols_ are can be used as property names. They are not converted to
-    strings.
+- _Symbols_ are can be used as property names. They are not converted to
+  strings.
 
--   Object literals can contain _[computed property names][computed properties]_:
-    ```js
-    var foo = 42;
-    var obj = {
-        [foo]: 0
-    };
-    // creates {42: 0}
-    ```
+- Object literals can contain _[computed property names][computed properties]_:
+  ```js
+  var foo = 42;
+  var obj = {
+    [foo]: 0,
+  };
+  // creates {42: 0}
+  ```
 
 </div>
 
@@ -107,7 +107,7 @@ var owner = user;
 Assigning to `user.name` will therefore also "change" `owner.name`:
 
 ```js
-user.name = 'Joe';
+user.name = "Joe";
 console.log(user.name, owner.name);
 // Joe, Joe
 ```
@@ -129,7 +129,7 @@ variable referring to the new value. The other variable will still refer to the
 same value.
 
 ```js
-owner = { name: 'Kim' };
+owner = { name: "Kim" };
 ```
 
 :::ascii

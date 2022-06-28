@@ -237,9 +237,9 @@ The following examples tests the behavior of the `every` method when the array i
 
 ## See also
 
--   [`Array.prototype.forEach()`](foreach)
--   [`Array.prototype.some()`](some)
--   [`Array.prototype.find()`](find)
--   [`TypedArray.prototype.every()`](../typedarray/every)
+- [`Array.prototype.forEach()`](foreach)
+- [`Array.prototype.some()`](some)
+- [`Array.prototype.find()`](find)
+- [`TypedArray.prototype.every()`](../typedarray/every)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every</a>

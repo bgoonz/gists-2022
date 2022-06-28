@@ -86,7 +86,7 @@ No
 
 ## See also
 
--   The [`Number`](../number) object it belongs to.
+- The [`Number`](../number) object it belongs to.
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

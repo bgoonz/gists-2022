@@ -20,8 +20,3 @@ Here are useful talks from the community. Note that earlier talks are more likel
 - 15 May 2018 - Pete Gleeson@ANZCoders: how the createFetcher API and promise throwing works - [video](https://www.youtube.com/watch?v=DsTsZ6cgPtw&feature=youtu.be&a)
 - 8 Mar 2018 - Harry Wolff: React Suspense - [video](https://www.youtube.com/watch?v=U1CpNtVdxM4)
 - 1 Mar 2018 - Dan Abramov@JSConf Iceland: [Beyond React 16!](https://www.youtube.com/watch?v=v6iR3Zk4oDY)
-
-
-
-
-

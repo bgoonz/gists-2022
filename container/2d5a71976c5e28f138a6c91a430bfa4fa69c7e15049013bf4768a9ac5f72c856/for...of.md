@@ -346,9 +346,9 @@ No
 
 ## See also
 
--   [`Array.prototype.forEach()`](../global_objects/array/foreach)
--   [`Map.prototype.forEach()`](../global_objects/map/foreach)
--   [`Object.entries()`](../global_objects/object/entries) – Useful when using `for...of` over an object.
+- [`Array.prototype.forEach()`](../global_objects/array/foreach)
+- [`Map.prototype.forEach()`](../global_objects/map/foreach)
+- [`Object.entries()`](../global_objects/object/entries) – Useful when using `for...of` over an object.
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

@@ -94,9 +94,9 @@ For this reason you cannot expect to be able to compare the results of `format()
 
 ## See also
 
--   [`Intl.DateTimeFormat`](../datetimeformat)
--   [`Date.prototype.toLocaleString()`](../../date/tolocalestring)
--   [`Date.prototype.toLocaleDateString()`](../../date/tolocaledatestring)
--   [`Date.prototype.toLocaleTimeString()`](../../date/tolocaletimestring)
+- [`Intl.DateTimeFormat`](../datetimeformat)
+- [`Date.prototype.toLocaleString()`](../../date/tolocalestring)
+- [`Date.prototype.toLocaleDateString()`](../../date/tolocaledatestring)
+- [`Date.prototype.toLocaleTimeString()`](../../date/tolocaletimestring)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/format" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/format</a>

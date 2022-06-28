@@ -248,7 +248,7 @@
     "yaml": false,
     "plaintext": false,
     "markdown": true,
-    "javascript":true,
+    "javascript": true
   },
   "workbench.editor.untitled.hint": "hidden",
   "workbench.tree.indent": 10,
@@ -266,7 +266,7 @@
   "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
   "remote.SSH.configFile": "C:\\Users\\bryan\\AppData\\Local\\Temp\\gitpod_ssh_config-12488-TSjYf0bZAr8P",
   "bracketPairColorizer.depreciation-notice": false,
-"markdown-preview-enhanced.previewTheme": "vue.css",
+  "markdown-preview-enhanced.previewTheme": "vue.css",
   "workbench.colorTheme": "Monokai",
   "terminal.integrated.allowChords": false,
   "terminal.integrated.altClickMovesCursor": false,
@@ -280,7 +280,7 @@
   "github-enterprise.uri": "vscode://vscode.github-authentication/did-authenticate?windowid=1&code=b7e0cf487b9fa01a7afe&state=6cf4aa23-f017-4689-9c46-35f68b10d66d",
   "workbench.enableExperiments": false,
   "window.openFilesInNewWindow": "on",
-"explorer.compactFolders": false,
+  "explorer.compactFolders": false,
   "workbench.colorCustomizations": {},
   "sourcery.token": "user_4SIKzIihmjskoXHRBlpUGbxmRmO6Ly3Mx2QiIrlXtcOEJlEykcbUW9VerZ4",
   "editor.unicodeHighlight.invisibleCharacters": false,
@@ -312,14 +312,14 @@
       "path": "/bin/dash"
     }
   },
-"terminal.integrated.defaultProfile.osx": "bash",
+  "terminal.integrated.defaultProfile.osx": "bash",
   "editor.formatOnSave": true,
-"editor.formatOnSaveMode": "modifications",
-"gitlens.views.remotes.branches.layout": "list",
-"json.schemas": [],
-"codestream.email": "bryan.guner@gmail.com",
-"window.zoomLevel": 1,
-"netlify.api_token": "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",
-"netlify.build_hook": "https://api.netlify.com/build_hooks/609b2d9f66af5127803b19c3",
-"netlify.site_id": "a1b7ee1a-11a7-4bd2-a341-2260656e216f"
+  "editor.formatOnSaveMode": "modifications",
+  "gitlens.views.remotes.branches.layout": "list",
+  "json.schemas": [],
+  "codestream.email": "bryan.guner@gmail.com",
+  "window.zoomLevel": 1,
+  "netlify.api_token": "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",
+  "netlify.build_hook": "https://api.netlify.com/build_hooks/609b2d9f66af5127803b19c3",
+  "netlify.site_id": "a1b7ee1a-11a7-4bd2-a341-2260656e216f"
 }

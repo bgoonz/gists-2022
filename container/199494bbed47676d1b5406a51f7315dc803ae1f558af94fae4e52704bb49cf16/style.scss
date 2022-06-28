@@ -6,7 +6,11 @@ html:after {
   left: 0;
   right: 0;
   background: linear-gradient(top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0) 100%
+  );
   pointer-events: none;
 }
 
@@ -17,13 +21,13 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  overflow:hidden;
+  overflow: hidden;
   transform-origin: 50% 70%;
   transform: perspective(200px) rotateX(30deg);
 }
 
 #target {
-  color: #c90; 
+  color: #c90;
   position: absolute;
   top: -2000px;
   bottom: 0;
@@ -32,7 +36,7 @@ body {
   overflow: hidden;
   font-size: 60px;
   text-align: justify;
-  font-family: 'Franklin Gothic', sans-serif;
+  font-family: "Franklin Gothic", sans-serif;
 }
 
 #target > div {
@@ -40,18 +44,20 @@ body {
   animation: autoscroll 40s linear infinite;
 }
 
-h2, h3 {
-  text-align:center;
+h2,
+h3 {
+  text-align: center;
 }
 
 .small {
-  color:#333;
-  font-size:.5em;
-  text-align:center;
+  color: #333;
+  font-size: 0.5em;
+  text-align: center;
 }
 
-.small a, .small a:visited {
-  color:#336;
+.small a,
+.small a:visited {
+  color: #336;
 }
 
 @keyframes autoscroll {

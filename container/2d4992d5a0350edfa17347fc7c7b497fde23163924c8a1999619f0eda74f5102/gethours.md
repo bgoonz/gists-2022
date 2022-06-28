@@ -56,7 +56,7 @@ The second statement below assigns the value 23 to the variable `hours`, based o
 
 ## See also
 
--   [`Date.prototype.getUTCHours()`](getutchours)
--   [`Date.prototype.setHours()`](sethours)
+- [`Date.prototype.getUTCHours()`](getutchours)
+- [`Date.prototype.setHours()`](sethours)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours</a>

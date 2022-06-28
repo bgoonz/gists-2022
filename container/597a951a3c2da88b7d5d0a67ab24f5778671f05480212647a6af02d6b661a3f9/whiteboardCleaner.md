@@ -2,10 +2,10 @@
 
 This simple script will take a picture of a whiteboard and use parts of the ImageMagick library with sane defaults to clean it up tremendously.
 
-The script is here: 
+The script is here:
 
-	#!/bin/bash
-	convert $1 -morphology Convolve DoG:15,100,0 -negate -normalize -blur 0x1 -channel RBG -level 60%,91%,0.1 $2
+    #!/bin/bash
+    convert $1 -morphology Convolve DoG:15,100,0 -negate -normalize -blur 0x1 -channel RBG -level 60%,91%,0.1 $2
 
 # Results
 
@@ -27,10 +27,10 @@ Assuming it's saved as a file named `whiteboardClean.sh`, the command is `./whit
 
 Here's an example:
 
-	./whiteboardClean.sh example1.jpg output1.png
+    ./whiteboardClean.sh example1.jpg output1.png
 
 # How I Came Up With This
 
-I was doing a lot work with whiteboards and I'd been taking pictures of them to document what had been written. I wanted a more clean version of the pictures though, something that captured the essence of what a whiteboard image showed. 
+I was doing a lot work with whiteboards and I'd been taking pictures of them to document what had been written. I wanted a more clean version of the pictures though, something that captured the essence of what a whiteboard image showed.
 
 Eventually I found [this excellent guide to cleaning up whiteboard photos using GIMP.](http://matthew.mceachen.us/blog/how-to-clean-up-photos-of-whiteboards-with-gimp-403.html) However, I found I wanted more automation. So, I spent a few hours yesterday figuring out how to do the same thing using ImageMagick from the command line and made this script.

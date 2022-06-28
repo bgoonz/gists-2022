@@ -60,8 +60,8 @@ With ES2015 [method definitions](../functions/method_definitions), this can be c
 
 ## See also
 
--   [Expression closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Expression_closures)
--   [Arrow functions](../functions/arrow_functions)
--   [Method definitions](../functions/method_definitions)
+- [Expression closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Expression_closures)
+- [Arrow functions](../functions/arrow_functions)
+- [Method definitions](../functions/method_definitions)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_expression_closures" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_expression_closures</a>

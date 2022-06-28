@@ -4,7 +4,7 @@ tip-username: bhaskarmelkani
 tip-username-profile: https://www.twitter.com/bhaskarmelkani
 tip-tldr: Currying and partial application are two ways of transforming a function into another function with a generally smaller arity.
 
--   /en/curry-vs-partial-application/
+- /en/curry-vs-partial-application/
 
 **Currying**
 
@@ -31,7 +31,7 @@ Uncurried add()
 
 ```javascript
 function add(x, y) {
-    return x + y;
+  return x + y;
 }
 
 add(3, 5); // returns 8
@@ -41,9 +41,9 @@ Curried add()
 
 ```javascript
 function addC(x) {
-    return function (y) {
-        return x + y;
-    };
+  return function (y) {
+    return x + y;
+  };
 }
 
 addC(3)(5); // returns 8
@@ -59,11 +59,11 @@ Javascript Code:
 
 ```javascript
 function curry(f) {
-    return function (x) {
-        return function (y) {
-            return f(x, y);
-        };
+  return function (x) {
+    return function (y) {
+      return f(x, y);
     };
+  };
 }
 ```
 
@@ -83,7 +83,7 @@ For example: Binding the first argument of function add to 5 produces the functi
 
 ```javascript
 function plus5(y) {
-    return 5 + y;
+  return 5 + y;
 }
 
 plus5(3); // returns 8
@@ -99,8 +99,8 @@ Javascript Code:
 
 ```javascript
 function partApply(f, x) {
-    return function (y) {
-        return f(x, y);
-    };
+  return function (y) {
+    return f(x, y);
+  };
 }
 ```

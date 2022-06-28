@@ -1,12 +1,10 @@
 # Data Structures
 
-
 <details>
 
 <summary>All Code From This Writeup</summary>
 
 ```js
-
 "use strict";
 class List {
   constructor() {
@@ -16,7 +14,7 @@ class List {
   get(address) {
     return this.memory[address];
   }
- 
+
   push(value) {
     this.memory[this.length] = value;
     this.length++;
@@ -266,13 +264,9 @@ module.exports = {
   Tree,
   BinarySearchTree,
 };
-
-
 ```
 
-
-</details>
----
+## </details>
 
 ## What are data structures?
 
@@ -333,26 +327,26 @@ module.exports = {
 - memory. Depending on what your requirements are, one may be a better choice
 - than the other.
 - These are some common Big-O's:
-  | Name         | Notation   | How you feel when they show up at your party |
+  | Name | Notation | How you feel when they show up at your party |
   |--------------|------------|----------------------------------------------|
-  | Constant     | O(1)       | AWESOME!!                                    |
-  | Logarithmic  | O(log N)   | GREAT!                                       |
-  | Linear       | O(N)       | OKAY.                                        |
-  | Linearithmic | O(N log N) | UGH...                                       |
-  | Polynomial   | O(N ^ 2)   | SHITTY                                       |
-  | Exponential  | O(2 ^ N)   | HORRIBLE                                     |
-  | Factorial    | O(N!)      | WTF                                          |
+  | Constant | O(1) | AWESOME!! |
+  | Logarithmic | O(log N) | GREAT! |
+  | Linear | O(N) | OKAY. |
+  | Linearithmic | O(N log N) | UGH... |
+  | Polynomial | O(N ^ 2) | SHITTY |
+  | Exponential | O(2 ^ N) | HORRIBLE |
+  | Factorial | O(N!) | WTF |
 - To give you an idea of how many operations we're talking about. Let's look
 - at what these would equal given the (N) number of items.
-  | N=5        | 10        | 20        | 30             |
+  | N=5 | 10 | 20 | 30 |
   | ---------- | --------- | --------- | -------------- |
-  | O(1)       | 1         | 1         | 1              | 1                                           |
-  | O(log N)   | 2.3219... | 3.3219... | 4.3219...      | 4.9068...                                   |
-  | O(N)       | 5         | 10        | 20             | 30                                          |
-  | O(N log N) | 11.609... | 33.219... | 84.638...      | 147.204...                                  |
-  | O(N ^ 2)   | 25        | 100       | 400            | 900                                         |
-  | O(2 ^ N)   | 32        | 1024      | 1,048,576      | 1,073,741,824                               |
-  | O(N!)      | 120       | 3,628,800 | 2,432,902,0... | 265,252,859,812,191,058,636,308,480,000,000 |
+  | O(1) | 1 | 1 | 1 | 1 |
+  | O(log N) | 2.3219... | 3.3219... | 4.3219... | 4.9068... |
+  | O(N) | 5 | 10 | 20 | 30 |
+  | O(N log N) | 11.609... | 33.219... | 84.638... | 147.204... |
+  | O(N ^ 2) | 25 | 100 | 400 | 900 |
+  | O(2 ^ N) | 32 | 1024 | 1,048,576 | 1,073,741,824 |
+  | O(N!) | 120 | 3,628,800 | 2,432,902,0... | 265,252,859,812,191,058,636,308,480,000,000 |
 - As you can see, even for relatively small sets of data you could do
 - a **lot** of extra work.
 - With data structures, you can perform 4 primary types of actions:
@@ -572,7 +566,7 @@ replacing the "current" value with the "previous" value and storing the
    this.memory[address] = previous;
    previous = current;
     }
-````
+```
 
 Add the last item in a new position at the end of the list.
 
@@ -839,7 +833,7 @@ class Stack {
 
 ---
 
-```js
+````js
 ####  Push to add items to the top of the stack.
 
 ---
@@ -1085,7 +1079,7 @@ class Graph {
 
 Find the nodes for each value.
 
-```js
+````js
 
     let startNode = this.find(startValue);
     let endNode = this.find(endValue);
@@ -1395,7 +1389,7 @@ class Tree {
 
 #### We'll define a walk function that we can call recursively on every node
 
-```js
+````js
  in the tree.
     function walk(node) {
 

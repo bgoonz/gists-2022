@@ -74,7 +74,7 @@ No
 
 ## See also
 
--   <span class="page-not-created">`Intl.DateTimeFormat.prototype.formatRange()`</span>
--   [`Intl.DateTimeFormat`](../datetimeformat)
+- <span class="page-not-created">`Intl.DateTimeFormat.prototype.formatRange()`</span>
+- [`Intl.DateTimeFormat`](../datetimeformat)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/formatRangeToParts" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/formatRangeToParts</a>

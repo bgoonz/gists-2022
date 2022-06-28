@@ -9,7 +9,7 @@ export function ResizableText({
   width,
   onResize,
   onClick,
-  onDoubleClick
+  onDoubleClick,
 }) {
   const textRef = useRef(null);
   const transformerRef = useRef(null);
@@ -28,7 +28,7 @@ export function ResizableText({
       const newHeight = textNode.height() * textNode.scaleY();
       textNode.setAttrs({
         width: newWidth,
-        scaleX: 1
+        scaleX: 1,
       });
       onResize(newWidth, newHeight);
     }

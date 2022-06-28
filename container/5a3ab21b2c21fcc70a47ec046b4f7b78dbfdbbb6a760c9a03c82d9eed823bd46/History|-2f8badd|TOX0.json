@@ -2,13 +2,7 @@
   "name": "jest-selenium-webdriver-sample",
   "version": "0.1.0",
   "description": "How to use Jest with Selenium tests on lambdatest",
-  "keywords": [
-    "javascript",
-    "selenium",
-    "local",
-    "test",
-    "jest"
-  ],
+  "keywords": ["javascript", "selenium", "local", "test", "jest"],
   "scripts": {
     "test": "jest"
   },
@@ -27,8 +21,7 @@
     "jest-environment-webdriver": "^0.2.0",
     "jsdom": "^15.1.1",
     "prettier": "^1.17.1",
-    "rimraf": "^2.6.3",
-  
+    "rimraf": "^2.6.3"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "./jest.config.js",

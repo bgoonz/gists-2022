@@ -4,14 +4,14 @@ tip-username: pklinger
 tip-username-profile: https://github.com/pklinger/
 tip-tldr: Introduced as a new feature in ES6, fat arrow functions may come as a handy tool to write more code in fewer lines
 
--   /en/fat-arrow-functions/
+- /en/fat-arrow-functions/
 
 Introduced as a new feature in ES6, fat arrow functions may come as a handy tool to write more code in fewer lines. The name comes from its syntax, `=>`, which is a 'fat arrow', as compared to a thin arrow `->`. Some programmers might already know this type of function from different languages such as Haskell, as 'lambda expressions', or as 'anonymous functions'. It is called anonymous, as these arrow functions do not have a descriptive function name.
 
 ### What are the benefits?
 
--   Syntax: fewer LOC; no more typing `function` keyword over and over again
--   Semantics: capturing the keyword `this` from the surrounding context
+- Syntax: fewer LOC; no more typing `function` keyword over and over again
+- Semantics: capturing the keyword `this` from the surrounding context
 
 ### Simple syntax example
 
@@ -56,45 +56,45 @@ var counterD = new CounterD();
 
 // bad example
 function CounterA() {
-    // CounterA's `this` instance (!! gets ignored here)
-    this.i = 0;
-    setInterval(function () {
-        // `this` refers to global object, not to CounterA's `this`
-        // therefore starts counting with 100, not with 0 (local this.i)
-        this.i++;
-        document.getElementById('counterA').innerHTML = this.i;
-    }, 500);
+  // CounterA's `this` instance (!! gets ignored here)
+  this.i = 0;
+  setInterval(function () {
+    // `this` refers to global object, not to CounterA's `this`
+    // therefore starts counting with 100, not with 0 (local this.i)
+    this.i++;
+    document.getElementById("counterA").innerHTML = this.i;
+  }, 500);
 }
 
 // manually binding that = this
 function CounterB() {
-    this.i = 0;
-    var that = this;
-    setInterval(function () {
-        that.i++;
-        document.getElementById('counterB').innerHTML = that.i;
-    }, 500);
+  this.i = 0;
+  var that = this;
+  setInterval(function () {
+    that.i++;
+    document.getElementById("counterB").innerHTML = that.i;
+  }, 500);
 }
 
 // using .bind(this)
 function CounterC() {
-    this.i = 0;
-    setInterval(
-        function () {
-            this.i++;
-            document.getElementById('counterC').innerHTML = this.i;
-        }.bind(this),
-        500
-    );
+  this.i = 0;
+  setInterval(
+    function () {
+      this.i++;
+      document.getElementById("counterC").innerHTML = this.i;
+    }.bind(this),
+    500
+  );
 }
 
 // fat arrow function
 function CounterD() {
-    this.i = 0;
-    setInterval(() => {
-        this.i++;
-        document.getElementById('counterD').innerHTML = this.i;
-    }, 500);
+  this.i = 0;
+  setInterval(() => {
+    this.i++;
+    document.getElementById("counterD").innerHTML = this.i;
+  }, 500);
 }
 ```
 

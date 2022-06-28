@@ -793,8 +793,8 @@ No
 
 ## See also
 
--   [jDataView](https://github.com/jDataView/jDataView): JavaScript library that polyfills and extends the `DataView` API to all browsers and Node.js.
--   [`ArrayBuffer`](arraybuffer)
--   [`SharedArrayBuffer`](sharedarraybuffer)
+- [jDataView](https://github.com/jDataView/jDataView): JavaScript library that polyfills and extends the `DataView` API to all browsers and Node.js.
+- [`ArrayBuffer`](arraybuffer)
+- [`SharedArrayBuffer`](sharedarraybuffer)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView</a>

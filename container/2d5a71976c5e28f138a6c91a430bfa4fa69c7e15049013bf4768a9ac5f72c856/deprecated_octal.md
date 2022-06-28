@@ -49,7 +49,7 @@ For octal escape sequences, you can use hexadecimal escape sequences instead:
 
 ## See also
 
--   [Lexical grammar](../lexical_grammar#octal)
--   [Warning: 08/09 is not a legal ECMA-262 octal constant](bad_octal)
+- [Lexical grammar](../lexical_grammar#octal)
+- [Warning: 08/09 is not a legal ECMA-262 octal constant](bad_octal)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal</a>

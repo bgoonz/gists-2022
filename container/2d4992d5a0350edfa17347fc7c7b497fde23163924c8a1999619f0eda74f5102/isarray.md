@@ -100,7 +100,7 @@ When checking for `Array` instance, `Array.isArray` is preferred over `instanceo
 
 ## See also
 
--   [A polyfill](https://github.com/behnammodi/polyfill/blob/master/array.polyfill.js)
--   [`Array`](../array)
+- [A polyfill](https://github.com/behnammodi/polyfill/blob/master/array.polyfill.js)
+- [`Array`](../array)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray</a>

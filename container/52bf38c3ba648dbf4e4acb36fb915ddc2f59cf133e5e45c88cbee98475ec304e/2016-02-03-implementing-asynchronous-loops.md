@@ -4,15 +4,15 @@ tip-username: madmantalking
 tip-username-profile: https://github.com/madmantalking
 tip-tldr: You may run into problems while implementing asynchronous loops.
 
--   /en/implementing-asynchronous-loops/
+- /en/implementing-asynchronous-loops/
 
 Let's try out writing an asynchronous function which prints the value of the loop index every second.
 
 ```js
 for (var i = 0; i < 5; i++) {
-    setTimeout(function () {
-        console.log(i);
-    }, 1000 * (i + 1));
+  setTimeout(function () {
+    console.log(i);
+  }, 1000 * (i + 1));
 }
 ```
 
@@ -36,10 +36,10 @@ Well , this problem seems easy. An immediate solution that strikes is to cache t
 
 ```js
 for (var i = 0; i < 5; i++) {
-    var temp = i;
-    setTimeout(function () {
-        console.log(temp);
-    }, 1000 * (i + 1));
+  var temp = i;
+  setTimeout(function () {
+    console.log(temp);
+  }, 1000 * (i + 1));
 }
 ```
 
@@ -58,10 +58,10 @@ So , that doesn't work either , because blocks don't create a scope and variable
 ```js
 var temp;
 for (var i = 0; i < 5; i++) {
-    temp = i;
-    setTimeout(function () {
-        console.log(temp);
-    }, 1000 * (i + 1));
+  temp = i;
+  setTimeout(function () {
+    console.log(temp);
+  }, 1000 * (i + 1));
 }
 ```
 
@@ -71,11 +71,11 @@ There are a few different ways to copy `i`. The most common way is creating a cl
 
 ```js
 for (var i = 0; i < 5; i++) {
-    (function (num) {
-        setTimeout(function () {
-            console.log(num);
-        }, 1000 * (i + 1));
-    })(i);
+  (function (num) {
+    setTimeout(function () {
+      console.log(num);
+    }, 1000 * (i + 1));
+  })(i);
 }
 ```
 
@@ -85,8 +85,8 @@ Another approach for this would be with using `let`. With ES6 the `let` keyword 
 
 ```js
 for (let i = 0; i < 5; i++) {
-    setTimeout(function () {
-        console.log(i);
-    }, 1000 * (i + 1));
+  setTimeout(function () {
+    console.log(i);
+  }, 1000 * (i + 1));
 }
 ```

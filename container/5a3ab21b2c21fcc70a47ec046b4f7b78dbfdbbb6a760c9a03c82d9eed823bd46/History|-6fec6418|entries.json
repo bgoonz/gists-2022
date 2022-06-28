@@ -1,1 +1,77 @@
-{"version":1,"resource":"file:///Users/BGuner/BGOONZ_BLOG_2.0/docs/content/MDN/glossary/bandwidthindex.md","entries":[{"id":"m3OO.md","source":"searchReplace.source","timestamp":1649259608877},{"id":"tMtP.md","source":"searchReplace.source","timestamp":1649259652241},{"id":"xpPj.md","source":"searchReplace.source","timestamp":1649259686444},{"id":"4Ilo.md","source":"searchReplace.source","timestamp":1649259876429},{"id":"yCuw.md","source":"searchReplace.source","timestamp":1649259939134},{"id":"Sjk9.md","source":"searchReplace.source","timestamp":1649259954253},{"id":"Cr4r.md","source":"searchReplace.source","timestamp":1649260020481},{"id":"h9Pu.md","source":"searchReplace.source","timestamp":1649260065752},{"id":"ilFm.md","source":"searchReplace.source","timestamp":1649260089113},{"id":"14XV.md","source":"searchReplace.source","timestamp":1649260160871},{"id":"02cd.md","source":"searchReplace.source","timestamp":1649260208840},{"id":"NghP.md","source":"searchReplace.source","timestamp":1649260348255},{"id":"uM1E.md","source":"searchReplace.source","timestamp":1649260699263},{"id":"YeHD.md","timestamp":1649260794811},{"id":"3n2Q.md","source":"searchReplace.source","timestamp":1649262171435}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/BGOONZ_BLOG_2.0/docs/content/MDN/glossary/bandwidthindex.md",
+  "entries": [
+    {
+      "id": "m3OO.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259608877
+    },
+    {
+      "id": "tMtP.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259652241
+    },
+    {
+      "id": "xpPj.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259686444
+    },
+    {
+      "id": "4Ilo.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259876429
+    },
+    {
+      "id": "yCuw.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259939134
+    },
+    {
+      "id": "Sjk9.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649259954253
+    },
+    {
+      "id": "Cr4r.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260020481
+    },
+    {
+      "id": "h9Pu.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260065752
+    },
+    {
+      "id": "ilFm.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260089113
+    },
+    {
+      "id": "14XV.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260160871
+    },
+    {
+      "id": "02cd.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260208840
+    },
+    {
+      "id": "NghP.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260348255
+    },
+    {
+      "id": "uM1E.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649260699263
+    },
+    { "id": "YeHD.md", "timestamp": 1649260794811 },
+    {
+      "id": "3n2Q.md",
+      "source": "searchReplace.source",
+      "timestamp": 1649262171435
+    }
+  ]
+}

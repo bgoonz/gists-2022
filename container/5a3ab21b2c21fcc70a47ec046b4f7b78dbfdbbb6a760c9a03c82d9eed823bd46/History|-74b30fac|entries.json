@@ -1,1 +1,16 @@
-{"version":1,"resource":"file:///Users/BGuner/.bash_history","entries":[{"id":"AE88","timestamp":1652801943127},{"id":"Di5V","source":"undoRedo.source","timestamp":1652801945542},{"id":"lAAF","timestamp":1652801951676},{"id":"BdWp","source":"undoRedo.source","timestamp":1652801953629},{"id":"jlj9","timestamp":1652801968540},{"id":"eEoh","source":"undoRedo.source","timestamp":1652801970486},{"id":"M199","timestamp":1652801993072},{"id":"QIyv","timestamp":1652802010671},{"id":"XETU","source":"undoRedo.source","timestamp":1652802012516},{"id":"dejN","timestamp":1652802054677}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/.bash_history",
+  "entries": [
+    { "id": "AE88", "timestamp": 1652801943127 },
+    { "id": "Di5V", "source": "undoRedo.source", "timestamp": 1652801945542 },
+    { "id": "lAAF", "timestamp": 1652801951676 },
+    { "id": "BdWp", "source": "undoRedo.source", "timestamp": 1652801953629 },
+    { "id": "jlj9", "timestamp": 1652801968540 },
+    { "id": "eEoh", "source": "undoRedo.source", "timestamp": 1652801970486 },
+    { "id": "M199", "timestamp": 1652801993072 },
+    { "id": "QIyv", "timestamp": 1652802010671 },
+    { "id": "XETU", "source": "undoRedo.source", "timestamp": 1652802012516 },
+    { "id": "dejN", "timestamp": 1652802054677 }
+  ]
+}

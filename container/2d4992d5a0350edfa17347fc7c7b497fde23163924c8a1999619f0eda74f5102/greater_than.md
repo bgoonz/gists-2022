@@ -93,9 +93,9 @@ The operands are compared using the [Abstract Relational Comparison](https://tc3
 
 ## See also
 
--   [Greater than or equal operator](greater_than_or_equal)
--   [Less than operator](less_than)
--   [Less than or equal operator](less_than_or_equal)
+- [Greater than or equal operator](greater_than_or_equal)
+- [Less than operator](less_than)
+- [Less than or equal operator](less_than_or_equal)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

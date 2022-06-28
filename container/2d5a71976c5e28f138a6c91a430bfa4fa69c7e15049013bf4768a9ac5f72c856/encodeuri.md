@@ -105,8 +105,8 @@ If one wishes to follow the more recent [RFC3986](https://datatracker.ietf.org/d
 
 ## See also
 
--   [`decodeURI()`](decodeuri)
--   [`encodeURIComponent()`](encodeuricomponent)
--   [`decodeURIComponent()`](decodeuricomponent)
+- [`decodeURI()`](decodeuri)
+- [`encodeURIComponent()`](encodeuricomponent)
+- [`decodeURIComponent()`](decodeuricomponent)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI</a>

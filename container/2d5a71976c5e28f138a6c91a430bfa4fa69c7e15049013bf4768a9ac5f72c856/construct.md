@@ -146,9 +146,9 @@ No
 
 ## See also
 
--   [`Reflect`](../reflect)
--   [`new`](../../operators/new)
--   `new.target`
+- [`Reflect`](../reflect)
+- [`new`](../../operators/new)
+- `new.target`
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

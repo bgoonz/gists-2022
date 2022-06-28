@@ -1,9 +1,6 @@
-
 ## The Mom Test
 
 https://sandro.volpee.de/the-mom-test-summary-validate-ideas
-
-
 
 ## Project Plan
 
@@ -11,20 +8,15 @@ https://sandro.volpee.de/the-mom-test-summary-validate-ideas
 
 What am I trying to prove? (what’s in it for them?)
 
-
-That I can help _____ get _______ faster/better/easier.
-
-
+That I can help **\_** get **\_\_\_** faster/better/easier.
 
 How am I going to prove it?
 
-To myself: 
+To myself:
 By doing...
 
-To the market: 
+To the market:
 By publishing...
-
-
 
 What happens no matter what happens? (What’s in it for me?)
 

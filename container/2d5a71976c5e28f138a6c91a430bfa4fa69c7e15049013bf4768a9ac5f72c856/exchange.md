@@ -23,8 +23,8 @@ The old value at the given position (`typedArray[index]`).
 
 ### Exceptions
 
--   Throws a [`TypeError`](../typeerror), if `typedArray` is not one of the allowed integer types.
--   Throws a [`RangeError`](../rangeerror), if `index` is out of bounds in the `typedArray`.
+- Throws a [`TypeError`](../typeerror), if `typedArray` is not one of the allowed integer types.
+- Throws a [`RangeError`](../rangeerror), if `index` is out of bounds in the `typedArray`.
 
 ## Examples
 
@@ -99,7 +99,7 @@ Chrome disabled `SharedArrayBuffer` on January 5, 2018 to help reduce the effica
 
 ## See also
 
--   [`Atomics`](../atomics)
--   [`Atomics.compareExchange()`](compareexchange)
+- [`Atomics`](../atomics)
+- [`Atomics.compareExchange()`](compareexchange)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics/exchange" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics/exchange</a>

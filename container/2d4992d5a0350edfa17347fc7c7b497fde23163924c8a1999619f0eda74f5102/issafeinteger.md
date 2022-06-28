@@ -4,8 +4,8 @@ The `Number.isSafeInteger()` method determines whether the provided value is a n
 
 A safe integer is an integer that
 
--   can be exactly represented as an IEEE-754 double precision number, and
--   whose IEEE-754 representation cannot be the result of rounding any other integer to fit the IEEE-754 representation.
+- can be exactly represented as an IEEE-754 double precision number, and
+- whose IEEE-754 representation cannot be the result of rounding any other integer to fit the IEEE-754 representation.
 
 For example, `253 - 1` is a safe integer: it can be exactly represented, and no other integer rounds to it under any IEEE-754 rounding mode. In contrast, `253` is _not_ a safe integer: it can be exactly represented in IEEE-754, but the integer `253 + 1` can't be directly represented in IEEE-754 but instead rounds to `253` under round-to-nearest and round-to-zero rounding. The safe integers consist of all integers from `-(253 - 1)` inclusive to `253 - 1` inclusive (± `9007199254740991` or ± 9,007,199,254,740,991).
 
@@ -80,10 +80,10 @@ No
 
 ## See also
 
--   The [`Number`](../number) object it belongs to.
--   [`Number.MIN_SAFE_INTEGER`](min_safe_integer)
--   [`Number.MAX_SAFE_INTEGER`](max_safe_integer)
--   [`BigInt`](../bigint)
+- The [`Number`](../number) object it belongs to.
+- [`Number.MIN_SAFE_INTEGER`](min_safe_integer)
+- [`Number.MAX_SAFE_INTEGER`](max_safe_integer)
+- [`BigInt`](../bigint)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

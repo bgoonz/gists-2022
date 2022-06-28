@@ -4,7 +4,7 @@ tip-username: darul75
 tip-username-profile: https://twitter.com/darul75
 tip-tldr: Some reminders about using `reduce()`
 
--   /en/reminders-about-reduce-function-usage/
+- /en/reminders-about-reduce-function-usage/
 
 As written in documentation the `reduce()` method applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value.
 
@@ -12,8 +12,8 @@ As written in documentation the `reduce()` method applies a function against an 
 
 [reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) function accepts 2 parameters (M: mandatory, O: optional):
 
--   (M) a callback **reducer function** to be applied that deals with a pair of previous (result of previous computation) and next element until end of the list.
--   (O) an **initial value** to be used as the first argument to the first call of the callback.
+- (M) a callback **reducer function** to be applied that deals with a pair of previous (result of previous computation) and next element until end of the list.
+- (O) an **initial value** to be used as the first argument to the first call of the callback.
 
 So let's see a common usage and later a more sophisticated one.
 
@@ -27,7 +27,7 @@ var items = [{ price: 10 }, { price: 120 }, { price: 1000 }];
 
 // our reducer function
 var reducer = function add(sumSoFar, item) {
-    return sumSoFar + item.price;
+  return sumSoFar + item.price;
 };
 
 // do the job
@@ -57,36 +57,36 @@ To illustrate this, let's create a single object literal with some reducers func
 
 ```javascript
 var reducers = {
-    totalInDollar: function (state, item) {
-        // specific statements...
-        return (state.dollars += item.price);
-    },
-    totalInEuros: function (state, item) {
-        return (state.euros += item.price * 0.897424392);
-    },
-    totalInPounds: function (state, item) {
-        return (state.pounds += item.price * 0.692688671);
-    },
-    totalInYen: function (state, item) {
-        return (state.yens += item.price * 113.852);
-    }
-    // more...
+  totalInDollar: function (state, item) {
+    // specific statements...
+    return (state.dollars += item.price);
+  },
+  totalInEuros: function (state, item) {
+    return (state.euros += item.price * 0.897424392);
+  },
+  totalInPounds: function (state, item) {
+    return (state.pounds += item.price * 0.692688671);
+  },
+  totalInYen: function (state, item) {
+    return (state.yens += item.price * 113.852);
+  },
+  // more...
 };
 ```
 
 Then, we create a new swiss knife function
 
--   responsible for applying each partial reduce functions.
--   that will return a new callback reducer function
+- responsible for applying each partial reduce functions.
+- that will return a new callback reducer function
 
 ```javascript
 var combineTotalPriceReducers = function (reducers) {
-    return function (state, item) {
-        return Object.keys(reducers).reduce(function (nextState, key) {
-            reducers[key](state, item);
-            return state;
-        }, {});
-    };
+  return function (state, item) {
+    return Object.keys(reducers).reduce(function (nextState, key) {
+      reducers[key](state, item);
+      return state;
+    }, {});
+  };
 };
 ```
 

@@ -20,15 +20,12 @@
 - writing https://twitter.com/GergelyOrosz/status/1353661833236926470
 - write a book https://twitter.com/jamesclear/status/1358549333646450690?s=21
 
-
-build vs buy 
+build vs buy
 https://codingcareer.circle.so/c/future-content/senior-dev-ten-things-you-need-to-know-before-making-a-build-vs-buy-decision?
-
 
 - https://levelup.patkua.com/
 - SWLW, Hacker Newsletter, Programmer Weekly, Golang Weekly, Statuscode Weekly, Normcore, Commoncog, Pointer.io,
 - high scalability, leaddev
 
-
-- ways to stand out without resume 
+- ways to stand out without resume
 - https://twitter.com/SahilBloom/status/1399375061111382022?s=20

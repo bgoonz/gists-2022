@@ -2,12 +2,12 @@
 title: What this presentation is not about
 layout: Center
 style: |
-    .exerslide-slide .Center-wrapper {
-      text-align: left;
-    }
-    .exerslide-slide h1 {
-      text-align: center;
-    }
+  .exerslide-slide .Center-wrapper {
+    text-align: left;
+  }
+  .exerslide-slide h1 {
+    text-align: center;
+  }
 ---
 
 JavaScript is predominantly run in browsers to make websites interactive. In

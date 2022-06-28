@@ -244,10 +244,10 @@ Before version 71, `formatToParts()` returned an object with an incorrectly case
 
 ## See also
 
--   [`Intl.DateTimeFormat`](../datetimeformat)
--   [`Intl.DateTimeFormat.prototype.format()`](format)
--   [`Date.prototype.toLocaleString()`](../../date/tolocalestring)
--   [`Date.prototype.toLocaleDateString()`](../../date/tolocaledatestring)
--   [`Date.prototype.toLocaleTimeString()`](../../date/tolocaletimestring)
+- [`Intl.DateTimeFormat`](../datetimeformat)
+- [`Intl.DateTimeFormat.prototype.format()`](format)
+- [`Date.prototype.toLocaleString()`](../../date/tolocalestring)
+- [`Date.prototype.toLocaleDateString()`](../../date/tolocaledatestring)
+- [`Date.prototype.toLocaleTimeString()`](../../date/tolocaletimestring)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/formatToParts" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/formatToParts</a>

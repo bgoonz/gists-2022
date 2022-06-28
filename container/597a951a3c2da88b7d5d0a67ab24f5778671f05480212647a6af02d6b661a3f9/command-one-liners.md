@@ -4,7 +4,6 @@ After my blog post about [command line one-liners],
 many people want to contribute with their own commands.
 This is the place to do it, pull requests are welcome!
 
-
 Run the last command
 
     $ !!
@@ -327,6 +326,5 @@ Russian Roulette in Bash
 Watch Star Wars via telnet
 
     $ telnet towel.blinkenlights.nl
-
 
 [command line one-liners]: http://arturoherrero.com/2013/11/29/command-line-one-liners/

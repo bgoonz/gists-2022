@@ -4,19 +4,19 @@ tip-username: odsdq
 tip-username-profile: https://twitter.com/odsdq
 tip-tldr: In node, you can tell your program to do two different things depending on whether the code is run from `require('./something.js')` or `node something.js`. This is useful if you want to interact with one of your modules independently.
 
--   /en/nodejs-run-a-module-if-it-is-not-required/
+- /en/nodejs-run-a-module-if-it-is-not-required/
 
 In node, you can tell your program to do two different things depending on whether the code is run from `require('./something.js')` or `node something.js`. This is useful if you want to interact with one of your modules independently.
 
 ```js
 if (!module.parent) {
-    // ran with `node something.js`
-    app.listen(8088, function () {
-        console.log('app listening on port 8088');
-    });
+  // ran with `node something.js`
+  app.listen(8088, function () {
+    console.log("app listening on port 8088");
+  });
 } else {
-    // used with `require('/.something.js')`
-    module.exports = app;
+  // used with `require('/.something.js')`
+  module.exports = app;
 }
 ```
 

@@ -4,7 +4,7 @@ tip-username: Morklympious
 tip-username-profile: https://github.com/morklympious
 tip-tldr: Understand what gets returned when using new vs. not using new.
 
--   /en/return-values-with-the-new-operator/
+- /en/return-values-with-the-new-operator/
 
 You're going to run into some instances where you'll be using `new` to allocate new objects in JavaScript. It's going to blow your mind unless you read this tip to understand what's happening behind the scenes.
 
@@ -12,8 +12,8 @@ The `new` operator in JavaScript is an operator that, under reasonable circumsta
 
 ```js
 function Thing() {
-    this.one = 1;
-    this.two = 2;
+  this.one = 1;
+  this.two = 2;
 }
 
 var myThing = new Thing();
@@ -31,10 +31,10 @@ Now that you get that example, here's where things get a little bit wonky. Let's
 
 ```js
 function Thing() {
-    this.one = 1;
-    this.two = 2;
+  this.one = 1;
+  this.two = 2;
 
-    return 5;
+  return 5;
 }
 
 var myThing = new Thing();
@@ -55,13 +55,13 @@ Let's return a non-primitive type instead, something like an object.
 
 ```js
 function Thing() {
-    this.one = 1;
-    this.two = 2;
+  this.one = 1;
+  this.two = 2;
 
-    return {
-        three: 3,
-        four: 4
-    };
+  return {
+    three: 3,
+    four: 4,
+  };
 }
 
 var myThing = new Thing();

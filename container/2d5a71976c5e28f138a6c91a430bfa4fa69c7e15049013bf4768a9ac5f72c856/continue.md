@@ -13,11 +13,11 @@ Identifier associated with the label of the statement.
 
 In contrast to the [`break`](break) statement, `continue` does not terminate the execution of the loop entirely: instead,
 
--   In a [`while`](while) loop, it jumps back to the condition.
+- In a [`while`](while) loop, it jumps back to the condition.
 
 <!-- -->
 
--   In a [`for`](for) loop, it jumps to the update expression.
+- In a [`for`](for) loop, it jumps to the update expression.
 
 The `continue` statement can include an optional label that allows the program to jump to the next iteration of a labeled loop statement instead of the current loop. In this case, the `continue` statement needs to be nested within this labeled statement.
 
@@ -130,8 +130,8 @@ Output:
 
 ## See also
 
--   [`break`](break)
--   [label](label)
+- [`break`](break)
+- [label](label)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

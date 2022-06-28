@@ -1,5 +1,3 @@
-
-
 clickbait https://www.youtube.com/watch?v=S2xHZPH5Sng
 
 aggregator https://subconscious.substack.com/p/aggregators-arent-open-ended
@@ -26,15 +24,11 @@ estimation https://jacobian.org/2021/may/20/estimation/
 
 good read https://coda.io/@shishir/rituals-for-hypergrowth-an-inside-look-at-how-youtube-scaled/big-rock-100-prioritization-23
 
-
 coinbase eth2 staking https://www.reddit.com/r/ethereum/comments/n5k8xi/proscons_of_staking_via_coinbase/
-
 
 note: wasplang is raising - add their notion doc
 
 never build auth https://news.ycombinator.com/item?id=27144930
-
-
 
 https://rome.tools/blog/2021/09/21/rome-will-be-rewritten-in-rust
 
@@ -44,18 +38,15 @@ github acquisition https://www.johnnunemaker.com/speakerdeck/
 
 community file https://docs.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file
 
-
-
 procrastination https://twitter.com/Julian/status/1368675916096933889?s=20
-- https://www.lesswrong.com/posts/RWo4LwFzpHNQCTcYt/how-to-beat-procrastination 
+
+- https://www.lesswrong.com/posts/RWo4LwFzpHNQCTcYt/how-to-beat-procrastination
 
 decline of computers as GPT https://cacm.acm.org/magazines/2021/3/250710-the-decline-of-computers-as-a-general-purpose-technology/fulltext
 
 high ticket online sales https://twitter.com/thedulab/status/1275521147459665920
 
-
 knowing understanding https://twitter.com/visualizevalue/status/1370423341954306056?s=21
-
 
 platform take rates https://twitter.com/lennysan/status/1386706274037891075/photo/1
 

@@ -1,1 +1,8 @@
-{"version":1,"resource":"file:///Users/BGuner/Library/Application%20Support/Code/Workspaces/1651947729817/workspace.json","entries":[{"id":"xHhE.json","timestamp":1651947750069},{"id":"35TB.json","timestamp":1652205515187}]}
+{
+  "version": 1,
+  "resource": "file:///Users/BGuner/Library/Application%20Support/Code/Workspaces/1651947729817/workspace.json",
+  "entries": [
+    { "id": "xHhE.json", "timestamp": 1651947750069 },
+    { "id": "35TB.json", "timestamp": 1652205515187 }
+  ]
+}

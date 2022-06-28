@@ -163,9 +163,9 @@ No
 
 ## See also
 
--   [`function*`](../statements/function*)
--   [`function*` expression](../operators/function*)
--   [`GeneratorFunction`](generatorfunction)
--   [The Iterator protocol](../iteration_protocols)
+- [`function*`](../statements/function*)
+- [`function*` expression](../operators/function*)
+- [`GeneratorFunction`](generatorfunction)
+- [The Iterator protocol](../iteration_protocols)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator" class="_attribution-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator</a>

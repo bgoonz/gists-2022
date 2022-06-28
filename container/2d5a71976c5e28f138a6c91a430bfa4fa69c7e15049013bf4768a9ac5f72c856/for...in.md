@@ -134,14 +134,14 @@ Other engines such as v8 (Chrome), Chakra (IE/Edge), and JSC (WebKit/Safari) are
 
 ## See also
 
--   [`for...of`](for...of) – a similar statement that iterates over the property _values_
--   <span class="page-not-created">`for each...in`</span> – a similar but deprecated statement that iterates over the values of an object's properties, rather than the property names themselves
--   [`for`](for)
--   [Iterators and Generator functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators) (usable with `for...of` syntax)
--   [Enumerability and ownership of properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
--   [`Object.getOwnPropertyNames()`](../global_objects/object/getownpropertynames)
--   [`Object.prototype.hasOwnProperty()`](../global_objects/object/hasownproperty)
--   [`Array.prototype.forEach()`](../global_objects/array/foreach)
+- [`for...of`](for...of) – a similar statement that iterates over the property _values_
+- <span class="page-not-created">`for each...in`</span> – a similar but deprecated statement that iterates over the values of an object's properties, rather than the property names themselves
+- [`for`](for)
+- [Iterators and Generator functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators) (usable with `for...of` syntax)
+- [Enumerability and ownership of properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
+- [`Object.getOwnPropertyNames()`](../global_objects/object/getownpropertynames)
+- [`Object.prototype.hasOwnProperty()`](../global_objects/object/hasownproperty)
+- [`Array.prototype.forEach()`](../global_objects/array/foreach)
 
 © 2005–2021 MDN contributors.  
 Licensed under the Creative Commons Attribution-ShareAlike License v2.5 or later.  

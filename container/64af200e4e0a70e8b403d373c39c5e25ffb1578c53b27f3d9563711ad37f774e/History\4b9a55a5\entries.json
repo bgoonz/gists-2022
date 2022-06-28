@@ -1,1 +1,38 @@
-{"version":1,"resource":"file:///c%3A/MY-WEB-DEV/BLOG____2.0/BACKUP/medium/2021-03-06_Emmet-Cheat-Sheet-24758e628d37.md","entries":[{"id":"D8Kt.md","source":"searchReplace.source","timestamp":1652668104105},{"id":"SzCE.md","source":"searchReplace.source","timestamp":1652668132840},{"id":"8M4Q.md","source":"searchReplace.source","timestamp":1652669003394},{"id":"Z2uw.md","source":"searchReplace.source","timestamp":1652669030608},{"id":"cf9M.md","timestamp":1652669067545},{"id":"WvC6.md","timestamp":1652669093729},{"id":"6Sh1.md","source":"undoRedo.source","timestamp":1652669098232},{"id":"VSOV.md","timestamp":1652669103781},{"id":"mNJi.md","timestamp":1652669117502},{"id":"7VdX.md","timestamp":1652669142550},{"id":"PEEC.md","timestamp":1652669154788},{"id":"ukLH.md","timestamp":1652669175291}]}
+{
+  "version": 1,
+  "resource": "file:///c%3A/MY-WEB-DEV/BLOG____2.0/BACKUP/medium/2021-03-06_Emmet-Cheat-Sheet-24758e628d37.md",
+  "entries": [
+    {
+      "id": "D8Kt.md",
+      "source": "searchReplace.source",
+      "timestamp": 1652668104105
+    },
+    {
+      "id": "SzCE.md",
+      "source": "searchReplace.source",
+      "timestamp": 1652668132840
+    },
+    {
+      "id": "8M4Q.md",
+      "source": "searchReplace.source",
+      "timestamp": 1652669003394
+    },
+    {
+      "id": "Z2uw.md",
+      "source": "searchReplace.source",
+      "timestamp": 1652669030608
+    },
+    { "id": "cf9M.md", "timestamp": 1652669067545 },
+    { "id": "WvC6.md", "timestamp": 1652669093729 },
+    {
+      "id": "6Sh1.md",
+      "source": "undoRedo.source",
+      "timestamp": 1652669098232
+    },
+    { "id": "VSOV.md", "timestamp": 1652669103781 },
+    { "id": "mNJi.md", "timestamp": 1652669117502 },
+    { "id": "7VdX.md", "timestamp": 1652669142550 },
+    { "id": "PEEC.md", "timestamp": 1652669154788 },
+    { "id": "ukLH.md", "timestamp": 1652669175291 }
+  ]
+}
