@@ -1,7 +1,7 @@
 from pathlib import Path
 import shutil
 
-destination = Path('copies')
+destination = Path("copies")
 if destination.exists():
     shutil.rmtree(destination)
 
@@ -10,7 +10,8 @@ destination.mkdir()
 
 import time
 
-root = Path('remotefiles')
+root = Path("remotefiles")
+
 
 def run(directory):
     copied = []

@@ -6,6 +6,6 @@ import sys
 
 dr = sys.argv[1]
 
-for root, dirs, files in os.walk('./'):
+for root, dirs, files in os.walk("./"):
     for f in files:
-        shutil.move(root+"/"+f, root+"/"+root.split("/")[-1]+f)
+        shutil.move(root + "/" + f, root + "/" + root.split("/")[-1] + f)

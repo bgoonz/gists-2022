@@ -1,7 +1,7 @@
 from pathlib import Path
 import shutil
 
-destination = Path('symlinks')
+destination = Path("symlinks")
 if destination.exists():
     shutil.rmtree(destination)
 
@@ -10,7 +10,8 @@ destination.mkdir()
 
 import time
 
-root = Path('remotefiles')
+root = Path("remotefiles")
+
 
 def run(directory):
     copied = []
@@ -20,8 +21,8 @@ def run(directory):
         else:
             dest = destination / thing.relative_to(root)
             dest.parent.mkdir(parents=True, exist_ok=True)
-            #shutil.copyfile(thing, dest)
-            #thing.symlink_to(dest)
+            # shutil.copyfile(thing, dest)
+            # thing.symlink_to(dest)
             dest.symlink_to(thing)
             copied.append(thing.stat().st_size)
 

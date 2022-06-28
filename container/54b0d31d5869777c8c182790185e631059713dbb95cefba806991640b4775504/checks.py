@@ -20,10 +20,7 @@ def oidc_config_check(app_configs, **kwargs):
         if not getattr(settings, key, None):
             class_ = Warning if settings.DEBUG else Error
             errors.append(
-                class_(
-                    f"{key} environment variable is not set or is empty",
-                    id=id,
-                )
+                class_(f"{key} environment variable is not set or is empty", id=id)
             )
 
     if settings.OIDC_CONFIGURATION_CHECK:

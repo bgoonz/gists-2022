@@ -3,7 +3,7 @@ import shutil
 from os.path import *  # just to avoid typing "os.path." everywhere
 
 # I am using abspath() here to get the absolute path to the folder.
-folder = abspath(input('Enter the main folder: '))
+folder = abspath(input("Enter the main folder: "))
 
 # index through all elements in the main folder that are directories
 for subfolder in os.listdir(folder):
@@ -14,9 +14,9 @@ for subfolder in os.listdir(folder):
     # index through all the files in this subfolder
     for file in os.listdir(abs_subfolder):
         # get the extension of the file to move
-        extension = '.txt'
+        extension = ".txt"
 
-        new_file_path = abs_subfolder + '.' + extension
+        new_file_path = abs_subfolder + "." + extension
 
         # move the file to its parent directory, and change its name
         shutil.move(join(abs_subfolder, file), new_file_path)

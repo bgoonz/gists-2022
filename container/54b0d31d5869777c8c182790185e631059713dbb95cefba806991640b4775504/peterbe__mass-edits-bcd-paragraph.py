@@ -16,20 +16,22 @@ def replacer(match):
     return ""
     return match.group().lower()
 
-NEEDLE = '''
+
+NEEDLE = """
 <p class="hidden">The compatibility table in this page is generated from structured data. If you'd like to contribute to the data, please check out <a href="https://github.com/mdn/browser-compat-data">https://github.com/mdn/browser-compat-data</a> and send us a pull request.</p>
-'''
+"""
+
 
 def fix(path):
     if len(fixes) > 10:
         raise Stop
 
     changes = 0
-    new_content = ''
+    new_content = ""
     with open(path) as f:
         content = f.read()
         if NEEDLE in content:
-            new_content = content.replace(NEEDLE, '')
+            new_content = content.replace(NEEDLE, "")
 
     if new_content:
         print("CHANGE", path)

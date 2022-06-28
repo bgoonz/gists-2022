@@ -2,17 +2,17 @@ import re
 import json
 from pathlib import Path
 
-root = Path('tests/generated-tests')
+root = Path("tests/generated-tests")
 if not root.exists():
     root.mkdir()
-for file in root.glob('*.js'):
+for file in root.glob("*.js"):
     file.unlink()
 
 N = 20
 
 
 for i in range(N):
-    code = '''
+    code = """
 import { fileURLToPath } from 'url'
 import path from 'path'
 import cheerio from 'cheerio'
@@ -75,11 +75,10 @@ describe('description %(i)s', () => {
         expect(%(i)s).toBe(%(i)s)
     })
 })
-    ''' % dict(
-        i=i,
-
+    """ % dict(
+        i=i
     )
-    with open(root / f'test-{i}.js', 'w') as f:
+    with open(root / f"test-{i}.js", "w") as f:
         f.write(code.strip())
-        f.write('\n')
+        f.write("\n")
     # print(code)

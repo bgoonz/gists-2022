@@ -67,11 +67,11 @@ def table_colation_migration(table_name, connection, cursor=None):
     collation = get_preferred_collations(connection)[0]
 
     column_names = {
-        "account_emailaddress": [("email", "varchar(191)"),],
-        "search_filter": [("name", "varchar(191)"), ("slug", "varchar(191)"),],
-        "search_filtergroup": [("name", "varchar(191)"), ("slug", "varchar(191)"),],
-        "wiki_revision": [("title", "varchar(191)"), ("slug", "varchar(191)"),],
-        "wiki_document": [("title", "varchar(191)"), ("slug", "varchar(191)"),],
+        "account_emailaddress": [("email", "varchar(191)")],
+        "search_filter": [("name", "varchar(191)"), ("slug", "varchar(191)")],
+        "search_filtergroup": [("name", "varchar(191)"), ("slug", "varchar(191)")],
+        "wiki_revision": [("title", "varchar(191)"), ("slug", "varchar(191)")],
+        "wiki_document": [("title", "varchar(191)"), ("slug", "varchar(191)")],
         "attachments_attachment": [("title", "varchar(191)")],
         "attachments_attachmentrevision": [
             ("title", "varchar(191)"),

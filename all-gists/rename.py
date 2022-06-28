@@ -10,7 +10,7 @@ ren = "description.txt"
 renlist = [cpl for cpl in [l.split() for l in open(ren).readlines()] if cpl]
 currnames = [r[1] for r in renlist]
 
-for root, dirs, files in os.walk(dr, topdown = False):
+for root, dirs, files in os.walk(dr, topdown=False):
     for dr in dirs:
         try:
             # look up the name, pass if not in the list
@@ -19,4 +19,4 @@ for root, dirs, files in os.walk(dr, topdown = False):
             pass
         else:
             newname = renlist[i][0]
-            shutil.move(root+"/"+dr, root+"/"+newname)
+            shutil.move(root + "/" + dr, root + "/" + newname)
