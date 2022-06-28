@@ -1,10 +1,11 @@
-
 # How To Use Object Methods in JavaScript | DigitalOcean
 
 > ## Excerpt
+>
 > Objects in JavaScript are collections of key/value pairs. The values can consist of properties and methods, and may contain all other JavaScript data types, such as strings,...
 
 ---
+
 ### Introduction
 
 [Objects](https://www.digitalocean.com/community/tutorials/understanding-objects-in-javascript) in JavaScript are collections of **key**/**value** pairs. The values can consist of **properties** and **methods**, and may contain all other JavaScript data types, such as strings, numbers, and Booleans.

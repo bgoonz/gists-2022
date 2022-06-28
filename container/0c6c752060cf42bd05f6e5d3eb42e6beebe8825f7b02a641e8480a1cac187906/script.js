@@ -448,22 +448,22 @@ var svg = `
 
 /*Helper functions*/
 /******************/
-function complimentary(x){
-  return 255 - Math.abs((x - 127.5));
+function complimentary(x) {
+  return 255 - Math.abs(x - 127.5);
 }
-function complimentary2(x){
-  return 255 - Math.abs((x - 63.75));
+function complimentary2(x) {
+  return 255 - Math.abs(x - 63.75);
 }
-function complimentary3(x){
-  return 255 - Math.abs((x - 191.25));
+function complimentary3(x) {
+  return 255 - Math.abs(x - 191.25);
 }
 
 //correct for numbers over 255 and under 0
-function corrected(x){
-  var val = (x*1);
-  if(val > 255){
+function corrected(x) {
+  var val = x * 1;
+  if (val > 255) {
     return 255;
-  } else if (val < 0){
+  } else if (val < 0) {
     return 0;
   } else {
     return Math.round(val);
@@ -471,45 +471,45 @@ function corrected(x){
 }
 
 function addClass(query, theClass) {
-	var x = document.querySelectorAll(query);
-	for (var i = 0; i < x.length; i++) {
-		x[i].classList.add(theClass);
-	}
+  var x = document.querySelectorAll(query);
+  for (var i = 0; i < x.length; i++) {
+    x[i].classList.add(theClass);
+  }
 }
 
 //random number generator
 function randNum(from, to) {
-	return Math.floor(Math.random() * (to - from + 1) + from);
+  return Math.floor(Math.random() * (to - from + 1) + from);
 }
 /******************/
 /*Helper functions*/
 
-function setColors(param){
-	var r,g,b;
-//get new random color
-	//lighter if "light" is passed
-	//or if it's day vs. night
-	
-	//get hours
-	var d = new Date();
-	var hh = d.getHours();
-	
-	/*param == "light"*/
-	if( hh > 5 && hh < 19 ){
-  	r = randNum(200,255);
-  	g = randNum(200,255);
-  	b = randNum(200,255);
-	//darker if "dark" is passed
-	/*param == "dark"*/
-	} else if ( hh < 6 || hh > 18  ){
-		r = randNum(0,50);
-  	g = randNum(0,50);
-  	b = randNum(0,50);
-		//or else use default lime and black styling
-	} else {
-		return;
-	}
-	//set background color
+function setColors(param) {
+  var r, g, b;
+  //get new random color
+  //lighter if "light" is passed
+  //or if it's day vs. night
+
+  //get hours
+  var d = new Date();
+  var hh = d.getHours();
+
+  /*param == "light"*/
+  if (hh > 5 && hh < 19) {
+    r = randNum(200, 255);
+    g = randNum(200, 255);
+    b = randNum(200, 255);
+    //darker if "dark" is passed
+    /*param == "dark"*/
+  } else if (hh < 6 || hh > 18) {
+    r = randNum(0, 50);
+    g = randNum(0, 50);
+    b = randNum(0, 50);
+    //or else use default lime and black styling
+  } else {
+    return;
+  }
+  //set background color
   var bgColor = "rgb(" + r + "," + g + "," + b + ")";
 
   //get a complimentary color 1
@@ -517,7 +517,7 @@ function setColors(param){
   var g1 = corrected(Math.round(complimentary(g)));
   var b1 = corrected(Math.round(complimentary(b)));
   var brainColor = "rgb(" + r1 + "," + g1 + "," + b1 + ")";
-	//get a complimentary color 2
+  //get a complimentary color 2
   var r2 = corrected(Math.round(complimentary2(r)));
   var g2 = corrected(Math.round(complimentary2(g)));
   var b2 = corrected(Math.round(complimentary2(b)));
@@ -527,64 +527,68 @@ function setColors(param){
   var g3 = corrected(Math.round(complimentary3(g)));
   var b3 = corrected(Math.round(complimentary3(b)));
   var brainColor3 = "rgb(" + r3 + "," + g3 + "," + b3 + ")";
-	
-	var bp = document.getElementsByClassName("brainPath");
-	for (var i=0; i<bp.length; i++){
-		bp[i].style.stroke = brainColor;
-	}
-	var br = document.getElementsByClassName("brainRect");
-	for (var i=0; i<br.length; i++){
-		br[i].style.stroke = brainColor;
-		br[i].style.fill = brainColor;
-	}
-	var bc = document.getElementsByClassName("brainCircle");
-	for (var i=0; i<bc.length; i++){
-		bc[i].style.stroke = brainColor2;
-		bc[i].style.fill = brainColor2;
-	}
-	var bc = document.getElementsByClassName("brainEllipse");
-	for (var i=0; i<bc.length; i++){
-		bc[i].style.stroke = brainColor3;
-		bc[i].style.fill = brainColor3;
-	}
-	document.body.style.backgroundColor = bgColor;
+
+  var bp = document.getElementsByClassName("brainPath");
+  for (var i = 0; i < bp.length; i++) {
+    bp[i].style.stroke = brainColor;
+  }
+  var br = document.getElementsByClassName("brainRect");
+  for (var i = 0; i < br.length; i++) {
+    br[i].style.stroke = brainColor;
+    br[i].style.fill = brainColor;
+  }
+  var bc = document.getElementsByClassName("brainCircle");
+  for (var i = 0; i < bc.length; i++) {
+    bc[i].style.stroke = brainColor2;
+    bc[i].style.fill = brainColor2;
+  }
+  var bc = document.getElementsByClassName("brainEllipse");
+  for (var i = 0; i < bc.length; i++) {
+    bc[i].style.stroke = brainColor3;
+    bc[i].style.fill = brainColor3;
+  }
+  document.body.style.backgroundColor = bgColor;
 }
 
 //gets the current line length of the svg
 function animateSVGs() {
-	var allPaths = document.querySelectorAll("path");
-	for (var i = 0; i < allPaths.length; i++) {
-		var lineLength = allPaths[i].getTotalLength();
-		allPaths[i].style.strokeDasharray = lineLength;
-		allPaths[i].style.strokeDashoffset = lineLength;
-		//neg animation times start the animation midway
-		allPaths[i].style.animationDelay = randNum(-50, 50) / 10 + "s";
-	}
-	var allRects = document.querySelectorAll("rect");
-	for (var i = 0; i < allRects.length; i++) {
-		allRects[i].style.animationDelay = randNum(-50, 50) / 10 + "s";
-	}
-	var allCircles = document.querySelectorAll("circle");
-	for (var i = 0; i < allCircles.length; i++) {
-		allCircles[i].style.animationDelay = randNum(-50, 50) / 10 + "s";
-	}
-	var allEllipses = document.querySelectorAll("ellipse");
-	for (var i = 0; i < allEllipses.length; i++) {
-		allEllipses[i].style.animationDelay = randNum(-50, 50) / 10 + "s";
-	}
+  var allPaths = document.querySelectorAll("path");
+  for (var i = 0; i < allPaths.length; i++) {
+    var lineLength = allPaths[i].getTotalLength();
+    allPaths[i].style.strokeDasharray = lineLength;
+    allPaths[i].style.strokeDashoffset = lineLength;
+    //neg animation times start the animation midway
+    allPaths[i].style.animationDelay = randNum(-50, 50) / 10 + "s";
+  }
+  var allRects = document.querySelectorAll("rect");
+  for (var i = 0; i < allRects.length; i++) {
+    allRects[i].style.animationDelay = randNum(-50, 50) / 10 + "s";
+  }
+  var allCircles = document.querySelectorAll("circle");
+  for (var i = 0; i < allCircles.length; i++) {
+    allCircles[i].style.animationDelay = randNum(-50, 50) / 10 + "s";
+  }
+  var allEllipses = document.querySelectorAll("ellipse");
+  for (var i = 0; i < allEllipses.length; i++) {
+    allEllipses[i].style.animationDelay = randNum(-50, 50) / 10 + "s";
+  }
 }
 
 function neuralize() {
-	document.querySelector(".brainContainer").innerHTML = "";
-	document.querySelector(".brainContainer").innerHTML = svg;
-	animateSVGs();
-	addClass("path", "animatePaths");
-	addClass("rect", "animateRects");
-	addClass("circle", "animateCircles");
-	addClass("ellipse", "animateCircles");
+  document.querySelector(".brainContainer").innerHTML = "";
+  document.querySelector(".brainContainer").innerHTML = svg;
+  animateSVGs();
+  addClass("path", "animatePaths");
+  addClass("rect", "animateRects");
+  addClass("circle", "animateCircles");
+  addClass("ellipse", "animateCircles");
 }
 
-document.querySelector(".brainContainer").addEventListener("click", function(){setColors("dark")});
+document
+  .querySelector(".brainContainer")
+  .addEventListener("click", function () {
+    setColors("dark");
+  });
 
 neuralize();
 setColors("dark");

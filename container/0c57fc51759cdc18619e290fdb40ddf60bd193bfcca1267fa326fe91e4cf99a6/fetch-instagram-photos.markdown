@@ -1,5 +1,5 @@
-Fetch Instagram Photos
-----------------------
+## Fetch Instagram Photos
+
 Using instafeed.js..
 
 @markmur

@@ -17,28 +17,47 @@ function main(number) {
 const maxNmbOfConsecutiveChar = (string, char) => {
   let maxNmbOfConsecutive = 0;
   let currentNmbOfConsecutive = 0;
-  let lastValue = ('' + string).charAt(0);
-  ('' + string).split('').map(value => {
-    if (lastValue === value)
-      (value === char) && currentNmbOfConsecutive++;
+  let lastValue = ("" + string).charAt(0);
+  ("" + string).split("").map((value) => {
+    if (lastValue === value) value === char && currentNmbOfConsecutive++;
     else {
-      maxNmbOfConsecutive = currentNmbOfConsecutive > maxNmbOfConsecutive ? currentNmbOfConsecutive : maxNmbOfConsecutive;
+      maxNmbOfConsecutive =
+        currentNmbOfConsecutive > maxNmbOfConsecutive
+          ? currentNmbOfConsecutive
+          : maxNmbOfConsecutive;
       currentNmbOfConsecutive = 0;
     }
   });
-  maxNmbOfConsecutive = currentNmbOfConsecutive > maxNmbOfConsecutive ? currentNmbOfConsecutive : maxNmbOfConsecutive;
-  return currentNmbOfConsecutive < maxNmbOfConsecutive ? maxNmbOfConsecutive : currentNmbOfConsecutive;
-}
+  maxNmbOfConsecutive =
+    currentNmbOfConsecutive > maxNmbOfConsecutive
+      ? currentNmbOfConsecutive
+      : maxNmbOfConsecutive;
+  return currentNmbOfConsecutive < maxNmbOfConsecutive
+    ? maxNmbOfConsecutive
+    : currentNmbOfConsecutive;
+};
 
 console.log(main(65535));
 
 // when input is two dimension array => [[],[]...].
 function main(arr) {
-  let maxSum = arr[0][0] + arr[0][1] + arr[0][2] + arr[1][1] + arr[2][0] + arr[2][1] + arr[2][2];
+  let maxSum =
+    arr[0][0] +
+    arr[0][1] +
+    arr[0][2] +
+    arr[1][1] +
+    arr[2][0] +
+    arr[2][1] +
+    arr[2][2];
 
   for (let i = 0; i < arr[0].length - 2; i++) {
     for (let j = 0; j < arr.length - 2; j++) {
-      let currentSum = arr[j].slice(i, i + 3).join('+') + "+" + arr[j + 1][i] + "+" + arr[j + 2].slice(i, i + 3).join('+');
+      let currentSum =
+        arr[j].slice(i, i + 3).join("+") +
+        "+" +
+        arr[j + 1][i] +
+        "+" +
+        arr[j + 2].slice(i, i + 3).join("+");
       if (eval(currentSum) > maxSum) maxSum = eval(currentSum);
     }
   }
@@ -52,7 +71,7 @@ let input = [
   [3, 3, 3, 3, 3, 3],
   [1, 1, 1, 1, 1, 1],
   [2, 5, 6, 4, 3, 2],
-  [3, 3, 3, 3, 3, 3]
+  [3, 3, 3, 3, 3, 3],
 ];
 
 console.log(main(input));
@@ -61,27 +80,39 @@ console.log(main(input));
 function main2(input) {
   let arr = [];
   for (let i = 0; i < input.length; i++) {
-    let row = input[i].split(' ').map(value => +value);
+    let row = input[i].split(" ").map((value) => +value);
     arr.push(row);
   }
-  let maxSum = arr[0][0] + arr[0][1] + arr[0][2] + arr[1][1] + arr[2][0] + arr[2][1] + arr[2][2];
+  let maxSum =
+    arr[0][0] +
+    arr[0][1] +
+    arr[0][2] +
+    arr[1][1] +
+    arr[2][0] +
+    arr[2][1] +
+    arr[2][2];
 
   for (let i = 0; i < arr[0].length - 2; i++) {
     for (let j = 0; j < arr.length - 2; j++) {
-      let currentSum = arr[j].slice(i, i + 3).join('+') + "+" + arr[j + 1][i] + "+" + arr[j + 2].slice(i, i + 3).join('+');
+      let currentSum =
+        arr[j].slice(i, i + 3).join("+") +
+        "+" +
+        arr[j + 1][i] +
+        "+" +
+        arr[j + 2].slice(i, i + 3).join("+");
       if (eval(currentSum) > maxSum) maxSum = eval(currentSum);
     }
   }
   return maxSum;
 }
-let input2 =
-  ['1 1 1 1 1 1',
-    '2 5 6 4 3 2',
-    '3 3 3 3 3 3',
-    '1 1 1 1 1 1',
-    '2 5 6 4 3 2',
-    '3 3 3 3 3 3'
-  ];
+let input2 = [
+  "1 1 1 1 1 1",
+  "2 5 6 4 3 2",
+  "3 3 3 3 3 3",
+  "1 1 1 1 1 1",
+  "2 5 6 4 3 2",
+  "3 3 3 3 3 3",
+];
 
 console.log(main2(input2));
 
@@ -94,53 +125,59 @@ class Person {
 
   printPerson() {
     console.log(
-      "Name: " + this.lastName + ", " + this.firstName
-      + "\nID: " + this.idNumber
-    )
+      "Name: " +
+        this.lastName +
+        ", " +
+        this.firstName +
+        "\nID: " +
+        this.idNumber
+    );
   }
 }
 
 class Students extends Person {
-  /**	
-      *   Class Constructor
-      *   @param {String} firstName - A string denoting the Person's first name.
-      *   @param { number } lastName - A string denoting the Person's last name.
-      *   @param id - An integer denoting the Person's ID number.
-      *   @param scores - An array of integers denoting the Person's test scores.
-      */
+  /**
+   *   Class Constructor
+   *   @param {String} firstName - A string denoting the Person's first name.
+   *   @param { number } lastName - A string denoting the Person's last name.
+   *   @param id - An integer denoting the Person's ID number.
+   *   @param scores - An array of integers denoting the Person's test scores.
+   */
   constructor(firstName, lastName, identification, scores) {
     super(firstName, lastName, identification);
     this.scores = scores;
   }
-  /**	
-    *   Method Name: calculate
-    *   @returns A character denoting the grade.
-    */
+  /**
+   *   Method Name: calculate
+   *   @returns A character denoting the grade.
+   */
   calculate() {
     let nmbOfDegrees = this.scores.length;
     let sumOfDegrees = 0;
-    this.scores.map(value => { sumOfDegrees += value });
-    return (sumOfDegrees / nmbOfDegrees);
+    this.scores.map((value) => {
+      sumOfDegrees += value;
+    });
+    return sumOfDegrees / nmbOfDegrees;
   }
 }
 
-let prsn = new Students('a', 'n', 1, [100, 80]);
+let prsn = new Students("a", "n", 1, [100, 80]);
 console.log(prsn.calculate());
-
 
 class Book {
   constructor(title, author) {
     if (this.constructor === Book) {
-      throw new TypeError('Do not attempt to directly instantiate an abstract class.');
-    }
-    else {
+      throw new TypeError(
+        "Do not attempt to directly instantiate an abstract class."
+      );
+    } else {
       this.title = title;
       this.author = author;
     }
   }
 
   display() {
-    console.log('Implement the \'display\' method!')
+    console.log("Implement the 'display' method!");
   }
 }
 
@@ -150,11 +187,13 @@ class MyBook extends Book {
     this.price = price;
   }
   display() {
-    console.log(`Title: ${this.title}\nAuthor: ${this.author}\nPrice: ${this.price}\n`);
+    console.log(
+      `Title: ${this.title}\nAuthor: ${this.author}\nPrice: ${this.price}\n`
+    );
   }
 }
 
-let book = new MyBook('this is title', 'this is author', 'this is price');
+let book = new MyBook("this is title", "this is author", "this is price");
 book.display();
 function Node(data) {
   this.data = data;
@@ -191,17 +230,17 @@ function Solution() {
 
 let sol = new Solution();
 let head = null;
-head = sol.insert(head, 'data1');
-head = sol.insert(head, 'data2');
-head = sol.insert(head, 'data3');
-head = sol.insert(head, 'data4');
+head = sol.insert(head, "data1");
+head = sol.insert(head, "data2");
+head = sol.insert(head, "data3");
+head = sol.insert(head, "data4");
 console.log(sol.display(head));
 // console.log(head);
 class Calculator {
   power(n, p) {
     // return n+" "+p;
     if (n < 0 || p < 0) {
-      return ("n and p should be non-negative");
+      return "n and p should be non-negative";
     }
     return Math.pow(n, p);
   }
@@ -211,25 +250,29 @@ function Solution() {
   this.stack = [];
   this.queue = [];
 
-  this.pushCharacter = (char) => { this.stack.push(char) }
+  this.pushCharacter = (char) => {
+    this.stack.push(char);
+  };
   this.popCharacter = () => this.stack.pop();
 
-  this.enqueueCharacter = (char) => { this.pushCharacter(char) }
+  this.enqueueCharacter = (char) => {
+    this.pushCharacter(char);
+  };
   this.dequeueCharacter = () => this.stack.shift();
 }
 
 let sol = new Solution();
 
-sol.enqueueCharacter('a');
-sol.enqueueCharacter('b');
-sol.enqueueCharacter('c');
+sol.enqueueCharacter("a");
+sol.enqueueCharacter("b");
+sol.enqueueCharacter("c");
 console.log(sol.dequeueCharacter());
 console.log(sol.dequeueCharacter());
 console.log(sol.dequeueCharacter());
 
 function solve(meal_cost, tip_percent, tax_percent) {
-  let tip_cost = meal_cost * tip_percent / 100;
-  let tax_cost = meal_cost * tax_percent / 100;
+  let tip_cost = (meal_cost * tip_percent) / 100;
+  let tax_cost = (meal_cost * tax_percent) / 100;
   return Math.round(meal_cost + tip_cost + tax_cost);
 }
 
@@ -263,23 +306,21 @@ console.log(numberSwaps, array);
 
 let root = {
   data: "A",
-  left:
-  {
+  left: {
     data: "B",
     left: { data: "D", left: { data: "E" }, right: null },
-    right: null
+    right: null,
   },
-  right:
-  {
+  right: {
     data: "C",
     // left: { data: 4, left: null, right: null },
     left: { data: "F", left: { data: "G", left: { data: "H" } }, right: null },
-    right: { data: "I", left: null, right: { data: "J" } }
-  }
-}
+    right: { data: "I", left: null, right: { data: "J" } },
+  },
+};
 
-const getFirstChild = (node) => node.left ? node.left : node.right;
-const hasChild = (node) => (node.right || node.left) ? true : false;
+const getFirstChild = (node) => (node.left ? node.left : node.right);
+const hasChild = (node) => (node.right || node.left ? true : false);
 
 const getHeight = function (root) {
   let height = 0;
@@ -302,7 +343,7 @@ const getHeight = function (root) {
       maxRightHeight += getHeight(tempCurrent);
     }
     // ///////
-    if (maxLeftHeight > maxRightHeight) height = maxLeftHeight
+    if (maxLeftHeight > maxRightHeight) height = maxLeftHeight;
     else height = maxRightHeight;
   }
   return height;
@@ -329,7 +370,7 @@ function Person(initialAge) {
   if (initialAge >= 0) {
     age = initialAge;
   } else {
-    console.log('Age is not valid, setting age to 0.');
+    console.log("Age is not valid, setting age to 0.");
     age = 0;
   }
   this.amIOld = function () {
@@ -344,33 +385,33 @@ function Person(initialAge) {
   this.yearPasses = function () {
     age++;
   };
-  this.getAge = function () { return age; }
+  this.getAge = function () {
+    return age;
+  };
 }
 
 let newPerson = new Person(10);
 for (let i = 0; i < 3; i++) {
   newPerson.yearPasses();
   console.log(newPerson.getAge());
-  (newPerson.amIOld());
+  newPerson.amIOld();
 }
 
 const main = (n) => {
   for (let i = 1; i <= 10; i++) {
     console.log(`${n} x ${i} = ${n * i}`);
   }
-}
+};
 
 main(5);
 function processData() {
   let input = "hacker";
   let evenChars = [];
   let oddChars = [];
-  input.split('').map((value, index) => {
-    index % 2 === 0
-      ? evenChars.push(value)
-      : oddChars.push(value);
-  })
-  return evenChars.join('') + " " + oddChars.join("");
+  input.split("").map((value, index) => {
+    index % 2 === 0 ? evenChars.push(value) : oddChars.push(value);
+  });
+  return evenChars.join("") + " " + oddChars.join("");
 }
 
 console.log(processData());
@@ -380,23 +421,25 @@ function main(arr) {
 
 console.log(main([1, 4, 3, 2]));
 function processData(input) {
-  input = input.split('\n');
+  input = input.split("\n");
   let nmb = input.splice(0, 1);
   let data = {};
   // to store data in pairs
   for (let i = 0; i < nmb; i++) {
-    let pair = input[i].split(' ');
+    let pair = input[i].split(" ");
     data[pair[0]] = pair[1];
   }
   // to console the required data
   for (let i = nmb; i < input.length; i++) {
-    data[input[i]] ?
-      console.log(`${input[i]}=${data[input[i]]}`) :
-      console.log('Not found');
+    data[input[i]]
+      ? console.log(`${input[i]}=${data[input[i]]}`)
+      : console.log("Not found");
   }
 }
 
-let input = "3\n" + "sam 99912222\n" +
+let input =
+  "3\n" +
+  "sam 99912222\n" +
   "tom 11122222\n" +
   "harry 12299933\n" +
   "sam\n" +
@@ -405,5 +448,5 @@ let input = "3\n" + "sam 99912222\n" +
 
 processData(input);
 
-const factorial = (n) => n ? n * factorial(n - 1) : 1;
+const factorial = (n) => (n ? n * factorial(n - 1) : 1);
 console.log(factorial(3));
